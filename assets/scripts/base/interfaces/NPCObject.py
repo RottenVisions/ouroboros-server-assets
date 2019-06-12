@@ -1,0 +1,1 @@
+C:/Users/Black/Ouroboros/assets/scripts/base/interfaces/NPCObject.py
