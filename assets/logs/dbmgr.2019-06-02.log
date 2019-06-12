@@ -1,1 +1,7 @@
-C:/Users/Black/Ouroboros/assets/logs/dbmgr.2019-06-02.log
+ DEBUG root [2019-06-02 19:40:37,959] - Dbmgr::DBTaskServerLog()
+  WARN root [2019-06-02 19:40:38,214] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:213: Profile mainTick took 0.25 seconds
+ DEBUG root [2019-06-02 19:40:41,945] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-06-02 19:40:44,454] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-06-02 19:40:46,657] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-06-02 19:40:49,093] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-06-02 19:40:51,621] - Dbmgr::DBTaskServerLog()

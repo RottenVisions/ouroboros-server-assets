@@ -1,1 +1,46 @@
-C:/Users/Black/Ouroboros/assets/logs/cellapp.8001.2019-05-24.log
+  INFO root [0x0001a090] [2019-05-24 00:31:50,549] - 
+  INFO root [0x0001a090] [2019-05-24 00:31:50,550] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0001a090] [2019-05-24 00:31:50,553] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x0001a090] [2019-05-24 00:31:50,553] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x0001a090] [2019-05-24 00:31:50,553] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x0001a090] [2019-05-24 00:31:50,567] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4356 )
+  INFO root [0x0001a090] [2019-05-24 00:31:50,568] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4356, SOMAXCONN=5.
+  INFO root [0x0001a090] [2019-05-24 00:31:50,568] - server-configs:
+  INFO root [0x0001a090] [2019-05-24 00:31:50,568] - 	gameUpdateHertz : 10
+  INFO root [0x0001a090] [2019-05-24 00:31:50,569] - 	defaultViewRadius : 80
+  INFO root [0x0001a090] [2019-05-24 00:31:50,569] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0001a090] [2019-05-24 00:31:50,569] - 	entryScriptFile : ouromain
+  INFO root [0x0001a090] [2019-05-24 00:31:50,569] - 	internalTcpAddr : 192.168.27.1:4356
+  INFO root [0x0001a090] [2019-05-24 00:31:50,569] - 	componentID : 8001
+  INFO root [0x0001a090] [2019-05-24 00:31:50,600] - Components::findLogger: found logger, addr:192.168.27.1:4218
+  INFO root [0x0001a090] [2019-05-24 00:31:50,601] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x0001a090] [2019-05-24 00:31:50,601] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0001a090] [2019-05-24 00:31:50,606] - ---- cellapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8652043B9D1A1F169DDC4E8CD899D692. Config: Debug X86. Built: 02:55:12 May 23 2019. AppID: 8001. UID: 10103. PID: 136728 ----
+  INFO root [0x0001a090] [2019-05-24 00:31:50,607] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x0001a090] [2019-05-24 00:31:50,608] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0001a090] [2019-05-24 00:31:50,608] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0001a090] [2019-05-24 00:31:50,809] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x0001a090] [2019-05-24 00:31:50,809] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x0001a090] [2019-05-24 00:31:51,077] - loaded entity-script:Account(1).
+  WARN root [0x0001a090] [2019-05-24 00:31:51,079] - EntityDef::checkDefMethod: exposed of method: Avatar.updateEG, check the caller can use "def updateEG(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x0001a090] [2019-05-24 00:31:51,079] - EntityDef::checkDefMethod: exposed of method: Avatar.updateLastSyncTime, check the caller can use "def updateLastSyncTime(self, callerID, ...)", such as: if callerID == self.id!
+  WARN root [0x0001a090] [2019-05-24 00:31:51,080] - EntityDef::checkDefMethod: exposed of method: Avatar.updatePositionSynced, check the caller can use "def updatePositionSynced(self, callerID, ...)", such as: if callerID == self.id!
+ DEBUG root [0x0001a090] [2019-05-24 00:31:51,080] - loaded entity-script:Avatar(2).
+ DEBUG root [0x0001a090] [2019-05-24 00:31:51,081] - loaded entity-script:FirstEntity(3).
+ DEBUG root [0x0001a090] [2019-05-24 00:31:51,081] - loaded entity-script:Scene(4).
+ DEBUG root [0x0001a090] [2019-05-24 00:31:51,081] - loaded entity-script:Space(5).
+ DEBUG root [0x0001a090] [2019-05-24 00:31:51,082] - loaded entity-script:SpaceDuplicate(6).
+ DEBUG root [0x0001a090] [2019-05-24 00:31:51,083] - loaded entity-script:SpawnPoint(8).
+  INFO root [0x0001a090] [2019-05-24 00:31:51,084] - TelnetServer server is running on port 50000
+  INFO root [0x0001a090] [2019-05-24 00:31:51,514] - ---- cellapp is running ----
+ DEBUG root [0x0001a090] [2019-05-24 00:31:51,515] - Components::process(): Request for the process of identity...
+  WARN root [0x0001a090] [2019-05-24 00:31:58,246] - Forwarding logs to logger[192.168.27.1:4218/0/0/0]...
+ ERROR root [0x0001a090] [2019-05-24 04:46:50,223] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=6864891835525, lastReceivedTime=6864860503463, inactivityExceptionPeriod=599499745)
+ ERROR root [0x0001a090] [2019-05-24 04:46:50,392] - 192.168.27.1:4423: TCPPacketSender::processSend(internal): Exception occurred: REASON_CLIENT_DISCONNECTED , errno: 10054, 192.168.27.1:4423/0/0/0
+ ERROR root [0x0001a090] [2019-05-24 04:46:50,422] - 192.168.27.1:4275: TCPPacketSender::processSend(internal): Exception occurred: REASON_CLIENT_DISCONNECTED , errno: 10054, 192.168.27.1:4275/0/0/0
+ ERROR root [0x0001a090] [2019-05-24 04:46:50,455] - PyGC::debugTracing(): EntityCall : leaked(1)
+ ERROR root [0x0001a090] [2019-05-24 15:53:22,224] - 192.168.27.1:4218: TCPPacketSender::processSend(internal): Exception occurred: REASON_CLIENT_DISCONNECTED , errno: 10054, 192.168.27.1:4218/0/0/0
+  INFO root [0x0001a090] [2019-05-24 15:53:23,267] - EventDispatcher()::~EventDispatcher: Num timers = 1

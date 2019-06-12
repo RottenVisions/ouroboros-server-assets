@@ -1,1 +1,12 @@
-C:/Users/Black/Ouroboros/assets/scripts/cell/abilities/base/__init__.py
+# -*- coding: utf-8 -*-
+#
+"""
+"""
+from OURODebug import *
+
+def onInit():
+	"""
+	init skills.
+	"""
+	pass
+

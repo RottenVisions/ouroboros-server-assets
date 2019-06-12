@@ -1,1 +1,167 @@
-C:/Users/Black/Ouroboros/assets/logs/logger_baseapp.2019-05-29.log
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 744] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 748] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 748] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 748] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 764] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 764] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 768] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 768] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 772] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4973 )
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 772] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4973, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 772] - server-configs:
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 773] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 773] - 	entryScriptFile : ouromain
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 773] - 	internalTcpAddr : 192.168.27.1:4973
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 773] - 	externalTcpAddr : 192.168.27.1:20015
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 773] - 	externalUdpAddr : 192.168.27.1:20005
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:40 773] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:41 062] - Components::findLogger: found logger, addr:192.168.27.1:4775
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:41 062] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:41 062] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:41 071] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 29220 ----
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:41 072] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:41 081] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:41 081] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:41 323] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:41 323] - Script::install(): OUROxtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2019-05-29 01:45:41 691] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 10103 7001  [2019-05-29 01:45:41 691] - loaded entity-script:Avatar(2).
+   DEBUG    baseapp-1 10103 7001  [2019-05-29 01:45:41 691] - loaded entity-script:FirstEntity(3).
+   DEBUG    baseapp-1 10103 7001  [2019-05-29 01:45:41 691] - loaded entity-script:Scene(4).
+   DEBUG    baseapp-1 10103 7001  [2019-05-29 01:45:41 692] - loaded entity-script:Space(5).
+   DEBUG    baseapp-1 10103 7001  [2019-05-29 01:45:41 692] - loaded entity-script:SpaceDuplicate(6).
+   DEBUG    baseapp-1 10103 7001  [2019-05-29 01:45:41 693] - loaded entity-script:Spaces(7).
+   DEBUG    baseapp-1 10103 7001  [2019-05-29 01:45:41 694] - loaded entity-script:SpawnPoint(8).
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:41 694] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:41 695] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:42 264] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2019-05-29 01:45:42 264] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2019-05-29 01:45:49 136] - EntityApp::checkTickPeriod: tick took 6871% (6.87 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:50 151] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:50 203] - Components::findComponents: found dbmgr, addr:192.168.27.1:4846
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:50 203] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:50 203] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:50 205] - Components::findComponents: found dbmgr, addr:192.168.27.1:4846
+ WARNING    baseapp-1 10103 7001  [2019-05-29 01:45:51 205] - EntityApp::checkTickPeriod: tick took 1141% (1.14 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:52 251] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:52 350] - Components::findComponents: found baseappmgr, addr:192.168.27.1:4890
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:52 350] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:52 351] - Components::findComponents: found baseappmgr, addr:192.168.27.1:4890
+ WARNING    baseapp-1 10103 7001  [2019-05-29 01:45:53 352] - EntityApp::checkTickPeriod: tick took 1188% (1.19 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:54 364] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:54 376] - Components::findComponents: found cellappmgr, addr:192.168.27.1:4932
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:54 376] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:54 377] - Components::findComponents: found cellappmgr, addr:192.168.27.1:4932
+ WARNING    baseapp-1 10103 7001  [2019-05-29 01:45:55 378] - EntityApp::checkTickPeriod: tick took 1113% (1.11 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:56 464] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 10103 7001  [2019-05-29 01:45:56 465] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:56 551] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:56 563] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:56 651] - Components::process(): Found all the components!
+    INFO    baseapp-1 10103 7001  [2019-05-29 01:45:59 479] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=3, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO    baseapp01 10103 7001  [2019-05-29 01:45:59 479] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+  S_INFO    baseapp01 10103 7001  [2019-05-29 01:46:00 701] - onInit::isReload:0
+ WARNING    baseapp01 10103 7001  [2019-05-29 01:46:00 701] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.22 seconds
+ WARNING    baseapp01 10103 7001  [2019-05-29 01:46:00 702] - EntityApp::checkTickPeriod: tick took 1238% (1.24 seconds)!
+   DEBUG    baseapp01 10103 7001  [2019-05-29 01:46:00 950] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 10103 7001  [2019-05-29 01:46:00 964] - onBaseAppReady: isBootstrap=True
+   S_DBG    baseapp01 10103 7001  [2019-05-29 01:46:00 964] - Spaces::initAlloc
+   S_DBG    baseapp01 10103 7001  [2019-05-29 01:46:00 965] - Spaces::init
+    INFO    baseapp01 10103 7001  [2019-05-29 01:46:00 965] - EntityApp::createEntity: new Spaces 1
+   S_DBG    baseapp01 10103 7001  [2019-05-29 01:46:03 864] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-05-29 01:46:03 864] - {'entityType': 'Space', 'spawnPos': (0, 0, 0), 'resPath': 'spaces/novice_1', 'id': 1, 'type': 1, 'name': 'Novice Village'}
+    INFO    baseapp01 10103 7001  [2019-05-29 01:46:03 865] - EntityApp::createEntity: new Space 2
+   S_DBG    baseapp01 10103 7001  [2019-05-29 01:46:03 866] - Spaces::onSpaceCreatedCB: space 1. entityID=2
+   S_DBG    baseapp01 10103 7001  [2019-05-29 01:46:04 864] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-05-29 01:46:04 864] - {'entityType': 'Space', 'spawnPos': (-97.9299, 0.0, -158.922), 'resPath': 'spaces/novice_2', 'id': 2, 'type': 1, 'name': 'Novice Town'}
+    INFO    baseapp01 10103 7001  [2019-05-29 01:46:04 866] - EntityApp::createEntity: new Space 3
+   S_DBG    baseapp01 10103 7001  [2019-05-29 01:46:04 866] - Spaces::onSpaceCreatedCB: space 2. entityID=3
+    INFO    baseapp01 10103 7001  [2019-05-29 01:46:14 518] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=4, grouporderID=1, intaddr:192.168.27.1, intport:5013, extaddr:nonsupport, extport:0,  from 192.168.27.1:4846/0/0/0.
+    INFO    baseapp01 10103 7001  [2019-05-29 01:46:14 519] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+   S_DBG    baseapp01 10103 7001  [2019-05-29 01:46:18 833] - onGlobalData: space_1
+   S_DBG    baseapp01 10103 7001  [2019-05-29 01:46:18 835] - Space::onGetCell: 2
+   S_DBG    baseapp01 10103 7001  [2019-05-29 01:46:18 836] - Spaces::onSpaceGetCell: space 1. entityID=2, spaceKey=6696367533639270400
+   S_DBG    baseapp01 10103 7001  [2019-05-29 01:46:18 838] - Space::onGetCell: 3
+   S_DBG    baseapp01 10103 7001  [2019-05-29 01:46:18 839] - Spaces::onSpaceGetCell: space 2. entityID=3, spaceKey=6696367537934237696
+  S_INFO    baseapp01 10103 7001  [2019-05-29 01:46:18 839] - initProgress: completed!
+   DEBUG    baseapp01 10103 7001  [2019-05-29 01:46:18 840] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 10103 7001  [2019-05-29 01:46:18 841] - onGlobalData: space_2
+   DEBUG    baseapp01 10103 7001  [2019-05-29 02:04:17 890] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-05-29 02:04:17 926] - Channel::handshake: kcp(192.168.27.1:60083/1/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-05-29 02:04:18 016] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.27.1:60083/1/0/0
+ WARNING    baseapp01 10103 7001  [2019-05-29 02:04:18 017] - Baseapp::onHello: client is not encrypted, addr=192.168.27.1:60083/1/0/0
+    INFO    baseapp01 10103 7001  [2019-05-29 02:04:18 116] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:60083/1/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-05-29 02:04:18 129] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-05-29 02:04:18 130] - EntityApp::createEntity: new Account 4
+  S_INFO    baseapp01 10103 7001  [2019-05-29 02:04:18 133] - Account[4]::onClientEnabled:entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.27.1:60083., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-05-29 02:04:18 133] - account[4] entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.27.1:60083.
+    INFO    baseapp01 10103 7001  [2019-05-29 02:04:18 133] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6696372236628459520, entityID=4, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-05-29 02:04:18 319] - Account[4].reqAvatarList: size=3.
+   DEBUG    baseapp01 10103 7001  [2019-05-29 02:04:26 169] - PendingLoginMgr::add: killingbosser1, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-05-29 02:04:26 215] - Channel::handshake: kcp(192.168.27.1:52931/2/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-05-29 02:04:26 304] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.27.1:52931/2/0/0
+ WARNING    baseapp01 10103 7001  [2019-05-29 02:04:26 304] - Baseapp::onHello: client is not encrypted, addr=192.168.27.1:52931/2/0/0
+    INFO    baseapp01 10103 7001  [2019-05-29 02:04:26 405] - Baseapp::loginBaseapp: new user[killingbosser1], channel[192.168.27.1:52931/2/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-05-29 02:04:26 429] - PendingLoginMgr::remove: killingbosser1, size=0.
+    INFO    baseapp01 10103 7001  [2019-05-29 02:04:26 429] - EntityApp::createEntity: new Account 5
+  S_INFO    baseapp01 10103 7001  [2019-05-29 02:04:26 430] - Account[5]::onClientEnabled:entities enable. entityCall:Client id:5, utype:1, component=client[0], addr: 192.168.27.1:52931., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=killingbosser1
+  S_INFO    baseapp01 10103 7001  [2019-05-29 02:04:26 430] - account[5] entities enable. entityCall:Client id:5, utype:1, component=client[0], addr: 192.168.27.1:52931.
+    INFO    baseapp01 10103 7001  [2019-05-29 02:04:26 430] - Baseapp::onQueryAccountCBFromDbmgr: user=killingbosser1, uuid=6696372270988197888, entityID=5, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-05-29 02:04:26 609] - Account[5].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-05-29 02:04:29 358] - Account[5].selectAvatarGame:5. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-05-29 02:04:29 389] - EntityApp::createEntity: new Avatar 6
+  S_INFO    baseapp01 10103 7001  [2019-05-29 02:04:29 390] - Avatar[6-hisfood] entities enable. spaceUTypeB=1, entityCall:Client id:6, utype:2, component=client[0], addr: 192.168.27.1:52931.
+   S_DBG    baseapp01 10103 7001  [2019-05-29 02:04:29 390] - Spaces::loginToSpace: avatarEntity=6
+   S_DBG    baseapp01 10103 7001  [2019-05-29 02:04:29 391] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-05-29 02:04:29 392] - Avatar::onGetCell: Cell id:6, utype:2, component=cellapp[8001], addr: 192.168.27.1:5013.
+   S_DBG    baseapp01 10103 7001  [2019-05-29 02:04:33 608] - Account[4].selectAvatarGame:6. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-05-29 02:04:33 630] - EntityApp::createEntity: new Avatar 7
+  S_INFO    baseapp01 10103 7001  [2019-05-29 02:04:33 631] - Avatar[7-aslavetpo] entities enable. spaceUTypeB=1, entityCall:Client id:7, utype:2, component=client[0], addr: 192.168.27.1:60083.
+   S_DBG    baseapp01 10103 7001  [2019-05-29 02:04:33 631] - Spaces::loginToSpace: avatarEntity=7
+   S_DBG    baseapp01 10103 7001  [2019-05-29 02:04:33 632] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-05-29 02:04:33 634] - Avatar::onGetCell: Cell id:7, utype:2, component=cellapp[8001], addr: 192.168.27.1:5013.
+    INFO    baseapp01 10103 7001  [2019-05-29 02:06:57 230] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:10:42 223] - Baseapp::onCellWriteToDBCompleted: Avatar(6).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:14:27 220] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:15:42 215] - Baseapp::onCellWriteToDBCompleted: Avatar(6).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:16:57 213] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:19:27 210] - Baseapp::onCellWriteToDBCompleted: Avatar(6).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:21:57 205] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:24:27 200] - Baseapp::onCellWriteToDBCompleted: Avatar(6).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:26:57 196] - Baseapp::onCellWriteToDBCompleted: Avatar(6).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:29:27 192] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:31:57 187] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:33:12 186] - Baseapp::onCellWriteToDBCompleted: Avatar(6).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:38:12 177] - Baseapp::onCellWriteToDBCompleted: Avatar(6).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:40:42 173] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:43:12 169] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:45:42 165] - Baseapp::onCellWriteToDBCompleted: Avatar(6).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:46:57 163] - Baseapp::onCellWriteToDBCompleted: Avatar(6).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:50:42 157] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:51:57 154] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:55:42 148] - Baseapp::onCellWriteToDBCompleted: Avatar(6).
+    INFO    baseapp01 10103 7001  [2019-05-29 02:56:57 146] - Baseapp::onCellWriteToDBCompleted: Avatar(6).
+    INFO    baseapp01 10103 7001  [2019-05-29 03:00:42 140] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2019-05-29 03:03:12 135] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2019-05-29 03:04:27 133] - Baseapp::onCellWriteToDBCompleted: Avatar(6).
+    INFO    baseapp01 10103 7001  [2019-05-29 03:06:57 130] - Baseapp::onCellWriteToDBCompleted: Avatar(6).
+    INFO    baseapp01 10103 7001  [2019-05-29 03:09:27 125] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2019-05-29 03:11:57 120] - Baseapp::onCellWriteToDBCompleted: Avatar(7).
+    INFO    baseapp01 10103 7001  [2019-05-29 03:13:12 118] - Baseapp::onCellWriteToDBCompleted: Avatar(6).
+    INFO    baseapp01 10103 7001  [2019-05-29 03:14:36 967] - Baseapp::logoutBaseapp: key=6696372283873099776, entityID=6.
+   DEBUG    baseapp01 10103 7001  [2019-05-29 03:14:37 016] - Avatar::onClientDeath: 6.
+   S_DBG    baseapp01 10103 7001  [2019-05-29 03:14:37 016] - Avatar[6].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-05-29 03:14:37 019] - Avatar::onLoseCell: 6
+   S_DBG    baseapp01 10103 7001  [2019-05-29 03:14:37 019] - Account::onDestroy: 5.
+   S_DBG    baseapp01 10103 7001  [2019-05-29 03:14:37 020] - Avatar::onDestroy: 6.
+   DEBUG    baseapp01 10103 7001  [2019-05-29 03:14:37 021] - Account::~Account(): 5
+    INFO    baseapp01 10103 7001  [2019-05-29 03:14:39 654] - Baseapp::logoutBaseapp: key=6696372301052968960, entityID=7.
+   DEBUG    baseapp01 10103 7001  [2019-05-29 03:14:39 716] - Avatar::onClientDeath: 7.
+   S_DBG    baseapp01 10103 7001  [2019-05-29 03:14:39 716] - Avatar[7].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-05-29 03:14:39 716] - Avatar::onLoseCell: 7
+   S_DBG    baseapp01 10103 7001  [2019-05-29 03:14:39 717] - Account::onDestroy: 4.
+   S_DBG    baseapp01 10103 7001  [2019-05-29 03:14:39 717] - Avatar::onDestroy: 7.
+   DEBUG    baseapp01 10103 7001  [2019-05-29 03:14:39 717] - Account::~Account(): 4
+    INFO    baseapp01 10103 7001  [2019-05-29 03:16:07 066] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:52931/3/0/0 timeout!

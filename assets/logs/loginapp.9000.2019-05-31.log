@@ -1,1 +1,39 @@
-C:/Users/Black/Ouroboros/assets/logs/loginapp.9000.2019-05-31.log
+ DEBUG root [2019-05-31 20:43:19,898] - Bundle::destroyObjPool(): size 4.
+ DEBUG root [2019-05-31 20:43:20,149] - Channel::destroyObjPool(): size 16.
+ DEBUG root [2019-05-31 20:43:20,153] - TCPPacket::destroyObjPool(): size 3.
+ DEBUG root [2019-05-31 20:43:20,153] - UDPPacket::destroyObjPool(): size 2.
+ DEBUG root [2019-05-31 20:43:20,153] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [2019-05-31 20:43:20,153] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-05-31 20:43:20,154] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-05-31 20:43:20,154] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-05-31 20:43:20,154] - loginapp(9000) has shut down.
+  INFO root [2019-05-31 20:43:21,181] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [2019-05-31 22:59:27,353] - 
+  INFO root [2019-05-31 22:59:27,354] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-05-31 22:59:27,355] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-05-31 22:59:27,356] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-05-31 22:59:27,356] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-05-31 22:59:27,369] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20013 )
+  INFO root [2019-05-31 22:59:27,369] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20013, SOMAXCONN=128.
+  INFO root [2019-05-31 22:59:27,373] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:2572 )
+  INFO root [2019-05-31 22:59:27,373] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:2572, SOMAXCONN=128.
+  INFO root [2019-05-31 22:59:27,374] - server-configs:
+  INFO root [2019-05-31 22:59:27,374] - 	internalTcpAddr : 192.168.27.1:2572
+  INFO root [2019-05-31 22:59:27,374] - 	externalTcpAddr : 192.168.27.1:20013
+  INFO root [2019-05-31 22:59:27,374] - 	componentID : 9000
+  INFO root [2019-05-31 22:59:27,674] - Components::findLogger: found logger, addr:192.168.27.1:2423
+  INFO root [2019-05-31 22:59:27,675] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-05-31 22:59:27,675] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-05-31 22:59:27,691] - ---- loginapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: FAEB96C1009ABB16D0D16DD0697D59A8. Config: Debug X86. Built: 02:53:45 May 23 2019. AppID: 9000. UID: 10103. PID: 21232 ----
+  INFO root [2019-05-31 22:59:27,693] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-05-31 22:59:27,695] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-05-31 22:59:27,696] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-05-31 22:59:27,921] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-05-31 22:59:27,921] - Script::install(): OUROxtra is successfully!
+S_INFO root [2019-05-31 22:59:27,935] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-05-31 22:59:27,935] - TelnetServer server is running on port 31000
+  INFO root [2019-05-31 22:59:28,245] - ---- loginapp is running ----
+ DEBUG root [2019-05-31 22:59:28,246] - Components::process(): Request for the process of identity...
+  WARN root [2019-05-31 22:59:34,570] - Forwarding logs to logger[192.168.27.1:2423/0/0/0]...

@@ -1,1 +1,29 @@
-C:/Users/Black/Ouroboros/assets/logs/dbmgr.2019-05-25.log
+ DEBUG root [2019-05-25 00:30:48,538] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 01:30:48,468] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 02:30:48,378] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 03:30:48,308] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 04:30:48,218] - Dbmgr::DBTaskServerLog()
+  WARN root [2019-05-25 18:27:19,256] - DBTransaction::commit(): took 1.58 seconds
+ DEBUG root [2019-05-25 18:27:19,301] - Dbmgr::DBTaskServerLog()
+  WARN root [2019-05-25 18:27:19,741] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:213: Profile mainTick took 0.16 seconds
+  WARN root [2019-05-25 18:27:20,426] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:213: Profile mainTick took 0.12 seconds
+ DEBUG root [2019-05-25 18:27:21,087] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 18:27:24,542] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 18:27:27,924] - Dbmgr::DBTaskServerLog()
+  WARN root [2019-05-25 18:27:30,013] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:213: Profile mainTick took 0.10 seconds
+  WARN root [2019-05-25 18:27:32,873] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:213: Profile mainTick took 0.10 seconds
+ DEBUG root [2019-05-25 18:27:33,756] - Dbmgr::DBTaskServerLog()
+  WARN root [2019-05-25 18:27:38,653] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:213: Profile mainTick took 0.12 seconds
+ DEBUG root [2019-05-25 18:27:39,315] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 18:27:45,038] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 18:27:48,299] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 18:27:50,659] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 18:27:53,040] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 18:27:56,034] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 18:27:58,447] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 18:28:00,486] - Dbmgr::DBTaskServerLog()
+  WARN root [2019-05-25 18:28:01,723] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 44.22 seconds
+ DEBUG root [2019-05-25 18:30:47,112] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 19:30:47,042] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 20:30:46,952] - Dbmgr::DBTaskServerLog()
+ DEBUG root [2019-05-25 21:30:46,882] - Dbmgr::DBTaskServerLog()

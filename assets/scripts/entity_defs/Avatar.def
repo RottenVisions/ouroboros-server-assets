@@ -1,1 +1,97 @@
-C:/Users/Black/Ouroboros/assets/scripts/entity_defs/Avatar.def
+﻿<root>
+    <Volatile>
+        <position/>
+        <!--<position> 0 </position> Don't update-->
+        <yaw/>
+        <!--<pitch> 20 </pitch>-->
+        <pitch/>
+        <roll/>
+
+        <!-- Optimize VolatileInfo. For VolatileInfo, refer to the API documentation. After optimization, the server will determine the entity's Y coordinate when it determines that the entity is on the ground.
+        The client needs to determine the entity isOnGround. If the entity is on the ground, it needs to do the calculation.
+            Pathfinding in a high-rise building may require shutting down the optimization and letting the server synchronize Y
+            so that the upper and lower levels can be accurately calculated.
+            (Do not fill the default to true)
+        -->
+        <optimized>true</optimized>
+    </Volatile>
+
+    <Interfaces>
+        <Interface>GameObject</Interface>
+        <Interface>State</Interface>
+        <Interface>Motion</Interface>
+        <Interface>AbilityBox</Interface>
+        <Interface>Combat</Interface>
+        <Interface>Ability</Interface>
+        <Interface>Teleport</Interface>
+        <Interface>AvatarProperties</Interface>
+        <!--<Interface>	Dialog			</Interface>-->
+    </Interfaces>
+    <Properties>
+        <roleType>
+            <Type>UINT8</Type>
+            <Flags>BASE</Flags>
+            <Persistent>true</Persistent>
+        </roleType>
+        <roleTypeCell>
+            <Type>UINT8</Type>
+            <Flags>ALL_CLIENTS</Flags>
+            <Persistent>true</Persistent>
+        </roleTypeCell>
+        <level>
+            <Type>UINT16</Type>
+            <Flags>CELL_PUBLIC_AND_OWN</Flags>
+            <Persistent>true</Persistent>
+        </level>
+        <gender>
+            <Type>UINT8</Type>
+            <Flags>BASE</Flags>
+            <Persistent>true</Persistent>
+        </gender>
+        <hairType>
+            <Type>UINT8</Type>
+            <Flags>BASE</Flags>
+            <Persistent>true</Persistent>
+        </hairType>
+        <playerName>
+            <Type>UNICODE</Type>
+            <Flags>ALL_CLIENTS</Flags>
+            <Persistent>true</Persistent>
+        </playerName>
+    </Properties>
+    <ClientMethods>
+        <onUpdatePositionSynced>
+            <Arg>ENTITY_ID</Arg>
+            <Arg>POSITION3D</Arg>
+            <Arg>UINT32</Arg>
+            <Arg>UINT32</Arg>
+        </onUpdatePositionSynced>
+    </ClientMethods>
+    <BaseMethods>
+        <createCell>
+            <Arg>ENTITYCALL</Arg>
+        </createCell>
+    </BaseMethods>
+    <CellMethods>
+        <updatePositionSynced>
+            <Exposed/>
+            <Arg>ENTITY_ID</Arg>
+            <Arg>POSITION3D</Arg>
+            <Arg>UINT32</Arg>
+            <Arg>UINT32</Arg>
+        </updatePositionSynced>
+        <updateLastSyncTime>
+            <Exposed/>
+            <Arg>ENTITY_ID</Arg>
+            <Arg>FLOAT</Arg>
+        </updateLastSyncTime>
+        <resetProperties>
+
+        </resetProperties>
+        <updateEG>
+            <Exposed/>
+            <Arg>ENTITY_ID</Arg>
+            <Arg>UINT32</Arg>
+        </updateEG>
+    </CellMethods>
+</root>

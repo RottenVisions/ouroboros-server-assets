@@ -1,1 +1,684 @@
-C:/Users/Black/Ouroboros/assets/logs/dbmgr.2019-06-08.log
+ ERROR root [2019-06-08 01:15:54,294] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=219362812991, lastReceivedTime=219127440226, inactivityExceptionPeriod=599493989)
+  INFO root [2019-06-08 01:15:54,297] - The following logs sent to logger failed:
+  WARN root [2019-06-08 01:15:54,298] - ==> [2019-06-08 01:15:54 294] TCPPacketReceiver::processPendingEvents(192.168.27.1:12385): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 01:15:54,298] - ==> [2019-06-08 01:15:54 295] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=219362812991, lastReceivedTime=219127440226, inactivityExceptionPeriod=599493989)
+  INFO root [2019-06-08 01:31:30,931] - 
+  INFO root [2019-06-08 01:31:30,932] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 01:31:30,933] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 01:31:30,933] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 01:31:30,934] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 01:31:30,947] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:2160 )
+  INFO root [2019-06-08 01:31:30,947] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:2160, SOMAXCONN=5.
+  INFO root [2019-06-08 01:31:30,947] - server-configs:
+  INFO root [2019-06-08 01:31:30,948] - 	internalTcpAddr : 192.168.27.1:2160
+  INFO root [2019-06-08 01:31:30,948] - 	componentID : 4000
+  INFO root [2019-06-08 01:31:32,453] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 27248 ----
+  INFO root [2019-06-08 01:31:32,453] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 01:31:32,454] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 01:31:32,454] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 01:31:32,685] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-08 01:31:32,686] - Script::install(): OUROxtra is successfully!
+  INFO root [2019-06-08 01:31:32,984] - Dbmgr::initializeEnd: digest(A95409634AA737AC5ED3596431383F23)
+S_INFO root [2019-06-08 01:31:32,984] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-08 01:31:32,984] - TelnetServer server is running on port 32000
+  INFO root [2019-06-08 01:31:32,985] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-06-08 01:31:33,271] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+3059A84C2371B6FCDFA20083DAD81C092150C5E54D844095B8B72E1FE15D5C232AC28B87E431D53DE865B047733A072C0680558172D0BAA30CC82F0D384B822E842F934C8D42335AF43EE22E9A64E4341A98ADB3246DC6ECFCCD3B57EFF44DD666763996C72F3495CF11EFAC765371EE76D6ADEEA5B98C18905D72F34EA19AA8
+ DEBUG root [2019-06-08 01:31:33,274] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 01:31:33,282] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2019-06-08 01:31:33,282] - DBUtil::createInterface[0x19f118]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+  INFO root [2019-06-08 01:31:33,283] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 01:31:33,283] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-06-08 01:31:33,283] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 01:31:33,283] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 01:31:33,284] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 01:31:33,284] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 01:31:33,284] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 01:31:33,287] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 01:31:33,287] - DBThread::onStart(): 0x3a8b7c0!
+ DEBUG root [2019-06-08 01:31:33,288] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 01:31:33,288] - DBThread::onStart(): 0x3a8b518!
+ DEBUG root [2019-06-08 01:31:33,289] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 01:31:33,289] - DBThread::onStart(): 0x3a8bc88!
+ DEBUG root [2019-06-08 01:31:33,290] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 01:31:33,290] - DBThread::onStart(): 0x3a8b2f8!
+ DEBUG root [2019-06-08 01:31:33,291] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 01:31:33,292] - DBThread::onStart(): 0x3a8b958!
+  INFO root [2019-06-08 01:31:33,386] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 01:31:33,386] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 01:31:33,387] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 01:31:33,387] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 01:31:33,388] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 01:31:33,388] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 01:31:33,389] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 01:31:33,443] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 01:31:33,444] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-06-08 01:31:33,464] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.48 seconds
+  INFO root [2019-06-08 01:31:33,928] - ---- dbmgr is running ----
+ DEBUG root [2019-06-08 01:31:33,928] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-08 01:31:40,267] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+  INFO root [2019-06-08 01:31:40,268] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 01:31:40,268] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 01:31:41,284] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 01:31:41,292] - Components::findComponents: found logger, addr:192.168.27.1:2159
+  INFO root [2019-06-08 01:31:41,292] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 01:31:41,293] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 01:31:41,304] - Components::process(): Found all the components!
+  WARN root [2019-06-08 01:31:41,335] - Forwarding logs to logger[192.168.27.1:2159/0/0/0]...
+ ERROR root [2019-06-08 03:41:51,827] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=306938149151, lastReceivedTime=306727015095, inactivityExceptionPeriod=599493862)
+  INFO root [2019-06-08 03:41:51,829] - The following logs sent to logger failed:
+  WARN root [2019-06-08 03:41:51,829] - ==> [2019-06-08 03:41:51 827] TCPPacketReceiver::processPendingEvents(192.168.27.1:2159): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 03:41:51,830] - ==> [2019-06-08 03:41:51 828] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=306938149151, lastReceivedTime=306727015095, inactivityExceptionPeriod=599493862)
+  INFO root [2019-06-08 03:41:56,480] - 
+  INFO root [2019-06-08 03:41:56,480] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 03:41:56,482] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 03:41:56,482] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 03:41:56,482] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 03:41:56,495] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:3390 )
+  INFO root [2019-06-08 03:41:56,495] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:3390, SOMAXCONN=5.
+  INFO root [2019-06-08 03:41:56,495] - server-configs:
+  INFO root [2019-06-08 03:41:56,496] - 	internalTcpAddr : 192.168.27.1:3390
+  INFO root [2019-06-08 03:41:56,496] - 	componentID : 4000
+  INFO root [2019-06-08 03:41:58,014] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 37576 ----
+  INFO root [2019-06-08 03:41:58,017] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 03:41:58,018] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 03:41:58,019] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 03:41:58,232] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-08 03:41:58,232] - Script::install(): OUROxtra is successfully!
+  INFO root [2019-06-08 03:41:58,542] - Dbmgr::initializeEnd: digest(A95409634AA737AC5ED3596431383F23)
+S_INFO root [2019-06-08 03:41:58,543] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-08 03:41:58,544] - TelnetServer server is running on port 32000
+  INFO root [2019-06-08 03:41:58,544] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-06-08 03:41:58,888] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+7DC896758233B86ED2FB9BB7B87AD0B05491B4848C1B9AC29FB51108A486E7FA4CED8750F4CE93B19CDB2545D8488144DA4CDD66004192FC05F904B85416DE281F1A9C73C36194999EA6A24709E929BC29C0CA3CA2EC5F61A0838C7D7E25ADF499EE3CA8DF6DD7162FBA22BB431EA2103F99BBDD9220C909F1A88190EB333F4D
+ DEBUG root [2019-06-08 03:41:58,892] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:41:58,899] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2019-06-08 03:41:58,899] - DBUtil::createInterface[0x101f24c]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+  INFO root [2019-06-08 03:41:58,900] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 03:41:58,900] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-06-08 03:41:58,900] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:41:58,900] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:41:58,901] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:41:58,901] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:41:58,901] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:41:58,904] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:41:58,904] - DBThread::onStart(): 0x2740728!
+ DEBUG root [2019-06-08 03:41:58,905] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:41:58,905] - DBThread::onStart(): 0x273f9e0!
+ DEBUG root [2019-06-08 03:41:58,913] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:41:58,913] - DBThread::onStart(): 0x273f848!
+ DEBUG root [2019-06-08 03:41:58,914] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:41:58,915] - DBThread::onStart(): 0x273f8d0!
+ DEBUG root [2019-06-08 03:41:58,916] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:41:58,916] - DBThread::onStart(): 0x27401d8!
+  INFO root [2019-06-08 03:41:59,003] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:41:59,003] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:41:59,004] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:41:59,005] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:41:59,005] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:41:59,006] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:41:59,006] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:41:59,051] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:41:59,053] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-06-08 03:41:59,069] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.53 seconds
+  INFO root [2019-06-08 03:41:59,536] - ---- dbmgr is running ----
+ DEBUG root [2019-06-08 03:41:59,536] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-08 03:42:05,920] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+  INFO root [2019-06-08 03:42:05,921] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 03:42:05,921] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+  WARN root [2019-06-08 03:42:05,921] - TCPPacketReceiver::processPendingEvents(192.168.27.1:3418): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [2019-06-08 03:42:06,923] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 03:42:06,948] - Components::findComponents: found logger, addr:192.168.27.1:3389
+  INFO root [2019-06-08 03:42:06,948] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 03:42:06,948] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 03:42:06,983] - Components::process(): Found all the components!
+  WARN root [2019-06-08 03:42:06,983] - Forwarding logs to logger[192.168.27.1:3389/0/0/0]...
+ ERROR root [2019-06-08 03:47:35,167] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=310371544168, lastReceivedTime=310283610081, inactivityExceptionPeriod=599493670)
+  INFO root [2019-06-08 03:47:35,169] - The following logs sent to logger failed:
+  WARN root [2019-06-08 03:47:35,170] - ==> [2019-06-08 03:47:35 166] TCPPacketReceiver::processPendingEvents(192.168.27.1:3389): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 03:47:35,170] - ==> [2019-06-08 03:47:35 168] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=310371544168, lastReceivedTime=310283610081, inactivityExceptionPeriod=599493670)
+  INFO root [2019-06-08 03:47:40,729] - 
+  INFO root [2019-06-08 03:47:40,729] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 03:47:40,731] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 03:47:40,731] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 03:47:40,731] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 03:47:40,748] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4092 )
+  INFO root [2019-06-08 03:47:40,748] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4092, SOMAXCONN=5.
+  INFO root [2019-06-08 03:47:40,748] - server-configs:
+  INFO root [2019-06-08 03:47:40,748] - 	internalTcpAddr : 192.168.27.1:4092
+  INFO root [2019-06-08 03:47:40,749] - 	componentID : 4000
+  INFO root [2019-06-08 03:47:42,253] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 35060 ----
+  INFO root [2019-06-08 03:47:42,254] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 03:47:42,254] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 03:47:42,255] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 03:47:42,451] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-08 03:47:42,451] - Script::install(): OUROxtra is successfully!
+  INFO root [2019-06-08 03:47:42,798] - Dbmgr::initializeEnd: digest(A95409634AA737AC5ED3596431383F23)
+S_INFO root [2019-06-08 03:47:42,798] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-08 03:47:42,799] - TelnetServer server is running on port 32000
+  INFO root [2019-06-08 03:47:42,802] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-06-08 03:47:43,216] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+733D4AE39A8FDF9CBCEA1514F7EECC050457F7E42E18BA06FA2D41A30FEA056097C998337A981CD61832BE1A5D4909565ED695C47E3AA124ACEE0E3A499753B1116B9990B715A85E79E094150F6FC48DB6083D61CE4302249FC9004EE7B2E4680633AC021D78C7EB2080DD352DF12FA74CDFA39996E77BA2789381D0A91FBC21
+ DEBUG root [2019-06-08 03:47:43,219] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:47:43,223] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2019-06-08 03:47:43,223] - DBUtil::createInterface[0x9bed98]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+  INFO root [2019-06-08 03:47:43,223] - ThreadPool::createThreadPool: creating  threadpool...
+ DEBUG root [2019-06-08 03:47:43,223] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:47:43,224] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:47:43,224] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:47:43,224] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:47:43,224] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+  INFO root [2019-06-08 03:47:43,225] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-06-08 03:47:43,227] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:47:43,227] - DBThread::onStart(): 0xf300a8!
+ DEBUG root [2019-06-08 03:47:43,228] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:47:43,229] - DBThread::onStart(): 0xf30790!
+ DEBUG root [2019-06-08 03:47:43,230] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:47:43,230] - DBThread::onStart(): 0xf30680!
+ DEBUG root [2019-06-08 03:47:43,231] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:47:43,231] - DBThread::onStart(): 0xf2ff10!
+ DEBUG root [2019-06-08 03:47:43,233] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:47:43,233] - DBThread::onStart(): 0xf30708!
+  INFO root [2019-06-08 03:47:43,328] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:47:43,328] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:47:43,329] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:47:43,329] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:47:43,330] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:47:43,330] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:47:43,330] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:47:43,391] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:47:43,393] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-06-08 03:47:43,416] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.62 seconds
+  INFO root [2019-06-08 03:47:43,820] - ---- dbmgr is running ----
+ DEBUG root [2019-06-08 03:47:43,820] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-08 03:47:50,179] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+  INFO root [2019-06-08 03:47:50,179] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 03:47:50,180] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+  WARN root [2019-06-08 03:47:50,181] - TCPPacketReceiver::processPendingEvents(192.168.27.1:4123): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [2019-06-08 03:47:51,198] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 03:47:51,284] - Components::findComponents: found logger, addr:192.168.27.1:4089
+  INFO root [2019-06-08 03:47:51,284] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 03:47:51,284] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  WARN root [2019-06-08 03:47:51,286] - Forwarding logs to logger[192.168.27.1:4089/0/0/0]...
+ ERROR root [2019-06-08 03:50:03,850] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=311858377625, lastReceivedTime=311626150077, inactivityExceptionPeriod=599492583)
+  INFO root [2019-06-08 03:50:03,851] - The following logs sent to logger failed:
+  WARN root [2019-06-08 03:50:03,852] - ==> [2019-06-08 03:50:03 850] TCPPacketReceiver::processPendingEvents(192.168.27.1:4089): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 03:50:03,852] - ==> [2019-06-08 03:50:03 851] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=311858377625, lastReceivedTime=311626150077, inactivityExceptionPeriod=599492583)
+  INFO root [2019-06-08 03:50:08,326] - 
+  INFO root [2019-06-08 03:50:08,327] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 03:50:08,327] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 03:50:08,328] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 03:50:08,328] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 03:50:08,340] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4419 )
+  INFO root [2019-06-08 03:50:08,340] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4419, SOMAXCONN=5.
+  INFO root [2019-06-08 03:50:08,340] - server-configs:
+  INFO root [2019-06-08 03:50:08,341] - 	internalTcpAddr : 192.168.27.1:4419
+  INFO root [2019-06-08 03:50:08,341] - 	componentID : 4000
+  INFO root [2019-06-08 03:50:09,853] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 33976 ----
+  INFO root [2019-06-08 03:50:09,854] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 03:50:09,854] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 03:50:09,855] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 03:50:10,115] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-08 03:50:10,116] - Script::install(): OUROxtra is successfully!
+  INFO root [2019-06-08 03:50:10,450] - Dbmgr::initializeEnd: digest(A95409634AA737AC5ED3596431383F23)
+S_INFO root [2019-06-08 03:50:10,451] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-08 03:50:10,452] - TelnetServer server is running on port 32000
+  INFO root [2019-06-08 03:50:10,452] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-06-08 03:50:10,786] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+36423A0EE7DFC1D0CB034C5B811C9D47C83D2DF8A834AF4953DFBD7DB7E85DA8E8C78EF68C07CFF5916436733F557002020D42C5BA93E0A27FE9860DF038D2138C62E4B8BC49444C369FA22DCCDD5A5F20E3B87B6F83AAFF83769CB238DA26617E9484CD92341E1C7B54A3CB33CC66F3B60774A5908D0E739D5B9A55B96DF1C5
+ DEBUG root [2019-06-08 03:50:10,789] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:50:10,793] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2019-06-08 03:50:10,793] - DBUtil::createInterface[0x4fed28]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+  INFO root [2019-06-08 03:50:10,793] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 03:50:10,794] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-06-08 03:50:10,794] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:50:10,794] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:50:10,794] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:50:10,795] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:50:10,795] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 03:50:10,797] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:50:10,798] - DBThread::onStart(): 0x6d7970!
+ DEBUG root [2019-06-08 03:50:10,799] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:50:10,799] - DBThread::onStart(): 0x6d7f48!
+ DEBUG root [2019-06-08 03:50:10,800] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:50:10,800] - DBThread::onStart(): 0x6d8278!
+ DEBUG root [2019-06-08 03:50:10,801] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:50:10,801] - DBThread::onStart(): 0x6d8410!
+ DEBUG root [2019-06-08 03:50:10,802] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 03:50:10,802] - DBThread::onStart(): 0x6d77d8!
+  INFO root [2019-06-08 03:50:10,897] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:50:10,899] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:50:10,899] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:50:10,899] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:50:10,900] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:50:10,900] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:50:10,900] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:50:10,938] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 03:50:10,939] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-06-08 03:50:10,952] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.50 seconds
+  INFO root [2019-06-08 03:50:11,432] - ---- dbmgr is running ----
+ DEBUG root [2019-06-08 03:50:11,432] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-08 03:50:17,773] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+  INFO root [2019-06-08 03:50:17,774] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 03:50:17,774] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 03:50:18,791] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 03:50:18,849] - Components::findComponents: found logger, addr:192.168.27.1:4417
+  INFO root [2019-06-08 03:50:18,849] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 03:50:18,849] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  WARN root [2019-06-08 03:50:18,851] - Forwarding logs to logger[192.168.27.1:4417/0/0/0]...
+ ERROR root [2019-06-08 04:01:53,618] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=318956058645, lastReceivedTime=318802817174, inactivityExceptionPeriod=599493542)
+  INFO root [2019-06-08 04:01:53,621] - The following logs sent to logger failed:
+  WARN root [2019-06-08 04:01:53,621] - ==> [2019-06-08 04:01:53 618] TCPPacketReceiver::processPendingEvents(192.168.27.1:4417): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 04:01:53,622] - ==> [2019-06-08 04:01:53 619] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=318956058645, lastReceivedTime=318802817174, inactivityExceptionPeriod=599493542)
+  INFO root [2019-06-08 04:01:58,764] - 
+  INFO root [2019-06-08 04:01:58,765] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 04:01:58,765] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 04:01:58,766] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 04:01:58,766] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 04:01:58,781] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:5776 )
+  INFO root [2019-06-08 04:01:58,781] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:5776, SOMAXCONN=5.
+  INFO root [2019-06-08 04:01:58,781] - server-configs:
+  INFO root [2019-06-08 04:01:58,781] - 	internalTcpAddr : 192.168.27.1:5776
+  INFO root [2019-06-08 04:01:58,782] - 	componentID : 4000
+  INFO root [2019-06-08 04:02:00,286] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 36620 ----
+  INFO root [2019-06-08 04:02:00,287] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 04:02:00,287] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 04:02:00,287] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 04:02:00,485] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-08 04:02:00,485] - Script::install(): OUROxtra is successfully!
+  INFO root [2019-06-08 04:02:00,983] - Dbmgr::initializeEnd: digest(A95409634AA737AC5ED3596431383F23)
+S_INFO root [2019-06-08 04:02:00,984] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-08 04:02:00,985] - TelnetServer server is running on port 32000
+  INFO root [2019-06-08 04:02:00,985] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-06-08 04:02:01,408] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+58B65331FA9BF28C99F4F7E4E9AA653B5ADB5D6147D65F694B5F59BF8D8C56511DEF91B174EA2505834FB5A19ACF3E54053CC7EAA9077C7D741457795CCD85444AF2997D1E164A03FFFC612BC5833A7AD9A0921BB295501E089B9237993AE138E06A9571A9687926E93C30E1FAB6E7923B5E87C94B61B2FE6D1D391FDD6EAE21
+ DEBUG root [2019-06-08 04:02:01,413] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:02:01,423] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2019-06-08 04:02:01,423] - DBUtil::createInterface[0x55f1dc]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+  INFO root [2019-06-08 04:02:01,424] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 04:02:01,425] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-06-08 04:02:01,425] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:02:01,425] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:02:01,426] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:02:01,427] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:02:01,427] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:02:01,430] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:02:01,430] - DBThread::onStart(): 0x1632e8!
+ DEBUG root [2019-06-08 04:02:01,432] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:02:01,432] - DBThread::onStart(): 0x1629e0!
+ DEBUG root [2019-06-08 04:02:01,434] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:02:01,434] - DBThread::onStart(): 0x162b78!
+ DEBUG root [2019-06-08 04:02:01,436] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:02:01,436] - DBThread::onStart(): 0x162a68!
+ DEBUG root [2019-06-08 04:02:01,437] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:02:01,438] - DBThread::onStart(): 0x163370!
+  INFO root [2019-06-08 04:02:01,528] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:02:01,529] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:02:01,529] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:02:01,530] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:02:01,530] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:02:01,530] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:02:01,531] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:02:01,574] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:02:01,576] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-06-08 04:02:01,595] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.61 seconds
+  INFO root [2019-06-08 04:02:02,154] - ---- dbmgr is running ----
+ DEBUG root [2019-06-08 04:02:02,155] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-08 04:02:08,530] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+  INFO root [2019-06-08 04:02:08,531] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 04:02:08,532] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 04:02:09,544] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 04:02:09,617] - Components::findComponents: found logger, addr:192.168.27.1:5775
+  INFO root [2019-06-08 04:02:09,617] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 04:02:09,617] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  WARN root [2019-06-08 04:02:09,619] - Forwarding logs to logger[192.168.27.1:5775/0/0/0]...
+ ERROR root [2019-06-08 04:17:40,300] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=328422873496, lastReceivedTime=328307351733, inactivityExceptionPeriod=599491496)
+  INFO root [2019-06-08 04:17:40,302] - The following logs sent to logger failed:
+  WARN root [2019-06-08 04:17:40,303] - ==> [2019-06-08 04:17:40 300] TCPPacketReceiver::processPendingEvents(192.168.27.1:5775): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 04:17:40,303] - ==> [2019-06-08 04:17:40 301] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=328422873496, lastReceivedTime=328307351733, inactivityExceptionPeriod=599491496)
+  INFO root [2019-06-08 04:17:44,948] - 
+  INFO root [2019-06-08 04:17:44,949] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 04:17:44,950] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 04:17:44,950] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 04:17:44,951] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 04:17:44,964] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:7559 )
+  INFO root [2019-06-08 04:17:44,964] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:7559, SOMAXCONN=5.
+  INFO root [2019-06-08 04:17:44,964] - server-configs:
+  INFO root [2019-06-08 04:17:44,965] - 	internalTcpAddr : 192.168.27.1:7559
+  INFO root [2019-06-08 04:17:44,965] - 	componentID : 4000
+  INFO root [2019-06-08 04:17:46,470] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 5828 ----
+  INFO root [2019-06-08 04:17:46,471] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 04:17:46,471] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 04:17:46,472] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 04:17:46,679] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-08 04:17:46,679] - Script::install(): OUROxtra is successfully!
+ ERROR root [2019-06-08 04:17:46,733] - TiXmlNode::openXML: C:/Users/Black/Ouroboros/assets/scripts/entity_defs/interfaces/Spell.def, error!
+ ERROR root [2019-06-08 04:17:46,734] - EntityDef::loadDefInfo: failed to load entity:Enemy interface.
+ ERROR root [2019-06-08 04:17:46,735] - EntityDef::initialize: failed to load entity(Enemy) module!
+ ERROR root [2019-06-08 04:17:46,735] - app::initialize(): initialization failed!
+  INFO root [2019-06-08 04:17:46,742] - Script::uninstall(): is successfully!
+ DEBUG root [2019-06-08 04:17:46,742] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-08 04:17:47,043] - ThreadPool::destroy(): waiting for thread(2)[0x22c6cf0,0x22c6f60,], try=1
+ DEBUG root [2019-06-08 04:17:47,445] - TPThread::~TPThread(): 0x22c6cf0
+ DEBUG root [2019-06-08 04:17:47,445] - TPThread::~TPThread(): 0x22c6f60
+ DEBUG root [2019-06-08 04:17:47,445] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-06-08 04:17:47,446] - Bundle::destroyObjPool(): size 7.
+ DEBUG root [2019-06-08 04:17:47,447] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-06-08 04:17:47,448] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-08 04:17:47,448] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [2019-06-08 04:17:47,449] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-06-08 04:17:47,449] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-06-08 04:17:47,449] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-06-08 04:17:47,450] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-06-08 04:17:54,251] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [2019-06-08 04:40:09,237] - 
+  INFO root [2019-06-08 04:40:09,237] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 04:40:09,238] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 04:40:09,239] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 04:40:09,239] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 04:40:09,253] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:10152 )
+  INFO root [2019-06-08 04:40:09,253] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:10152, SOMAXCONN=5.
+  INFO root [2019-06-08 04:40:09,253] - server-configs:
+  INFO root [2019-06-08 04:40:09,253] - 	internalTcpAddr : 192.168.27.1:10152
+  INFO root [2019-06-08 04:40:09,254] - 	componentID : 4000
+  INFO root [2019-06-08 04:40:10,761] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 25664 ----
+  INFO root [2019-06-08 04:40:10,762] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 04:40:10,762] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 04:40:10,763] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 04:40:10,983] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-08 04:40:10,983] - Script::install(): OUROxtra is successfully!
+  INFO root [2019-06-08 04:40:11,365] - Dbmgr::initializeEnd: digest(56FCB10E465C90B88D3EFFA99E8B58C5)
+S_INFO root [2019-06-08 04:40:11,365] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-08 04:40:11,366] - TelnetServer server is running on port 32000
+  INFO root [2019-06-08 04:40:11,366] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-06-08 04:40:11,684] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+A4FF8404B901DF908757E87D2C681B5F5639DADBFB03923D5B351D87F68101234705028E21C0E83AF55F326EC82D46342A6B95EA19783C709660DB38F3C16127290E87FEE82475791C11BFA53FB21A4A72CFB770E39B2347C880705D7F5BAC264DB2FCAF22BAD44E8397BDB3B09DB60A35E6800092403E20544290181BF5C5C2
+ DEBUG root [2019-06-08 04:40:11,688] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:40:11,693] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2019-06-08 04:40:11,693] - DBUtil::createInterface[0x8ff1d0]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+  INFO root [2019-06-08 04:40:11,693] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 04:40:11,694] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-06-08 04:40:11,694] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:40:11,694] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:40:11,694] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:40:11,695] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:40:11,695] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:40:11,698] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:40:11,698] - DBThread::onStart(): 0xbd0f50!
+ DEBUG root [2019-06-08 04:40:11,699] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:40:11,700] - DBThread::onStart(): 0xbd0db8!
+ DEBUG root [2019-06-08 04:40:11,705] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:40:11,706] - DBThread::onStart(): 0xbd1060!
+ DEBUG root [2019-06-08 04:40:11,707] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:40:11,707] - DBThread::onStart(): 0xbd0758!
+ DEBUG root [2019-06-08 04:40:11,708] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:40:11,708] - DBThread::onStart(): 0xbd03a0!
+  INFO root [2019-06-08 04:40:11,797] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:40:11,797] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:40:11,797] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:40:11,798] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:40:11,798] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:40:11,798] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:40:11,798] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:40:11,922] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-06-08 04:40:11,929] - syncToDB(): SpawnPoint->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:11,929] - syncToDB(): NPC->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:11,929] - syncToDB(): Enemy->sm_autoLoad(tinyint not null DEFAULT 0).
+  INFO root [2019-06-08 04:40:11,929] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-06-08 04:40:11,930] - syncToDB(): Gate->sm_autoLoad(tinyint not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:12,178] - syncToDB(): SpawnPoint->sm_persistentMapping(blob).
+  INFO root [2019-06-08 04:40:12,272] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-06-08 04:40:12,272] - syncToDB(): SpawnPoint->sm_name(varchar(255) not null DEFAULT '').
+ DEBUG root [2019-06-08 04:40:12,273] - syncToDB(): Enemy->sm_dbid(bigint unsigned not null DEFAULT 0).
+  INFO root [2019-06-08 04:40:12,273] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:40:12,273] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-06-08 04:40:12,273] - syncToDB(): NPC->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:12,274] - syncToDB(): Gate->sm_dbid(bigint unsigned not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:12,544] - syncToDB(): Gate->sm_persistentMapping(blob).
+ DEBUG root [2019-06-08 04:40:12,576] - syncToDB(): Enemy->sm_persistentMapping(blob).
+ DEBUG root [2019-06-08 04:40:12,621] - syncToDB(): NPC->sm_persistentMapping(blob).
+ DEBUG root [2019-06-08 04:40:12,622] - syncToDB(): SpawnPoint->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:12,671] - syncToDB(): Gate->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:12,779] - syncToDB(): Enemy->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:12,847] - syncToDB(): NPC->sm_0_position(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:12,913] - syncToDB(): Gate->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:12,968] - syncToDB(): Enemy->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:12,968] - syncToDB(): SpawnPoint->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:13,015] - syncToDB(): NPC->sm_1_position(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:13,122] - syncToDB(): Gate->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:13,175] - syncToDB(): Enemy->sm_2_position(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:13,222] - syncToDB(): NPC->sm_2_position(float not null DEFAULT 0).
+  WARN root [2019-06-08 04:40:13,223] - DBTask::process(): took 1.30 seconds
+sql:(show index from tbl_SpawnPoint)
+ DEBUG root [2019-06-08 04:40:13,311] - syncToDB(): Enemy->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:13,315] - syncToDB(): Gate->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:13,316] - syncToDB(): NPC->sm_0_direction(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:13,480] - syncToDB(): Enemy->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:13,481] - syncToDB(): Gate->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:13,481] - syncToDB(): NPC->sm_1_direction(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:13,657] - syncToDB(): Enemy->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:13,658] - syncToDB(): NPC->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:13,659] - syncToDB(): Gate->sm_2_direction(float not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:13,842] - syncToDB(): Enemy->sm_name(varchar(255) not null DEFAULT '').
+ DEBUG root [2019-06-08 04:40:13,842] - syncToDB(): Gate->sm_name(varchar(255) not null DEFAULT '').
+ DEBUG root [2019-06-08 04:40:13,842] - syncToDB(): NPC->sm_name(varchar(255) not null DEFAULT '').
+ DEBUG root [2019-06-08 04:40:14,008] - syncToDB(): Gate->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:14,009] - syncToDB(): NPC->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:14,009] - syncToDB(): Enemy->sm_uid(int unsigned not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:14,278] - syncToDB(): Gate->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:14,278] - syncToDB(): Enemy->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:14,279] - syncToDB(): NPC->sm_utype(int unsigned not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:14,500] - syncToDB(): Enemy->sm_HP(int not null DEFAULT 0).
+  WARN root [2019-06-08 04:40:14,501] - DBTask::process(): took 2.70 seconds
+sql:(show index from tbl_Gate)
+  WARN root [2019-06-08 04:40:14,501] - DBTask::process(): took 2.70 seconds
+sql:(show index from tbl_NPC)
+ DEBUG root [2019-06-08 04:40:14,587] - syncToDB(): Enemy->sm_EG(int not null DEFAULT 0).
+ DEBUG root [2019-06-08 04:40:14,671] - syncToDB(): Enemy->sm_state(tinyint not null DEFAULT 0).
+  WARN root [2019-06-08 04:40:14,765] - DBTask::process(): took 2.96 seconds
+sql:(show index from tbl_Enemy)
+  WARN root [2019-06-08 04:40:14,779] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 3.41 seconds
+  INFO root [2019-06-08 04:40:15,109] - ---- dbmgr is running ----
+ DEBUG root [2019-06-08 04:40:15,110] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-08 04:40:21,478] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+  INFO root [2019-06-08 04:40:21,479] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 04:40:21,479] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 04:40:21,887] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:10153, extaddr:nonsupport, extport:0,  from 192.168.27.1:10192/0/0/0.
+  INFO root [2019-06-08 04:40:21,888] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 04:40:21,888] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 04:40:22,385] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:10155, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:10194/0/0/0.
+  INFO root [2019-06-08 04:40:22,386] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 04:40:22,485] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 04:40:22,512] - Components::findComponents: found logger, addr:192.168.27.1:10151
+  INFO root [2019-06-08 04:40:22,513] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 04:40:22,540] - Components::process(): Found all the components!
+  WARN root [2019-06-08 04:40:22,541] - Forwarding logs to logger[192.168.27.1:10151/0/0/0]...
+ ERROR root [2019-06-08 04:46:43,902] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=345858892463, lastReceivedTime=345811373645, inactivityExceptionPeriod=599487531)
+  INFO root [2019-06-08 04:46:43,904] - The following logs sent to logger failed:
+  WARN root [2019-06-08 04:46:43,905] - ==> [2019-06-08 04:46:43 902] TCPPacketReceiver::processPendingEvents(192.168.27.1:10151): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 04:46:43,905] - ==> [2019-06-08 04:46:43 903] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=345858892463, lastReceivedTime=345811373645, inactivityExceptionPeriod=599487531)
+  INFO root [2019-06-08 04:46:48,483] - 
+  INFO root [2019-06-08 04:46:48,484] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 04:46:48,485] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 04:46:48,485] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 04:46:48,485] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 04:46:48,497] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:10929 )
+  INFO root [2019-06-08 04:46:48,497] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:10929, SOMAXCONN=5.
+  INFO root [2019-06-08 04:46:48,497] - server-configs:
+  INFO root [2019-06-08 04:46:48,497] - 	internalTcpAddr : 192.168.27.1:10929
+  INFO root [2019-06-08 04:46:48,497] - 	componentID : 4000
+  INFO root [2019-06-08 04:46:50,003] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 9168 ----
+  INFO root [2019-06-08 04:46:50,005] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 04:46:50,005] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 04:46:50,005] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 04:46:50,210] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-08 04:46:50,211] - Script::install(): OUROxtra is successfully!
+  INFO root [2019-06-08 04:46:50,595] - Dbmgr::initializeEnd: digest(A938A6314B8EDA3C79D7979D71790853)
+S_INFO root [2019-06-08 04:46:50,595] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-08 04:46:50,596] - TelnetServer server is running on port 32000
+  INFO root [2019-06-08 04:46:50,597] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-06-08 04:46:50,952] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+7AE4D9710008F79BD164CA6CF406C7115A606291DF3620F7BFFE9B5A4F7B2FF71F95AAFA492870BCBBDD7AA8A17ABC0472B04B9DB5865424645670E8A16F63D8593FF0B59BC489AAE9588BC902A99E00E34BAE6402D785337C7FF85A765E9E26C01EEAC1BD7B0C331DDED83CD9DF5C20945A39386FDFF8F43AA3C1D90C8196E4
+ DEBUG root [2019-06-08 04:46:50,956] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:46:50,961] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2019-06-08 04:46:50,961] - DBUtil::createInterface[0x9af010]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+  INFO root [2019-06-08 04:46:50,961] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 04:46:50,962] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-06-08 04:46:50,962] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:46:50,962] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:46:50,962] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:46:50,963] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:46:50,963] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 04:46:50,966] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:46:50,966] - DBThread::onStart(): 0x4706878!
+ DEBUG root [2019-06-08 04:46:50,967] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:46:50,968] - DBThread::onStart(): 0x4706cb8!
+ DEBUG root [2019-06-08 04:46:50,969] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:46:50,969] - DBThread::onStart(): 0x47070f8!
+ DEBUG root [2019-06-08 04:46:50,970] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:46:50,970] - DBThread::onStart(): 0x47064c0!
+ DEBUG root [2019-06-08 04:46:50,971] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 04:46:50,972] - DBThread::onStart(): 0x47063b0!
+  INFO root [2019-06-08 04:46:51,065] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:46:51,066] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:46:51,067] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:46:51,067] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:46:51,068] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:46:51,068] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:46:51,069] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:46:51,119] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 04:46:51,121] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-06-08 04:46:51,144] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.55 seconds
+  INFO root [2019-06-08 04:46:51,791] - ---- dbmgr is running ----
+ DEBUG root [2019-06-08 04:46:51,791] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-08 04:46:58,128] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+  INFO root [2019-06-08 04:46:58,128] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 04:46:58,128] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 04:46:59,135] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 04:46:59,181] - Components::findComponents: found logger, addr:192.168.27.1:10928
+  INFO root [2019-06-08 04:46:59,181] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 04:46:59,182] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  WARN root [2019-06-08 04:46:59,187] - Forwarding logs to logger[192.168.27.1:10928/0/0/0]...
+ ERROR root [2019-06-08 05:04:20,935] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=356429229654, lastReceivedTime=356403964641, inactivityExceptionPeriod=599494757)
+  INFO root [2019-06-08 05:04:20,937] - The following logs sent to logger failed:
+  WARN root [2019-06-08 05:04:20,938] - ==> [2019-06-08 05:04:20 935] TCPPacketReceiver::processPendingEvents(192.168.27.1:10928): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 05:04:20,938] - ==> [2019-06-08 05:04:20 936] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=356429229654, lastReceivedTime=356403964641, inactivityExceptionPeriod=599494757)
+  INFO root [2019-06-08 05:04:25,481] - 
+  INFO root [2019-06-08 05:04:25,482] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 05:04:25,483] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 05:04:25,483] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 05:04:25,483] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 05:04:25,493] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12996 )
+  INFO root [2019-06-08 05:04:25,493] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:12996, SOMAXCONN=5.
+  INFO root [2019-06-08 05:04:25,493] - server-configs:
+  INFO root [2019-06-08 05:04:25,493] - 	internalTcpAddr : 192.168.27.1:12996
+  INFO root [2019-06-08 05:04:25,493] - 	componentID : 4000
+  INFO root [2019-06-08 05:04:26,998] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 38808 ----
+  INFO root [2019-06-08 05:04:26,999] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 05:04:26,999] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 05:04:27,000] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 05:04:27,213] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-08 05:04:27,213] - Script::install(): OUROxtra is successfully!
+  INFO root [2019-06-08 05:04:27,644] - Dbmgr::initializeEnd: digest(A938A6314B8EDA3C79D7979D71790853)
+S_INFO root [2019-06-08 05:04:27,644] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-08 05:04:27,645] - TelnetServer server is running on port 32000
+  INFO root [2019-06-08 05:04:27,645] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-06-08 05:04:28,041] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+335B6E3EB3F01DD0BA05DA0C041F670894ABAC33679B3FC0CA6993F8E4E1255390DF61B424C8E3A6F23BACFA738A22F06E2BEE3781D6FD4EEB5051B8C692E79ED2C128F473B628ECEFA861AA786D75E751CA8B97017B82BABF77D61CB14B037CA34FAA1FCDAA850CD923D13BB29AD4B55BBAD529925DD48C90505A6858DC3D1A
+ DEBUG root [2019-06-08 05:04:28,045] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 05:04:28,049] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2019-06-08 05:04:28,050] - DBUtil::createInterface[0xbef04c]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+  INFO root [2019-06-08 05:04:28,050] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 05:04:28,050] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-06-08 05:04:28,051] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 05:04:28,051] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 05:04:28,051] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 05:04:28,051] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 05:04:28,052] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-06-08 05:04:28,054] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 05:04:28,055] - DBThread::onStart(): 0xecbee8!
+ DEBUG root [2019-06-08 05:04:28,056] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 05:04:28,056] - DBThread::onStart(): 0xecc080!
+ DEBUG root [2019-06-08 05:04:28,057] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 05:04:28,057] - DBThread::onStart(): 0xecc108!
+ DEBUG root [2019-06-08 05:04:28,058] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 05:04:28,058] - DBThread::onStart(): 0xecc190!
+ DEBUG root [2019-06-08 05:04:28,059] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-06-08 05:04:28,059] - DBThread::onStart(): 0xecbf70!
+  INFO root [2019-06-08 05:04:28,154] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 05:04:28,154] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 05:04:28,154] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 05:04:28,155] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 05:04:28,156] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 05:04:28,156] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 05:04:28,157] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 05:04:28,219] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-06-08 05:04:28,221] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-06-08 05:04:28,243] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.60 seconds
+  INFO root [2019-06-08 05:04:28,759] - ---- dbmgr is running ----
+ DEBUG root [2019-06-08 05:04:28,759] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-08 05:04:35,164] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+  INFO root [2019-06-08 05:04:35,165] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 05:04:35,166] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+  WARN root [2019-06-08 05:04:35,167] - TCPPacketReceiver::processPendingEvents(192.168.27.1:13020): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [2019-06-08 05:04:36,185] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 05:04:36,269] - Components::findComponents: found logger, addr:192.168.27.1:12995
+  INFO root [2019-06-08 05:04:36,269] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 05:04:36,269] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  WARN root [2019-06-08 05:04:36,271] - Forwarding logs to logger[192.168.27.1:12995/0/0/0]...
+ ERROR root [2019-06-08 06:03:46,793] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=392087805846, lastReceivedTime=391873453689, inactivityExceptionPeriod=599492455)
+  INFO root [2019-06-08 06:03:46,796] - The following logs sent to logger failed:
+  WARN root [2019-06-08 06:03:46,796] - ==> [2019-06-08 06:03:46 792] TCPPacketReceiver::processPendingEvents(192.168.27.1:12995): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 06:03:46,796] - ==> [2019-06-08 06:03:46 794] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=392087805846, lastReceivedTime=391873453689, inactivityExceptionPeriod=599492455)

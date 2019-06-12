@@ -1,1 +1,36 @@
-C:/Users/Black/Ouroboros/assets/logs/baseappmgr.2019-06-04.log
+ ERROR root [2019-06-04 05:07:58,682] - Components::removeComponentByChannel: cellapp : 8001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=4581308163589, lastReceivedTime=4581117491919, inactivityExceptionPeriod=599499873)
+ ERROR root [2019-06-04 05:07:58,754] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=4581308881702, lastReceivedTime=4581052031614, inactivityExceptionPeriod=599499873)
+  INFO root [2019-06-04 05:07:58,798] - The following logs sent to logger failed:
+  WARN root [2019-06-04 05:07:58,799] - ==> [2019-06-04 05:07:58 734] TCPPacketReceiver::processPendingEvents(192.168.27.1:13455): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-04 05:07:58,799] - ==> [2019-06-04 05:07:58 754] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=4581308881702, lastReceivedTime=4581052031614, inactivityExceptionPeriod=599499873)
+  WARN root [2019-06-04 05:07:58,800] - TCPPacketReceiver::processPendingEvents(192.168.27.1:13551): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-04 05:07:58,814] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=4581309485735, lastReceivedTime=4581243525656, inactivityExceptionPeriod=599499873)
+  INFO root [2019-06-04 05:07:58,835] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2019-06-04 05:07:58,850] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-04 05:07:58,850] - Shutdowner::onShutdownEnd: shutting down
+  WARN root [2019-06-04 05:07:58,850] - TCPPacketReceiver::processPendingEvents(192.168.27.1:13595): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2019-06-04 05:07:58,861] - Components::removeComponentByChannel: cellappmgr : 6000, Normal exit!
+  WARN root [2019-06-04 05:07:58,861] - TCPPacketReceiver::processPendingEvents(192.168.27.1:13652): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [2019-06-04 05:07:58,867] - Baseappmgr::onChannelDeregister: erase baseapp[7001], currsize=0
+  INFO root [2019-06-04 05:07:58,869] - Components::removeComponentByChannel: baseapp : 7001, Normal exit!
+  WARN root [2019-06-04 05:07:58,869] - TCPPacketReceiver::processPendingEvents(192.168.27.1:13769): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2019-06-04 05:07:58,870] - Components::removeComponentByChannel: loginapp : 9000, Normal exit!
+ DEBUG root [2019-06-04 05:07:58,871] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-04 05:07:59,172] - ThreadPool::destroy(): waiting for thread(2)[0x10cb238,0x10cb8b8,], try=1
+ DEBUG root [2019-06-04 05:07:59,574] - TPThread::~TPThread(): 0x10cb238
+ DEBUG root [2019-06-04 05:07:59,574] - TPThread::~TPThread(): 0x10cb8b8
+ DEBUG root [2019-06-04 05:07:59,574] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-06-04 05:07:59,587] - Bundle::destroyObjPool(): size 15.
+ DEBUG root [2019-06-04 05:07:59,587] - Channel::destroyObjPool(): size 16.
+ DEBUG root [2019-06-04 05:07:59,588] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-04 05:07:59,588] - UDPPacket::destroyObjPool(): size 6.
+ DEBUG root [2019-06-04 05:07:59,588] - EndPoint::destroyObjPool(): size 16.
+ DEBUG root [2019-06-04 05:07:59,588] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-06-04 05:07:59,588] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-06-04 05:07:59,588] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-06-04 05:07:59,588] - baseappmgr(5000) has shut down.
+  INFO root [2019-06-04 05:08:00,589] - EventDispatcher()::~EventDispatcher: Num timers = 1

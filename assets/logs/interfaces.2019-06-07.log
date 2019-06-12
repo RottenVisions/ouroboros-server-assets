@@ -1,1 +1,162 @@
-C:/Users/Black/Ouroboros/assets/logs/interfaces.2019-06-07.log
+  INFO root [2019-06-07 21:52:17,650] - 
+  INFO root [2019-06-07 21:52:17,651] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-07 21:52:17,655] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-07 21:52:17,655] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-07 21:52:17,656] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-07 21:52:17,672] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:30099 )
+  INFO root [2019-06-07 21:52:17,672] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:30099, SOMAXCONN=5.
+  INFO root [2019-06-07 21:52:17,681] - ---- interfaces Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 0E59D11FC12211A3C85A025234B77AAF. Config: Debug X86. Built: 02:53:00 May 23 2019. AppID: 3000. UID: 10103. PID: 3588 ----
+  INFO root [2019-06-07 21:52:17,681] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-07 21:52:17,682] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-07 21:52:17,683] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-07 21:52:17,903] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-07 21:52:17,904] - Script::install(): OUROxtra is successfully!
+S_INFO root [2019-06-07 21:52:17,995] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-07 21:52:17,996] - TelnetServer server is running on port 33000
+  INFO root [2019-06-07 21:52:18,327] - ---- interfaces is running ----
+ DEBUG root [2019-06-07 21:52:18,328] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-07 21:52:25,658] - Components::process(): Found all the components!
+  INFO root [2019-06-07 21:52:34,750] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3920, extaddr:nonsupport, extport:0,  from 127.0.0.1:3925/0/0/0.
+  INFO root [2019-06-07 21:52:34,750] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-07 21:52:34,751] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+S_INFO root [2019-06-07 22:01:36,892] - onRequestAccountLogin: registerName=test13
+S_INFO root [2019-06-07 22:08:12,756] - onRequestAccountLogin: registerName=killingbosser1
+S_INFO root [2019-06-07 22:08:33,944] - onRequestCreateAccount: registerName=killingbosser2
+S_INFO root [2019-06-07 22:08:37,184] - onRequestAccountLogin: registerName=killingbosser2
+  WARN root [2019-06-07 22:14:16,103] - TCPPacketReceiver::processPendingEvents(127.0.0.1:3925): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2019-06-07 22:14:16,104] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2019-06-07 22:14:20,087] - 
+  INFO root [2019-06-07 22:14:20,087] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-07 22:14:20,088] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-07 22:14:20,089] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-07 22:14:20,089] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-07 22:14:20,100] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:30099 )
+  INFO root [2019-06-07 22:14:20,100] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:30099, SOMAXCONN=5.
+  INFO root [2019-06-07 22:14:20,104] - ---- interfaces Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 0E59D11FC12211A3C85A025234B77AAF. Config: Debug X86. Built: 02:53:00 May 23 2019. AppID: 3000. UID: 10103. PID: 12780 ----
+  INFO root [2019-06-07 22:14:20,104] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-07 22:14:20,105] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-07 22:14:20,106] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-07 22:14:20,334] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-07 22:14:20,334] - Script::install(): OUROxtra is successfully!
+S_INFO root [2019-06-07 22:14:20,371] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-07 22:14:20,372] - TelnetServer server is running on port 33000
+  INFO root [2019-06-07 22:14:20,771] - ---- interfaces is running ----
+ DEBUG root [2019-06-07 22:14:20,771] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-07 22:14:27,035] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6201, extaddr:nonsupport, extport:0,  from 127.0.0.1:6215/0/0/0.
+  INFO root [2019-06-07 22:14:27,036] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-07 22:14:27,037] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-07 22:14:28,089] - Components::process(): Found all the components!
+S_INFO root [2019-06-07 22:16:23,902] - onRequestAccountLogin: registerName=killingbosser1
+S_INFO root [2019-06-07 22:16:52,135] - onRequestAccountLogin: registerName=killingbosser2
+  WARN root [2019-06-07 22:28:05,507] - TCPPacketReceiver::processPendingEvents(127.0.0.1:6215): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2019-06-07 22:28:05,508] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2019-06-07 22:28:12,091] - 
+  INFO root [2019-06-07 22:28:12,092] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-07 22:28:12,093] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-07 22:28:12,093] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-07 22:28:12,094] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-07 22:28:12,109] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:30099 )
+  INFO root [2019-06-07 22:28:12,109] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:30099, SOMAXCONN=5.
+  INFO root [2019-06-07 22:28:12,115] - ---- interfaces Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 0E59D11FC12211A3C85A025234B77AAF. Config: Debug X86. Built: 02:53:00 May 23 2019. AppID: 3000. UID: 10103. PID: 4596 ----
+  INFO root [2019-06-07 22:28:12,115] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-07 22:28:12,116] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-07 22:28:12,116] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-07 22:28:12,322] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-07 22:28:12,322] - Script::install(): OUROxtra is successfully!
+S_INFO root [2019-06-07 22:28:12,354] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-07 22:28:12,356] - TelnetServer server is running on port 33000
+  INFO root [2019-06-07 22:28:12,833] - ---- interfaces is running ----
+ DEBUG root [2019-06-07 22:28:12,834] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-07 22:28:19,127] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8448, extaddr:nonsupport, extport:0,  from 127.0.0.1:8458/0/0/0.
+  INFO root [2019-06-07 22:28:19,129] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-07 22:28:19,129] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-07 22:28:20,196] - Components::process(): Found all the components!
+S_INFO root [2019-06-07 22:33:38,026] - onRequestAccountLogin: registerName=killingbosser2
+S_INFO root [2019-06-07 22:34:06,701] - onRequestAccountLogin: registerName=killingbosser1
+  WARN root [2019-06-07 22:38:42,333] - TCPPacketReceiver::processPendingEvents(127.0.0.1:8458): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2019-06-07 22:38:42,342] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2019-06-07 22:38:47,146] - 
+  INFO root [2019-06-07 22:38:47,146] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-07 22:38:47,147] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-07 22:38:47,148] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-07 22:38:47,148] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-07 22:38:47,161] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:30099 )
+  INFO root [2019-06-07 22:38:47,162] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:30099, SOMAXCONN=5.
+  INFO root [2019-06-07 22:38:47,166] - ---- interfaces Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 0E59D11FC12211A3C85A025234B77AAF. Config: Debug X86. Built: 02:53:00 May 23 2019. AppID: 3000. UID: 10103. PID: 1520 ----
+  INFO root [2019-06-07 22:38:47,167] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-07 22:38:47,168] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-07 22:38:47,168] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-07 22:38:47,453] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-07 22:38:47,453] - Script::install(): OUROxtra is successfully!
+S_INFO root [2019-06-07 22:38:47,500] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-07 22:38:47,503] - TelnetServer server is running on port 33000
+  INFO root [2019-06-07 22:38:48,144] - ---- interfaces is running ----
+ DEBUG root [2019-06-07 22:38:48,144] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-07 22:38:54,491] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:9756, extaddr:nonsupport, extport:0,  from 127.0.0.1:9769/0/0/0.
+  INFO root [2019-06-07 22:38:54,492] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-07 22:38:54,492] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-07 22:38:55,550] - Components::process(): Found all the components!
+S_INFO root [2019-06-07 22:43:34,344] - onRequestAccountLogin: registerName=killingbosser1
+S_INFO root [2019-06-07 22:43:38,587] - onRequestAccountLogin: registerName=killingbosser2
+  WARN root [2019-06-07 22:54:08,223] - TCPPacketReceiver::processPendingEvents(127.0.0.1:9769): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2019-06-07 22:54:08,224] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2019-06-07 22:54:38,389] - 
+  INFO root [2019-06-07 22:54:38,390] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-07 22:54:38,391] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-07 22:54:38,391] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-07 22:54:38,391] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-07 22:54:38,405] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:30099 )
+  INFO root [2019-06-07 22:54:38,405] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:30099, SOMAXCONN=5.
+  INFO root [2019-06-07 22:54:38,412] - ---- interfaces Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 0E59D11FC12211A3C85A025234B77AAF. Config: Debug X86. Built: 02:53:00 May 23 2019. AppID: 3000. UID: 10103. PID: 21220 ----
+  INFO root [2019-06-07 22:54:38,413] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-07 22:54:38,414] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-07 22:54:38,414] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-07 22:54:38,625] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-07 22:54:38,625] - Script::install(): OUROxtra is successfully!
+S_INFO root [2019-06-07 22:54:38,663] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-07 22:54:38,664] - TelnetServer server is running on port 33000
+  INFO root [2019-06-07 22:54:39,035] - ---- interfaces is running ----
+ DEBUG root [2019-06-07 22:54:39,035] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-07 22:54:45,368] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11687, extaddr:nonsupport, extport:0,  from 127.0.0.1:11696/0/0/0.
+  INFO root [2019-06-07 22:54:45,369] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-07 22:54:45,369] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-07 22:54:46,464] - Components::process(): Found all the components!
+S_INFO root [2019-06-07 22:56:43,801] - onRequestAccountLogin: registerName=killingbosser2
+S_INFO root [2019-06-07 22:57:03,555] - onRequestAccountLogin: registerName=test13
+  WARN root [2019-06-07 23:00:06,230] - TCPPacketReceiver::processPendingEvents(127.0.0.1:11696): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [2019-06-07 23:00:06,231] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  INFO root [2019-06-07 23:01:00,916] - 
+  INFO root [2019-06-07 23:01:00,917] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-07 23:01:00,918] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-07 23:01:00,919] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-07 23:01:00,919] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-07 23:01:00,932] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:30099 )
+  INFO root [2019-06-07 23:01:00,933] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:30099, SOMAXCONN=5.
+  INFO root [2019-06-07 23:01:00,939] - ---- interfaces Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 0E59D11FC12211A3C85A025234B77AAF. Config: Debug X86. Built: 02:53:00 May 23 2019. AppID: 3000. UID: 10103. PID: 9380 ----
+  INFO root [2019-06-07 23:01:00,940] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-07 23:01:00,940] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-07 23:01:00,940] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-07 23:01:01,231] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-07 23:01:01,231] - Script::install(): OUROxtra is successfully!
+S_INFO root [2019-06-07 23:01:01,275] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-07 23:01:01,277] - TelnetServer server is running on port 33000
+  INFO root [2019-06-07 23:01:01,941] - ---- interfaces is running ----
+ DEBUG root [2019-06-07 23:01:01,942] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-07 23:01:08,363] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12386, extaddr:nonsupport, extport:0,  from 127.0.0.1:12401/0/0/0.
+  INFO root [2019-06-07 23:01:08,363] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-07 23:01:08,364] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-07 23:01:09,421] - Components::process(): Found all the components!
+S_INFO root [2019-06-07 23:04:51,639] - onRequestAccountLogin: registerName=killingbosser2
+S_INFO root [2019-06-07 23:05:07,710] - onRequestAccountLogin: registerName=test13

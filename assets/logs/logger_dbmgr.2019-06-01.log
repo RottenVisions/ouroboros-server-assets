@@ -1,1 +1,33 @@
-C:/Users/Black/Ouroboros/assets/logs/logger_dbmgr.2019-06-01.log
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 00:58:47 873] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:41:11 025] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:41:11 266] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:41:21 645] - Dbmgr::writeEntity: Avatar(23).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:41:21 665] - Dbmgr::onEntityOffline: 23, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:41:21 665] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:41:35 924] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=23, entityID=6, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:43:10 340] - Dbmgr::onAccountLogin:loginName=killingbosser1, accountName=killingbosser1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:43:10 600] - Dbmgr::queryAccount: killingbosser1, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:43:11 100] - Dbmgr::onEntityOffline: 1, entityType=1.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:43:11 100] - Dbmgr::writeEntity: Avatar(23).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:43:11 100] - Dbmgr::onEntityOffline: 23, entityType=2.
+    INFO      dbmgr-1 10103 4000  [2019-06-01 01:43:11 082] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=23, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:43:20 759] - Dbmgr::writeEntity: Avatar(24).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:43:20 779] - Dbmgr::onEntityOffline: 24, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:43:20 779] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:43:33 878] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:43:34 118] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:43:39 618] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=23, entityID=10, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:44:24 556] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=24, entityID=11, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:46:57 888] - Dbmgr::onEntityOffline: 2, entityType=1.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:46:57 888] - Dbmgr::writeEntity: Avatar(24).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:46:57 908] - Dbmgr::onEntityOffline: 24, entityType=2.
+    INFO      dbmgr-1 10103 4000  [2019-06-01 01:46:57 887] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=24, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:47:23 787] - Dbmgr::writeEntity: Avatar(23).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:48:03 925] - Dbmgr::onEntityOffline: 23, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:48:03 925] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:48:03 925] - Dbmgr::onEntityOffline: 1, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-01 01:48:03 920] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 01:58:47 713] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 02:58:47 533] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 03:58:47 372] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-01 04:58:47 192] - Dbmgr::DBTaskServerLog()

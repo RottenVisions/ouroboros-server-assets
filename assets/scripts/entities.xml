@@ -1,1 +1,18 @@
-C:/Users/Black/Ouroboros/assets/scripts/entities.xml
+﻿<root>
+    <!--
+		Entity registration file ('your asset library'/scripts/entities.xml)
+    -->
+
+	<!-- <Avatar/> -->
+	<Account hasClient="true" /><!-- <Account hasCell="true" hasBase="true" hasClient="true"></Account> -->
+	<Avatar hasClient="true" />
+    <Enemy hasClient="true"></Enemy>
+	<NPC hasClient="true"></NPC>
+	<Gate hasClient="true"></Gate>
+	<FirstEntity hasClient="true" />
+	<Scene />
+	<Space />
+	<Spaces />
+    <SpaceDuplicate />
+	<SpawnPoint />
+</root>

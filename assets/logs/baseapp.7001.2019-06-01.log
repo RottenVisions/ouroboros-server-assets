@@ -1,1 +1,15 @@
-C:/Users/Black/Ouroboros/assets/logs/baseapp.7001.2019-06-01.log
+ ERROR root [0x00007a44] [2019-06-01 05:21:58,139] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1997732067310, lastReceivedTime=1997606417710, inactivityExceptionPeriod=599490408)
+ ERROR root [0x00007a44] [2019-06-01 05:21:58,242] - For a long time(3600s) not to empty the garbages, there may be a leak of the entitys(size:3), please use the "Ouroboros.entities.garbages.items()" command query!
+ ERROR root [0x00007a44] [2019-06-01 05:21:58,245] - PyGC::debugTracing(): Entity : leaked(6)
+ ERROR root [0x00007a44] [2019-06-01 05:21:58,246] - PyGC::debugTracing(): FixedArray : leaked(3)
+ ERROR root [0x00007a44] [2019-06-01 05:21:58,248] - PyGC::debugTracing(): EntityCall : leaked(2)
+ ERROR root [0x00007a44] [2019-06-01 05:21:58,263] - EntityGarbages::~EntityGarbages(): leaked, size=6.
+ ERROR root [0x00007a44] [2019-06-01 05:21:58,264] - 	--> leaked: Avatar(6).
+ ERROR root [0x00007a44] [2019-06-01 05:21:58,267] - 	--> leaked: Space(3).
+ ERROR root [0x00007a44] [2019-06-01 05:21:58,268] - 	--> leaked: Avatar(11).
+ ERROR root [0x00007a44] [2019-06-01 05:21:58,271] - 	--> leaked: Space(2).
+ ERROR root [0x00007a44] [2019-06-01 05:21:58,273] - 	--> leaked: Avatar(10).
+ ERROR root [0x00007a44] [2019-06-01 05:21:58,274] - 	--> leaked: Spaces(1).
+ ERROR root [0x00007a44] [2019-06-01 05:21:58,987] - 192.168.27.1:2423: TCPPacketSender::processSend(internal): Exception occurred: REASON_CLIENT_DISCONNECTED , errno: 10054, 192.168.27.1:2423/0/0/0
+  INFO root [0x00007a44] [2019-06-01 17:09:51,288] - EventDispatcher()::~EventDispatcher: Num timers = 2

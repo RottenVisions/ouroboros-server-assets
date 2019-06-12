@@ -1,1 +1,59 @@
-C:/Users/Black/Ouroboros/assets/logs/logger_loginapp.2019-05-29.log
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 590] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 593] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 593] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 593] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 606] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20013 )
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 606] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20013, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 609] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:5042 )
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 609] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:5042, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 609] - server-configs:
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 609] - 	internalTcpAddr : 192.168.27.1:5042
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 609] - 	externalTcpAddr : 192.168.27.1:20013
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 609] - 	componentID : 9000
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 889] - Components::findLogger: found logger, addr:192.168.27.1:4775
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 890] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 890] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 899] - ---- loginapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: FAEB96C1009ABB16D0D16DD0697D59A8. Config: Debug X86. Built: 02:53:45 May 23 2019. AppID: 9000. UID: 10103. PID: 23820 ----
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 900] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 901] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:07 901] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:08 111] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:08 111] - Script::install(): OUROxtra is successfully!
+  S_INFO   loginapp-1 10103 9000  [2019-05-29 01:46:08 129] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:08 130] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:08 463] - ---- loginapp is running ----
+   DEBUG   loginapp-1 10103 9000  [2019-05-29 01:46:08 464] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:16 389] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:16 491] - Components::findComponents: found dbmgr, addr:192.168.27.1:4846
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:16 491] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:16 491] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:16 492] - Components::findComponents: found dbmgr, addr:192.168.27.1:4846
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:18 496] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:18 533] - Components::findComponents: found baseappmgr, addr:192.168.27.1:4890
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:18 534] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:18 534] - Components::findComponents: found baseappmgr, addr:192.168.27.1:4890
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:20 550] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:20 569] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:20 570] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:20 570] - Components::process(): Found all the components!
+    INFO   loginapp-1 10103 9000  [2019-05-29 01:46:23 555] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=5, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO   loginapp01 10103 9000  [2019-05-29 01:46:24 776] - HTTPCBHandler::bind: 192.168.27.1:21103
+ WARNING   loginapp01 10103 9000  [2019-05-29 01:46:24 776] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.22 seconds
+    INFO   loginapp01 10103 9000  [2019-05-29 02:04:17 827] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:7178/0/0/0
+ WARNING   loginapp01 10103 9000  [2019-05-29 02:04:17 827] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:7178/0/0/0
+  S_INFO   loginapp01 10103 9000  [2019-05-29 02:04:17 874] - onRequestLogin() loginName=test13, clientType=2
+   DEBUG   loginapp01 10103 9000  [2019-05-29 02:04:17 874] - PendingLoginMgr::add: test13, size=1.
+    INFO   loginapp01 10103 9000  [2019-05-29 02:04:17 874] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=test13, datas=IDMO_Login.
+  S_INFO   loginapp01 10103 9000  [2019-05-29 02:04:17 888] - onLoginCallbackFromDB() loginName=test13, accountName=test13, errorno=0
+   DEBUG   loginapp01 10103 9000  [2019-05-29 02:04:17 890] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=test13, addr=192.168.27.1:20015.
+   DEBUG   loginapp01 10103 9000  [2019-05-29 02:04:17 890] - PendingLoginMgr::remove: test13, size=0.
+    INFO   loginapp01 10103 9000  [2019-05-29 02:04:26 113] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:7193/0/0/0
+ WARNING   loginapp01 10103 9000  [2019-05-29 02:04:26 113] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:7193/0/0/0
+  S_INFO   loginapp01 10103 9000  [2019-05-29 02:04:26 158] - onRequestLogin() loginName=killingbosser1, clientType=2
+   DEBUG   loginapp01 10103 9000  [2019-05-29 02:04:26 158] - PendingLoginMgr::add: killingbosser1, size=1.
+    INFO   loginapp01 10103 9000  [2019-05-29 02:04:26 158] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=killingbosser1, datas=IDMO_Login.
+  S_INFO   loginapp01 10103 9000  [2019-05-29 02:04:26 168] - onLoginCallbackFromDB() loginName=killingbosser1, accountName=killingbosser1, errorno=0
+   DEBUG   loginapp01 10103 9000  [2019-05-29 02:04:26 169] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=killingbosser1, addr=192.168.27.1:20015.
+   DEBUG   loginapp01 10103 9000  [2019-05-29 02:04:26 169] - PendingLoginMgr::remove: killingbosser1, size=0.

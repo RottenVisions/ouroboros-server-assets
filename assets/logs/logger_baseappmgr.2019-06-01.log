@@ -1,1 +1,3 @@
-C:/Users/Black/Ouroboros/assets/logs/logger_baseappmgr.2019-06-01.log
+   DEBUG baseappmgr-1 10103 5000  [2019-06-01 01:41:11 026] - Baseappmgr::registerPendingAccountToBaseapp:test13. allocBaseapp=7001, numEntities=3.
+   DEBUG baseappmgr-1 10103 5000  [2019-06-01 01:43:10 340] - Baseappmgr::registerPendingAccountToBaseapp:killingbosser1. allocBaseapp=7001, numEntities=5.
+   DEBUG baseappmgr-1 10103 5000  [2019-06-01 01:43:33 879] - Baseappmgr::registerPendingAccountToBaseapp:test13. allocBaseapp=7001, numEntities=4.

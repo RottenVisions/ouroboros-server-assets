@@ -1,1 +1,95 @@
-C:/Users/Black/Ouroboros/assets/logs/baseapp.7001.2019-05-31.log
+  INFO root [0x0000706c] [2019-05-31 20:43:19,870] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x0000706c] [2019-05-31 20:43:20,253] - onReadyForShutDown()
+  INFO root [0x0000706c] [2019-05-31 20:43:20,253] - Baseapp::canShutdown(): Wait for the entity's into the database! The remaining 3.
+  WARN root [0x0000706c] [2019-05-31 20:43:20,254] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 140580.86 seconds
+  WARN root [0x0000706c] [2019-05-31 20:43:20,604] - EntityApp::checkTickPeriod: tick took 11732235% (11732.24 seconds)!
+  WARN root [0x0000706c] [2019-05-31 20:43:20,841] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\baseapp\baseapp.cpp:560: Profile gameTick took 0.24 seconds
+  WARN root [0x0000706c] [2019-05-31 20:43:21,091] - EntityApp::checkTickPeriod: tick took 486% (0.49 seconds)!
+  WARN root [0x0000706c] [2019-05-31 20:43:21,222] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\baseapp\baseapp.cpp:560: Profile gameTick took 0.13 seconds
+  WARN root [0x0000706c] [2019-05-31 20:43:21,353] - EntityApp::checkTickPeriod: tick took 262% (0.26 seconds)!
+  WARN root [0x0000706c] [2019-05-31 20:44:26,891] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 66.29 seconds
+S_INFO root [0x0000706c] [2019-05-31 20:44:26,891] - onReadyForShutDown()
+  INFO root [0x0000706c] [2019-05-31 20:44:26,891] - Baseapp::canShutdown(): Wait for the entity's into the database! The remaining 3.
+S_INFO root [0x0000706c] [2019-05-31 20:44:26,892] - onBaseAppShutDown: state=1
+ ERROR root [0x0000706c] [2019-05-31 20:44:26,892] - For a long time(3600s) not to empty the garbages, there may be a leak of the entitys(size:6), please use the "Ouroboros.entities.garbages.items()" command query!
+S_INFO root [0x0000706c] [2019-05-31 20:44:27,895] - onReadyForShutDown()
+  INFO root [0x0000706c] [2019-05-31 20:44:27,895] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x0000706c] [2019-05-31 20:44:27,995] - onBaseAppShutDown: state=2
+ ERROR root [0x0000706c] [2019-05-31 20:44:28,006] - PyGC::debugTracing(): Entity : leaked(9)
+ ERROR root [0x0000706c] [2019-05-31 20:44:28,007] - PyGC::debugTracing(): FixedArray : leaked(6)
+ ERROR root [0x0000706c] [2019-05-31 20:44:28,013] - EntityGarbages::~EntityGarbages(): leaked, size=9.
+ ERROR root [0x0000706c] [2019-05-31 20:44:28,014] - 	--> leaked: Avatar(2014).
+ ERROR root [0x0000706c] [2019-05-31 20:44:28,015] - 	--> leaked: Avatar(2006).
+ ERROR root [0x0000706c] [2019-05-31 20:44:28,016] - 	--> leaked: Spaces(2001).
+ ERROR root [0x0000706c] [2019-05-31 20:44:28,016] - 	--> leaked: Avatar(2017).
+ ERROR root [0x0000706c] [2019-05-31 20:44:28,017] - 	--> leaked: Avatar(2009).
+ ERROR root [0x0000706c] [2019-05-31 20:44:28,017] - 	--> leaked: Avatar(2012).
+ ERROR root [0x0000706c] [2019-05-31 20:44:28,018] - 	--> leaked: Space(2002).
+ ERROR root [0x0000706c] [2019-05-31 20:44:28,018] - 	--> leaked: Avatar(2018).
+ ERROR root [0x0000706c] [2019-05-31 20:44:28,019] - 	--> leaked: Space(2003).
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,019] - Spaces::~Spaces(): 2001
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,019] - Avatar::~Avatar(): 2006
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,019] - Avatar::~Avatar(): 2009
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,020] - Avatar::~Avatar(): 2012
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,020] - Avatar::~Avatar(): 2014
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,020] - Avatar::~Avatar(): 2017
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,020] - Avatar::~Avatar(): 2018
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,020] - Space::~Space(): 2002
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,020] - Space::~Space(): 2003
+  INFO root [0x0000706c] [2019-05-31 20:44:28,026] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,026] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000706c] [2019-05-31 20:44:28,327] - ThreadPool::destroy(): waiting for thread(2)[0x2434b8,0x2438c8,], try=1
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,729] - TPThread::~TPThread(): 0x2434b8
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,729] - TPThread::~TPThread(): 0x2438c8
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,729] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,730] - Bundle::destroyObjPool(): size 16.
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,730] - Channel::destroyObjPool(): size 16.
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,730] - TCPPacket::destroyObjPool(): size 16.
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,730] - UDPPacket::destroyObjPool(): size 13.
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,730] - EndPoint::destroyObjPool(): size 16.
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,730] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,730] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x0000706c] [2019-05-31 20:44:28,731] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x0000706c] [2019-05-31 20:44:28,731] - baseapp(7001) has shut down.
+  INFO root [0x00007a44] [2019-05-31 22:59:02,715] - 
+  INFO root [0x00007a44] [2019-05-31 22:59:02,716] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00007a44] [2019-05-31 22:59:02,717] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x00007a44] [2019-05-31 22:59:02,717] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x00007a44] [2019-05-31 22:59:02,718] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x00007a44] [2019-05-31 22:59:02,728] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x00007a44] [2019-05-31 22:59:02,728] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x00007a44] [2019-05-31 22:59:02,732] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x00007a44] [2019-05-31 22:59:02,732] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x00007a44] [2019-05-31 22:59:02,735] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:2522 )
+  INFO root [0x00007a44] [2019-05-31 22:59:02,736] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:2522, SOMAXCONN=128.
+  INFO root [0x00007a44] [2019-05-31 22:59:02,736] - server-configs:
+  INFO root [0x00007a44] [2019-05-31 22:59:02,736] - 	gameUpdateHertz : 10
+  INFO root [0x00007a44] [2019-05-31 22:59:02,736] - 	entryScriptFile : ouromain
+  INFO root [0x00007a44] [2019-05-31 22:59:02,736] - 	internalTcpAddr : 192.168.27.1:2522
+  INFO root [0x00007a44] [2019-05-31 22:59:02,736] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x00007a44] [2019-05-31 22:59:02,736] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x00007a44] [2019-05-31 22:59:02,736] - 	componentID : 7001
+  INFO root [0x00007a44] [2019-05-31 22:59:03,025] - Components::findLogger: found logger, addr:192.168.27.1:2423
+  INFO root [0x00007a44] [2019-05-31 22:59:03,026] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00007a44] [2019-05-31 22:59:03,026] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00007a44] [2019-05-31 22:59:03,033] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 31688 ----
+  INFO root [0x00007a44] [2019-05-31 22:59:03,034] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x00007a44] [2019-05-31 22:59:03,034] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00007a44] [2019-05-31 22:59:03,034] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00007a44] [2019-05-31 22:59:03,250] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00007a44] [2019-05-31 22:59:03,250] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x00007a44] [2019-05-31 22:59:03,514] - loaded entity-script:Account(1).
+ DEBUG root [0x00007a44] [2019-05-31 22:59:03,515] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00007a44] [2019-05-31 22:59:03,515] - loaded entity-script:FirstEntity(3).
+ DEBUG root [0x00007a44] [2019-05-31 22:59:03,517] - loaded entity-script:Scene(4).
+ DEBUG root [0x00007a44] [2019-05-31 22:59:03,517] - loaded entity-script:Space(5).
+ DEBUG root [0x00007a44] [2019-05-31 22:59:03,518] - loaded entity-script:SpaceDuplicate(6).
+ DEBUG root [0x00007a44] [2019-05-31 22:59:03,519] - loaded entity-script:Spaces(7).
+ DEBUG root [0x00007a44] [2019-05-31 22:59:03,520] - loaded entity-script:SpawnPoint(8).
+  INFO root [0x00007a44] [2019-05-31 22:59:03,520] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00007a44] [2019-05-31 22:59:03,521] - TelnetServer server is running on port 40000
+  INFO root [0x00007a44] [2019-05-31 22:59:03,940] - ---- baseapp is running ----
+ DEBUG root [0x00007a44] [2019-05-31 22:59:03,940] - Components::process(): Request for the process of identity...
+  WARN root [0x00007a44] [2019-05-31 22:59:10,283] - Forwarding logs to logger[192.168.27.1:2423/0/0/0]...

@@ -1,1 +1,22 @@
-C:/Users/Black/Ouroboros/assets/logs/baseappmgr.2019-06-03.log
+  INFO root [2019-06-03 20:29:19,549] - 
+  INFO root [2019-06-03 20:29:19,549] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-03 20:29:19,551] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-03 20:29:19,552] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-03 20:29:19,552] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-03 20:29:19,568] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:13552 )
+  INFO root [2019-06-03 20:29:19,568] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:13552, SOMAXCONN=5.
+  INFO root [2019-06-03 20:29:19,569] - server-configs:
+  INFO root [2019-06-03 20:29:19,569] - 	internalTcpAddr : 192.168.27.1:13552
+  INFO root [2019-06-03 20:29:19,569] - 	componentID : 5000
+  INFO root [2019-06-03 20:29:19,585] - Components::findLogger: found logger, addr:192.168.27.1:13455
+  INFO root [2019-06-03 20:29:19,586] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-03 20:29:19,586] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-03 20:29:19,595] - ---- baseappmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: E5EC485237515D3DB92303DAB9A28436. Config: Debug X86. Built: 02:53:41 May 23 2019. AppID: 5000. UID: 10103. PID: 42304 ----
+  INFO root [2019-06-03 20:29:19,596] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-03 20:29:19,597] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-03 20:29:19,597] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-03 20:29:20,185] - ---- baseappmgr is running ----
+ DEBUG root [2019-06-03 20:29:20,186] - Components::process(): Request for the process of identity...
+  WARN root [2019-06-03 20:29:27,048] - Forwarding logs to logger[192.168.27.1:13455/0/0/0]...

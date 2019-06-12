@@ -1,1 +1,753 @@
-C:/Users/Black/Ouroboros/assets/logs/logger_dbmgr.2019-06-08.log
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 00:01:03 771] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:01:03 735] - Dbmgr::DBTaskServerLog()
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:30 933] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:30 934] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:30 934] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:30 934] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:30 947] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:2160 )
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:30 948] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:2160, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:30 948] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:30 948] - 	internalTcpAddr : 192.168.27.1:2160
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:30 948] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:32 454] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 27248 ----
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:32 454] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:32 455] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:32 455] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:32 686] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:32 686] - Script::install(): OUROxtra is successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:32 984] - Dbmgr::initializeEnd: digest(A95409634AA737AC5ED3596431383F23)
+  S_INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:32 985] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:32 985] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:32 986] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 01:31:33 271] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+3059A84C2371B6FCDFA20083DAD81C092150C5E54D844095B8B72E1FE15D5C232AC28B87E431D53DE865B047733A072C0680558172D0BAA30CC82F0D384B822E842F934C8D42335AF43EE22E9A64E4341A98ADB3246DC6ECFCCD3B57EFF44DD666763996C72F3495CF11EFAC765371EE76D6ADEEA5B98C18905D72F34EA19AA8
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 274] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 282] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:33 283] - DBUtil::createInterface[0x19f118]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:33 283] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:33 283] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:33 387] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 01:31:33 464] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.48 seconds
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:33 928] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 929] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 284] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 284] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 284] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 284] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 284] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 287] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 287] - DBThread::onStart(): 0x3a8b7c0!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 288] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 288] - DBThread::onStart(): 0x3a8b518!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 289] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 290] - DBThread::onStart(): 0x3a8bc88!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 290] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 290] - DBThread::onStart(): 0x3a8b2f8!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 292] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:33 292] - DBThread::onStart(): 0x3a8b958!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:33 388] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:33 388] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:33 389] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:33 389] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:33 389] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:33 390] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:33 444] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:33 445] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:40 268] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:40 269] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:40 269] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:41 285] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:41 293] - Components::findComponents: found logger, addr:192.168.27.1:2159
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:41 293] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:41 293] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:41 305] - Components::process(): Found all the components!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:43 342] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:2161, extaddr:nonsupport, extport:0,  from 192.168.27.1:2206/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:43 342] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:43 342] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:44 460] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:2162, extaddr:nonsupport, extport:0,  from 192.168.27.1:2209/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:44 460] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:45 260] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:2165, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:2213/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:45 260] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:47 638] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:2164, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:2221/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:47 638] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:47 655] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:2163, extaddr:nonsupport, extport:0,  from 192.168.27.1:2223/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:47 655] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:50 664] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:50 664] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 01:31:50 664] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:52 441] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.27.1:2221/0/0/0), keySize=12, valSize=45, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:55 445] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:2223/0/0/0), keySize=13, valSize=45, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 01:31:56 441] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:2223/0/0/0), keySize=13, valSize=45, isDelete=0
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 02:31:33 451] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:31:33 397] - Dbmgr::DBTaskServerLog()
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:56 481] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:56 482] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:56 482] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:56 483] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:56 495] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:3390 )
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:56 496] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:3390, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:56 496] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:56 496] - 	internalTcpAddr : 192.168.27.1:3390
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:56 496] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:58 017] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 37576 ----
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:58 018] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:58 019] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:58 020] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:58 232] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:58 232] - Script::install(): OUROxtra is successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:58 543] - Dbmgr::initializeEnd: digest(A95409634AA737AC5ED3596431383F23)
+  S_INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:58 544] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:58 545] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:58 545] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 03:41:58 889] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+7DC896758233B86ED2FB9BB7B87AD0B05491B4848C1B9AC29FB51108A486E7FA4CED8750F4CE93B19CDB2545D8488144DA4CDD66004192FC05F904B85416DE281F1A9C73C36194999EA6A24709E929BC29C0CA3CA2EC5F61A0838C7D7E25ADF499EE3CA8DF6DD7162FBA22BB431EA2103F99BBDD9220C909F1A88190EB333F4D
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 893] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 900] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:58 900] - DBUtil::createInterface[0x101f24c]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:58 901] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:58 901] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:59 004] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 03:41:59 070] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.53 seconds
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:59 536] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:59 536] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 901] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 901] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 902] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 902] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 902] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 905] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 905] - DBThread::onStart(): 0x2740728!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 906] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 906] - DBThread::onStart(): 0x273f9e0!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 914] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 914] - DBThread::onStart(): 0x273f848!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 916] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 916] - DBThread::onStart(): 0x273f8d0!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 917] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:41:58 917] - DBThread::onStart(): 0x27401d8!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:59 004] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:59 004] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:59 006] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:59 006] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:59 006] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:59 007] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:59 052] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:41:59 054] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:05 921] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:05 921] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:05 921] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 03:42:05 922] - TCPPacketReceiver::processPendingEvents(192.168.27.1:3418): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:06 924] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:06 949] - Components::findComponents: found logger, addr:192.168.27.1:3389
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:06 949] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:06 949] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:06 983] - Components::process(): Found all the components!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:08 993] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3391, extaddr:nonsupport, extport:0,  from 192.168.27.1:3440/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:08 993] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:08 993] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:10 125] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3392, extaddr:nonsupport, extport:0,  from 192.168.27.1:3443/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:10 126] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:10 828] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3395, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:3447/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:10 828] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:13 256] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3393, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:3455/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:13 256] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:13 426] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3394, extaddr:nonsupport, extport:0,  from 192.168.27.1:3458/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:13 426] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:16 444] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:16 444] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:42:16 444] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:18 623] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.27.1:3455/0/0/0), keySize=12, valSize=45, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:21 526] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:3458/0/0/0), keySize=13, valSize=45, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:42:22 530] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:3458/0/0/0), keySize=13, valSize=45, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:40 730] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:40 731] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:40 732] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:40 732] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:40 748] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4092 )
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:40 749] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4092, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:40 749] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:40 749] - 	internalTcpAddr : 192.168.27.1:4092
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:40 749] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:42 254] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 35060 ----
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:42 255] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:42 255] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:42 255] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:42 452] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:42 452] - Script::install(): OUROxtra is successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:42 799] - Dbmgr::initializeEnd: digest(A95409634AA737AC5ED3596431383F23)
+  S_INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:42 799] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:42 800] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:42 804] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 03:47:43 216] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+733D4AE39A8FDF9CBCEA1514F7EECC050457F7E42E18BA06FA2D41A30FEA056097C998337A981CD61832BE1A5D4909565ED695C47E3AA124ACEE0E3A499753B1116B9990B715A85E79E094150F6FC48DB6083D61CE4302249FC9004EE7B2E4680633AC021D78C7EB2080DD352DF12FA74CDFA39996E77BA2789381D0A91FBC21
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 219] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 223] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:43 223] - DBUtil::createInterface[0x9bed98]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:43 223] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:43 225] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:43 328] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 03:47:43 416] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.62 seconds
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:43 821] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 821] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 224] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 224] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 224] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 224] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 225] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 228] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 228] - DBThread::onStart(): 0xf300a8!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 229] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 229] - DBThread::onStart(): 0xf30790!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 230] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 230] - DBThread::onStart(): 0xf30680!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 232] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 232] - DBThread::onStart(): 0xf2ff10!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 233] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:47:43 233] - DBThread::onStart(): 0xf30708!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:43 329] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:43 329] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:43 330] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:43 330] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:43 330] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:43 331] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:43 392] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:43 394] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:50 179] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:50 180] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:50 180] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 03:47:50 181] - TCPPacketReceiver::processPendingEvents(192.168.27.1:4123): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:51 199] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:51 285] - Components::findComponents: found logger, addr:192.168.27.1:4089
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:51 285] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:51 285] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:51 319] - Components::process(): Found all the components!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:54 453] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4090, extaddr:nonsupport, extport:0,  from 192.168.27.1:4143/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:54 453] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:54 453] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:54 573] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4094, extaddr:nonsupport, extport:0,  from 192.168.27.1:4145/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:54 573] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:55 061] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4097, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:4151/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:55 061] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:56 166] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4096, extaddr:nonsupport, extport:0,  from 192.168.27.1:4155/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:56 167] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:57 601] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4095, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:4160/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:47:57 601] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:48:00 619] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:48:00 619] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:48:00 619] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:48:02 427] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.27.1:4160/0/0/0), keySize=12, valSize=48, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:48:05 404] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:4155/0/0/0), keySize=13, valSize=48, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:48:06 401] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:4155/0/0/0), keySize=13, valSize=48, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:08 327] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:08 328] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:08 328] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:08 328] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:08 340] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4419 )
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:08 340] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4419, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:08 341] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:08 341] - 	internalTcpAddr : 192.168.27.1:4419
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:08 341] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:09 854] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 33976 ----
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:09 855] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:09 855] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:09 856] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 116] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 116] - Script::install(): OUROxtra is successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 451] - Dbmgr::initializeEnd: digest(A95409634AA737AC5ED3596431383F23)
+  S_INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 452] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 452] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 453] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 03:50:10 786] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+36423A0EE7DFC1D0CB034C5B811C9D47C83D2DF8A834AF4953DFBD7DB7E85DA8E8C78EF68C07CFF5916436733F557002020D42C5BA93E0A27FE9860DF038D2138C62E4B8BC49444C369FA22DCCDD5A5F20E3B87B6F83AAFF83769CB238DA26617E9484CD92341E1C7B54A3CB33CC66F3B60774A5908D0E739D5B9A55B96DF1C5
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 790] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 794] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 794] - DBUtil::createInterface[0x4fed28]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 794] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 794] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 897] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 03:50:10 953] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.50 seconds
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:11 433] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:11 433] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 795] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 795] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 795] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 795] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 795] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 798] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 798] - DBThread::onStart(): 0x6d7970!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 799] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 799] - DBThread::onStart(): 0x6d7f48!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 800] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 800] - DBThread::onStart(): 0x6d8278!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 802] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 802] - DBThread::onStart(): 0x6d8410!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 802] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:10 803] - DBThread::onStart(): 0x6d77d8!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 899] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 900] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 900] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 900] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 900] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 901] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 938] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:10 939] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:17 774] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:17 775] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:17 775] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:18 792] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:18 850] - Components::findComponents: found logger, addr:192.168.27.1:4417
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:18 850] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:18 851] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:18 891] - Components::process(): Found all the components!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:22 048] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4420, extaddr:nonsupport, extport:0,  from 192.168.27.1:4465/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:22 048] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:22 048] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:23 374] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4421, extaddr:nonsupport, extport:0,  from 192.168.27.1:4470/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:23 374] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:24 004] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4424, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:4472/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:24 004] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:24 889] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4422, extaddr:nonsupport, extport:0,  from 192.168.27.1:4476/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:24 889] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:25 084] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4423, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:4479/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:25 085] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:28 091] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:28 092] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 03:50:28 092] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:30 286] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.27.1:4479/0/0/0), keySize=12, valSize=48, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:33 192] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:4476/0/0/0), keySize=13, valSize=48, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 03:50:34 192] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:4476/0/0/0), keySize=13, valSize=48, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:01:58 765] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:01:58 766] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:01:58 766] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:01:58 766] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:01:58 781] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:5776 )
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:01:58 781] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:5776, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:01:58 782] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:01:58 782] - 	internalTcpAddr : 192.168.27.1:5776
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:01:58 782] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:00 287] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 36620 ----
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:00 287] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:00 288] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:00 288] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:00 485] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:00 485] - Script::install(): OUROxtra is successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:00 984] - Dbmgr::initializeEnd: digest(A95409634AA737AC5ED3596431383F23)
+  S_INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:00 985] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:00 985] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:00 986] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 04:02:01 409] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+58B65331FA9BF28C99F4F7E4E9AA653B5ADB5D6147D65F694B5F59BF8D8C56511DEF91B174EA2505834FB5A19ACF3E54053CC7EAA9077C7D741457795CCD85444AF2997D1E164A03FFFC612BC5833A7AD9A0921BB295501E089B9237993AE138E06A9571A9687926E93C30E1FAB6E7923B5E87C94B61B2FE6D1D391FDD6EAE21
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 414] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 424] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:01 424] - DBUtil::createInterface[0x55f1dc]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:01 424] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:01 425] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:01 529] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 04:02:01 595] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.61 seconds
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:02 155] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:02 155] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 425] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 425] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 427] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 427] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 427] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 430] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 430] - DBThread::onStart(): 0x1632e8!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 432] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 432] - DBThread::onStart(): 0x1629e0!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 435] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 435] - DBThread::onStart(): 0x162b78!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 436] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 437] - DBThread::onStart(): 0x162a68!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 438] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:01 438] - DBThread::onStart(): 0x163370!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:01 529] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:01 530] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:01 530] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:01 531] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:01 531] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:01 532] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:01 575] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:01 576] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:08 532] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:08 532] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:08 533] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:09 545] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:09 618] - Components::findComponents: found logger, addr:192.168.27.1:5775
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:09 618] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:09 618] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:09 644] - Components::process(): Found all the components!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:12 808] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5779, extaddr:nonsupport, extport:0,  from 192.168.27.1:5828/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:12 808] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:12 808] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:13 400] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5782, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:5830/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:13 400] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:14 148] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5777, extaddr:nonsupport, extport:0,  from 192.168.27.1:5833/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:14 148] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:15 592] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5781, extaddr:nonsupport, extport:0,  from 192.168.27.1:5837/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:15 593] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:15 751] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5780, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:5841/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:15 751] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:18 765] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:18 765] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:02:18 765] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:20 888] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.27.1:5841/0/0/0), keySize=12, valSize=48, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:23 855] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:5837/0/0/0), keySize=13, valSize=48, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:02:24 856] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:5837/0/0/0), keySize=13, valSize=48, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:09 238] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:09 239] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:09 239] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:09 239] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:09 253] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:10152 )
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:09 253] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:10152, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:09 254] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:09 254] - 	internalTcpAddr : 192.168.27.1:10152
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:09 254] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:10 762] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 25664 ----
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:10 763] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:10 763] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:10 763] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:10 983] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:10 983] - Script::install(): OUROxtra is successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 365] - Dbmgr::initializeEnd: digest(56FCB10E465C90B88D3EFFA99E8B58C5)
+  S_INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 366] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 366] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 366] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 04:40:11 685] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+A4FF8404B901DF908757E87D2C681B5F5639DADBFB03923D5B351D87F68101234705028E21C0E83AF55F326EC82D46342A6B95EA19783C709660DB38F3C16127290E87FEE82475791C11BFA53FB21A4A72CFB770E39B2347C880705D7F5BAC264DB2FCAF22BAD44E8397BDB3B09DB60A35E6800092403E20544290181BF5C5C2
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 688] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 693] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 693] - DBUtil::createInterface[0x8ff1d0]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 694] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 694] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 798] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 04:40:14 779] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 3.41 seconds
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:15 110] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:15 110] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 694] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 694] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 695] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 695] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 695] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 698] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 698] - DBThread::onStart(): 0xbd0f50!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 700] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 700] - DBThread::onStart(): 0xbd0db8!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 706] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 706] - DBThread::onStart(): 0xbd1060!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 707] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 707] - DBThread::onStart(): 0xbd0758!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 708] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 708] - DBThread::onStart(): 0xbd03a0!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 798] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 798] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 799] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 799] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 799] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 799] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 922] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 929] - syncToDB(): SpawnPoint->sm_dbid(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 930] - syncToDB(): NPC->sm_autoLoad(tinyint not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 930] - syncToDB(): Enemy->sm_autoLoad(tinyint not null DEFAULT 0).
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:11 930] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:11 930] - syncToDB(): Gate->sm_autoLoad(tinyint not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 179] - syncToDB(): SpawnPoint->sm_persistentMapping(blob).
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:12 273] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 273] - syncToDB(): SpawnPoint->sm_name(varchar(255) not null DEFAULT '').
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 274] - syncToDB(): Enemy->sm_dbid(bigint unsigned not null DEFAULT 0).
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:12 274] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:12 274] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 274] - syncToDB(): NPC->sm_dbid(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 275] - syncToDB(): Gate->sm_dbid(bigint unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 545] - syncToDB(): Gate->sm_persistentMapping(blob).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 577] - syncToDB(): Enemy->sm_persistentMapping(blob).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 622] - syncToDB(): NPC->sm_persistentMapping(blob).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 622] - syncToDB(): SpawnPoint->sm_uid(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 672] - syncToDB(): Gate->sm_0_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 779] - syncToDB(): Enemy->sm_0_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 848] - syncToDB(): NPC->sm_0_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 914] - syncToDB(): Gate->sm_1_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 968] - syncToDB(): Enemy->sm_1_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:12 968] - syncToDB(): SpawnPoint->sm_utype(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 016] - syncToDB(): NPC->sm_1_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 122] - syncToDB(): Gate->sm_2_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 176] - syncToDB(): Enemy->sm_2_position(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 223] - syncToDB(): NPC->sm_2_position(float not null DEFAULT 0).
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 04:40:13 224] - DBTask::process(): took 1.30 seconds
+sql:(show index from tbl_SpawnPoint)
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 311] - syncToDB(): Enemy->sm_0_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 316] - syncToDB(): Gate->sm_0_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 317] - syncToDB(): NPC->sm_0_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 481] - syncToDB(): Enemy->sm_1_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 481] - syncToDB(): Gate->sm_1_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 482] - syncToDB(): NPC->sm_1_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 658] - syncToDB(): Enemy->sm_2_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 658] - syncToDB(): NPC->sm_2_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 660] - syncToDB(): Gate->sm_2_direction(float not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 843] - syncToDB(): Enemy->sm_name(varchar(255) not null DEFAULT '').
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 843] - syncToDB(): Gate->sm_name(varchar(255) not null DEFAULT '').
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:13 843] - syncToDB(): NPC->sm_name(varchar(255) not null DEFAULT '').
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:14 009] - syncToDB(): Gate->sm_uid(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:14 009] - syncToDB(): NPC->sm_uid(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:14 009] - syncToDB(): Enemy->sm_uid(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:14 279] - syncToDB(): Gate->sm_utype(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:14 279] - syncToDB(): Enemy->sm_utype(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:14 279] - syncToDB(): NPC->sm_utype(int unsigned not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:14 501] - syncToDB(): Enemy->sm_HP(int not null DEFAULT 0).
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 04:40:14 502] - DBTask::process(): took 2.70 seconds
+sql:(show index from tbl_Gate)
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 04:40:14 502] - DBTask::process(): took 2.70 seconds
+sql:(show index from tbl_NPC)
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:14 588] - syncToDB(): Enemy->sm_EG(int not null DEFAULT 0).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:14 671] - syncToDB(): Enemy->sm_state(tinyint not null DEFAULT 0).
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 04:40:14 765] - DBTask::process(): took 2.96 seconds
+sql:(show index from tbl_Enemy)
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:21 479] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:21 479] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:21 479] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:21 889] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:10153, extaddr:nonsupport, extport:0,  from 192.168.27.1:10192/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:21 889] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:21 889] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:22 386] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:10155, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:10194/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:22 387] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:22 485] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:22 513] - Components::findComponents: found logger, addr:192.168.27.1:10151
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:22 514] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:22 540] - Components::process(): Found all the components!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:23 022] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:10154, extaddr:nonsupport, extport:0,  from 192.168.27.1:10201/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:23 022] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:25 110] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:10157, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:10206/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:25 110] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:25 901] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:10156, extaddr:nonsupport, extport:0,  from 192.168.27.1:10209/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:25 901] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=6, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:28 906] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:28 906] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:40:28 906] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:31 211] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.27.1:10206/0/0/0), keySize=12, valSize=45, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:34 204] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:10209/0/0/0), keySize=13, valSize=45, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:40:35 208] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:10209/0/0/0), keySize=13, valSize=45, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:48 485] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:48 486] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:48 486] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:48 486] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:48 497] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:10929 )
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:48 498] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:10929, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:48 498] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:48 498] - 	internalTcpAddr : 192.168.27.1:10929
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:48 498] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:50 005] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 9168 ----
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:50 006] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:50 006] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:50 006] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:50 211] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:50 211] - Script::install(): OUROxtra is successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:50 595] - Dbmgr::initializeEnd: digest(A938A6314B8EDA3C79D7979D71790853)
+  S_INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:50 596] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:50 596] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:50 597] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 04:46:50 952] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+7AE4D9710008F79BD164CA6CF406C7115A606291DF3620F7BFFE9B5A4F7B2FF71F95AAFA492870BCBBDD7AA8A17ABC0472B04B9DB5865424645670E8A16F63D8593FF0B59BC489AAE9588BC902A99E00E34BAE6402D785337C7FF85A765E9E26C01EEAC1BD7B0C331DDED83CD9DF5C20945A39386FDFF8F43AA3C1D90C8196E4
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 956] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 961] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:50 961] - DBUtil::createInterface[0x9af010]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:50 961] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:50 962] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:51 066] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 04:46:51 144] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.55 seconds
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:51 792] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:51 793] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 962] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 962] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 963] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 963] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 963] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 966] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 966] - DBThread::onStart(): 0x4706878!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 968] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 968] - DBThread::onStart(): 0x4706cb8!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 969] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 969] - DBThread::onStart(): 0x47070f8!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 970] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 971] - DBThread::onStart(): 0x47064c0!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 972] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:46:50 972] - DBThread::onStart(): 0x47063b0!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:51 067] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:51 067] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:51 067] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:51 068] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:51 069] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:51 069] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:51 119] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:51 121] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:58 129] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:58 129] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:58 129] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:59 136] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:59 182] - Components::findComponents: found logger, addr:192.168.27.1:10928
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:59 182] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:59 182] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:46:59 197] - Components::process(): Found all the components!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:02 261] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:10930, extaddr:nonsupport, extport:0,  from 192.168.27.1:10983/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:02 261] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:02 261] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:02 592] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:10931, extaddr:nonsupport, extport:0,  from 192.168.27.1:10985/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:02 592] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:02 923] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:10934, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:10989/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:02 923] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:05 388] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:10932, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:10997/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:05 389] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:05 415] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:10933, extaddr:nonsupport, extport:0,  from 192.168.27.1:10998/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:05 415] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:08 415] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:08 415] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:47:08 415] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:10 288] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.27.1:10997/0/0/0), keySize=12, valSize=45, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:13 246] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:10998/0/0/0), keySize=13, valSize=45, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:47:14 245] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:10998/0/0/0), keySize=13, valSize=45, isDelete=0
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:48:27 714] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:48:27 954] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:48:33 294] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=29, entityID=9, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:51:27 753] - Dbmgr::writeEntity: Avatar(29).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:51:27 753] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:51:27 773] - Dbmgr::onEntityOffline: 29, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:51:27 773] - Dbmgr::onEntityOffline: 1, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:51:27 750] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=29, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:51:27 752] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:51:36 713] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:51:36 972] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:51:42 093] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=29, entityID=11, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:53:36 772] - Dbmgr::writeEntity: Avatar(29).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:53:36 772] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:53:36 772] - Dbmgr::onEntityOffline: 29, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:53:36 772] - Dbmgr::onEntityOffline: 1, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:53:36 761] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=29, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 04:53:36 764] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:59:50 948] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:59:51 187] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 04:59:56 368] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=29, entityID=13, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:01:51 006] - Dbmgr::writeEntity: Avatar(29).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:01:51 006] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:01:51 007] - Dbmgr::onEntityOffline: 29, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:01:51 007] - Dbmgr::onEntityOffline: 1, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:01:50 992] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=29, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:01:50 994] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:25 482] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:25 483] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:25 483] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:25 483] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:25 494] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12996 )
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:25 494] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:12996, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:25 494] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:25 494] - 	internalTcpAddr : 192.168.27.1:12996
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:25 494] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:26 999] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 38808 ----
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:27 000] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:27 000] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:27 001] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:27 214] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:27 214] - Script::install(): OUROxtra is successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:27 645] - Dbmgr::initializeEnd: digest(A938A6314B8EDA3C79D7979D71790853)
+  S_INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:27 645] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:27 646] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:27 646] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 05:04:28 042] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+335B6E3EB3F01DD0BA05DA0C041F670894ABAC33679B3FC0CA6993F8E4E1255390DF61B424C8E3A6F23BACFA738A22F06E2BEE3781D6FD4EEB5051B8C692E79ED2C128F473B628ECEFA861AA786D75E751CA8B97017B82BABF77D61CB14B037CA34FAA1FCDAA850CD923D13BB29AD4B55BBAD529925DD48C90505A6858DC3D1A
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 045] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 049] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:28 050] - DBUtil::createInterface[0xbef04c]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:28 050] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:28 051] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:28 155] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 05:04:28 243] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.60 seconds
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:28 759] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 759] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 051] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 051] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 051] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 052] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 052] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 055] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 055] - DBThread::onStart(): 0xecbee8!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 056] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 056] - DBThread::onStart(): 0xecc080!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 057] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 057] - DBThread::onStart(): 0xecc108!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 058] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 058] - DBThread::onStart(): 0xecc190!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 059] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:28 059] - DBThread::onStart(): 0xecbf70!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:28 155] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:28 155] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:28 156] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:28 157] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:28 157] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:28 158] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:28 219] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:28 221] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:35 166] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:35 166] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:35 167] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ WARNING      dbmgr-1 10103 4000  [2019-06-08 05:04:35 168] - TCPPacketReceiver::processPendingEvents(192.168.27.1:13020): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:36 186] - Components::findComponents: find logger(1)...
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:36 270] - Components::findComponents: found logger, addr:192.168.27.1:12995
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:36 270] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:36 270] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:36 305] - Components::process(): Found all the components!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:39 224] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12997, extaddr:nonsupport, extport:0,  from 192.168.27.1:13046/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:39 224] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:39 224] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:39 329] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12998, extaddr:nonsupport, extport:0,  from 192.168.27.1:13048/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:39 329] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:39 839] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13002, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:13051/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:39 839] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:42 438] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13001, extaddr:nonsupport, extport:0,  from 192.168.27.1:13056/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:42 438] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:42 517] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13000, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:13058/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:42 517] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:45 525] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:45 525] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:04:45 525] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:47 816] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.27.1:13058/0/0/0), keySize=12, valSize=48, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:50 718] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:13056/0/0/0), keySize=13, valSize=48, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-08 05:04:51 724] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:13056/0/0/0), keySize=13, valSize=48, isDelete=0
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:05:20 724] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:05:20 964] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:05:27 624] - Dbmgr::writeEntity: Avatar(32).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:05:27 644] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:05:27 644] - Dbmgr::onEntityOffline: 32, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:05:33 104] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=32, entityID=2010, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:14:28 515] - Dbmgr::writeEntity: Avatar(32).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:30:20 762] - Dbmgr::onEntityOffline: 32, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-08 05:30:20 762] - Dbmgr::onEntityOffline: 1, entityType=1.

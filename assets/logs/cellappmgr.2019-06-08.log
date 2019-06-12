@@ -1,1 +1,381 @@
-C:/Users/Black/Ouroboros/assets/logs/cellappmgr.2019-06-08.log
+ ERROR root [2019-06-08 01:15:54,294] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=219362817116, lastReceivedTime=219127438736, inactivityExceptionPeriod=599499873)
+  INFO root [2019-06-08 01:15:54,298] - The following logs sent to logger failed:
+  WARN root [2019-06-08 01:15:54,298] - ==> [2019-06-08 01:15:54 294] TCPPacketReceiver::processPendingEvents(192.168.27.1:12385): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 01:15:54,298] - ==> [2019-06-08 01:15:54 296] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=219362817116, lastReceivedTime=219127438736, inactivityExceptionPeriod=599499873)
+  WARN root [2019-06-08 01:15:54,425] - TCPPacketReceiver::processPendingEvents(192.168.27.1:12386): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 01:15:54,426] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=219364139396, lastReceivedTime=219128186825, inactivityExceptionPeriod=599499873)
+  INFO root [2019-06-08 01:15:54,434] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2019-06-08 01:15:54,439] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-08 01:15:54,440] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2019-06-08 01:15:54,440] - ThreadPool::destroy(): starting size 2.
+  INFO root [2019-06-08 01:31:30,975] - 
+  INFO root [2019-06-08 01:31:30,976] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 01:31:30,977] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 01:31:30,977] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 01:31:30,977] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 01:31:30,989] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:2162 )
+  INFO root [2019-06-08 01:31:30,989] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:2162, SOMAXCONN=5.
+  INFO root [2019-06-08 01:31:30,989] - server-configs:
+  INFO root [2019-06-08 01:31:30,990] - 	internalTcpAddr : 192.168.27.1:2162
+  INFO root [2019-06-08 01:31:30,990] - 	componentID : 6000
+  INFO root [2019-06-08 01:31:32,494] - ---- cellappmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F23092FF3B6A2177140863F2F18F3EC2. Config: Debug X86. Built: 02:52:34 May 23 2019. AppID: 6000. UID: 10103. PID: 33436 ----
+  INFO root [2019-06-08 01:31:32,495] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 01:31:32,495] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 01:31:32,496] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 01:31:32,876] - ---- cellappmgr is running ----
+ DEBUG root [2019-06-08 01:31:32,876] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-08 01:31:40,257] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 01:31:40,270] - Components::findComponents: found logger, addr:192.168.27.1:2159
+  INFO root [2019-06-08 01:31:40,271] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 01:31:40,271] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 01:31:40,272] - Components::findComponents: find dbmgr(2)...
+  INFO root [2019-06-08 01:31:40,384] - Components::findComponents: found dbmgr, addr:192.168.27.1:2160
+  INFO root [2019-06-08 01:31:40,385] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 01:31:40,385] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 01:31:40,386] - Components::findComponents: found dbmgr, addr:192.168.27.1:2160
+  WARN root [2019-06-08 01:31:41,388] - Forwarding logs to logger[192.168.27.1:2159/0/0/0]...
+ ERROR root [2019-06-08 03:41:51,833] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=306938206622, lastReceivedTime=306727012441, inactivityExceptionPeriod=599500192)
+  INFO root [2019-06-08 03:41:51,835] - The following logs sent to logger failed:
+  WARN root [2019-06-08 03:41:51,835] - ==> [2019-06-08 03:41:51 833] TCPPacketReceiver::processPendingEvents(192.168.27.1:2159): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 03:41:51,835] - ==> [2019-06-08 03:41:51 834] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=306938206622, lastReceivedTime=306727012441, inactivityExceptionPeriod=599500192)
+  WARN root [2019-06-08 03:41:51,976] - TCPPacketReceiver::processPendingEvents(192.168.27.1:2160): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 03:41:51,977] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=306939643750, lastReceivedTime=306728578109, inactivityExceptionPeriod=599500192)
+  INFO root [2019-06-08 03:41:51,981] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2019-06-08 03:41:51,983] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-08 03:41:51,983] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2019-06-08 03:41:51,984] - ThreadPool::destroy(): starting size 2.
+  INFO root [2019-06-08 03:41:56,489] - 
+  INFO root [2019-06-08 03:41:56,490] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 03:41:56,491] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 03:41:56,491] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 03:41:56,492] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 03:41:56,504] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:3391 )
+  INFO root [2019-06-08 03:41:56,504] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:3391, SOMAXCONN=5.
+  INFO root [2019-06-08 03:41:56,505] - server-configs:
+  INFO root [2019-06-08 03:41:56,505] - 	internalTcpAddr : 192.168.27.1:3391
+  INFO root [2019-06-08 03:41:56,505] - 	componentID : 6000
+  WARN root [2019-06-08 03:41:56,846] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20548, errorno=10048
+  INFO root [2019-06-08 03:41:56,849] - ---- cellappmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F23092FF3B6A2177140863F2F18F3EC2. Config: Debug X86. Built: 02:52:34 May 23 2019. AppID: 6000. UID: 10103. PID: 36984 ----
+  INFO root [2019-06-08 03:41:56,850] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 03:41:56,850] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 03:41:56,850] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 03:41:57,276] - ---- cellappmgr is running ----
+ DEBUG root [2019-06-08 03:41:57,276] - Components::process(): Request for the process of identity...
+  WARN root [2019-06-08 03:42:03,624] - TCPPacketReceiver::processPendingEvents(192.168.27.1:3420): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [2019-06-08 03:42:04,631] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 03:42:04,701] - Components::findComponents: found logger, addr:192.168.27.1:3389
+  INFO root [2019-06-08 03:42:04,702] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 03:42:04,702] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 03:42:04,705] - Components::findComponents: find dbmgr(2)...
+  INFO root [2019-06-08 03:42:04,813] - Components::findComponents: found dbmgr, addr:192.168.27.1:3390
+  INFO root [2019-06-08 03:42:04,813] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 03:42:04,813] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 03:42:04,813] - Components::findComponents: found dbmgr, addr:192.168.27.1:3390
+  WARN root [2019-06-08 03:42:05,814] - Forwarding logs to logger[192.168.27.1:3389/0/0/0]...
+ ERROR root [2019-06-08 03:47:35,168] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=310371550818, lastReceivedTime=310283605910, inactivityExceptionPeriod=599500000)
+  INFO root [2019-06-08 03:47:35,170] - The following logs sent to logger failed:
+  WARN root [2019-06-08 03:47:35,170] - ==> [2019-06-08 03:47:35 166] TCPPacketReceiver::processPendingEvents(192.168.27.1:3389): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 03:47:35,171] - ==> [2019-06-08 03:47:35 168] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=310371550818, lastReceivedTime=310283605910, inactivityExceptionPeriod=599500000)
+  WARN root [2019-06-08 03:47:35,283] - TCPPacketReceiver::processPendingEvents(192.168.27.1:3390): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 03:47:35,284] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=310372716246, lastReceivedTime=310284825713, inactivityExceptionPeriod=599500000)
+  INFO root [2019-06-08 03:47:35,287] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2019-06-08 03:47:35,290] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-08 03:47:35,291] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2019-06-08 03:47:35,291] - ThreadPool::destroy(): starting size 2.
+  INFO root [2019-06-08 03:47:40,787] - 
+  INFO root [2019-06-08 03:47:40,787] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 03:47:40,788] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 03:47:40,789] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 03:47:40,789] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 03:47:40,802] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4094 )
+  INFO root [2019-06-08 03:47:40,802] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4094, SOMAXCONN=5.
+  INFO root [2019-06-08 03:47:40,802] - server-configs:
+  INFO root [2019-06-08 03:47:40,803] - 	internalTcpAddr : 192.168.27.1:4094
+  INFO root [2019-06-08 03:47:40,803] - 	componentID : 6000
+  INFO root [2019-06-08 03:47:42,309] - ---- cellappmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F23092FF3B6A2177140863F2F18F3EC2. Config: Debug X86. Built: 02:52:34 May 23 2019. AppID: 6000. UID: 10103. PID: 8964 ----
+  INFO root [2019-06-08 03:47:42,310] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 03:47:42,310] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 03:47:42,310] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 03:47:42,734] - ---- cellappmgr is running ----
+ DEBUG root [2019-06-08 03:47:42,734] - Components::process(): Request for the process of identity...
+  WARN root [2019-06-08 03:47:49,248] - TCPPacketReceiver::processPendingEvents(192.168.27.1:4124): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [2019-06-08 03:47:50,252] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 03:47:50,316] - Components::findComponents: found logger, addr:192.168.27.1:4089
+  INFO root [2019-06-08 03:47:50,316] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 03:47:50,316] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 03:47:50,317] - Components::findComponents: find dbmgr(2)...
+  INFO root [2019-06-08 03:47:50,328] - Components::findComponents: found logger, addr:192.168.27.1:4089
+  INFO root [2019-06-08 03:47:50,333] - Components::findComponents: found dbmgr, addr:192.168.27.1:4092
+  INFO root [2019-06-08 03:47:50,333] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 03:47:50,333] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 03:47:50,434] - Components::findComponents: found dbmgr, addr:192.168.27.1:4092
+  WARN root [2019-06-08 03:47:51,436] - Forwarding logs to logger[192.168.27.1:4089/0/0/0]...
+ ERROR root [2019-06-08 03:50:03,850] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=311858376191, lastReceivedTime=311626148904, inactivityExceptionPeriod=599499617)
+  INFO root [2019-06-08 03:50:03,851] - The following logs sent to logger failed:
+  WARN root [2019-06-08 03:50:03,852] - ==> [2019-06-08 03:50:03 850] TCPPacketReceiver::processPendingEvents(192.168.27.1:4089): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 03:50:03,852] - ==> [2019-06-08 03:50:03 851] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=311858376191, lastReceivedTime=311626148904, inactivityExceptionPeriod=599499617)
+  WARN root [2019-06-08 03:50:03,989] - TCPPacketReceiver::processPendingEvents(192.168.27.1:4092): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 03:50:03,989] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=311859768421, lastReceivedTime=311627363625, inactivityExceptionPeriod=599499617)
+  INFO root [2019-06-08 03:50:03,994] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2019-06-08 03:50:03,996] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-08 03:50:03,997] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2019-06-08 03:50:03,998] - ThreadPool::destroy(): starting size 2.
+  INFO root [2019-06-08 03:50:08,340] - 
+  INFO root [2019-06-08 03:50:08,341] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 03:50:08,342] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 03:50:08,343] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 03:50:08,343] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 03:50:08,354] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4420 )
+  INFO root [2019-06-08 03:50:08,354] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4420, SOMAXCONN=5.
+  INFO root [2019-06-08 03:50:08,356] - server-configs:
+  INFO root [2019-06-08 03:50:08,356] - 	internalTcpAddr : 192.168.27.1:4420
+  INFO root [2019-06-08 03:50:08,356] - 	componentID : 6000
+  INFO root [2019-06-08 03:50:09,863] - ---- cellappmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F23092FF3B6A2177140863F2F18F3EC2. Config: Debug X86. Built: 02:52:34 May 23 2019. AppID: 6000. UID: 10103. PID: 37512 ----
+  INFO root [2019-06-08 03:50:09,864] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 03:50:09,865] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 03:50:09,865] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 03:50:10,309] - ---- cellappmgr is running ----
+ DEBUG root [2019-06-08 03:50:10,310] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-08 03:50:17,744] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 03:50:17,795] - Components::findComponents: found logger, addr:192.168.27.1:4417
+  INFO root [2019-06-08 03:50:17,795] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 03:50:17,795] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 03:50:17,796] - Components::findComponents: find dbmgr(2)...
+  INFO root [2019-06-08 03:50:17,902] - Components::findComponents: found dbmgr, addr:192.168.27.1:4419
+  INFO root [2019-06-08 03:50:17,902] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 03:50:17,903] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 03:50:17,903] - Components::findComponents: found dbmgr, addr:192.168.27.1:4419
+  WARN root [2019-06-08 03:50:18,903] - Forwarding logs to logger[192.168.27.1:4417/0/0/0]...
+ ERROR root [2019-06-08 04:01:53,618] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=318956059529, lastReceivedTime=318802815984, inactivityExceptionPeriod=599501471)
+  INFO root [2019-06-08 04:01:53,621] - The following logs sent to logger failed:
+  WARN root [2019-06-08 04:01:53,621] - ==> [2019-06-08 04:01:53 618] TCPPacketReceiver::processPendingEvents(192.168.27.1:4417): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 04:01:53,622] - ==> [2019-06-08 04:01:53 619] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=318956059529, lastReceivedTime=318802815984, inactivityExceptionPeriod=599501471)
+  WARN root [2019-06-08 04:01:53,768] - TCPPacketReceiver::processPendingEvents(192.168.27.1:4419): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 04:01:53,768] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=318957559863, lastReceivedTime=318803230933, inactivityExceptionPeriod=599501471)
+  INFO root [2019-06-08 04:01:53,775] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2019-06-08 04:01:53,778] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-08 04:01:53,778] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2019-06-08 04:01:53,779] - ThreadPool::destroy(): starting size 2.
+  INFO root [2019-06-08 04:01:58,826] - 
+  INFO root [2019-06-08 04:01:58,827] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 04:01:58,828] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 04:01:58,829] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 04:01:58,829] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 04:01:58,840] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:5779 )
+  INFO root [2019-06-08 04:01:58,840] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:5779, SOMAXCONN=5.
+  INFO root [2019-06-08 04:01:58,840] - server-configs:
+  INFO root [2019-06-08 04:01:58,840] - 	internalTcpAddr : 192.168.27.1:5779
+  INFO root [2019-06-08 04:01:58,841] - 	componentID : 6000
+  INFO root [2019-06-08 04:02:00,345] - ---- cellappmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F23092FF3B6A2177140863F2F18F3EC2. Config: Debug X86. Built: 02:52:34 May 23 2019. AppID: 6000. UID: 10103. PID: 36684 ----
+  INFO root [2019-06-08 04:02:00,345] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 04:02:00,346] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 04:02:00,346] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 04:02:00,975] - ---- cellappmgr is running ----
+ DEBUG root [2019-06-08 04:02:00,975] - Components::process(): Request for the process of identity...
+  WARN root [2019-06-08 04:02:07,490] - TCPPacketReceiver::processPendingEvents(192.168.27.1:5797): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [2019-06-08 04:02:08,507] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 04:02:08,593] - Components::findComponents: found logger, addr:192.168.27.1:5775
+  INFO root [2019-06-08 04:02:08,594] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 04:02:08,594] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 04:02:08,597] - Components::findComponents: find dbmgr(2)...
+  INFO root [2019-06-08 04:02:08,708] - Components::findComponents: found dbmgr, addr:192.168.27.1:5776
+  INFO root [2019-06-08 04:02:08,709] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 04:02:08,709] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 04:02:08,710] - Components::findComponents: found dbmgr, addr:192.168.27.1:5776
+  WARN root [2019-06-08 04:02:09,710] - Forwarding logs to logger[192.168.27.1:5775/0/0/0]...
+ ERROR root [2019-06-08 04:17:40,300] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=328422873214, lastReceivedTime=328307351223, inactivityExceptionPeriod=599499297)
+  INFO root [2019-06-08 04:17:40,302] - The following logs sent to logger failed:
+  WARN root [2019-06-08 04:17:40,302] - ==> [2019-06-08 04:17:40 300] TCPPacketReceiver::processPendingEvents(192.168.27.1:5775): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 04:17:40,303] - ==> [2019-06-08 04:17:40 301] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=328422873214, lastReceivedTime=328307351223, inactivityExceptionPeriod=599499297)
+  WARN root [2019-06-08 04:17:40,438] - TCPPacketReceiver::processPendingEvents(192.168.27.1:5776): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 04:17:40,438] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=328424256003, lastReceivedTime=328307578906, inactivityExceptionPeriod=599499297)
+  INFO root [2019-06-08 04:17:40,443] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2019-06-08 04:17:40,448] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-08 04:17:40,449] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2019-06-08 04:17:40,449] - ThreadPool::destroy(): starting size 2.
+  INFO root [2019-06-08 04:17:45,039] - 
+  INFO root [2019-06-08 04:17:45,040] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 04:17:45,041] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 04:17:45,041] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 04:17:45,041] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 04:17:45,053] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:7562 )
+  INFO root [2019-06-08 04:17:45,054] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:7562, SOMAXCONN=5.
+  INFO root [2019-06-08 04:17:45,054] - server-configs:
+  INFO root [2019-06-08 04:17:45,054] - 	internalTcpAddr : 192.168.27.1:7562
+  INFO root [2019-06-08 04:17:45,054] - 	componentID : 6000
+  INFO root [2019-06-08 04:17:46,560] - ---- cellappmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F23092FF3B6A2177140863F2F18F3EC2. Config: Debug X86. Built: 02:52:34 May 23 2019. AppID: 6000. UID: 10103. PID: 37776 ----
+  INFO root [2019-06-08 04:17:46,560] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 04:17:46,560] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 04:17:46,560] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 04:17:46,943] - ---- cellappmgr is running ----
+ DEBUG root [2019-06-08 04:17:46,943] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-08 04:17:54,302] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 04:17:54,403] - Components::findComponents: found logger, addr:192.168.27.1:7558
+  INFO root [2019-06-08 04:17:54,403] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 04:17:54,404] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 04:17:54,405] - Components::findComponents: find dbmgr(2)...
+  INFO root [2019-06-08 04:17:54,421] - Components::findComponents: found logger, addr:192.168.27.1:7558
+  WARN root [2019-06-08 04:17:55,433] - Forwarding logs to logger[192.168.27.1:7558/0/0/0]...
+ ERROR root [2019-06-08 04:18:17,703] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=328796914410, lastReceivedTime=328776684714, inactivityExceptionPeriod=599499489)
+  INFO root [2019-06-08 04:18:17,704] - The following logs sent to logger failed:
+  WARN root [2019-06-08 04:18:17,704] - ==> [2019-06-08 04:18:17 704] TCPPacketReceiver::processPendingEvents(192.168.27.1:7558): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 04:18:17,704] - ==> [2019-06-08 04:18:17 704] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=328796914410, lastReceivedTime=328776684714, inactivityExceptionPeriod=599499489)
+  INFO root [2019-06-08 04:40:09,362] - 
+  INFO root [2019-06-08 04:40:09,363] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 04:40:09,365] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 04:40:09,365] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 04:40:09,365] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 04:40:09,379] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:10153 )
+  INFO root [2019-06-08 04:40:09,380] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:10153, SOMAXCONN=5.
+  INFO root [2019-06-08 04:40:09,380] - server-configs:
+  INFO root [2019-06-08 04:40:09,380] - 	internalTcpAddr : 192.168.27.1:10153
+  INFO root [2019-06-08 04:40:09,380] - 	componentID : 6000
+  WARN root [2019-06-08 04:40:09,721] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20544, errorno=10048
+  INFO root [2019-06-08 04:40:09,725] - ---- cellappmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F23092FF3B6A2177140863F2F18F3EC2. Config: Debug X86. Built: 02:52:34 May 23 2019. AppID: 6000. UID: 10103. PID: 35896 ----
+  INFO root [2019-06-08 04:40:09,725] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 04:40:09,726] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 04:40:09,726] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 04:40:10,223] - ---- cellappmgr is running ----
+ DEBUG root [2019-06-08 04:40:10,223] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-08 04:40:17,607] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 04:40:17,667] - Components::findComponents: found logger, addr:192.168.27.1:10151
+  INFO root [2019-06-08 04:40:17,668] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 04:40:17,668] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 04:40:17,670] - Components::findComponents: find dbmgr(2)...
+  INFO root [2019-06-08 04:40:17,774] - Components::findComponents: found dbmgr, addr:192.168.27.1:10152
+  INFO root [2019-06-08 04:40:17,774] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 04:40:17,774] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 04:40:17,774] - Components::findComponents: found dbmgr, addr:192.168.27.1:10152
+  WARN root [2019-06-08 04:40:18,775] - Forwarding logs to logger[192.168.27.1:10151/0/0/0]...
+ ERROR root [2019-06-08 04:46:43,902] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=345858890899, lastReceivedTime=345811372120, inactivityExceptionPeriod=599499617)
+  INFO root [2019-06-08 04:46:43,904] - The following logs sent to logger failed:
+  WARN root [2019-06-08 04:46:43,905] - ==> [2019-06-08 04:46:43 901] TCPPacketReceiver::processPendingEvents(192.168.27.1:10151): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 04:46:43,905] - ==> [2019-06-08 04:46:43 902] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=345858890899, lastReceivedTime=345811372120, inactivityExceptionPeriod=599499617)
+  WARN root [2019-06-08 04:46:44,021] - TCPPacketReceiver::processPendingEvents(192.168.27.1:10152): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 04:46:44,022] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=345860097801, lastReceivedTime=345812351834, inactivityExceptionPeriod=599499617)
+  INFO root [2019-06-08 04:46:44,026] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2019-06-08 04:46:44,030] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-08 04:46:44,030] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2019-06-08 04:46:44,031] - ThreadPool::destroy(): starting size 2.
+  INFO root [2019-06-08 04:46:48,561] - 
+  INFO root [2019-06-08 04:46:48,562] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 04:46:48,563] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 04:46:48,563] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 04:46:48,564] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 04:46:48,579] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:10931 )
+  INFO root [2019-06-08 04:46:48,580] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:10931, SOMAXCONN=5.
+  INFO root [2019-06-08 04:46:48,580] - server-configs:
+  INFO root [2019-06-08 04:46:48,580] - 	internalTcpAddr : 192.168.27.1:10931
+  INFO root [2019-06-08 04:46:48,580] - 	componentID : 6000
+  INFO root [2019-06-08 04:46:50,087] - ---- cellappmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F23092FF3B6A2177140863F2F18F3EC2. Config: Debug X86. Built: 02:52:34 May 23 2019. AppID: 6000. UID: 10103. PID: 19312 ----
+  INFO root [2019-06-08 04:46:50,088] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 04:46:50,089] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 04:46:50,089] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 04:46:50,605] - ---- cellappmgr is running ----
+ DEBUG root [2019-06-08 04:46:50,605] - Components::process(): Request for the process of identity...
+  WARN root [2019-06-08 04:46:50,943] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20086, errorno=10048
+  INFO root [2019-06-08 04:46:58,410] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 04:46:58,419] - Components::findComponents: found logger, addr:192.168.27.1:10928
+  INFO root [2019-06-08 04:46:58,419] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 04:46:58,419] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 04:46:58,420] - Components::findComponents: find dbmgr(2)...
+  INFO root [2019-06-08 04:46:58,525] - Components::findComponents: found dbmgr, addr:192.168.27.1:10929
+  INFO root [2019-06-08 04:46:58,526] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 04:46:58,526] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 04:46:58,526] - Components::findComponents: found dbmgr, addr:192.168.27.1:10929
+  WARN root [2019-06-08 04:46:59,526] - Forwarding logs to logger[192.168.27.1:10928/0/0/0]...
+ ERROR root [2019-06-08 05:04:20,935] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=356429228885, lastReceivedTime=356403963459, inactivityExceptionPeriod=599499617)
+  INFO root [2019-06-08 05:04:20,937] - The following logs sent to logger failed:
+  WARN root [2019-06-08 05:04:20,937] - ==> [2019-06-08 05:04:20 935] TCPPacketReceiver::processPendingEvents(192.168.27.1:10928): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 05:04:20,938] - ==> [2019-06-08 05:04:20 936] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=356429228885, lastReceivedTime=356403963459, inactivityExceptionPeriod=599499617)
+  WARN root [2019-06-08 05:04:21,071] - TCPPacketReceiver::processPendingEvents(192.168.27.1:10929): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 05:04:21,073] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=356430608557, lastReceivedTime=356404771128, inactivityExceptionPeriod=599499617)
+  INFO root [2019-06-08 05:04:21,077] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2019-06-08 05:04:21,079] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-08 05:04:21,079] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2019-06-08 05:04:21,079] - ThreadPool::destroy(): starting size 2.
+  INFO root [2019-06-08 05:04:25,521] - 
+  INFO root [2019-06-08 05:04:25,521] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 05:04:25,523] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 05:04:25,524] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 05:04:25,524] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 05:04:25,539] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12998 )
+  INFO root [2019-06-08 05:04:25,539] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:12998, SOMAXCONN=5.
+  INFO root [2019-06-08 05:04:25,539] - server-configs:
+  INFO root [2019-06-08 05:04:25,539] - 	internalTcpAddr : 192.168.27.1:12998
+  INFO root [2019-06-08 05:04:25,540] - 	componentID : 6000
+  INFO root [2019-06-08 05:04:27,046] - ---- cellappmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: F23092FF3B6A2177140863F2F18F3EC2. Config: Debug X86. Built: 02:52:34 May 23 2019. AppID: 6000. UID: 10103. PID: 27180 ----
+  INFO root [2019-06-08 05:04:27,046] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 05:04:27,047] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 05:04:27,047] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 05:04:27,550] - ---- cellappmgr is running ----
+ DEBUG root [2019-06-08 05:04:27,550] - Components::process(): Request for the process of identity...
+  WARN root [2019-06-08 05:04:34,051] - TCPPacketReceiver::processPendingEvents(192.168.27.1:13026): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [2019-06-08 05:04:35,068] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-08 05:04:35,137] - Components::findComponents: found logger, addr:192.168.27.1:12995
+  INFO root [2019-06-08 05:04:35,137] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 05:04:35,137] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 05:04:35,139] - Components::findComponents: find dbmgr(2)...
+  INFO root [2019-06-08 05:04:35,161] - Components::findComponents: found logger, addr:192.168.27.1:12995
+  INFO root [2019-06-08 05:04:35,173] - Components::findComponents: found dbmgr, addr:192.168.27.1:12996
+  INFO root [2019-06-08 05:04:35,173] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-08 05:04:35,173] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-08 05:04:35,274] - Components::findComponents: found dbmgr, addr:192.168.27.1:12996
+  WARN root [2019-06-08 05:04:36,274] - Forwarding logs to logger[192.168.27.1:12995/0/0/0]...
+ ERROR root [2019-06-08 06:03:46,792] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=392087794672, lastReceivedTime=391873452469, inactivityExceptionPeriod=599500448)
+  INFO root [2019-06-08 06:03:46,795] - The following logs sent to logger failed:
+  WARN root [2019-06-08 06:03:46,795] - ==> [2019-06-08 06:03:46 792] TCPPacketReceiver::processPendingEvents(192.168.27.1:12995): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 06:03:46,796] - ==> [2019-06-08 06:03:46 793] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=392087794672, lastReceivedTime=391873452469, inactivityExceptionPeriod=599500448)
+  WARN root [2019-06-08 06:03:46,935] - TCPPacketReceiver::processPendingEvents(192.168.27.1:12996): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-08 06:03:46,935] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=392089227064, lastReceivedTime=391874378757, inactivityExceptionPeriod=599500448)
+  INFO root [2019-06-08 06:03:46,942] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2019-06-08 06:03:46,947] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-08 06:03:46,948] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2019-06-08 06:03:46,948] - ThreadPool::destroy(): starting size 2.

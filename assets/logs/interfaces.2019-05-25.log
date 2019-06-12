@@ -1,1 +1,2 @@
-C:/Users/Black/Ouroboros/assets/logs/interfaces.2019-05-25.log
+  WARN root [2019-05-25 18:27:20,236] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\server\serverapp.cpp:252: Profile callScriptTimers took 0.15 seconds
+  WARN root [2019-05-25 18:27:25,449] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 7.87 seconds

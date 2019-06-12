@@ -1,1 +1,740 @@
-C:/Users/Black/Ouroboros/assets/logs/baseapp.7001.2019-06-08.log
+ ERROR root [0x00005688] [2019-06-08 01:15:54,293] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=219362808543, lastReceivedTime=219127442303, inactivityExceptionPeriod=599494245)
+  INFO root [0x00005688] [2019-06-08 01:15:54,298] - The following logs sent to logger failed:
+  WARN root [0x00005688] [2019-06-08 01:15:54,299] - ==> [2019-06-08 01:15:54 293] TCPPacketReceiver::processPendingEvents(192.168.27.1:12385): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00005688] [2019-06-08 01:15:54,299] - ==> [2019-06-08 01:15:54 295] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=219362808543, lastReceivedTime=219127442303, inactivityExceptionPeriod=599494245)
+  WARN root [0x00005688] [2019-06-08 01:15:54,425] - TCPPacketReceiver::processPendingEvents(192.168.27.1:12386): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00005688] [2019-06-08 01:15:54,426] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=219364144762, lastReceivedTime=219128188304, inactivityExceptionPeriod=599494245)
+  INFO root [0x00005688] [2019-06-08 01:15:54,434] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x00005688] [2019-06-08 01:15:54,439] - onBaseAppShutDown: state=0
+  INFO root [0x00005688] [2019-06-08 01:15:54,439] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00005688] [2019-06-08 01:15:54,440] - onBaseAppShutDown: state=1
+  INFO root [0x00005688] [2019-06-08 01:15:54,440] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x00005688] [2019-06-08 01:15:54,440] - onBaseAppShutDown: state=2
+ ERROR root [0x00005688] [2019-06-08 01:15:54,456] - For a long time(3600s) not to empty the garbages, there may be a leak of the entitys(size:2), please use the "Ouroboros.entities.garbages.items()" command query!
+ ERROR root [0x00005688] [2019-06-08 01:15:54,459] - PyGC::debugTracing(): Entity : leaked(5)
+ ERROR root [0x00005688] [2019-06-08 01:15:54,460] - PyGC::debugTracing(): FixedArray : leaked(2)
+ ERROR root [0x00005688] [2019-06-08 01:15:54,460] - PyGC::debugTracing(): EntityCall : leaked(2)
+ ERROR root [0x00005688] [2019-06-08 01:15:54,469] - EntityGarbages::~EntityGarbages(): leaked, size=5.
+ ERROR root [0x00005688] [2019-06-08 01:15:54,470] - 	--> leaked: Avatar(2005).
+ ERROR root [0x00005688] [2019-06-08 01:15:54,471] - 	--> leaked: Avatar(2007).
+ ERROR root [0x00005688] [2019-06-08 01:15:54,471] - 	--> leaked: Spaces(2001).
+ ERROR root [0x00005688] [2019-06-08 01:15:54,472] - 	--> leaked: Space(2002).
+ ERROR root [0x00005688] [2019-06-08 01:15:54,472] - 	--> leaked: Space(2003).
+ DEBUG root [0x00005688] [2019-06-08 01:15:54,473] - Spaces::~Spaces(): 2001
+ DEBUG root [0x00005688] [2019-06-08 01:15:54,473] - Avatar::~Avatar(): 2005
+ DEBUG root [0x00005688] [2019-06-08 01:15:54,473] - Avatar::~Avatar(): 2007
+ DEBUG root [0x00005688] [2019-06-08 01:15:54,473] - Space::~Space(): 2002
+ DEBUG root [0x00005688] [2019-06-08 01:15:54,473] - Space::~Space(): 2003
+  INFO root [0x00005688] [2019-06-08 01:15:54,480] - Script::uninstall(): is successfully!
+ DEBUG root [0x00005688] [2019-06-08 01:15:54,480] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00005688] [2019-06-08 01:15:54,781] - ThreadPool::destroy(): waiting for thread(2)[0xf52ee0,0xf52ad0,], try=1
+  INFO root [0x00001068] [2019-06-08 01:31:31,034] - 
+  INFO root [0x00001068] [2019-06-08 01:31:31,035] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001068] [2019-06-08 01:31:31,037] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x00001068] [2019-06-08 01:31:31,037] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x00001068] [2019-06-08 01:31:31,038] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x00001068] [2019-06-08 01:31:31,053] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x00001068] [2019-06-08 01:31:31,053] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x00001068] [2019-06-08 01:31:31,058] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x00001068] [2019-06-08 01:31:31,058] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x00001068] [2019-06-08 01:31:31,062] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:2164 )
+  INFO root [0x00001068] [2019-06-08 01:31:31,063] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:2164, SOMAXCONN=128.
+  INFO root [0x00001068] [2019-06-08 01:31:31,063] - server-configs:
+  INFO root [0x00001068] [2019-06-08 01:31:31,063] - 	gameUpdateHertz : 10
+  INFO root [0x00001068] [2019-06-08 01:31:31,063] - 	entryScriptFile : ouromain
+  INFO root [0x00001068] [2019-06-08 01:31:31,063] - 	internalTcpAddr : 192.168.27.1:2164
+  INFO root [0x00001068] [2019-06-08 01:31:31,064] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x00001068] [2019-06-08 01:31:31,064] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x00001068] [2019-06-08 01:31:31,064] - 	componentID : 7001
+  INFO root [0x00001068] [2019-06-08 01:31:32,837] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 6420 ----
+  INFO root [0x00001068] [2019-06-08 01:31:32,838] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x00001068] [2019-06-08 01:31:32,838] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001068] [2019-06-08 01:31:32,839] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00001068] [2019-06-08 01:31:33,055] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00001068] [2019-06-08 01:31:33,055] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x00001068] [2019-06-08 01:31:33,324] - loaded entity-script:Account(1).
+ DEBUG root [0x00001068] [2019-06-08 01:31:33,325] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00001068] [2019-06-08 01:31:33,325] - loaded entity-script:FirstEntity(3).
+ DEBUG root [0x00001068] [2019-06-08 01:31:33,325] - loaded entity-script:Scene(4).
+ DEBUG root [0x00001068] [2019-06-08 01:31:33,326] - loaded entity-script:Space(5).
+ DEBUG root [0x00001068] [2019-06-08 01:31:33,326] - loaded entity-script:SpaceDuplicate(6).
+ DEBUG root [0x00001068] [2019-06-08 01:31:33,327] - loaded entity-script:Spaces(7).
+ DEBUG root [0x00001068] [2019-06-08 01:31:33,327] - loaded entity-script:SpawnPoint(8).
+  INFO root [0x00001068] [2019-06-08 01:31:33,327] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00001068] [2019-06-08 01:31:33,328] - TelnetServer server is running on port 40000
+  INFO root [0x00001068] [2019-06-08 01:31:33,835] - ---- baseapp is running ----
+ DEBUG root [0x00001068] [2019-06-08 01:31:33,835] - Components::process(): Request for the process of identity...
+  WARN root [0x00001068] [2019-06-08 01:31:40,194] - EntityApp::checkTickPeriod: tick took 6358% (6.36 seconds)!
+  INFO root [0x00001068] [2019-06-08 01:31:41,240] - Components::findComponents: find logger(1)...
+  INFO root [0x00001068] [2019-06-08 01:31:41,260] - Components::findComponents: found logger, addr:192.168.27.1:2159
+  INFO root [0x00001068] [2019-06-08 01:31:41,260] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00001068] [2019-06-08 01:31:41,260] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001068] [2019-06-08 01:31:41,262] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00001068] [2019-06-08 01:31:41,272] - Components::findComponents: found dbmgr, addr:192.168.27.1:2160
+  INFO root [0x00001068] [2019-06-08 01:31:41,272] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00001068] [2019-06-08 01:31:41,272] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001068] [2019-06-08 01:31:41,277] - Components::findComponents: found logger, addr:192.168.27.1:2159
+  INFO root [0x00001068] [2019-06-08 01:31:41,286] - Components::findComponents: found dbmgr, addr:192.168.27.1:2160
+  WARN root [0x00001068] [2019-06-08 01:31:42,288] - Forwarding logs to logger[192.168.27.1:2159/0/0/0]...
+ ERROR root [0x00001068] [2019-06-08 03:41:51,833] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=306938209130, lastReceivedTime=306727019627, inactivityExceptionPeriod=599487275)
+  INFO root [0x00001068] [2019-06-08 03:41:51,836] - The following logs sent to logger failed:
+  WARN root [0x00001068] [2019-06-08 03:41:51,836] - ==> [2019-06-08 03:41:51 833] TCPPacketReceiver::processPendingEvents(192.168.27.1:2159): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001068] [2019-06-08 03:41:51,836] - ==> [2019-06-08 03:41:51 834] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=306938209130, lastReceivedTime=306727019627, inactivityExceptionPeriod=599487275)
+  WARN root [0x00001068] [2019-06-08 03:41:51,976] - TCPPacketReceiver::processPendingEvents(192.168.27.1:2160): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001068] [2019-06-08 03:41:51,978] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=306939657933, lastReceivedTime=306728585145, inactivityExceptionPeriod=599487275)
+  INFO root [0x00001068] [2019-06-08 03:41:51,992] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x00001068] [2019-06-08 03:41:51,997] - onBaseAppShutDown: state=0
+  INFO root [0x00001068] [2019-06-08 03:41:51,997] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00001068] [2019-06-08 03:41:51,997] - onBaseAppShutDown: state=1
+  INFO root [0x00001068] [2019-06-08 03:41:51,998] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x00001068] [2019-06-08 03:41:51,998] - onBaseAppShutDown: state=2
+ ERROR root [0x00001068] [2019-06-08 03:41:52,021] - PyGC::debugTracing(): Entity : leaked(3)
+ ERROR root [0x00001068] [2019-06-08 03:41:52,022] - PyGC::debugTracing(): EntityCall : leaked(2)
+ ERROR root [0x00001068] [2019-06-08 03:41:52,033] - EntityGarbages::~EntityGarbages(): leaked, size=3.
+ ERROR root [0x00001068] [2019-06-08 03:41:52,035] - 	--> leaked: Spaces(1).
+ ERROR root [0x00001068] [2019-06-08 03:41:52,037] - 	--> leaked: Space(2).
+ ERROR root [0x00001068] [2019-06-08 03:41:52,037] - 	--> leaked: Space(3).
+ DEBUG root [0x00001068] [2019-06-08 03:41:52,038] - Spaces::~Spaces(): 1
+ DEBUG root [0x00001068] [2019-06-08 03:41:52,038] - Space::~Space(): 2
+ DEBUG root [0x00001068] [2019-06-08 03:41:52,038] - Space::~Space(): 3
+  INFO root [0x00001068] [2019-06-08 03:41:52,046] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001068] [2019-06-08 03:41:52,046] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00001068] [2019-06-08 03:41:52,347] - ThreadPool::destroy(): waiting for thread(2)[0x276de48,0x276dd78,], try=1
+  INFO root [0x00008c38] [2019-06-08 03:41:56,551] - 
+  INFO root [0x00008c38] [2019-06-08 03:41:56,552] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00008c38] [2019-06-08 03:41:56,552] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x00008c38] [2019-06-08 03:41:56,552] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x00008c38] [2019-06-08 03:41:56,552] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x00008c38] [2019-06-08 03:41:56,566] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x00008c38] [2019-06-08 03:41:56,566] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x00008c38] [2019-06-08 03:41:56,569] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x00008c38] [2019-06-08 03:41:56,569] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x00008c38] [2019-06-08 03:41:56,573] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:3393 )
+  INFO root [0x00008c38] [2019-06-08 03:41:56,574] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:3393, SOMAXCONN=128.
+  INFO root [0x00008c38] [2019-06-08 03:41:56,574] - server-configs:
+  INFO root [0x00008c38] [2019-06-08 03:41:56,574] - 	gameUpdateHertz : 10
+  INFO root [0x00008c38] [2019-06-08 03:41:56,574] - 	entryScriptFile : ouromain
+  INFO root [0x00008c38] [2019-06-08 03:41:56,574] - 	internalTcpAddr : 192.168.27.1:3393
+  INFO root [0x00008c38] [2019-06-08 03:41:56,575] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x00008c38] [2019-06-08 03:41:56,575] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x00008c38] [2019-06-08 03:41:56,575] - 	componentID : 7001
+  INFO root [0x00008c38] [2019-06-08 03:41:58,335] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 4280 ----
+  INFO root [0x00008c38] [2019-06-08 03:41:58,336] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x00008c38] [2019-06-08 03:41:58,336] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00008c38] [2019-06-08 03:41:58,336] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00008c38] [2019-06-08 03:41:58,551] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00008c38] [2019-06-08 03:41:58,551] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x00008c38] [2019-06-08 03:41:58,847] - loaded entity-script:Account(1).
+ DEBUG root [0x00008c38] [2019-06-08 03:41:58,847] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00008c38] [2019-06-08 03:41:58,848] - loaded entity-script:FirstEntity(3).
+ DEBUG root [0x00008c38] [2019-06-08 03:41:58,848] - loaded entity-script:Scene(4).
+ DEBUG root [0x00008c38] [2019-06-08 03:41:58,849] - loaded entity-script:Space(5).
+ DEBUG root [0x00008c38] [2019-06-08 03:41:58,850] - loaded entity-script:SpaceDuplicate(6).
+ DEBUG root [0x00008c38] [2019-06-08 03:41:58,851] - loaded entity-script:Spaces(7).
+ DEBUG root [0x00008c38] [2019-06-08 03:41:58,851] - loaded entity-script:SpawnPoint(8).
+  INFO root [0x00008c38] [2019-06-08 03:41:58,852] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00008c38] [2019-06-08 03:41:58,852] - TelnetServer server is running on port 40000
+  INFO root [0x00008c38] [2019-06-08 03:41:59,319] - ---- baseapp is running ----
+ DEBUG root [0x00008c38] [2019-06-08 03:41:59,320] - Components::process(): Request for the process of identity...
+  WARN root [0x00008c38] [2019-06-08 03:42:05,684] - EntityApp::checkTickPeriod: tick took 6363% (6.36 seconds)!
+  WARN root [0x00008c38] [2019-06-08 03:42:05,691] - TCPPacketReceiver::processPendingEvents(192.168.27.1:3414): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [0x00008c38] [2019-06-08 03:42:06,720] - Components::findComponents: find logger(1)...
+  INFO root [0x00008c38] [2019-06-08 03:42:06,780] - Components::findComponents: found logger, addr:192.168.27.1:3389
+  INFO root [0x00008c38] [2019-06-08 03:42:06,781] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00008c38] [2019-06-08 03:42:06,782] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00008c38] [2019-06-08 03:42:06,785] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00008c38] [2019-06-08 03:42:06,895] - Components::findComponents: found dbmgr, addr:192.168.27.1:3390
+  INFO root [0x00008c38] [2019-06-08 03:42:06,896] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00008c38] [2019-06-08 03:42:06,897] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00008c38] [2019-06-08 03:42:06,923] - Components::findComponents: found dbmgr, addr:192.168.27.1:3390
+  WARN root [0x00008c38] [2019-06-08 03:42:07,924] - EntityApp::checkTickPeriod: tick took 1304% (1.30 seconds)!
+  WARN root [0x00008c38] [2019-06-08 03:42:07,925] - Forwarding logs to logger[192.168.27.1:3389/0/0/0]...
+ ERROR root [0x00008c38] [2019-06-08 03:47:35,168] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=310371555634, lastReceivedTime=310283615990, inactivityExceptionPeriod=599492327)
+  INFO root [0x00008c38] [2019-06-08 03:47:35,171] - The following logs sent to logger failed:
+  WARN root [0x00008c38] [2019-06-08 03:47:35,171] - ==> [2019-06-08 03:47:35 167] TCPPacketReceiver::processPendingEvents(192.168.27.1:3389): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00008c38] [2019-06-08 03:47:35,172] - ==> [2019-06-08 03:47:35 169] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=310371555634, lastReceivedTime=310283615990, inactivityExceptionPeriod=599492327)
+  WARN root [0x00008c38] [2019-06-08 03:47:35,283] - TCPPacketReceiver::processPendingEvents(192.168.27.1:3390): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00008c38] [2019-06-08 03:47:35,284] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=310372718522, lastReceivedTime=310284827813, inactivityExceptionPeriod=599492327)
+  INFO root [0x00008c38] [2019-06-08 03:47:35,290] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x00008c38] [2019-06-08 03:47:35,293] - onBaseAppShutDown: state=0
+  INFO root [0x00008c38] [2019-06-08 03:47:35,293] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00008c38] [2019-06-08 03:47:35,293] - onBaseAppShutDown: state=1
+  INFO root [0x00008c38] [2019-06-08 03:47:35,294] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x00008c38] [2019-06-08 03:47:35,294] - onBaseAppShutDown: state=2
+ ERROR root [0x00008c38] [2019-06-08 03:47:35,308] - PyGC::debugTracing(): Entity : leaked(3)
+ ERROR root [0x00008c38] [2019-06-08 03:47:35,311] - PyGC::debugTracing(): EntityCall : leaked(2)
+ ERROR root [0x00008c38] [2019-06-08 03:47:35,322] - EntityGarbages::~EntityGarbages(): leaked, size=3.
+ ERROR root [0x00008c38] [2019-06-08 03:47:35,325] - 	--> leaked: Spaces(1).
+ ERROR root [0x00008c38] [2019-06-08 03:47:35,327] - 	--> leaked: Space(2).
+ ERROR root [0x00008c38] [2019-06-08 03:47:35,329] - 	--> leaked: Space(3).
+ DEBUG root [0x00008c38] [2019-06-08 03:47:35,330] - Spaces::~Spaces(): 1
+ DEBUG root [0x00008c38] [2019-06-08 03:47:35,330] - Space::~Space(): 2
+ DEBUG root [0x00008c38] [2019-06-08 03:47:35,331] - Space::~Space(): 3
+  INFO root [0x00008c38] [2019-06-08 03:47:35,338] - Script::uninstall(): is successfully!
+ DEBUG root [0x00008c38] [2019-06-08 03:47:35,338] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00008c38] [2019-06-08 03:47:35,639] - ThreadPool::destroy(): waiting for thread(2)[0xdbaa60,0xdbb1b0,], try=1
+  INFO root [0x000046ac] [2019-06-08 03:47:40,821] - 
+  INFO root [0x000046ac] [2019-06-08 03:47:40,821] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000046ac] [2019-06-08 03:47:40,822] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x000046ac] [2019-06-08 03:47:40,822] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x000046ac] [2019-06-08 03:47:40,822] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x000046ac] [2019-06-08 03:47:40,834] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x000046ac] [2019-06-08 03:47:40,835] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x000046ac] [2019-06-08 03:47:40,839] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x000046ac] [2019-06-08 03:47:40,839] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x000046ac] [2019-06-08 03:47:40,844] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4095 )
+  INFO root [0x000046ac] [2019-06-08 03:47:40,845] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4095, SOMAXCONN=128.
+  INFO root [0x000046ac] [2019-06-08 03:47:40,845] - server-configs:
+  INFO root [0x000046ac] [2019-06-08 03:47:40,845] - 	gameUpdateHertz : 10
+  INFO root [0x000046ac] [2019-06-08 03:47:40,846] - 	entryScriptFile : ouromain
+  INFO root [0x000046ac] [2019-06-08 03:47:40,846] - 	internalTcpAddr : 192.168.27.1:4095
+  INFO root [0x000046ac] [2019-06-08 03:47:40,848] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x000046ac] [2019-06-08 03:47:40,849] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x000046ac] [2019-06-08 03:47:40,849] - 	componentID : 7001
+  INFO root [0x000046ac] [2019-06-08 03:47:42,610] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 26644 ----
+  INFO root [0x000046ac] [2019-06-08 03:47:42,611] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x000046ac] [2019-06-08 03:47:42,611] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000046ac] [2019-06-08 03:47:42,612] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000046ac] [2019-06-08 03:47:42,912] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000046ac] [2019-06-08 03:47:42,912] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x000046ac] [2019-06-08 03:47:43,264] - loaded entity-script:Account(1).
+ DEBUG root [0x000046ac] [2019-06-08 03:47:43,265] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000046ac] [2019-06-08 03:47:43,265] - loaded entity-script:FirstEntity(3).
+ DEBUG root [0x000046ac] [2019-06-08 03:47:43,265] - loaded entity-script:Scene(4).
+ DEBUG root [0x000046ac] [2019-06-08 03:47:43,266] - loaded entity-script:Space(5).
+ DEBUG root [0x000046ac] [2019-06-08 03:47:43,266] - loaded entity-script:SpaceDuplicate(6).
+ DEBUG root [0x000046ac] [2019-06-08 03:47:43,267] - loaded entity-script:Spaces(7).
+ DEBUG root [0x000046ac] [2019-06-08 03:47:43,267] - loaded entity-script:SpawnPoint(8).
+  INFO root [0x000046ac] [2019-06-08 03:47:43,267] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x000046ac] [2019-06-08 03:47:43,268] - TelnetServer server is running on port 40000
+  INFO root [0x000046ac] [2019-06-08 03:47:43,697] - ---- baseapp is running ----
+ DEBUG root [0x000046ac] [2019-06-08 03:47:43,698] - Components::process(): Request for the process of identity...
+  WARN root [0x000046ac] [2019-06-08 03:47:50,061] - EntityApp::checkTickPeriod: tick took 6363% (6.36 seconds)!
+  WARN root [0x000046ac] [2019-06-08 03:47:50,077] - TCPPacketReceiver::processPendingEvents(192.168.27.1:4117): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [0x000046ac] [2019-06-08 03:47:51,098] - Components::findComponents: find logger(1)...
+  INFO root [0x000046ac] [2019-06-08 03:47:51,159] - Components::findComponents: found logger, addr:192.168.27.1:4089
+  INFO root [0x000046ac] [2019-06-08 03:47:51,159] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x000046ac] [2019-06-08 03:47:51,159] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000046ac] [2019-06-08 03:47:51,161] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x000046ac] [2019-06-08 03:47:51,276] - Components::findComponents: found dbmgr, addr:192.168.27.1:4092
+  INFO root [0x000046ac] [2019-06-08 03:47:51,277] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x000046ac] [2019-06-08 03:47:51,278] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000046ac] [2019-06-08 03:47:51,291] - Components::findComponents: found dbmgr, addr:192.168.27.1:4092
+  WARN root [0x000046ac] [2019-06-08 03:47:52,292] - EntityApp::checkTickPeriod: tick took 1293% (1.29 seconds)!
+  WARN root [0x000046ac] [2019-06-08 03:47:52,294] - Forwarding logs to logger[192.168.27.1:4089/0/0/0]...
+ ERROR root [0x000046ac] [2019-06-08 03:50:03,850] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=311858381506, lastReceivedTime=311626153168, inactivityExceptionPeriod=599489002)
+  INFO root [0x000046ac] [2019-06-08 03:50:03,854] - The following logs sent to logger failed:
+  WARN root [0x000046ac] [2019-06-08 03:50:03,855] - ==> [2019-06-08 03:50:03 850] TCPPacketReceiver::processPendingEvents(192.168.27.1:4089): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000046ac] [2019-06-08 03:50:03,855] - ==> [2019-06-08 03:50:03 851] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=311858381506, lastReceivedTime=311626153168, inactivityExceptionPeriod=599489002)
+  WARN root [0x000046ac] [2019-06-08 03:50:03,988] - TCPPacketReceiver::processPendingEvents(192.168.27.1:4092): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000046ac] [2019-06-08 03:50:03,990] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=311859775143, lastReceivedTime=311627366333, inactivityExceptionPeriod=599489002)
+  INFO root [0x000046ac] [2019-06-08 03:50:04,005] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x000046ac] [2019-06-08 03:50:04,009] - onBaseAppShutDown: state=0
+  INFO root [0x000046ac] [2019-06-08 03:50:04,009] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x000046ac] [2019-06-08 03:50:04,009] - onBaseAppShutDown: state=1
+  INFO root [0x000046ac] [2019-06-08 03:50:04,009] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x000046ac] [2019-06-08 03:50:04,010] - onBaseAppShutDown: state=2
+ ERROR root [0x000046ac] [2019-06-08 03:50:04,028] - PyGC::debugTracing(): Entity : leaked(3)
+ ERROR root [0x000046ac] [2019-06-08 03:50:04,029] - PyGC::debugTracing(): EntityCall : leaked(2)
+ ERROR root [0x000046ac] [2019-06-08 03:50:04,042] - EntityGarbages::~EntityGarbages(): leaked, size=3.
+ ERROR root [0x000046ac] [2019-06-08 03:50:04,043] - 	--> leaked: Spaces(2001).
+ ERROR root [0x000046ac] [2019-06-08 03:50:04,044] - 	--> leaked: Space(2002).
+ ERROR root [0x000046ac] [2019-06-08 03:50:04,045] - 	--> leaked: Space(2003).
+ DEBUG root [0x000046ac] [2019-06-08 03:50:04,047] - Spaces::~Spaces(): 2001
+ DEBUG root [0x000046ac] [2019-06-08 03:50:04,048] - Space::~Space(): 2002
+ DEBUG root [0x000046ac] [2019-06-08 03:50:04,048] - Space::~Space(): 2003
+  INFO root [0x000046ac] [2019-06-08 03:50:04,056] - Script::uninstall(): is successfully!
+ DEBUG root [0x000046ac] [2019-06-08 03:50:04,057] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000046ac] [2019-06-08 03:50:04,358] - ThreadPool::destroy(): waiting for thread(2)[0x252f188,0x252ef80,], try=1
+  INFO root [0x000092c4] [2019-06-08 03:50:08,452] - 
+  INFO root [0x000092c4] [2019-06-08 03:50:08,453] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000092c4] [2019-06-08 03:50:08,454] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x000092c4] [2019-06-08 03:50:08,454] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x000092c4] [2019-06-08 03:50:08,455] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x000092c4] [2019-06-08 03:50:08,468] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x000092c4] [2019-06-08 03:50:08,468] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x000092c4] [2019-06-08 03:50:08,474] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x000092c4] [2019-06-08 03:50:08,474] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x000092c4] [2019-06-08 03:50:08,478] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4423 )
+  INFO root [0x000092c4] [2019-06-08 03:50:08,478] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4423, SOMAXCONN=128.
+  INFO root [0x000092c4] [2019-06-08 03:50:08,478] - server-configs:
+  INFO root [0x000092c4] [2019-06-08 03:50:08,478] - 	gameUpdateHertz : 10
+  INFO root [0x000092c4] [2019-06-08 03:50:08,478] - 	entryScriptFile : ouromain
+  INFO root [0x000092c4] [2019-06-08 03:50:08,478] - 	internalTcpAddr : 192.168.27.1:4423
+  INFO root [0x000092c4] [2019-06-08 03:50:08,479] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x000092c4] [2019-06-08 03:50:08,479] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x000092c4] [2019-06-08 03:50:08,479] - 	componentID : 7001
+  INFO root [0x000092c4] [2019-06-08 03:50:10,226] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 1620 ----
+  INFO root [0x000092c4] [2019-06-08 03:50:10,227] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x000092c4] [2019-06-08 03:50:10,227] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000092c4] [2019-06-08 03:50:10,228] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000092c4] [2019-06-08 03:50:10,444] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000092c4] [2019-06-08 03:50:10,444] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x000092c4] [2019-06-08 03:50:10,776] - loaded entity-script:Account(1).
+ DEBUG root [0x000092c4] [2019-06-08 03:50:10,777] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000092c4] [2019-06-08 03:50:10,777] - loaded entity-script:FirstEntity(3).
+ DEBUG root [0x000092c4] [2019-06-08 03:50:10,778] - loaded entity-script:Scene(4).
+ DEBUG root [0x000092c4] [2019-06-08 03:50:10,779] - loaded entity-script:Space(5).
+ DEBUG root [0x000092c4] [2019-06-08 03:50:10,780] - loaded entity-script:SpaceDuplicate(6).
+ DEBUG root [0x000092c4] [2019-06-08 03:50:10,780] - loaded entity-script:Spaces(7).
+ DEBUG root [0x000092c4] [2019-06-08 03:50:10,781] - loaded entity-script:SpawnPoint(8).
+  INFO root [0x000092c4] [2019-06-08 03:50:10,781] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x000092c4] [2019-06-08 03:50:10,782] - TelnetServer server is running on port 40000
+  INFO root [0x000092c4] [2019-06-08 03:50:11,282] - ---- baseapp is running ----
+ DEBUG root [0x000092c4] [2019-06-08 03:50:11,282] - Components::process(): Request for the process of identity...
+  WARN root [0x000092c4] [2019-06-08 03:50:17,623] - EntityApp::checkTickPeriod: tick took 6340% (6.34 seconds)!
+  INFO root [0x000092c4] [2019-06-08 03:50:18,657] - Components::findComponents: find logger(1)...
+  INFO root [0x000092c4] [2019-06-08 03:50:18,738] - Components::findComponents: found logger, addr:192.168.27.1:4417
+  INFO root [0x000092c4] [2019-06-08 03:50:18,739] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x000092c4] [2019-06-08 03:50:18,739] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000092c4] [2019-06-08 03:50:18,740] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x000092c4] [2019-06-08 03:50:18,844] - Components::findComponents: found dbmgr, addr:192.168.27.1:4419
+  INFO root [0x000092c4] [2019-06-08 03:50:18,844] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x000092c4] [2019-06-08 03:50:18,844] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000092c4] [2019-06-08 03:50:18,855] - Components::findComponents: found dbmgr, addr:192.168.27.1:4419
+  WARN root [0x000092c4] [2019-06-08 03:50:19,856] - Forwarding logs to logger[192.168.27.1:4417/0/0/0]...
+ ERROR root [0x000092c4] [2019-06-08 04:01:53,618] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=318956062515, lastReceivedTime=318802820278, inactivityExceptionPeriod=599491240)
+  INFO root [0x000092c4] [2019-06-08 04:01:53,624] - The following logs sent to logger failed:
+  WARN root [0x000092c4] [2019-06-08 04:01:53,625] - ==> [2019-06-08 04:01:53 618] TCPPacketReceiver::processPendingEvents(192.168.27.1:4417): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000092c4] [2019-06-08 04:01:53,625] - ==> [2019-06-08 04:01:53 619] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=318956062515, lastReceivedTime=318802820278, inactivityExceptionPeriod=599491240)
+  WARN root [0x000092c4] [2019-06-08 04:01:53,768] - TCPPacketReceiver::processPendingEvents(192.168.27.1:4419): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000092c4] [2019-06-08 04:01:53,771] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=318957586541, lastReceivedTime=318803237277, inactivityExceptionPeriod=599491240)
+  INFO root [0x000092c4] [2019-06-08 04:01:53,779] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x000092c4] [2019-06-08 04:01:53,781] - onBaseAppShutDown: state=0
+  INFO root [0x000092c4] [2019-06-08 04:01:53,781] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x000092c4] [2019-06-08 04:01:53,782] - onBaseAppShutDown: state=1
+  INFO root [0x000092c4] [2019-06-08 04:01:53,782] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x000092c4] [2019-06-08 04:01:53,782] - onBaseAppShutDown: state=2
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,798] - SpawnPoint::~SpawnPoint(): 2009
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,798] - SpawnPoint::~SpawnPoint(): 2004
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,799] - SpawnPoint::~SpawnPoint(): 2005
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,799] - SpawnPoint::~SpawnPoint(): 2006
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,799] - SpawnPoint::~SpawnPoint(): 2007
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,799] - SpawnPoint::~SpawnPoint(): 2008
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,799] - SpawnPoint::~SpawnPoint(): 2010
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,800] - SpawnPoint::~SpawnPoint(): 2011
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,800] - SpawnPoint::~SpawnPoint(): 2012
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,800] - SpawnPoint::~SpawnPoint(): 2013
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,800] - SpawnPoint::~SpawnPoint(): 2014
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,800] - SpawnPoint::~SpawnPoint(): 2015
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,801] - SpawnPoint::~SpawnPoint(): 2016
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,801] - SpawnPoint::~SpawnPoint(): 2017
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,801] - SpawnPoint::~SpawnPoint(): 2018
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,801] - SpawnPoint::~SpawnPoint(): 2019
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,801] - SpawnPoint::~SpawnPoint(): 2020
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,801] - SpawnPoint::~SpawnPoint(): 2021
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,801] - SpawnPoint::~SpawnPoint(): 2022
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,802] - SpawnPoint::~SpawnPoint(): 2023
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,802] - SpawnPoint::~SpawnPoint(): 2024
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,802] - SpawnPoint::~SpawnPoint(): 2025
+ ERROR root [0x000092c4] [2019-06-08 04:01:53,803] - PyGC::debugTracing(): Entity : leaked(3)
+ ERROR root [0x000092c4] [2019-06-08 04:01:53,804] - PyGC::debugTracing(): EntityCall : leaked(2)
+ ERROR root [0x000092c4] [2019-06-08 04:01:53,815] - EntityGarbages::~EntityGarbages(): leaked, size=3.
+ ERROR root [0x000092c4] [2019-06-08 04:01:53,817] - 	--> leaked: Spaces(2001).
+ ERROR root [0x000092c4] [2019-06-08 04:01:53,817] - 	--> leaked: Space(2002).
+ ERROR root [0x000092c4] [2019-06-08 04:01:53,818] - 	--> leaked: Space(2003).
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,819] - Spaces::~Spaces(): 2001
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,819] - Space::~Space(): 2002
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,819] - Space::~Space(): 2003
+  INFO root [0x000092c4] [2019-06-08 04:01:53,827] - Script::uninstall(): is successfully!
+ DEBUG root [0x000092c4] [2019-06-08 04:01:53,828] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000092c4] [2019-06-08 04:01:54,128] - ThreadPool::destroy(): waiting for thread(2)[0xcbdcd8,0xcbdda8,], try=1
+  INFO root [0x000088f0] [2019-06-08 04:01:58,882] - 
+  INFO root [0x000088f0] [2019-06-08 04:01:58,882] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000088f0] [2019-06-08 04:01:58,884] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x000088f0] [2019-06-08 04:01:58,884] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x000088f0] [2019-06-08 04:01:58,884] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x000088f0] [2019-06-08 04:01:58,898] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x000088f0] [2019-06-08 04:01:58,898] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x000088f0] [2019-06-08 04:01:58,902] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x000088f0] [2019-06-08 04:01:58,903] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x000088f0] [2019-06-08 04:01:58,906] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:5780 )
+  INFO root [0x000088f0] [2019-06-08 04:01:58,907] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:5780, SOMAXCONN=128.
+  INFO root [0x000088f0] [2019-06-08 04:01:58,907] - server-configs:
+  INFO root [0x000088f0] [2019-06-08 04:01:58,907] - 	gameUpdateHertz : 10
+  INFO root [0x000088f0] [2019-06-08 04:01:58,907] - 	entryScriptFile : ouromain
+  INFO root [0x000088f0] [2019-06-08 04:01:58,907] - 	internalTcpAddr : 192.168.27.1:5780
+  INFO root [0x000088f0] [2019-06-08 04:01:58,908] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x000088f0] [2019-06-08 04:01:58,908] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x000088f0] [2019-06-08 04:01:58,908] - 	componentID : 7001
+  INFO root [0x000088f0] [2019-06-08 04:02:00,670] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 31304 ----
+  INFO root [0x000088f0] [2019-06-08 04:02:00,671] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x000088f0] [2019-06-08 04:02:00,672] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000088f0] [2019-06-08 04:02:00,672] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000088f0] [2019-06-08 04:02:00,949] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000088f0] [2019-06-08 04:02:00,950] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x000088f0] [2019-06-08 04:02:01,366] - loaded entity-script:Account(1).
+ DEBUG root [0x000088f0] [2019-06-08 04:02:01,367] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000088f0] [2019-06-08 04:02:01,368] - loaded entity-script:FirstEntity(3).
+ DEBUG root [0x000088f0] [2019-06-08 04:02:01,368] - loaded entity-script:Scene(4).
+ DEBUG root [0x000088f0] [2019-06-08 04:02:01,370] - loaded entity-script:Space(5).
+ DEBUG root [0x000088f0] [2019-06-08 04:02:01,371] - loaded entity-script:SpaceDuplicate(6).
+ DEBUG root [0x000088f0] [2019-06-08 04:02:01,372] - loaded entity-script:Spaces(7).
+ DEBUG root [0x000088f0] [2019-06-08 04:02:01,373] - loaded entity-script:SpawnPoint(8).
+  INFO root [0x000088f0] [2019-06-08 04:02:01,373] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x000088f0] [2019-06-08 04:02:01,374] - TelnetServer server is running on port 40000
+  INFO root [0x000088f0] [2019-06-08 04:02:01,950] - ---- baseapp is running ----
+ DEBUG root [0x000088f0] [2019-06-08 04:02:01,951] - Components::process(): Request for the process of identity...
+  WARN root [0x000088f0] [2019-06-08 04:02:08,367] - EntityApp::checkTickPeriod: tick took 6416% (6.42 seconds)!
+  WARN root [0x000088f0] [2019-06-08 04:02:08,382] - TCPPacketReceiver::processPendingEvents(192.168.27.1:5796): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [0x000088f0] [2019-06-08 04:02:09,387] - Components::findComponents: find logger(1)...
+  INFO root [0x000088f0] [2019-06-08 04:02:09,404] - Components::findComponents: found logger, addr:192.168.27.1:5775
+  INFO root [0x000088f0] [2019-06-08 04:02:09,404] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x000088f0] [2019-06-08 04:02:09,405] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000088f0] [2019-06-08 04:02:09,406] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x000088f0] [2019-06-08 04:02:09,511] - Components::findComponents: found dbmgr, addr:192.168.27.1:5776
+  INFO root [0x000088f0] [2019-06-08 04:02:09,511] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x000088f0] [2019-06-08 04:02:09,512] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000088f0] [2019-06-08 04:02:09,512] - Components::findComponents: found dbmgr, addr:192.168.27.1:5776
+  WARN root [0x000088f0] [2019-06-08 04:02:10,512] - Forwarding logs to logger[192.168.27.1:5775/0/0/0]...
+ ERROR root [0x000088f0] [2019-06-08 04:17:40,300] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=328422871818, lastReceivedTime=328307353657, inactivityExceptionPeriod=599490536)
+  INFO root [0x000088f0] [2019-06-08 04:17:40,305] - The following logs sent to logger failed:
+  WARN root [0x000088f0] [2019-06-08 04:17:40,306] - ==> [2019-06-08 04:17:40 300] TCPPacketReceiver::processPendingEvents(192.168.27.1:5775): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000088f0] [2019-06-08 04:17:40,306] - ==> [2019-06-08 04:17:40 300] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=328422871818, lastReceivedTime=328307353657, inactivityExceptionPeriod=599490536)
+  WARN root [0x000088f0] [2019-06-08 04:17:40,438] - TCPPacketReceiver::processPendingEvents(192.168.27.1:5776): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000088f0] [2019-06-08 04:17:40,440] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=328424267294, lastReceivedTime=328307580249, inactivityExceptionPeriod=599490536)
+  INFO root [0x000088f0] [2019-06-08 04:17:40,449] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x000088f0] [2019-06-08 04:17:40,456] - onBaseAppShutDown: state=0
+  INFO root [0x000088f0] [2019-06-08 04:17:40,456] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x000088f0] [2019-06-08 04:17:40,457] - onBaseAppShutDown: state=1
+  INFO root [0x000088f0] [2019-06-08 04:17:40,457] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x000088f0] [2019-06-08 04:17:40,458] - onBaseAppShutDown: state=2
+ DEBUG root [0x000088f0] [2019-06-08 04:17:40,472] - SpawnPoint::~SpawnPoint(): 2004
+ DEBUG root [0x000088f0] [2019-06-08 04:17:40,472] - SpawnPoint::~SpawnPoint(): 2005
+ DEBUG root [0x000088f0] [2019-06-08 04:17:40,472] - SpawnPoint::~SpawnPoint(): 2006
+ DEBUG root [0x000088f0] [2019-06-08 04:17:40,472] - SpawnPoint::~SpawnPoint(): 2007
+ ERROR root [0x000088f0] [2019-06-08 04:17:40,474] - PyGC::debugTracing(): Entity : leaked(3)
+ ERROR root [0x000088f0] [2019-06-08 04:17:40,475] - PyGC::debugTracing(): EntityCall : leaked(2)
+ ERROR root [0x000088f0] [2019-06-08 04:17:40,484] - EntityGarbages::~EntityGarbages(): leaked, size=3.
+ ERROR root [0x000088f0] [2019-06-08 04:17:40,485] - 	--> leaked: Spaces(2001).
+ ERROR root [0x000088f0] [2019-06-08 04:17:40,486] - 	--> leaked: Space(2002).
+ ERROR root [0x000088f0] [2019-06-08 04:17:40,487] - 	--> leaked: Space(2003).
+ DEBUG root [0x000088f0] [2019-06-08 04:17:40,488] - Spaces::~Spaces(): 2001
+ DEBUG root [0x000088f0] [2019-06-08 04:17:40,488] - Space::~Space(): 2002
+ DEBUG root [0x000088f0] [2019-06-08 04:17:40,489] - Space::~Space(): 2003
+  INFO root [0x000088f0] [2019-06-08 04:17:40,497] - Script::uninstall(): is successfully!
+ DEBUG root [0x000088f0] [2019-06-08 04:17:40,497] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000088f0] [2019-06-08 04:17:40,799] - ThreadPool::destroy(): waiting for thread(2)[0x16c738,0x16c7a0,], try=1
+  INFO root [0x000085e0] [2019-06-08 04:17:45,104] - 
+  INFO root [0x000085e0] [2019-06-08 04:17:45,105] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000085e0] [2019-06-08 04:17:45,106] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x000085e0] [2019-06-08 04:17:45,106] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x000085e0] [2019-06-08 04:17:45,106] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x000085e0] [2019-06-08 04:17:45,118] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x000085e0] [2019-06-08 04:17:45,119] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x000085e0] [2019-06-08 04:17:45,124] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x000085e0] [2019-06-08 04:17:45,124] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x000085e0] [2019-06-08 04:17:45,128] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:7564 )
+  INFO root [0x000085e0] [2019-06-08 04:17:45,128] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:7564, SOMAXCONN=128.
+  INFO root [0x000085e0] [2019-06-08 04:17:45,128] - server-configs:
+  INFO root [0x000085e0] [2019-06-08 04:17:45,128] - 	gameUpdateHertz : 10
+  INFO root [0x000085e0] [2019-06-08 04:17:45,128] - 	entryScriptFile : ouromain
+  INFO root [0x000085e0] [2019-06-08 04:17:45,129] - 	internalTcpAddr : 192.168.27.1:7564
+  INFO root [0x000085e0] [2019-06-08 04:17:45,129] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x000085e0] [2019-06-08 04:17:45,129] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x000085e0] [2019-06-08 04:17:45,129] - 	componentID : 7001
+  INFO root [0x000085e0] [2019-06-08 04:17:45,823] - Components::findLogger: found logger, addr:192.168.27.1:7558
+  INFO root [0x000085e0] [2019-06-08 04:17:45,823] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x000085e0] [2019-06-08 04:17:45,823] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000085e0] [2019-06-08 04:17:45,828] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 24064 ----
+  INFO root [0x000085e0] [2019-06-08 04:17:45,828] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x000085e0] [2019-06-08 04:17:45,829] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000085e0] [2019-06-08 04:17:45,829] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000085e0] [2019-06-08 04:17:46,027] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000085e0] [2019-06-08 04:17:46,028] - Script::install(): OUROxtra is successfully!
+ ERROR root [0x000085e0] [2019-06-08 04:17:46,082] - TiXmlNode::openXML: C:/Users/Black/Ouroboros/assets/scripts/entity_defs/interfaces/Spell.def, error!
+ ERROR root [0x000085e0] [2019-06-08 04:17:46,083] - EntityDef::loadDefInfo: failed to load entity:Enemy interface.
+ ERROR root [0x000085e0] [2019-06-08 04:17:46,083] - EntityDef::initialize: failed to load entity(Enemy) module!
+ ERROR root [0x000085e0] [2019-06-08 04:17:46,083] - app::initialize(): initialization failed!
+  INFO root [0x000085e0] [2019-06-08 04:17:46,091] - Script::uninstall(): is successfully!
+ DEBUG root [0x000085e0] [2019-06-08 04:17:46,092] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000085e0] [2019-06-08 04:17:46,392] - ThreadPool::destroy(): waiting for thread(2)[0x974f90,0x975610,], try=1
+ DEBUG root [0x000085e0] [2019-06-08 04:17:46,794] - TPThread::~TPThread(): 0x974f90
+ DEBUG root [0x000085e0] [2019-06-08 04:17:46,794] - TPThread::~TPThread(): 0x975610
+ DEBUG root [0x000085e0] [2019-06-08 04:17:46,794] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x000085e0] [2019-06-08 04:17:46,794] - Bundle::destroyObjPool(): size 12.
+ DEBUG root [0x000085e0] [2019-06-08 04:17:46,794] - Channel::destroyObjPool(): size 15.
+ DEBUG root [0x000085e0] [2019-06-08 04:17:46,795] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x000085e0] [2019-06-08 04:17:46,796] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x000085e0] [2019-06-08 04:17:46,796] - EndPoint::destroyObjPool(): size 15.
+ DEBUG root [0x000085e0] [2019-06-08 04:17:46,796] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x000085e0] [2019-06-08 04:17:46,796] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x000085e0] [2019-06-08 04:17:46,797] - UDPPacketReceiver::destroyObjPool(): size 0.
+  WARN root [0x000085e0] [2019-06-08 04:17:46,797] - Forwarding logs to logger[192.168.27.1:7558/0/0/0]...
+  INFO root [0x000085e0] [2019-06-08 04:17:53,312] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x00002d78] [2019-06-08 04:40:09,506] - 
+  INFO root [0x00002d78] [2019-06-08 04:40:09,507] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002d78] [2019-06-08 04:40:09,508] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x00002d78] [2019-06-08 04:40:09,508] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x00002d78] [2019-06-08 04:40:09,508] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x00002d78] [2019-06-08 04:40:09,521] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x00002d78] [2019-06-08 04:40:09,522] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x00002d78] [2019-06-08 04:40:09,526] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x00002d78] [2019-06-08 04:40:09,526] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x00002d78] [2019-06-08 04:40:09,530] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:10157 )
+  INFO root [0x00002d78] [2019-06-08 04:40:09,531] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:10157, SOMAXCONN=128.
+  INFO root [0x00002d78] [2019-06-08 04:40:09,531] - server-configs:
+  INFO root [0x00002d78] [2019-06-08 04:40:09,531] - 	gameUpdateHertz : 10
+  INFO root [0x00002d78] [2019-06-08 04:40:09,531] - 	entryScriptFile : ouromain
+  INFO root [0x00002d78] [2019-06-08 04:40:09,532] - 	internalTcpAddr : 192.168.27.1:10157
+  INFO root [0x00002d78] [2019-06-08 04:40:09,532] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x00002d78] [2019-06-08 04:40:09,532] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x00002d78] [2019-06-08 04:40:09,532] - 	componentID : 7001
+  INFO root [0x00002d78] [2019-06-08 04:40:10,190] - Components::findLogger: found logger, addr:192.168.27.1:10151
+  INFO root [0x00002d78] [2019-06-08 04:40:10,190] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00002d78] [2019-06-08 04:40:10,190] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002d78] [2019-06-08 04:40:10,195] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 32804 ----
+  INFO root [0x00002d78] [2019-06-08 04:40:10,196] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x00002d78] [2019-06-08 04:40:10,196] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002d78] [2019-06-08 04:40:10,197] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00002d78] [2019-06-08 04:40:10,401] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00002d78] [2019-06-08 04:40:10,402] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x00002d78] [2019-06-08 04:40:10,720] - loaded entity-script:Account(1).
+ DEBUG root [0x00002d78] [2019-06-08 04:40:10,721] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00002d78] [2019-06-08 04:40:10,725] - loaded entity-script:FirstEntity(6).
+ DEBUG root [0x00002d78] [2019-06-08 04:40:10,725] - loaded entity-script:Scene(7).
+ DEBUG root [0x00002d78] [2019-06-08 04:40:10,725] - loaded entity-script:Space(8).
+ DEBUG root [0x00002d78] [2019-06-08 04:40:10,726] - loaded entity-script:Spaces(9).
+ DEBUG root [0x00002d78] [2019-06-08 04:40:10,727] - loaded entity-script:SpaceDuplicate(10).
+ DEBUG root [0x00002d78] [2019-06-08 04:40:10,727] - loaded entity-script:SpawnPoint(11).
+  INFO root [0x00002d78] [2019-06-08 04:40:10,727] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00002d78] [2019-06-08 04:40:10,727] - TelnetServer server is running on port 40000
+  INFO root [0x00002d78] [2019-06-08 04:40:11,200] - ---- baseapp is running ----
+ DEBUG root [0x00002d78] [2019-06-08 04:40:11,201] - Components::process(): Request for the process of identity...
+  WARN root [0x00002d78] [2019-06-08 04:40:17,625] - Forwarding logs to logger[192.168.27.1:10151/0/0/0]...
+ ERROR root [0x00002d78] [2019-06-08 04:46:43,901] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=345858889973, lastReceivedTime=345811375228, inactivityExceptionPeriod=599492711)
+  INFO root [0x00002d78] [2019-06-08 04:46:43,908] - The following logs sent to logger failed:
+  WARN root [0x00002d78] [2019-06-08 04:46:43,909] - ==> [2019-06-08 04:46:43 901] TCPPacketReceiver::processPendingEvents(192.168.27.1:10151): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002d78] [2019-06-08 04:46:43,909] - ==> [2019-06-08 04:46:43 902] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=345858889973, lastReceivedTime=345811375228, inactivityExceptionPeriod=599492711)
+  WARN root [0x00002d78] [2019-06-08 04:46:44,021] - TCPPacketReceiver::processPendingEvents(192.168.27.1:10152): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002d78] [2019-06-08 04:46:44,023] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=345860110301, lastReceivedTime=345812353596, inactivityExceptionPeriod=599492711)
+  INFO root [0x00002d78] [2019-06-08 04:46:44,034] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x00002d78] [2019-06-08 04:46:44,037] - onBaseAppShutDown: state=0
+  INFO root [0x00002d78] [2019-06-08 04:46:44,037] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00002d78] [2019-06-08 04:46:44,038] - onBaseAppShutDown: state=1
+  INFO root [0x00002d78] [2019-06-08 04:46:44,038] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x00002d78] [2019-06-08 04:46:44,038] - onBaseAppShutDown: state=2
+ DEBUG root [0x00002d78] [2019-06-08 04:46:44,056] - SpawnPoint::~SpawnPoint(): 4
+ DEBUG root [0x00002d78] [2019-06-08 04:46:44,056] - SpawnPoint::~SpawnPoint(): 5
+ DEBUG root [0x00002d78] [2019-06-08 04:46:44,057] - SpawnPoint::~SpawnPoint(): 6
+ DEBUG root [0x00002d78] [2019-06-08 04:46:44,057] - SpawnPoint::~SpawnPoint(): 7
+ ERROR root [0x00002d78] [2019-06-08 04:46:44,061] - PyGC::debugTracing(): Entity : leaked(3)
+ ERROR root [0x00002d78] [2019-06-08 04:46:44,062] - PyGC::debugTracing(): EntityCall : leaked(2)
+ ERROR root [0x00002d78] [2019-06-08 04:46:44,071] - EntityGarbages::~EntityGarbages(): leaked, size=3.
+ ERROR root [0x00002d78] [2019-06-08 04:46:44,072] - 	--> leaked: Spaces(1).
+ ERROR root [0x00002d78] [2019-06-08 04:46:44,073] - 	--> leaked: Space(2).
+ ERROR root [0x00002d78] [2019-06-08 04:46:44,074] - 	--> leaked: Space(3).
+ DEBUG root [0x00002d78] [2019-06-08 04:46:44,075] - Spaces::~Spaces(): 1
+ DEBUG root [0x00002d78] [2019-06-08 04:46:44,076] - Space::~Space(): 2
+ DEBUG root [0x00002d78] [2019-06-08 04:46:44,076] - Space::~Space(): 3
+  INFO root [0x00002d78] [2019-06-08 04:46:44,084] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002d78] [2019-06-08 04:46:44,084] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00002d78] [2019-06-08 04:46:44,386] - ThreadPool::destroy(): waiting for thread(2)[0x2381100,0x2380878,], try=1
+  INFO root [0x0000552c] [2019-06-08 04:46:48,581] - 
+  INFO root [0x0000552c] [2019-06-08 04:46:48,582] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000552c] [2019-06-08 04:46:48,584] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x0000552c] [2019-06-08 04:46:48,584] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x0000552c] [2019-06-08 04:46:48,585] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x0000552c] [2019-06-08 04:46:48,597] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x0000552c] [2019-06-08 04:46:48,597] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x0000552c] [2019-06-08 04:46:48,601] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x0000552c] [2019-06-08 04:46:48,602] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x0000552c] [2019-06-08 04:46:48,607] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:10932 )
+  INFO root [0x0000552c] [2019-06-08 04:46:48,607] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:10932, SOMAXCONN=128.
+  INFO root [0x0000552c] [2019-06-08 04:46:48,607] - server-configs:
+  INFO root [0x0000552c] [2019-06-08 04:46:48,607] - 	gameUpdateHertz : 10
+  INFO root [0x0000552c] [2019-06-08 04:46:48,608] - 	entryScriptFile : ouromain
+  INFO root [0x0000552c] [2019-06-08 04:46:48,608] - 	internalTcpAddr : 192.168.27.1:10932
+  INFO root [0x0000552c] [2019-06-08 04:46:48,608] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x0000552c] [2019-06-08 04:46:48,608] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x0000552c] [2019-06-08 04:46:48,608] - 	componentID : 7001
+  INFO root [0x0000552c] [2019-06-08 04:46:50,370] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 17032 ----
+  INFO root [0x0000552c] [2019-06-08 04:46:50,371] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x0000552c] [2019-06-08 04:46:50,371] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000552c] [2019-06-08 04:46:50,371] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0000552c] [2019-06-08 04:46:50,591] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x0000552c] [2019-06-08 04:46:50,591] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x0000552c] [2019-06-08 04:46:50,933] - loaded entity-script:Account(1).
+ DEBUG root [0x0000552c] [2019-06-08 04:46:50,933] - loaded entity-script:Avatar(2).
+ DEBUG root [0x0000552c] [2019-06-08 04:46:50,937] - loaded entity-script:FirstEntity(6).
+ DEBUG root [0x0000552c] [2019-06-08 04:46:50,938] - loaded entity-script:Scene(7).
+ DEBUG root [0x0000552c] [2019-06-08 04:46:50,939] - loaded entity-script:Space(8).
+ DEBUG root [0x0000552c] [2019-06-08 04:46:50,940] - loaded entity-script:Spaces(9).
+ DEBUG root [0x0000552c] [2019-06-08 04:46:50,941] - loaded entity-script:SpaceDuplicate(10).
+ DEBUG root [0x0000552c] [2019-06-08 04:46:50,941] - loaded entity-script:SpawnPoint(11).
+  INFO root [0x0000552c] [2019-06-08 04:46:50,942] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x0000552c] [2019-06-08 04:46:50,942] - TelnetServer server is running on port 40000
+  INFO root [0x0000552c] [2019-06-08 04:46:51,543] - ---- baseapp is running ----
+ DEBUG root [0x0000552c] [2019-06-08 04:46:51,543] - Components::process(): Request for the process of identity...
+  WARN root [0x0000552c] [2019-06-08 04:46:57,963] - EntityApp::checkTickPeriod: tick took 6420% (6.42 seconds)!
+  INFO root [0x0000552c] [2019-06-08 04:46:58,987] - Components::findComponents: find logger(1)...
+  INFO root [0x0000552c] [2019-06-08 04:46:59,058] - Components::findComponents: found logger, addr:192.168.27.1:10928
+  INFO root [0x0000552c] [2019-06-08 04:46:59,058] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x0000552c] [2019-06-08 04:46:59,058] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000552c] [2019-06-08 04:46:59,060] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x0000552c] [2019-06-08 04:46:59,069] - Components::findComponents: found logger, addr:192.168.27.1:10928
+  INFO root [0x0000552c] [2019-06-08 04:46:59,074] - Components::findComponents: found dbmgr, addr:192.168.27.1:10929
+  INFO root [0x0000552c] [2019-06-08 04:46:59,074] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x0000552c] [2019-06-08 04:46:59,074] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000552c] [2019-06-08 04:46:59,175] - Components::findComponents: found dbmgr, addr:192.168.27.1:10929
+  WARN root [0x0000552c] [2019-06-08 04:47:00,177] - Forwarding logs to logger[192.168.27.1:10928/0/0/0]...
+ ERROR root [0x0000552c] [2019-06-08 05:04:20,935] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=356429231463, lastReceivedTime=356403965938, inactivityExceptionPeriod=599493158)
+  INFO root [0x0000552c] [2019-06-08 05:04:20,940] - The following logs sent to logger failed:
+  WARN root [0x0000552c] [2019-06-08 05:04:20,941] - ==> [2019-06-08 05:04:20 935] TCPPacketReceiver::processPendingEvents(192.168.27.1:10928): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000552c] [2019-06-08 05:04:20,941] - ==> [2019-06-08 05:04:20 937] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=356429231463, lastReceivedTime=356403965938, inactivityExceptionPeriod=599493158)
+  WARN root [0x0000552c] [2019-06-08 05:04:21,071] - TCPPacketReceiver::processPendingEvents(192.168.27.1:10929): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000552c] [2019-06-08 05:04:21,073] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=356430608599, lastReceivedTime=356404772992, inactivityExceptionPeriod=599493158)
+  INFO root [0x0000552c] [2019-06-08 05:04:21,076] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x0000552c] [2019-06-08 05:04:21,077] - onBaseAppShutDown: state=0
+  INFO root [0x0000552c] [2019-06-08 05:04:21,078] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x0000552c] [2019-06-08 05:04:21,078] - onBaseAppShutDown: state=1
+  INFO root [0x0000552c] [2019-06-08 05:04:21,078] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x0000552c] [2019-06-08 05:04:21,079] - onBaseAppShutDown: state=2
+ DEBUG root [0x0000552c] [2019-06-08 05:04:21,092] - SpawnPoint::~SpawnPoint(): 4
+ DEBUG root [0x0000552c] [2019-06-08 05:04:21,092] - SpawnPoint::~SpawnPoint(): 5
+ DEBUG root [0x0000552c] [2019-06-08 05:04:21,093] - SpawnPoint::~SpawnPoint(): 6
+ DEBUG root [0x0000552c] [2019-06-08 05:04:21,093] - SpawnPoint::~SpawnPoint(): 7
+ ERROR root [0x0000552c] [2019-06-08 05:04:21,095] - PyGC::debugTracing(): Entity : leaked(6)
+ ERROR root [0x0000552c] [2019-06-08 05:04:21,096] - PyGC::debugTracing(): FixedArray : leaked(3)
+ ERROR root [0x0000552c] [2019-06-08 05:04:21,096] - PyGC::debugTracing(): EntityCall : leaked(2)
+ ERROR root [0x0000552c] [2019-06-08 05:04:21,104] - EntityGarbages::~EntityGarbages(): leaked, size=6.
+ ERROR root [0x0000552c] [2019-06-08 05:04:21,105] - 	--> leaked: Spaces(1).
+ ERROR root [0x0000552c] [2019-06-08 05:04:21,106] - 	--> leaked: Avatar(9).
+ ERROR root [0x0000552c] [2019-06-08 05:04:21,106] - 	--> leaked: Space(3).
+ ERROR root [0x0000552c] [2019-06-08 05:04:21,107] - 	--> leaked: Avatar(11).
+ ERROR root [0x0000552c] [2019-06-08 05:04:21,107] - 	--> leaked: Avatar(13).
+ ERROR root [0x0000552c] [2019-06-08 05:04:21,108] - 	--> leaked: Space(2).
+ DEBUG root [0x0000552c] [2019-06-08 05:04:21,108] - Spaces::~Spaces(): 1
+ DEBUG root [0x0000552c] [2019-06-08 05:04:21,109] - Avatar::~Avatar(): 9
+ DEBUG root [0x0000552c] [2019-06-08 05:04:21,109] - Avatar::~Avatar(): 11
+ DEBUG root [0x0000552c] [2019-06-08 05:04:21,109] - Avatar::~Avatar(): 13
+ DEBUG root [0x0000552c] [2019-06-08 05:04:21,109] - Space::~Space(): 2
+ DEBUG root [0x0000552c] [2019-06-08 05:04:21,109] - Space::~Space(): 3
+  INFO root [0x0000552c] [2019-06-08 05:04:21,118] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000552c] [2019-06-08 05:04:21,119] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000552c] [2019-06-08 05:04:21,420] - ThreadPool::destroy(): waiting for thread(2)[0xb4c210,0xb4c0d8,], try=1
+  INFO root [0x00009790] [2019-06-08 05:04:25,562] - 
+  INFO root [0x00009790] [2019-06-08 05:04:25,563] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00009790] [2019-06-08 05:04:25,564] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x00009790] [2019-06-08 05:04:25,564] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x00009790] [2019-06-08 05:04:25,565] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x00009790] [2019-06-08 05:04:25,579] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x00009790] [2019-06-08 05:04:25,579] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x00009790] [2019-06-08 05:04:25,582] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x00009790] [2019-06-08 05:04:25,582] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x00009790] [2019-06-08 05:04:25,586] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:13000 )
+  INFO root [0x00009790] [2019-06-08 05:04:25,586] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:13000, SOMAXCONN=128.
+  INFO root [0x00009790] [2019-06-08 05:04:25,586] - server-configs:
+  INFO root [0x00009790] [2019-06-08 05:04:25,586] - 	gameUpdateHertz : 10
+  INFO root [0x00009790] [2019-06-08 05:04:25,587] - 	entryScriptFile : ouromain
+  INFO root [0x00009790] [2019-06-08 05:04:25,587] - 	internalTcpAddr : 192.168.27.1:13000
+  INFO root [0x00009790] [2019-06-08 05:04:25,587] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x00009790] [2019-06-08 05:04:25,587] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x00009790] [2019-06-08 05:04:25,587] - 	componentID : 7001
+  INFO root [0x00009790] [2019-06-08 05:04:27,360] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 27656 ----
+  INFO root [0x00009790] [2019-06-08 05:04:27,361] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x00009790] [2019-06-08 05:04:27,361] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00009790] [2019-06-08 05:04:27,361] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00009790] [2019-06-08 05:04:27,592] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00009790] [2019-06-08 05:04:27,592] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x00009790] [2019-06-08 05:04:27,972] - loaded entity-script:Account(1).
+ DEBUG root [0x00009790] [2019-06-08 05:04:27,973] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00009790] [2019-06-08 05:04:27,979] - loaded entity-script:FirstEntity(6).
+ DEBUG root [0x00009790] [2019-06-08 05:04:27,980] - loaded entity-script:Scene(7).
+ DEBUG root [0x00009790] [2019-06-08 05:04:27,981] - loaded entity-script:Space(8).
+ DEBUG root [0x00009790] [2019-06-08 05:04:27,982] - loaded entity-script:Spaces(9).
+ DEBUG root [0x00009790] [2019-06-08 05:04:27,983] - loaded entity-script:SpaceDuplicate(10).
+ DEBUG root [0x00009790] [2019-06-08 05:04:27,983] - loaded entity-script:SpawnPoint(11).
+  INFO root [0x00009790] [2019-06-08 05:04:27,984] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00009790] [2019-06-08 05:04:27,984] - TelnetServer server is running on port 40000
+  INFO root [0x00009790] [2019-06-08 05:04:28,513] - ---- baseapp is running ----
+ DEBUG root [0x00009790] [2019-06-08 05:04:28,514] - Components::process(): Request for the process of identity...
+  WARN root [0x00009790] [2019-06-08 05:04:34,927] - EntityApp::checkTickPeriod: tick took 6413% (6.41 seconds)!
+  WARN root [0x00009790] [2019-06-08 05:04:34,935] - TCPPacketReceiver::processPendingEvents(192.168.27.1:13025): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [0x00009790] [2019-06-08 05:04:35,965] - Components::findComponents: find logger(1)...
+  INFO root [0x00009790] [2019-06-08 05:04:36,037] - Components::findComponents: found logger, addr:192.168.27.1:12995
+  INFO root [0x00009790] [2019-06-08 05:04:36,038] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00009790] [2019-06-08 05:04:36,038] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00009790] [2019-06-08 05:04:36,040] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00009790] [2019-06-08 05:04:36,049] - Components::findComponents: found logger, addr:192.168.27.1:12995
+  INFO root [0x00009790] [2019-06-08 05:04:36,054] - Components::findComponents: found dbmgr, addr:192.168.27.1:12996
+  INFO root [0x00009790] [2019-06-08 05:04:36,055] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00009790] [2019-06-08 05:04:36,055] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00009790] [2019-06-08 05:04:36,158] - Components::findComponents: found dbmgr, addr:192.168.27.1:12996
+  WARN root [0x00009790] [2019-06-08 05:04:37,158] - Forwarding logs to logger[192.168.27.1:12995/0/0/0]...
+ ERROR root [0x00009790] [2019-06-08 06:03:46,792] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=392087794350, lastReceivedTime=391873455979, inactivityExceptionPeriod=599491240)
+  INFO root [0x00009790] [2019-06-08 06:03:46,796] - The following logs sent to logger failed:
+  WARN root [0x00009790] [2019-06-08 06:03:46,797] - ==> [2019-06-08 06:03:46 792] TCPPacketReceiver::processPendingEvents(192.168.27.1:12995): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00009790] [2019-06-08 06:03:46,797] - ==> [2019-06-08 06:03:46 793] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=392087794350, lastReceivedTime=391873455979, inactivityExceptionPeriod=599491240)
+  WARN root [0x00009790] [2019-06-08 06:03:46,935] - TCPPacketReceiver::processPendingEvents(192.168.27.1:12996): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00009790] [2019-06-08 06:03:46,936] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=392089230595, lastReceivedTime=391874380788, inactivityExceptionPeriod=599491240)
+  INFO root [0x00009790] [2019-06-08 06:03:46,944] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x00009790] [2019-06-08 06:03:46,949] - onBaseAppShutDown: state=0
+  INFO root [0x00009790] [2019-06-08 06:03:46,950] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00009790] [2019-06-08 06:03:46,950] - onBaseAppShutDown: state=1
+  INFO root [0x00009790] [2019-06-08 06:03:46,950] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x00009790] [2019-06-08 06:03:46,950] - onBaseAppShutDown: state=2
+ DEBUG root [0x00009790] [2019-06-08 06:03:46,967] - SpawnPoint::~SpawnPoint(): 2004
+ DEBUG root [0x00009790] [2019-06-08 06:03:46,968] - SpawnPoint::~SpawnPoint(): 2005
+ DEBUG root [0x00009790] [2019-06-08 06:03:46,968] - SpawnPoint::~SpawnPoint(): 2006
+ DEBUG root [0x00009790] [2019-06-08 06:03:46,968] - SpawnPoint::~SpawnPoint(): 2007
+ ERROR root [0x00009790] [2019-06-08 06:03:46,971] - PyGC::debugTracing(): Entity : leaked(4)
+ ERROR root [0x00009790] [2019-06-08 06:03:46,972] - PyGC::debugTracing(): FixedArray : leaked(1)
+ ERROR root [0x00009790] [2019-06-08 06:03:46,977] - PyGC::debugTracing(): EntityCall : leaked(2)
+ ERROR root [0x00009790] [2019-06-08 06:03:46,986] - EntityGarbages::~EntityGarbages(): leaked, size=4.
+ ERROR root [0x00009790] [2019-06-08 06:03:46,987] - 	--> leaked: Space(2002).
+ ERROR root [0x00009790] [2019-06-08 06:03:46,988] - 	--> leaked: Avatar(2010).
+ ERROR root [0x00009790] [2019-06-08 06:03:46,989] - 	--> leaked: Spaces(2001).
+ ERROR root [0x00009790] [2019-06-08 06:03:46,990] - 	--> leaked: Space(2003).
+ DEBUG root [0x00009790] [2019-06-08 06:03:46,991] - Spaces::~Spaces(): 2001
+ DEBUG root [0x00009790] [2019-06-08 06:03:46,991] - Avatar::~Avatar(): 2010
+ DEBUG root [0x00009790] [2019-06-08 06:03:46,992] - Space::~Space(): 2002
+ DEBUG root [0x00009790] [2019-06-08 06:03:46,992] - Space::~Space(): 2003
+  INFO root [0x00009790] [2019-06-08 06:03:46,999] - Script::uninstall(): is successfully!
+ DEBUG root [0x00009790] [2019-06-08 06:03:46,999] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00009790] [2019-06-08 06:03:47,301] - ThreadPool::destroy(): waiting for thread(2)[0x24cfe0,0x24d048,], try=1

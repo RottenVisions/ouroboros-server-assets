@@ -1,1 +1,52 @@
-C:/Users/Black/Ouroboros/assets/logs/cellapp.8001.2019-06-01.log
+ ERROR root [0x00006990] [2019-06-01 05:21:58,126] - Components::removeComponentByChannel: baseapp : 7001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1997731935957, lastReceivedTime=1997476526117, inactivityExceptionPeriod=599500000)
+ ERROR root [0x00006990] [2019-06-01 05:21:58,146] - 192.168.27.1:2478: TCPPacketSender::processSend(internal): Exception occurred: REASON_CLIENT_DISCONNECTED , errno: 10054, 192.168.27.1:2478/0/0/0
+ ERROR root [0x00006990] [2019-06-01 05:21:58,156] - Components::removeComponentByChannel: cellappmgr : 6000, Abnormal exit(reason=TCPPacketSender::processSend: errno=10054)! Channel(timestamp=1997732239337, lastReceivedTime=1997618057856, inactivityExceptionPeriod=599500000)
+  INFO root [0x00006990] [2019-06-01 05:21:58,160] - The following logs sent to logger failed:
+  WARN root [0x00006990] [2019-06-01 05:21:58,161] - ==> [2019-06-01 05:21:58 160] TCPPacketReceiver::processPendingEvents(192.168.27.1:2423): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [0x00006990] [2019-06-01 05:21:58,161] - ==> [2019-06-01 05:21:58 160] Components::removeComponentByChannel: logger : 2000, Normal exit!
+  WARN root [0x00006990] [2019-06-01 05:21:58,162] - TCPPacketReceiver::processPendingEvents(192.168.27.1:2476): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [0x00006990] [2019-06-01 05:21:58,162] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  WARN root [0x00006990] [2019-06-01 05:21:58,162] - ServerApp::shutDown:  In shuttingdown!
+  WARN root [0x00006990] [2019-06-01 05:21:58,163] - TCPPacketReceiver::processPendingEvents(192.168.27.1:2477): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [0x00006990] [2019-06-01 05:21:58,163] - Components::removeComponentByChannel: baseappmgr : 5000, Normal exit!
+  INFO root [0x00006990] [2019-06-01 05:21:59,160] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00006990] [2019-06-01 17:09:51,783] - Cellapp::canShutdown(): Wait for the entity's into the database! The remaining 2.
+  WARN root [0x00006990] [2019-06-01 17:09:51,784] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 42472.63 seconds
+  WARN root [0x00006990] [2019-06-01 17:09:52,358] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\cellapp\updatables.cpp:65: Profile callUpdates took 0.13 seconds
+  WARN root [0x00006990] [2019-06-01 17:09:52,586] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\cellapp\cellapp.cpp:251: Profile gameTick took 0.36 seconds
+  WARN root [0x00006990] [2019-06-01 17:09:52,897] - EntityApp::checkTickPeriod: tick took 667% (0.67 seconds)!
+  WARN root [0x00006990] [2019-06-01 17:09:53,110] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\cellapp\cellapp.cpp:251: Profile gameTick took 0.21 seconds
+  WARN root [0x00006990] [2019-06-01 17:09:53,251] - EntityApp::checkTickPeriod: tick took 354% (0.35 seconds)!
+  WARN root [0x00006990] [2019-06-01 17:09:53,368] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\cellapp\cellapp.cpp:251: Profile gameTick took 0.12 seconds
+  WARN root [0x00006990] [2019-06-01 17:10:04,223] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 12.04 seconds
+  INFO root [0x00006990] [2019-06-01 17:10:04,224] - Cellapp::canShutdown(): Wait for the entity's into the database! The remaining 2.
+  INFO root [0x00006990] [2019-06-01 17:10:04,225] - Spaces::destroySpace: 1.
+ ERROR root [0x00006990] [2019-06-01 17:10:04,225] - EntityCallAbstract::sendCall: invalid channel(0.0.0.0:0), entityID(2)!
+ ERROR root [0x00006990] [2019-06-01 17:10:04,227] - EntityCallAbstract::sendCall: invalid channel(0.0.0.0:0), entityID(2)!
+  INFO root [0x00006990] [2019-06-01 17:10:04,228] - Spaces::destroySpace: 2.
+ ERROR root [0x00006990] [2019-06-01 17:10:04,228] - EntityCallAbstract::sendCall: invalid channel(0.0.0.0:0), entityID(3)!
+ ERROR root [0x00006990] [2019-06-01 17:10:04,229] - EntityCallAbstract::sendCall: invalid channel(0.0.0.0:0), entityID(3)!
+ DEBUG root [0x00006990] [2019-06-01 17:10:04,230] - Space::~Space(): 2
+ DEBUG root [0x00006990] [2019-06-01 17:10:04,230] - Space::~Space(): 3
+  INFO root [0x00006990] [2019-06-01 17:10:05,230] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00006990] [2019-06-01 17:10:05,331] - NavMeshHandle::~NavMeshHandle(): (spaces/novice_1) is destroyed!
+ DEBUG root [0x00006990] [2019-06-01 17:10:05,331] - NavMeshHandle::~NavMeshHandle(): (spaces/novice_2) is destroyed!
+ DEBUG root [0x00006990] [2019-06-01 17:10:05,331] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00006990] [2019-06-01 17:10:05,332] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x00006990] [2019-06-01 17:10:05,358] - PyGC::debugTracing(): EntityCall : leaked(1)
+  INFO root [0x00006990] [2019-06-01 17:10:05,383] - Script::uninstall(): is successfully!
+ DEBUG root [0x00006990] [2019-06-01 17:10:05,383] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00006990] [2019-06-01 17:10:05,686] - ThreadPool::destroy(): waiting for thread(2)[0x2631b78,0x2631de8,], try=1
+ DEBUG root [0x00006990] [2019-06-01 17:10:06,128] - TPThread::~TPThread(): 0x2631b78
+ DEBUG root [0x00006990] [2019-06-01 17:10:06,128] - TPThread::~TPThread(): 0x2631de8
+ DEBUG root [0x00006990] [2019-06-01 17:10:06,128] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00006990] [2019-06-01 17:10:06,130] - Bundle::destroyObjPool(): size 16.
+ DEBUG root [0x00006990] [2019-06-01 17:10:06,130] - Channel::destroyObjPool(): size 16.
+ DEBUG root [0x00006990] [2019-06-01 17:10:06,130] - TCPPacket::destroyObjPool(): size 16.
+ DEBUG root [0x00006990] [2019-06-01 17:10:06,130] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00006990] [2019-06-01 17:10:06,130] - EndPoint::destroyObjPool(): size 16.
+ DEBUG root [0x00006990] [2019-06-01 17:10:06,131] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00006990] [2019-06-01 17:10:06,131] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00006990] [2019-06-01 17:10:06,131] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00006990] [2019-06-01 17:10:06,131] - cellapp(8001) has shut down.

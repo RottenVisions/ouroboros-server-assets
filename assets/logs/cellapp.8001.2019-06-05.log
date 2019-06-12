@@ -1,1 +1,13 @@
-C:/Users/Black/Ouroboros/assets/logs/cellapp.8001.2019-06-05.log
+ DEBUG root [0x0000ac60] [2019-06-05 19:17:56,905] - TPThread::~TPThread(): 0xfda000
+ DEBUG root [0x0000ac60] [2019-06-05 19:17:56,999] - TPThread::~TPThread(): 0xfda0d0
+ DEBUG root [0x0000ac60] [2019-06-05 19:17:57,000] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x0000ac60] [2019-06-05 19:17:57,002] - Bundle::destroyObjPool(): size 3.
+ DEBUG root [0x0000ac60] [2019-06-05 19:17:57,002] - Channel::destroyObjPool(): size 16.
+ DEBUG root [0x0000ac60] [2019-06-05 19:17:57,003] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x0000ac60] [2019-06-05 19:17:57,003] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x0000ac60] [2019-06-05 19:17:57,003] - EndPoint::destroyObjPool(): size 16.
+ DEBUG root [0x0000ac60] [2019-06-05 19:17:57,003] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x0000ac60] [2019-06-05 19:17:57,004] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x0000ac60] [2019-06-05 19:17:57,004] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x0000ac60] [2019-06-05 19:17:57,004] - cellapp(8001) has shut down.
+  INFO root [0x0000ac60] [2019-06-05 19:17:58,083] - EventDispatcher()::~EventDispatcher: Num timers = 1

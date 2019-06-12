@@ -1,1 +1,94 @@
-C:/Users/Black/Ouroboros/assets/logs/logger_baseapp.2019-06-01.log
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:41:11 027] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:41:11 076] - Channel::handshake: kcp(192.168.27.1:54445/1/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-01 01:41:11 155] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.27.1:54445/1/0/0
+ WARNING    baseapp01 10103 7001  [2019-06-01 01:41:11 156] - Baseapp::onHello: client is not encrypted, addr=192.168.27.1:54445/1/0/0
+    INFO    baseapp01 10103 7001  [2019-06-01 01:41:11 256] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:54445/1/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:41:11 266] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-01 01:41:11 266] - EntityApp::createEntity: new Account 4
+  S_INFO    baseapp01 10103 7001  [2019-06-01 01:41:11 267] - Account[4]::onClientEnabled:entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.27.1:54445., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-01 01:41:11 267] - account[4] entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.27.1:54445.
+    INFO    baseapp01 10103 7001  [2019-06-01 01:41:11 268] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6697479535031943168, entityID=4, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:41:11 459] - Account[4].reqAvatarList: size=1.
+    INFO    baseapp01 10103 7001  [2019-06-01 01:41:21 625] - EntityApp::createEntity: new Avatar 5
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:41:21 625] - Account[4].reqCreateAvatar:wattalkabout, spaceUType=1, spawnPos=(21.32, 1.27, 10.85).
+ spawnDir=(0, 90, 0).
+  S_INFO    baseapp01 10103 7001  [2019-06-01 01:41:21 646] - Account::onAvatarSaved:(4) Create Avatar Success: 1, Name: wattalkabout, DBID: 23
+  S_INFO    baseapp01 10103 7001  [2019-06-01 01:41:21 646] - success: 1, True 1
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:41:21 646] - Avatar::onDestroy: 5.
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:41:21 647] - Avatar::~Avatar(): 5
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:41:35 906] - Account[4].selectAvatarGame:23. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-01 01:41:35 925] - EntityApp::createEntity: new Avatar 6
+  S_INFO    baseapp01 10103 7001  [2019-06-01 01:41:35 926] - Avatar[6-wattalkabout] entities enable. spaceUTypeB=1, entityCall:Client id:6, utype:2, component=client[0], addr: 192.168.27.1:54445.
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:41:35 926] - Spaces::loginToSpace: avatarEntity=6
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:41:35 926] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:41:35 926] - Avatar::onGetCell: Cell id:6, utype:2, component=cellapp[8001], addr: 192.168.27.1:2555.
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:43:10 340] - PendingLoginMgr::add: killingbosser1, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:43:10 389] - Channel::handshake: kcp(192.168.27.1:58471/2/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-01 01:43:10 480] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.27.1:58471/2/0/0
+ WARNING    baseapp01 10103 7001  [2019-06-01 01:43:10 480] - Baseapp::onHello: client is not encrypted, addr=192.168.27.1:58471/2/0/0
+    INFO    baseapp01 10103 7001  [2019-06-01 01:43:10 579] - Baseapp::loginBaseapp: new user[killingbosser1], channel[192.168.27.1:58471/2/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:43:10 600] - PendingLoginMgr::remove: killingbosser1, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-01 01:43:10 601] - EntityApp::createEntity: new Account 7
+  S_INFO    baseapp01 10103 7001  [2019-06-01 01:43:10 602] - Account[7]::onClientEnabled:entities enable. entityCall:Client id:7, utype:1, component=client[0], addr: 192.168.27.1:58471., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=killingbosser1
+  S_INFO    baseapp01 10103 7001  [2019-06-01 01:43:10 602] - account[7] entities enable. entityCall:Client id:7, utype:1, component=client[0], addr: 192.168.27.1:58471.
+    INFO    baseapp01 10103 7001  [2019-06-01 01:43:10 602] - Baseapp::onQueryAccountCBFromDbmgr: user=killingbosser1, uuid=6697480046133051392, entityID=7, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:10 782] - Account[7].reqAvatarList: size=3.
+    INFO    baseapp01 10103 7001  [2019-06-01 01:43:11 074] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:54445/1/0/0 timeout!
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:43:11 074] - Avatar::onClientDeath: 6.
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:11 074] - Avatar[6].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:11 075] - Avatar::onLoseCell: 6
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:11 076] - Account::onDestroy: 4.
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:11 076] - Avatar::onDestroy: 6.
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:43:11 076] - Account::~Account(): 4
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:13 420] - Account[7].reqRemoveAvatar: Removing: banshee
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:13 420] - Account[7].reqRemoveAvatar: Deleted: banshee
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:13 928] - Account[7].reqRemoveAvatar: Removing: banbee
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:13 928] - Account[7].reqRemoveAvatar: Deleted: banbee
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:14 436] - Account[7].reqRemoveAvatar: Removing: hardnurses
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:14 436] - Account[7].reqRemoveAvatar: Deleted: hardnurses
+    INFO    baseapp01 10103 7001  [2019-06-01 01:43:20 740] - EntityApp::createEntity: new Avatar 8
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:20 740] - Account[7].reqCreateAvatar:baysh, spaceUType=1, spawnPos=(21.32, 1.27, 10.85).
+ spawnDir=(0, 90, 0).
+  S_INFO    baseapp01 10103 7001  [2019-06-01 01:43:20 760] - Account::onAvatarSaved:(7) Create Avatar Success: 1, Name: baysh, DBID: 24
+  S_INFO    baseapp01 10103 7001  [2019-06-01 01:43:20 760] - success: 1, True 1
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:20 760] - Avatar::onDestroy: 8.
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:43:20 761] - Avatar::~Avatar(): 8
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:43:33 879] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:43:33 919] - Channel::handshake: kcp(192.168.27.1:54267/3/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-01 01:43:34 007] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.27.1:54267/3/0/0
+ WARNING    baseapp01 10103 7001  [2019-06-01 01:43:34 007] - Baseapp::onHello: client is not encrypted, addr=192.168.27.1:54267/3/0/0
+    INFO    baseapp01 10103 7001  [2019-06-01 01:43:34 107] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:54267/3/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:43:34 119] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-01 01:43:34 119] - EntityApp::createEntity: new Account 9
+  S_INFO    baseapp01 10103 7001  [2019-06-01 01:43:34 119] - Account[9]::onClientEnabled:entities enable. entityCall:Client id:9, utype:1, component=client[0], addr: 192.168.27.1:54267., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-01 01:43:34 119] - account[9] entities enable. entityCall:Client id:9, utype:1, component=client[0], addr: 192.168.27.1:54267.
+    INFO    baseapp01 10103 7001  [2019-06-01 01:43:34 119] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6697480149212266496, entityID=9, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:34 310] - Account[9].reqAvatarList: size=2.
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:39 595] - Account[9].selectAvatarGame:23. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-01 01:43:39 620] - EntityApp::createEntity: new Avatar 10
+  S_INFO    baseapp01 10103 7001  [2019-06-01 01:43:39 621] - Avatar[10-wattalkabout] entities enable. spaceUTypeB=1, entityCall:Client id:10, utype:2, component=client[0], addr: 192.168.27.1:54267.
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:39 621] - Spaces::loginToSpace: avatarEntity=10
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:39 621] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:43:39 622] - Avatar::onGetCell: Cell id:10, utype:2, component=cellapp[8001], addr: 192.168.27.1:2555.
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:44:24 549] - Account[7].selectAvatarGame:24. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-01 01:44:24 557] - EntityApp::createEntity: new Avatar 11
+  S_INFO    baseapp01 10103 7001  [2019-06-01 01:44:24 557] - Avatar[11-baysh] entities enable. spaceUTypeB=1, entityCall:Client id:11, utype:2, component=client[0], addr: 192.168.27.1:58471.
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:44:24 558] - Spaces::loginToSpace: avatarEntity=11
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:44:24 558] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:44:24 559] - Avatar::onGetCell: Cell id:11, utype:2, component=cellapp[8001], addr: 192.168.27.1:2555.
+    INFO    baseapp01 10103 7001  [2019-06-01 01:46:57 812] - Baseapp::logoutBaseapp: key=6697480363960631296, entityID=11.
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:46:57 879] - Avatar::onClientDeath: 11.
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:46:57 880] - Avatar[11].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:46:57 880] - Avatar::onLoseCell: 11
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:46:57 881] - Account::onDestroy: 7.
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:46:57 881] - Avatar::onDestroy: 11.
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:46:57 883] - Account::~Account(): 7
+    INFO    baseapp01 10103 7001  [2019-06-01 01:47:23 780] - Baseapp::onCellWriteToDBCompleted: Avatar(10).
+    INFO    baseapp01 10103 7001  [2019-06-01 01:48:03 915] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:54267/3/0/0 timeout!
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:48:03 915] - Avatar::onClientDeath: 10.
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:48:03 915] - Avatar[10].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:48:03 916] - Avatar::onLoseCell: 10
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:48:03 916] - Account::onDestroy: 9.
+   S_DBG    baseapp01 10103 7001  [2019-06-01 01:48:03 916] - Avatar::onDestroy: 10.
+   DEBUG    baseapp01 10103 7001  [2019-06-01 01:48:03 917] - Account::~Account(): 9
+    INFO    baseapp01 10103 7001  [2019-06-01 01:48:27 913] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:58471/4/0/0 timeout!

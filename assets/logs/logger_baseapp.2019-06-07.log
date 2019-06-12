@@ -1,1 +1,1033 @@
-C:/Users/Black/Ouroboros/assets/logs/logger_baseapp.2019-06-07.log
+    INFO    baseapp01 10103 7001  [2019-06-07 00:05:27 694] - Baseapp::onCellWriteToDBCompleted: Avatar(2086).
+    INFO    baseapp01 10103 7001  [2019-06-07 00:06:42 693] - Baseapp::onCellWriteToDBCompleted: Avatar(2085).
+    INFO    baseapp01 10103 7001  [2019-06-07 00:07:57 692] - Baseapp::onCellWriteToDBCompleted: Avatar(2086).
+    INFO    baseapp01 10103 7001  [2019-06-07 00:09:14 784] - Baseapp::logoutBaseapp: key=6699679417280954368, entityID=2086.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 00:09:14 790] - Avatar::onClientDeath: 2086.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 00:09:14 790] - Avatar[2086].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-07 00:09:14 791] - Avatar::onLoseCell: 2086
+   S_DBG    baseapp01 10103 7001  [2019-06-07 00:09:14 791] - Account::onDestroy: 2083.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 00:09:14 792] - Avatar::onDestroy: 2086.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 00:09:14 793] - Account::~Account(): 2083
+    INFO    baseapp01 10103 7001  [2019-06-07 00:10:16 362] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:56311/60/0/0 timeout!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 00:10:16 362] - Avatar::onClientDeath: 2085.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 00:10:16 363] - Avatar[2085].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-07 00:10:16 363] - Avatar::onLoseCell: 2085
+   S_DBG    baseapp01 10103 7001  [2019-06-07 00:10:16 364] - Account::onDestroy: 2084.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 00:10:16 364] - Avatar::onDestroy: 2085.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 00:10:16 364] - Account::~Account(): 2084
+    INFO    baseapp01 10103 7001  [2019-06-07 00:10:44 885] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:56280/61/0/0 timeout!
+ WARNING    baseapp01 10103 7001  [2019-06-07 03:37:28 413] - TCPPacketReceiver::processPendingEvents(192.168.27.1:11358): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  S_WARN    baseapp01 10103 7001  [2019-06-07 03:37:28 476] - onCellAppDeath: (18589888, 24108)
+   ERROR    baseapp01 10103 7001  [2019-06-07 03:37:28 480] - Components::removeComponentByChannel: cellapp : 8001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=7118981577464, lastReceivedTime=7118799376208, inactivityExceptionPeriod=599491623)
+ WARNING    baseapp01 10103 7001  [2019-06-07 03:37:28 672] - EntityApp::checkTickPeriod: tick took 358% (0.36 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 248] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 251] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 251] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 251] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 264] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 265] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 269] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 269] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 273] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:3981 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 273] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:3981, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 273] - server-configs:
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 273] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 274] - 	entryScriptFile : ouromain
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 274] - 	internalTcpAddr : 192.168.27.1:3981
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 274] - 	externalTcpAddr : 192.168.27.1:20015
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 274] - 	externalUdpAddr : 192.168.27.1:20005
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 275] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 522] - Components::findLogger: found logger, addr:192.168.27.1:3862
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 523] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 523] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 528] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 16844 ----
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 529] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 529] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 530] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 723] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 723] - Script::install(): OUROxtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 21:52:58 980] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 21:52:58 980] - loaded entity-script:Avatar(2).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 21:52:58 981] - loaded entity-script:FirstEntity(3).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 21:52:58 981] - loaded entity-script:Scene(4).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 21:52:58 982] - loaded entity-script:Space(5).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 21:52:58 982] - loaded entity-script:SpaceDuplicate(6).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 21:52:58 984] - loaded entity-script:Spaces(7).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 21:52:58 984] - loaded entity-script:SpawnPoint(8).
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 984] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:58 985] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:52:59 416] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 21:52:59 416] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2019-06-07 21:53:05 642] - EntityApp::checkTickPeriod: tick took 6226% (6.23 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:06 716] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:06 804] - Components::findComponents: found dbmgr, addr:192.168.27.1:3920
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:06 804] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:06 804] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:06 805] - Components::findComponents: found dbmgr, addr:192.168.27.1:3920
+ WARNING    baseapp-1 10103 7001  [2019-06-07 21:53:07 805] - EntityApp::checkTickPeriod: tick took 1189% (1.19 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:08 815] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:08 912] - Components::findComponents: found baseappmgr, addr:192.168.27.1:3945
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:08 912] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:08 913] - Components::findComponents: found baseappmgr, addr:192.168.27.1:3945
+ WARNING    baseapp-1 10103 7001  [2019-06-07 21:53:09 913] - EntityApp::checkTickPeriod: tick took 1197% (1.20 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:10 915] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:10 934] - Components::findComponents: found cellappmgr, addr:192.168.27.1:3963
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:10 934] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:10 934] - Components::findComponents: found cellappmgr, addr:192.168.27.1:3963
+ WARNING    baseapp-1 10103 7001  [2019-06-07 21:53:11 935] - EntityApp::checkTickPeriod: tick took 1119% (1.12 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:12 984] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 21:53:12 985] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:13 015] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:13 052] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:13 115] - Components::process(): Found all the components!
+    INFO    baseapp-1 10103 7001  [2019-06-07 21:53:16 008] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=3, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO    baseapp01 10103 7001  [2019-06-07 21:53:16 008] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+  S_INFO    baseapp01 10103 7001  [2019-06-07 21:53:17 220] - onInit::isReload:0
+ WARNING    baseapp01 10103 7001  [2019-06-07 21:53:17 221] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.22 seconds
+ WARNING    baseapp01 10103 7001  [2019-06-07 21:53:17 221] - EntityApp::checkTickPeriod: tick took 1306% (1.31 seconds)!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 21:53:17 514] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 10103 7001  [2019-06-07 21:53:17 515] - onBaseAppReady: isBootstrap=True
+   S_DBG    baseapp01 10103 7001  [2019-06-07 21:53:17 516] - Spaces::initAlloc
+   S_DBG    baseapp01 10103 7001  [2019-06-07 21:53:17 517] - Spaces::init
+    INFO    baseapp01 10103 7001  [2019-06-07 21:53:17 517] - EntityApp::createEntity: new Spaces 1
+   S_DBG    baseapp01 10103 7001  [2019-06-07 21:53:20 419] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-07 21:53:20 419] - {'entityType': 'Space', 'spawnPos': (0, 0, 0), 'resPath': 'spaces/novice_1', 'id': 1, 'type': 1, 'name': 'Novice Village'}
+    INFO    baseapp01 10103 7001  [2019-06-07 21:53:20 425] - EntityApp::createEntity: new Space 2
+   S_DBG    baseapp01 10103 7001  [2019-06-07 21:53:20 425] - Spaces::onSpaceCreatedCB: space 1. entityID=2
+    INFO    baseapp01 10103 7001  [2019-06-07 21:53:21 105] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=4, grouporderID=1, intaddr:192.168.27.1, intport:3999, extaddr:nonsupport, extport:0,  from 192.168.27.1:3920/0/0/0.
+    INFO    baseapp01 10103 7001  [2019-06-07 21:53:21 105] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+   S_DBG    baseapp01 10103 7001  [2019-06-07 21:53:21 415] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-07 21:53:21 415] - {'entityType': 'Space', 'spawnPos': (-97.9299, 0.0, -158.922), 'resPath': 'spaces/novice_2', 'id': 2, 'type': 1, 'name': 'Novice Town'}
+    INFO    baseapp01 10103 7001  [2019-06-07 21:53:21 416] - EntityApp::createEntity: new Space 3
+   S_DBG    baseapp01 10103 7001  [2019-06-07 21:53:21 416] - Spaces::onSpaceCreatedCB: space 2. entityID=3
+   S_DBG    baseapp01 10103 7001  [2019-06-07 21:53:25 380] - onGlobalData: space_1
+   S_DBG    baseapp01 10103 7001  [2019-06-07 21:53:25 381] - Space::onGetCell: 2
+   S_DBG    baseapp01 10103 7001  [2019-06-07 21:53:25 381] - Spaces::onSpaceGetCell: space 1. entityID=2, spaceKey=6700018414754660352
+   S_DBG    baseapp01 10103 7001  [2019-06-07 21:53:25 382] - Space::onGetCell: 3
+   S_DBG    baseapp01 10103 7001  [2019-06-07 21:53:25 382] - Spaces::onSpaceGetCell: space 2. entityID=3, spaceKey=6700018419049627648
+  S_INFO    baseapp01 10103 7001  [2019-06-07 21:53:25 383] - initProgress: completed!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 21:53:25 383] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 10103 7001  [2019-06-07 21:53:25 383] - onGlobalData: space_2
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:01:36 921] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:01:36 947] - Channel::handshake: kcp(192.168.27.1:64761/1/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-07 22:01:37 042] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.27.1:64761/1/0/0
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:01:37 042] - Baseapp::onHello: client is not encrypted, addr=192.168.27.1:64761/1/0/0
+    INFO    baseapp01 10103 7001  [2019-06-07 22:01:37 140] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:64761/1/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:01:37 160] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:01:37 161] - EntityApp::createEntity: new Account 4
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:01:37 162] - Account[4]::onClientEnabled:entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.27.1:64761., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:01:37 162] - account[4] entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.27.1:64761.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:01:37 162] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6700020549353406464, entityID=4, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:01:37 342] - Account[4].reqAvatarList: size=1.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:01:46 340] - EntityApp::createEntity: new Avatar 5
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:01:46 340] - Account[4].reqCreateAvatar:sickdesires, spaceUType=1, spawnPos=(21.32, 1.27, 10.85).
+ spawnDir=(0, 90, 0).
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:01:46 359] - Account::onAvatarSaved:(4) Create Avatar Success: 1, Name: sickdesires, DBID: 29
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:01:46 359] - success: 1, True 1
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:01:46 360] - Avatar::onDestroy: 5.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:01:46 360] - Avatar::~Avatar(): 5
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:01:50 506] - Account[4].reqRemoveAvatar: Removing: ajkhsdsa
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:01:50 506] - Account[4].reqRemoveAvatar: Deleted: ajkhsdsa
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:01:52 539] - Account[4].selectAvatarGame:29. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-07 22:01:52 559] - EntityApp::createEntity: new Avatar 6
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:01:52 560] - Avatar[6-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:6, utype:2, component=client[0], addr: 192.168.27.1:64761.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:01:52 560] - Spaces::loginToSpace: avatarEntity=6
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:01:52 561] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:01:52 561] - Avatar::onGetCell: Cell id:6, utype:2, component=cellapp[8001], addr: 192.168.27.1:3999.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:07:06 938] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:64761/1/0/0 timeout!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:07:06 938] - Avatar::onClientDeath: 6.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:07:06 938] - Avatar[6].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:07:06 940] - Avatar::onLoseCell: 6
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:07:06 940] - Account::onDestroy: 4.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:07:06 940] - Avatar::onDestroy: 6.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:07:06 941] - Account::~Account(): 4
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:08:12 782] - PendingLoginMgr::add: killingbosser1, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:08:12 817] - Channel::handshake: kcp(192.168.27.1:49972/2/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-07 22:08:12 905] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.27.1:49972/2/0/0
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:12 905] - Baseapp::onHello: client is not encrypted, addr=192.168.27.1:49972/2/0/0
+    INFO    baseapp01 10103 7001  [2019-06-07 22:08:13 002] - Baseapp::loginBaseapp: new user[killingbosser1], channel[192.168.27.1:49972/2/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:08:13 025] - PendingLoginMgr::remove: killingbosser1, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:08:13 029] - EntityApp::createEntity: new Account 7
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:08:13 031] - Account[7]::onClientEnabled:entities enable. entityCall:Client id:7, utype:1, component=client[0], addr: 192.168.27.1:49972., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=killingbosser1
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:08:13 031] - account[7] entities enable. entityCall:Client id:7, utype:1, component=client[0], addr: 192.168.27.1:49972.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:08:13 031] - Baseapp::onQueryAccountCBFromDbmgr: user=killingbosser1, uuid=6700022250160455680, entityID=7, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:13 205] - Account[7].reqAvatarList: size=2.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:18 439] - Account[7].reqRemoveAvatar: Removing: uioyjgh
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:18 439] - Account[7].reqRemoveAvatar: Deleted: uioyjgh
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:18 947] - Account[7].reqRemoveAvatar: Removing: baysh
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:18 947] - Account[7].reqRemoveAvatar: Deleted: baysh
+    INFO    baseapp01 10103 7001  [2019-06-07 22:08:29 416] - EntityApp::createEntity: new Avatar 8
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:29 418] - Account[7].reqCreateAvatar:bossy, spaceUType=1, spawnPos=(21.32, 1.27, 10.85).
+ spawnDir=(0, 90, 0).
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:08:29 440] - Account::onAvatarSaved:(7) Create Avatar Success: 1, Name: bossy, DBID: 30
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:08:29 440] - success: 1, True 1
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:29 441] - Avatar::onDestroy: 8.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:08:29 443] - Avatar::~Avatar(): 8
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:08:37 200] - PendingLoginMgr::add: killingbosser2, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:08:37 239] - Channel::handshake: kcp(192.168.27.1:50073/3/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-07 22:08:37 331] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.27.1:50073/3/0/0
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:37 331] - Baseapp::onHello: client is not encrypted, addr=192.168.27.1:50073/3/0/0
+    INFO    baseapp01 10103 7001  [2019-06-07 22:08:37 380] - Baseapp::loginBaseapp: new user[killingbosser2], channel[192.168.27.1:50073/3/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:08:37 399] - PendingLoginMgr::remove: killingbosser2, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:08:37 400] - EntityApp::createEntity: new Account 9
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:08:37 401] - Account[9]::onClientEnabled:entities enable. entityCall:Client id:9, utype:1, component=client[0], addr: 192.168.27.1:50073., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=killingbosser2
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:08:37 401] - account[9] entities enable. entityCall:Client id:9, utype:1, component=client[0], addr: 192.168.27.1:50073.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:08:37 401] - Baseapp::onQueryAccountCBFromDbmgr: user=killingbosser2, uuid=6700022353239670784, entityID=9, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:37 583] - Account[9].reqAvatarList: size=0.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:08:44 848] - EntityApp::createEntity: new Avatar 10
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:44 853] - Account[9].reqCreateAvatar:babydingling, spaceUType=1, spawnPos=(21.32, 1.27, 10.85).
+ spawnDir=(0, 90, 0).
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:08:44 879] - Account::onAvatarSaved:(9) Create Avatar Success: 1, Name: babydingling, DBID: 31
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:08:44 879] - success: 1, True 1
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:44 881] - Avatar::onDestroy: 10.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:08:44 882] - Avatar::~Avatar(): 10
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:46 727] - Account[9].selectAvatarGame:31. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-07 22:08:46 741] - EntityApp::createEntity: new Avatar 11
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:08:46 742] - Avatar[11-babydingling] entities enable. spaceUTypeB=1, entityCall:Client id:11, utype:2, component=client[0], addr: 192.168.27.1:50073.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:46 742] - Spaces::loginToSpace: avatarEntity=11
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:46 743] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:46 745] - Avatar::onGetCell: Cell id:11, utype:2, component=cellapp[8001], addr: 192.168.27.1:3999.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:50 705] - Account[7].selectAvatarGame:30. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-07 22:08:50 719] - EntityApp::createEntity: new Avatar 12
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:08:50 721] - Avatar[12-bossy] entities enable. spaceUTypeB=1, entityCall:Client id:12, utype:2, component=client[0], addr: 192.168.27.1:49972.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:50 721] - Spaces::loginToSpace: avatarEntity=12
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:50 722] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:50 723] - Avatar::onGetCell: Cell id:12, utype:2, component=cellapp[8001], addr: 192.168.27.1:3999.
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 554] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(25 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 555] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(26 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 555] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(27 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 556] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(28 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 556] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(29 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 556] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(30 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 557] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(31 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 557] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(32 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 656] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(25 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 656] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(26 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 657] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(27 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 657] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(28 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 657] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(29 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 658] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(30 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 658] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(31 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:08:53 659] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(32 > 24).
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:53 660] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/0/0), receive window has overflowed(33 > 32), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive->messages->external.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:53 662] - Channel::processPackets(192.168.27.1:49972/2/16/0): channel[0x221c108] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:53 663] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/16/0), receive window has overflowed(34 > 32), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive->messages->external.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:53 665] - Channel::processPackets(192.168.27.1:49972/2/16/0): channel[0x221c108] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:53 667] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/16/0), receive window has overflowed(35 > 32), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive->messages->external.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:53 669] - Channel::processPackets(192.168.27.1:49972/2/16/0): channel[0x221c108] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:53 671] - Channel::addReceiveWindow[0x221c108]: external channel(192.168.27.1:49972/2/16/0), receive window has overflowed(36 > 32), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive->messages->external.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:53 673] - Channel::processPackets(192.168.27.1:49972/2/16/0): channel[0x221c108] is condemn.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:08:53 688] - Avatar::onClientDeath: 12.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:53 689] - Avatar[12].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:53 691] - Avatar::onLoseCell: 12
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:53 691] - Account::onDestroy: 7.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:08:53 691] - Avatar::onDestroy: 12.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:08:53 693] - Account::~Account(): 7
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:53 756] - Channel::onPacketReceived[0x21574b8]: external channel(192.168.27.1:49972/4/0/0), bufferedBytes has overflowed(2304 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:53 757] - Channel::processPackets(192.168.27.1:49972/4/16/0): channel[0x21574b8] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:53 857] - Channel::onPacketReceived[0x2157a80]: external channel(192.168.27.1:49972/5/0/0), bufferedBytes has overflowed(2337 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:53 859] - Channel::processPackets(192.168.27.1:49972/5/16/0): channel[0x2157a80] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:54 163] - Channel::onPacketReceived[0x2157958]: external channel(192.168.27.1:49972/6/0/0), bufferedBytes has overflowed(2052 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:54 166] - Channel::processPackets(192.168.27.1:49972/6/16/0): channel[0x2157958] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:54 672] - Channel::onPacketReceived[0x21575e0]: external channel(192.168.27.1:49972/7/0/0), bufferedBytes has overflowed(3363 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:54 674] - Channel::processPackets(192.168.27.1:49972/7/16/0): channel[0x21575e0] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:54 722] - Channel::onPacketReceived[0x2157df8]: external channel(192.168.27.1:49972/8/0/0), bufferedBytes has overflowed(2736 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:54 726] - Channel::processPackets(192.168.27.1:49972/8/16/0): channel[0x2157df8] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:54 874] - Channel::onPacketReceived[0x2157f20]: external channel(192.168.27.1:49972/9/0/0), bufferedBytes has overflowed(3306 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:54 876] - Channel::processPackets(192.168.27.1:49972/9/16/0): channel[0x2157f20] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:54 925] - Channel::onPacketReceived[0x2157708]: external channel(192.168.27.1:49972/10/0/0), bufferedBytes has overflowed(2736 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:54 927] - Channel::processPackets(192.168.27.1:49972/10/16/0): channel[0x2157708] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 077] - Channel::onPacketReceived[0x2158048]: external channel(192.168.27.1:49972/11/0/0), bufferedBytes has overflowed(2451 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 079] - Channel::processPackets(192.168.27.1:49972/11/16/0): channel[0x2158048] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 179] - Channel::onPacketReceived[0x221bfe0]: external channel(192.168.27.1:49972/12/0/0), bufferedBytes has overflowed(2850 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 187] - Channel::processPackets(192.168.27.1:49972/12/16/0): channel[0x221bfe0] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 280] - Channel::onPacketReceived[0x221c108]: external channel(192.168.27.1:49972/13/0/0), bufferedBytes has overflowed(3249 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 298] - Channel::processPackets(192.168.27.1:49972/13/16/0): channel[0x221c108] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 381] - Channel::onPacketReceived[0x21574b8]: external channel(192.168.27.1:49972/14/0/0), bufferedBytes has overflowed(2052 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 384] - Channel::processPackets(192.168.27.1:49972/14/16/0): channel[0x21574b8] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 483] - Channel::onPacketReceived[0x2157a80]: external channel(192.168.27.1:49972/15/0/0), bufferedBytes has overflowed(2337 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 486] - Channel::processPackets(192.168.27.1:49972/15/16/0): channel[0x2157a80] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 584] - Channel::onPacketReceived[0x2157958]: external channel(192.168.27.1:49972/16/0/0), bufferedBytes has overflowed(3135 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 586] - Channel::processPackets(192.168.27.1:49972/16/16/0): channel[0x2157958] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 685] - Channel::onPacketReceived[0x21575e0]: external channel(192.168.27.1:49972/17/0/0), bufferedBytes has overflowed(2052 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 687] - Channel::processPackets(192.168.27.1:49972/17/16/0): channel[0x21575e0] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 940] - Channel::onPacketReceived[0x2157df8]: external channel(192.168.27.1:49972/18/0/0), bufferedBytes has overflowed(3306 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:55 941] - Channel::processPackets(192.168.27.1:49972/18/16/0): channel[0x2157df8] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:56 246] - Channel::onPacketReceived[0x2157f20]: external channel(192.168.27.1:49972/19/0/0), bufferedBytes has overflowed(2394 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:56 248] - Channel::processPackets(192.168.27.1:49972/19/16/0): channel[0x2157f20] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:56 348] - Channel::onPacketReceived[0x2157708]: external channel(192.168.27.1:49972/20/0/0), bufferedBytes has overflowed(2394 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:56 350] - Channel::processPackets(192.168.27.1:49972/20/16/0): channel[0x2157708] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:56 754] - Channel::onPacketReceived[0x2158048]: external channel(192.168.27.1:49972/21/0/0), bufferedBytes has overflowed(2280 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:56 756] - Channel::processPackets(192.168.27.1:49972/21/16/0): channel[0x2158048] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:56 855] - Channel::onPacketReceived[0x221bfe0]: external channel(192.168.27.1:49972/22/0/0), bufferedBytes has overflowed(2052 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:56 857] - Channel::processPackets(192.168.27.1:49972/22/16/0): channel[0x221bfe0] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:57 161] - Channel::onPacketReceived[0x221c108]: external channel(192.168.27.1:49972/23/0/0), bufferedBytes has overflowed(2394 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:57 163] - Channel::processPackets(192.168.27.1:49972/23/16/0): channel[0x221c108] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:57 261] - Channel::onPacketReceived[0x21574b8]: external channel(192.168.27.1:49972/24/0/0), bufferedBytes has overflowed(3021 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:57 263] - Channel::processPackets(192.168.27.1:49972/24/16/0): channel[0x21574b8] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:57 669] - Channel::onPacketReceived[0x2157a80]: external channel(192.168.27.1:49972/25/0/0), bufferedBytes has overflowed(3249 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:57 672] - Channel::processPackets(192.168.27.1:49972/25/16/0): channel[0x2157a80] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:58 075] - Channel::onPacketReceived[0x2157958]: external channel(192.168.27.1:49972/26/0/0), bufferedBytes has overflowed(2223 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:58 076] - Channel::processPackets(192.168.27.1:49972/26/16/0): channel[0x2157958] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:58 176] - Channel::onPacketReceived[0x21575e0]: external channel(192.168.27.1:49972/27/0/0), bufferedBytes has overflowed(3306 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:58 178] - Channel::processPackets(192.168.27.1:49972/27/16/0): channel[0x21575e0] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:58 685] - Channel::onPacketReceived[0x2157df8]: external channel(192.168.27.1:49972/28/0/0), bufferedBytes has overflowed(3363 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:58 686] - Channel::processPackets(192.168.27.1:49972/28/16/0): channel[0x2157df8] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:59 243] - Channel::onPacketReceived[0x2157f20]: external channel(192.168.27.1:49972/29/0/0), bufferedBytes has overflowed(2451 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:08:59 245] - Channel::processPackets(192.168.27.1:49972/29/16/0): channel[0x2157f20] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:06 574] - Channel::onPacketReceived[0x2157708]: external channel(192.168.27.1:49972/30/0/0), bufferedBytes has overflowed(2280 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:06 576] - Channel::processPackets(192.168.27.1:49972/30/16/0): channel[0x2157708] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:06 675] - Channel::onPacketReceived[0x2158048]: external channel(192.168.27.1:49972/31/0/0), bufferedBytes has overflowed(2052 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:06 677] - Channel::processPackets(192.168.27.1:49972/31/16/0): channel[0x2158048] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:07 443] - Channel::onPacketReceived[0x221bfe0]: external channel(192.168.27.1:49972/32/0/0), bufferedBytes has overflowed(2394 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:07 445] - Channel::processPackets(192.168.27.1:49972/32/16/0): channel[0x221bfe0] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:07 544] - Channel::onPacketReceived[0x221c108]: external channel(192.168.27.1:49972/33/0/0), bufferedBytes has overflowed(3021 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:07 545] - Channel::processPackets(192.168.27.1:49972/33/16/0): channel[0x221c108] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:08 359] - Channel::onPacketReceived[0x21574b8]: external channel(192.168.27.1:49972/34/0/0), bufferedBytes has overflowed(2394 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:08 360] - Channel::processPackets(192.168.27.1:49972/34/16/0): channel[0x21574b8] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:08 461] - Channel::onPacketReceived[0x2157a80]: external channel(192.168.27.1:49972/35/0/0), bufferedBytes has overflowed(3021 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:08 463] - Channel::processPackets(192.168.27.1:49972/35/16/0): channel[0x2157a80] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:09 378] - Channel::onPacketReceived[0x2157958]: external channel(192.168.27.1:49972/36/0/0), bufferedBytes has overflowed(3249 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:09 380] - Channel::processPackets(192.168.27.1:49972/36/16/0): channel[0x2157958] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:10 343] - Channel::onPacketReceived[0x21575e0]: external channel(192.168.27.1:49972/37/0/0), bufferedBytes has overflowed(3249 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:10 345] - Channel::processPackets(192.168.27.1:49972/37/16/0): channel[0x21575e0] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:11 255] - Channel::onPacketReceived[0x2157df8]: external channel(192.168.27.1:49972/38/0/0), bufferedBytes has overflowed(2223 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:11 257] - Channel::processPackets(192.168.27.1:49972/38/16/0): channel[0x2157df8] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:11 357] - Channel::onPacketReceived[0x2157f20]: external channel(192.168.27.1:49972/39/0/0), bufferedBytes has overflowed(3306 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:11 358] - Channel::processPackets(192.168.27.1:49972/39/16/0): channel[0x2157f20] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:12 321] - Channel::onPacketReceived[0x2157708]: external channel(192.168.27.1:49972/40/0/0), bufferedBytes has overflowed(2052 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:12 324] - Channel::processPackets(192.168.27.1:49972/40/16/0): channel[0x2157708] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:13 445] - Channel::onPacketReceived[0x2158048]: external channel(192.168.27.1:49972/41/0/0), bufferedBytes has overflowed(3363 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:13 447] - Channel::processPackets(192.168.27.1:49972/41/16/0): channel[0x2158048] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:14 572] - Channel::onPacketReceived[0x221bfe0]: external channel(192.168.27.1:49972/42/0/0), bufferedBytes has overflowed(2451 > 2048), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:09:14 573] - Channel::processPackets(192.168.27.1:49972/42/16/0): channel[0x221bfe0] is condemn.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:09:17 120] - Baseapp::logoutBaseapp: key=6700022391894376448, entityID=11.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:09:17 188] - Avatar::onClientDeath: 11.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:09:17 188] - Avatar[11].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:09:17 189] - Avatar::onLoseCell: 11
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:09:17 190] - Account::onDestroy: 9.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:09:17 190] - Avatar::onDestroy: 11.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:09:17 191] - Account::~Account(): 9
+    INFO    baseapp01 10103 7001  [2019-06-07 22:10:44 619] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:49972/43/0/0 timeout!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 270] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 271] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 272] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 272] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 286] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 286] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 290] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 291] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 296] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:6205 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 297] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:6205, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 297] - server-configs:
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 297] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 297] - 	entryScriptFile : ouromain
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 298] - 	internalTcpAddr : 192.168.27.1:6205
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 298] - 	externalTcpAddr : 192.168.27.1:20015
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 298] - 	externalUdpAddr : 192.168.27.1:20005
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 299] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 775] - Components::findLogger: found logger, addr:192.168.27.1:6200
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 775] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 775] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 784] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 15612 ----
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 784] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 785] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 785] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 998] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:20 998] - Script::install(): OUROxtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:14:21 265] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:14:21 265] - loaded entity-script:Avatar(2).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:14:21 265] - loaded entity-script:FirstEntity(3).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:14:21 266] - loaded entity-script:Scene(4).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:14:21 266] - loaded entity-script:Space(5).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:14:21 267] - loaded entity-script:SpaceDuplicate(6).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:14:21 267] - loaded entity-script:Spaces(7).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:14:21 268] - loaded entity-script:SpawnPoint(8).
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:21 268] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:21 268] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:21 741] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:14:21 742] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:14:28 024] - EntityApp::checkTickPeriod: tick took 6282% (6.28 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:29 073] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:29 145] - Components::findComponents: found dbmgr, addr:192.168.27.1:6201
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:29 145] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:29 145] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:29 146] - Components::findComponents: found dbmgr, addr:192.168.27.1:6201
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:14:30 147] - EntityApp::checkTickPeriod: tick took 1104% (1.10 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:31 173] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:31 193] - Components::findComponents: found baseappmgr, addr:192.168.27.1:6202
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:31 193] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:31 196] - Components::findComponents: found baseappmgr, addr:192.168.27.1:6202
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:14:32 197] - EntityApp::checkTickPeriod: tick took 1054% (1.05 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:33 242] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:33 329] - Components::findComponents: found cellappmgr, addr:192.168.27.1:6203
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:33 329] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:33 329] - Components::findComponents: found cellappmgr, addr:192.168.27.1:6203
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:14:34 329] - EntityApp::checkTickPeriod: tick took 1187% (1.19 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:35 373] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:14:35 374] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:35 441] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:35 473] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:35 542] - Components::process(): Found all the components!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:35 787] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=5, grouporderID=1, intaddr:192.168.27.1, intport:6204, extaddr:nonsupport, extport:0,  from 192.168.27.1:6201/0/0/0.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:35 787] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:14:38 804] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:14:38 804] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:14:39 142] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20049, errorno=10048
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:14:40 365] - onInit::isReload:0
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:14:40 366] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.56 seconds
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:14:40 366] - EntityApp::checkTickPeriod: tick took 1624% (1.62 seconds)!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:14:40 641] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:14:40 673] - onBaseAppReady: isBootstrap=True
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:14:40 673] - Spaces::initAlloc
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:14:40 674] - Spaces::init
+    INFO    baseapp01 10103 7001  [2019-06-07 22:14:40 674] - EntityApp::createEntity: new Spaces 1
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:14:43 643] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:14:43 643] - {'entityType': 'Space', 'spawnPos': (0, 0, 0), 'resPath': 'spaces/novice_1', 'id': 1, 'type': 1, 'name': 'Novice Village'}
+    INFO    baseapp01 10103 7001  [2019-06-07 22:14:43 647] - EntityApp::createEntity: new Space 2
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:14:43 648] - Spaces::onSpaceCreatedCB: space 1. entityID=2
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:14:43 652] - Space::onGetCell: 2
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:14:43 652] - Spaces::onSpaceGetCell: space 1. entityID=2, spaceKey=6700023925197701120
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:14:43 653] - onGlobalData: space_1
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:14:44 643] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:14:44 643] - {'entityType': 'Space', 'spawnPos': (-97.9299, 0.0, -158.922), 'resPath': 'spaces/novice_2', 'id': 2, 'type': 1, 'name': 'Novice Town'}
+    INFO    baseapp01 10103 7001  [2019-06-07 22:14:44 645] - EntityApp::createEntity: new Space 3
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:14:44 645] - Spaces::onSpaceCreatedCB: space 2. entityID=3
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:14:44 647] - Space::onGetCell: 3
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:14:44 648] - Spaces::onSpaceGetCell: space 2. entityID=3, spaceKey=6700023929492668416
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:14:44 648] - initProgress: completed!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:14:44 648] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:14:44 648] - onGlobalData: space_2
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:16:23 923] - PendingLoginMgr::add: killingbosser1, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:16:23 960] - Channel::handshake: kcp(192.168.27.1:50099/1/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-07 22:16:24 050] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.27.1:50099/1/0/0
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:16:24 050] - Baseapp::onHello: client is not encrypted, addr=192.168.27.1:50099/1/0/0
+    INFO    baseapp01 10103 7001  [2019-06-07 22:16:24 151] - Baseapp::loginBaseapp: new user[killingbosser1], channel[192.168.27.1:50099/1/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:16:24 162] - PendingLoginMgr::remove: killingbosser1, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:16:24 163] - EntityApp::createEntity: new Account 4
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:16:24 164] - Account[4]::onClientEnabled:entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.27.1:50099., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=killingbosser1
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:16:24 164] - account[4] entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.27.1:50099.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:16:24 164] - Baseapp::onQueryAccountCBFromDbmgr: user=killingbosser1, uuid=6700024358989398016, entityID=4, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:16:24 354] - Account[4].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:16:27 301] - Account[4].selectAvatarGame:30. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-07 22:16:27 323] - EntityApp::createEntity: new Avatar 5
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:16:27 323] - Avatar[5-bossy] entities enable. spaceUTypeB=1, entityCall:Client id:5, utype:2, component=client[0], addr: 192.168.27.1:50099.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:16:27 323] - Spaces::loginToSpace: avatarEntity=5
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:16:27 324] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:16:27 325] - Avatar::onGetCell: Cell id:5, utype:2, component=cellapp[8001], addr: 192.168.27.1:6204.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:16:52 164] - PendingLoginMgr::add: killingbosser2, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:16:52 197] - Channel::handshake: kcp(192.168.27.1:50213/2/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-07 22:16:52 282] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.27.1:50213/2/0/0
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:16:52 282] - Baseapp::onHello: client is not encrypted, addr=192.168.27.1:50213/2/0/0
+    INFO    baseapp01 10103 7001  [2019-06-07 22:16:52 383] - Baseapp::loginBaseapp: new user[killingbosser2], channel[192.168.27.1:50213/2/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:16:52 422] - PendingLoginMgr::remove: killingbosser2, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:16:52 423] - EntityApp::createEntity: new Account 6
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:16:52 424] - Account[6]::onClientEnabled:entities enable. entityCall:Client id:6, utype:1, component=client[0], addr: 192.168.27.1:50213., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=killingbosser2
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:16:52 425] - account[6] entities enable. entityCall:Client id:6, utype:1, component=client[0], addr: 192.168.27.1:50213.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:16:52 425] - Baseapp::onQueryAccountCBFromDbmgr: user=killingbosser2, uuid=6700024479248482304, entityID=6, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:16:52 586] - Account[6].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:17:02 788] - Account[6].selectAvatarGame:31. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-07 22:17:02 803] - EntityApp::createEntity: new Avatar 7
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:17:02 804] - Avatar[7-babydingling] entities enable. spaceUTypeB=1, entityCall:Client id:7, utype:2, component=client[0], addr: 192.168.27.1:50213.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:17:02 804] - Spaces::loginToSpace: avatarEntity=7
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:17:02 805] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:17:02 806] - Avatar::onGetCell: Cell id:7, utype:2, component=cellapp[8001], addr: 192.168.27.1:6204.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:19:48 519] - Baseapp::logoutBaseapp: key=6700024522198155264, entityID=7.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:19:48 539] - Avatar::onClientDeath: 7.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:19:48 540] - Avatar[7].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:19:48 541] - Avatar::onLoseCell: 7
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:19:48 541] - Account::onDestroy: 6.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:19:48 542] - Avatar::onDestroy: 7.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:19:48 543] - Account::~Account(): 6
+    INFO    baseapp01 10103 7001  [2019-06-07 22:19:50 824] - Baseapp::logoutBaseapp: key=6700024371874299904, entityID=5.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:19:50 839] - Avatar::onClientDeath: 5.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:19:50 839] - Avatar[5].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:19:50 840] - Avatar::onLoseCell: 5
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:19:50 840] - Account::onDestroy: 4.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:19:50 840] - Avatar::onDestroy: 5.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:19:50 841] - Account::~Account(): 4
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 332] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 333] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 333] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 333] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 345] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 346] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 351] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 351] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 358] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:8449 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 358] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:8449, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 358] - server-configs:
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 358] - 	gameUpdateHertz : 20
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 358] - 	entryScriptFile : ouromain
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 359] - 	internalTcpAddr : 192.168.27.1:8449
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 359] - 	externalTcpAddr : 192.168.27.1:20015
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 359] - 	externalUdpAddr : 192.168.27.1:20005
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 360] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 917] - Components::findLogger: found logger, addr:192.168.27.1:8446
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 917] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 917] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 926] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 25020 ----
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 927] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 927] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:12 928] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:13 147] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:13 147] - Script::install(): OUROxtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:28:13 386] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:28:13 386] - loaded entity-script:Avatar(2).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:28:13 386] - loaded entity-script:FirstEntity(3).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:28:13 387] - loaded entity-script:Scene(4).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:28:13 387] - loaded entity-script:Space(5).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:28:13 388] - loaded entity-script:SpaceDuplicate(6).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:28:13 389] - loaded entity-script:Spaces(7).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:28:13 389] - loaded entity-script:SpawnPoint(8).
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:13 389] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:13 390] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:13 958] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:28:13 958] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:28:20 265] - EntityApp::checkTickPeriod: tick took 12614% (12.61 seconds)!
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:28:20 274] - TCPPacketReceiver::processPendingEvents(192.168.27.1:8476): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:21 308] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:21 353] - Components::findComponents: found dbmgr, addr:192.168.27.1:8448
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:21 353] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:21 353] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:21 354] - Components::findComponents: found dbmgr, addr:192.168.27.1:8448
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:28:22 355] - EntityApp::checkTickPeriod: tick took 2192% (2.19 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:23 358] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:23 420] - Components::findComponents: found baseappmgr, addr:192.168.27.1:8447
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:23 420] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:23 422] - Components::findComponents: found baseappmgr, addr:192.168.27.1:8447
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:28:24 422] - EntityApp::checkTickPeriod: tick took 2228% (2.23 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:25 434] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:25 454] - Components::findComponents: found cellappmgr, addr:192.168.27.1:8450
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:25 454] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:25 455] - Components::findComponents: found cellappmgr, addr:192.168.27.1:8450
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:28:26 455] - EntityApp::checkTickPeriod: tick took 2092% (2.09 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:27 508] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:28:27 511] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:27 535] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:27 558] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:27 607] - Components::process(): Found all the components!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:28 725] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=5, grouporderID=1, intaddr:192.168.27.1, intport:8451, extaddr:nonsupport, extport:0,  from 192.168.27.1:8448/0/0/0.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:28 725] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:28:31 732] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:28:31 732] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:28:32 071] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20327, errorno=10048
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:28:33 301] - onInit::isReload:0
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:28:33 301] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.57 seconds
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:28:33 302] - EntityApp::checkTickPeriod: tick took 3186% (3.19 seconds)!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:28:33 507] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:28:33 534] - onBaseAppReady: isBootstrap=True
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:28:33 535] - Spaces::initAlloc
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:28:33 535] - Spaces::init
+    INFO    baseapp01 10103 7001  [2019-06-07 22:28:33 536] - EntityApp::createEntity: new Spaces 1
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:28:36 509] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:28:36 509] - {'entityType': 'Space', 'spawnPos': (0, 0, 0), 'resPath': 'spaces/novice_1', 'id': 1, 'type': 1, 'name': 'Novice Village'}
+    INFO    baseapp01 10103 7001  [2019-06-07 22:28:36 515] - EntityApp::createEntity: new Space 2
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:28:36 516] - Spaces::onSpaceCreatedCB: space 1. entityID=2
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:28:36 521] - Space::onGetCell: 2
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:28:36 521] - Spaces::onSpaceGetCell: space 1. entityID=2, spaceKey=6700027502905458688
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:28:36 522] - onGlobalData: space_1
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:28:37 509] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:28:37 509] - {'entityType': 'Space', 'spawnPos': (-97.9299, 0.0, -158.922), 'resPath': 'spaces/novice_2', 'id': 2, 'type': 1, 'name': 'Novice Town'}
+    INFO    baseapp01 10103 7001  [2019-06-07 22:28:37 511] - EntityApp::createEntity: new Space 3
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:28:37 511] - Spaces::onSpaceCreatedCB: space 2. entityID=3
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:28:37 515] - Space::onGetCell: 3
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:28:37 516] - Spaces::onSpaceGetCell: space 2. entityID=3, spaceKey=6700027507200425984
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:28:37 516] - initProgress: completed!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:28:37 517] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:28:37 517] - onGlobalData: space_2
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:33:38 045] - PendingLoginMgr::add: killingbosser2, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:33:38 088] - Channel::handshake: kcp(192.168.27.1:50554/1/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-07 22:33:38 170] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.27.1:50554/1/0/0
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:33:38 171] - Baseapp::onHello: client is not encrypted, addr=192.168.27.1:50554/1/0/0
+    INFO    baseapp01 10103 7001  [2019-06-07 22:33:38 269] - Baseapp::loginBaseapp: new user[killingbosser2], channel[192.168.27.1:50554/1/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:33:38 303] - PendingLoginMgr::remove: killingbosser2, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:33:38 304] - EntityApp::createEntity: new Account 4
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:33:38 306] - Account[4]::onClientEnabled:entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.27.1:50554., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=killingbosser2
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:33:38 306] - account[4] entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 192.168.27.1:50554.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:33:38 306] - Baseapp::onQueryAccountCBFromDbmgr: user=killingbosser2, uuid=6700028799985582080, entityID=4, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:33:38 422] - Account[4].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:33:42 234] - Account[4].selectAvatarGame:31. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-07 22:33:42 264] - EntityApp::createEntity: new Avatar 5
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:33:42 266] - Avatar[5-babydingling] entities enable. spaceUTypeB=1, entityCall:Client id:5, utype:2, component=client[0], addr: 192.168.27.1:50554.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:33:42 266] - Spaces::loginToSpace: avatarEntity=5
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:33:42 267] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:33:42 268] - Avatar::onGetCell: Cell id:5, utype:2, component=cellapp[8001], addr: 192.168.27.1:8451.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:34:06 723] - PendingLoginMgr::add: killingbosser1, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:34:06 762] - Channel::handshake: kcp(192.168.27.1:63883/2/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-07 22:34:06 846] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:192.168.27.1:63883/2/0/0
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:34:06 846] - Baseapp::onHello: client is not encrypted, addr=192.168.27.1:63883/2/0/0
+    INFO    baseapp01 10103 7001  [2019-06-07 22:34:06 946] - Baseapp::loginBaseapp: new user[killingbosser1], channel[192.168.27.1:63883/2/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:34:06 981] - PendingLoginMgr::remove: killingbosser1, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:34:06 981] - EntityApp::createEntity: new Account 6
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:34:06 984] - Account[6]::onClientEnabled:entities enable. entityCall:Client id:6, utype:1, component=client[0], addr: 192.168.27.1:63883., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=killingbosser1
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:34:06 984] - account[6] entities enable. entityCall:Client id:6, utype:1, component=client[0], addr: 192.168.27.1:63883.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:34:06 984] - Baseapp::onQueryAccountCBFromDbmgr: user=killingbosser1, uuid=6700028920244666368, entityID=6, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:34:07 099] - Account[6].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:34:09 182] - Account[6].selectAvatarGame:30. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-07 22:34:09 224] - EntityApp::createEntity: new Avatar 7
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:34:09 227] - Avatar[7-bossy] entities enable. spaceUTypeB=1, entityCall:Client id:7, utype:2, component=client[0], addr: 192.168.27.1:63883.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:34:09 228] - Spaces::loginToSpace: avatarEntity=7
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:34:09 230] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:34:09 235] - Avatar::onGetCell: Cell id:7, utype:2, component=cellapp[8001], addr: 192.168.27.1:8451.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:37:41 896] - Baseapp::logoutBaseapp: key=6700028933129568256, entityID=7.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:37:41 904] - Avatar::onClientDeath: 7.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:37:41 904] - Avatar[7].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:37:41 906] - Avatar::onLoseCell: 7
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:37:41 906] - Account::onDestroy: 6.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:37:41 906] - Avatar::onDestroy: 7.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:37:41 908] - Account::~Account(): 6
+    INFO    baseapp01 10103 7001  [2019-06-07 22:37:43 886] - Baseapp::logoutBaseapp: key=6700028817165451264, entityID=5.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:37:43 903] - Avatar::onClientDeath: 5.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:37:43 904] - Avatar[5].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:37:43 905] - Avatar::onLoseCell: 5
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:37:43 905] - Account::onDestroy: 4.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:37:43 905] - Avatar::onDestroy: 5.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:37:43 906] - Account::~Account(): 4
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 563] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 564] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 565] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 565] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 591] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 591] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 610] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20006 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 611] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20006, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 615] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:9761 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 615] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:9761, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 615] - server-configs:
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 615] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 616] - 	entryScriptFile : ouromain
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 616] - 	internalTcpAddr : 192.168.27.1:9761
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 616] - 	externalTcpAddr : 192.168.27.1:20015
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 616] - 	externalUdpAddr : 192.168.27.1:20006
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:47 617] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:48 106] - Components::findLogger: found logger, addr:192.168.27.1:9753
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:48 107] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:48 107] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:54 232] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 27808 ----
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:54 244] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:54 279] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:54 280] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:54 550] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:54 550] - Script::install(): OUROxtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:38:54 936] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:38:54 936] - loaded entity-script:Avatar(2).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:38:54 937] - loaded entity-script:FirstEntity(3).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:38:54 937] - loaded entity-script:Scene(4).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:38:54 938] - loaded entity-script:Space(5).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:38:54 940] - loaded entity-script:SpaceDuplicate(6).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:38:54 941] - loaded entity-script:Spaces(7).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:38:54 941] - loaded entity-script:SpawnPoint(8).
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:54 942] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:54 942] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:38:56 037] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:38:56 041] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:39:02 665] - EntityApp::checkTickPeriod: tick took 6628% (6.63 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:03 737] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:03 830] - Components::findComponents: found dbmgr, addr:192.168.27.1:9756
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:03 831] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:03 831] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:03 832] - Components::findComponents: found dbmgr, addr:192.168.27.1:9756
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:39:04 832] - EntityApp::checkTickPeriod: tick took 1195% (1.20 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:05 837] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:05 877] - Components::findComponents: found baseappmgr, addr:192.168.27.1:9755
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:05 877] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:05 878] - Components::findComponents: found baseappmgr, addr:192.168.27.1:9755
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:39:06 879] - EntityApp::checkTickPeriod: tick took 1142% (1.14 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:07 937] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:07 953] - Components::findComponents: found cellappmgr, addr:192.168.27.1:9757
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:07 953] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:07 954] - Components::findComponents: found cellappmgr, addr:192.168.27.1:9757
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:39:08 955] - EntityApp::checkTickPeriod: tick took 1118% (1.12 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:10 037] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:39:10 038] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:10 039] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:10 041] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=4, grouporderID=1, intaddr:192.168.27.1, intport:9759, extaddr:nonsupport, extport:0,  from 192.168.27.1:9828/0/0/0.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:10 041] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:10 041] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=4, grouporderID=1, intaddr:192.168.27.1, intport:9759, extaddr:nonsupport, extport:0,  from 192.168.27.1:9828/0/0/0.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:10 041] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:10 075] - Components::process(): Found all the components!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:39:13 042] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:39:13 042] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:39:14 257] - onInit::isReload:0
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:39:14 257] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.22 seconds
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:39:14 258] - EntityApp::checkTickPeriod: tick took 1221% (1.22 seconds)!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:39:14 536] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:39:14 537] - onBaseAppReady: isBootstrap=True
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:39:14 538] - Spaces::initAlloc
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:39:14 538] - Spaces::init
+    INFO    baseapp01 10103 7001  [2019-06-07 22:39:14 538] - EntityApp::createEntity: new Spaces 2001
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:39:17 437] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:39:17 437] - {'entityType': 'Space', 'spawnPos': (0, 0, 0), 'resPath': 'spaces/novice_1', 'id': 1, 'type': 1, 'name': 'Novice Village'}
+    INFO    baseapp01 10103 7001  [2019-06-07 22:39:17 439] - EntityApp::createEntity: new Space 2002
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:39:17 439] - Spaces::onSpaceCreatedCB: space 1. entityID=2002
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:39:17 442] - Space::onGetCell: 2002
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:39:17 442] - Spaces::onSpaceGetCell: space 1. entityID=2002, spaceKey=6700030255979495424
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:39:17 443] - onGlobalData: space_1
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:39:18 437] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:39:18 437] - {'entityType': 'Space', 'spawnPos': (-97.9299, 0.0, -158.922), 'resPath': 'spaces/novice_2', 'id': 2, 'type': 1, 'name': 'Novice Town'}
+    INFO    baseapp01 10103 7001  [2019-06-07 22:39:18 438] - EntityApp::createEntity: new Space 2003
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:39:18 438] - Spaces::onSpaceCreatedCB: space 2. entityID=2003
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:39:18 440] - Space::onGetCell: 2003
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:39:18 441] - Spaces::onSpaceGetCell: space 2. entityID=2003, spaceKey=6700030260274462720
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:39:18 441] - initProgress: completed!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:39:18 441] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:39:18 441] - onGlobalData: space_2
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:43:34 379] - PendingLoginMgr::add: killingbosser1, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:43:34 453] - Channel::handshake: kcp(192.168.27.1:49855/1/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-07 22:43:34 523] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=E3 99 FF CB D9 CF BC 9C E6 3B AD F3 1F DF 89 0B , addr:192.168.27.1:49855/1/0/0
+    INFO    baseapp01 10103 7001  [2019-06-07 22:43:34 623] - Baseapp::loginBaseapp: new user[killingbosser1], channel[192.168.27.1:49855/1/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:43:34 639] - PendingLoginMgr::remove: killingbosser1, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:43:34 640] - EntityApp::createEntity: new Account 2004
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:43:34 642] - Account[2004]::onClientEnabled:entities enable. entityCall:Client id:2004, utype:1, component=client[0], addr: 192.168.27.1:49855., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=killingbosser1
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:43:34 642] - account[2004] entities enable. entityCall:Client id:2004, utype:1, component=client[0], addr: 192.168.27.1:49855.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:43:34 643] - Baseapp::onQueryAccountCBFromDbmgr: user=killingbosser1, uuid=6700031359786090496, entityID=2004, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:43:34 824] - Account[2004].reqAvatarList: size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:43:38 621] - PendingLoginMgr::add: killingbosser2, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:43:38 674] - Channel::handshake: kcp(192.168.27.1:49856/2/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-07 22:43:38 752] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=86 A9 72 83 40 FB 12 DC 8A C7 7B 4F 48 04 5C A9 , addr:192.168.27.1:49856/2/0/0
+    INFO    baseapp01 10103 7001  [2019-06-07 22:43:38 852] - Baseapp::loginBaseapp: new user[killingbosser2], channel[192.168.27.1:49856/2/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:43:38 879] - PendingLoginMgr::remove: killingbosser2, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:43:38 879] - EntityApp::createEntity: new Account 2005
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:43:38 881] - Account[2005]::onClientEnabled:entities enable. entityCall:Client id:2005, utype:1, component=client[0], addr: 192.168.27.1:49856., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=killingbosser2
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:43:38 881] - account[2005] entities enable. entityCall:Client id:2005, utype:1, component=client[0], addr: 192.168.27.1:49856.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:43:38 881] - Baseapp::onQueryAccountCBFromDbmgr: user=killingbosser2, uuid=6700031376965959680, entityID=2005, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:43:39 054] - Account[2005].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:43:46 693] - Account[2005].selectAvatarGame:31. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-07 22:43:46 720] - EntityApp::createEntity: new Avatar 2006
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:43:46 722] - Avatar[2006-babydingling] entities enable. spaceUTypeB=1, entityCall:Client id:2006, utype:2, component=client[0], addr: 192.168.27.1:49856.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:43:46 722] - Spaces::loginToSpace: avatarEntity=2006
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:43:46 723] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:43:46 724] - Avatar::onGetCell: Cell id:2006, utype:2, component=cellapp[8001], addr: 192.168.27.1:9828.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:43:48 886] - Account[2004].selectAvatarGame:30. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-07 22:43:48 898] - EntityApp::createEntity: new Avatar 2007
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:43:48 899] - Avatar[2007-bossy] entities enable. spaceUTypeB=1, entityCall:Client id:2007, utype:2, component=client[0], addr: 192.168.27.1:49855.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:43:48 900] - Spaces::loginToSpace: avatarEntity=2007
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:43:48 900] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:43:48 901] - Avatar::onGetCell: Cell id:2007, utype:2, component=cellapp[8001], addr: 192.168.27.1:9828.
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:43:52 293] - Channel::addReceiveWindow[0xed3778]: external channel(192.168.27.1:49855/1/0/0), receive window has overflowed(25 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:43:52 299] - Channel::addReceiveWindow[0xed3778]: external channel(192.168.27.1:49855/1/0/0), receive window has overflowed(26 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:43:52 304] - Channel::addReceiveWindow[0xed3778]: external channel(192.168.27.1:49855/1/0/0), receive window has overflowed(27 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:43:52 394] - Channel::addReceiveWindow[0xed3778]: external channel(192.168.27.1:49855/1/0/0), receive window has overflowed(25 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:43:52 397] - Channel::addReceiveWindow[0xed3778]: external channel(192.168.27.1:49855/1/0/0), receive window has overflowed(26 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:43:52 399] - Channel::addReceiveWindow[0xed3778]: external channel(192.168.27.1:49855/1/0/0), receive window has overflowed(27 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:43:52 497] - Channel::addReceiveWindow[0xed3778]: external channel(192.168.27.1:49855/1/0/0), receive window has overflowed(25 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:43:52 499] - Channel::addReceiveWindow[0xed3778]: external channel(192.168.27.1:49855/1/0/0), receive window has overflowed(26 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:43:52 503] - Channel::addReceiveWindow[0xed3778]: external channel(192.168.27.1:49855/1/0/0), receive window has overflowed(27 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:43:52 597] - Channel::addReceiveWindow[0xed3778]: external channel(192.168.27.1:49855/1/0/0), receive window has overflowed(25 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:43:52 604] - Channel::addReceiveWindow[0xed3778]: external channel(192.168.27.1:49855/1/0/0), receive window has overflowed(26 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:43:52 605] - Channel::addReceiveWindow[0xed3778]: external channel(192.168.27.1:49855/1/0/0), receive window has overflowed(27 > 24).
+    INFO    baseapp01 10103 7001  [2019-06-07 22:44:50 315] - Baseapp::logoutBaseapp: key=6700031411325698048, entityID=2006.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:44:50 330] - Avatar::onClientDeath: 2006.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:44:50 330] - Avatar[2006].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:44:50 332] - Avatar::onLoseCell: 2006
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:44:50 332] - Account::onDestroy: 2005.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:44:50 332] - Avatar::onDestroy: 2006.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:44:50 334] - Account::~Account(): 2005
+    INFO    baseapp01 10103 7001  [2019-06-07 22:44:53 301] - Baseapp::logoutBaseapp: key=6700031419915632640, entityID=2007.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:44:53 329] - Avatar::onClientDeath: 2007.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:44:53 329] - Avatar[2007].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:44:53 331] - Avatar::onLoseCell: 2007
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:44:53 331] - Account::onDestroy: 2004.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:44:53 331] - Avatar::onDestroy: 2007.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:44:53 333] - Account::~Account(): 2004
+    INFO    baseapp01 10103 7001  [2019-06-07 22:46:20 414] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:49856/3/0/0 timeout!
+    INFO    baseapp01 10103 7001  [2019-06-07 22:46:23 401] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:49855/4/0/0 timeout!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 468] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 469] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 469] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 469] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 482] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 483] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 487] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 487] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 492] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:11690 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 492] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:11690, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 492] - server-configs:
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 492] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 492] - 	entryScriptFile : ouromain
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 492] - 	internalTcpAddr : 192.168.27.1:11690
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 493] - 	externalTcpAddr : 192.168.27.1:20015
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 493] - 	externalUdpAddr : 192.168.27.1:20005
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:38 493] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:40 245] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 31268 ----
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:40 246] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:40 246] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:40 247] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:40 480] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:40 480] - Script::install(): OUROxtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:54:40 770] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:54:40 771] - loaded entity-script:Avatar(2).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:54:40 771] - loaded entity-script:FirstEntity(3).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:54:40 771] - loaded entity-script:Scene(4).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:54:40 772] - loaded entity-script:Space(5).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:54:40 772] - loaded entity-script:SpaceDuplicate(6).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:54:40 773] - loaded entity-script:Spaces(7).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:54:40 773] - loaded entity-script:SpawnPoint(8).
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:40 773] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:40 774] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:41 255] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:54:41 256] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:54:47 591] - EntityApp::checkTickPeriod: tick took 6335% (6.34 seconds)!
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:54:47 601] - TCPPacketReceiver::processPendingEvents(192.168.27.1:11713): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:48 656] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:48 677] - Components::findComponents: found logger, addr:192.168.27.1:11686
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:48 678] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:48 679] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:48 682] - Components::findComponents: find dbmgr(2)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:48 791] - Components::findComponents: found dbmgr, addr:192.168.27.1:11687
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:48 791] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:48 791] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:48 792] - Components::findComponents: found dbmgr, addr:192.168.27.1:11687
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:54:49 793] - EntityApp::checkTickPeriod: tick took 1237% (1.24 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:50 855] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:50 947] - Components::findComponents: found baseappmgr, addr:192.168.27.1:11685
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:50 947] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:50 947] - Components::findComponents: found baseappmgr, addr:192.168.27.1:11685
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:54:51 947] - EntityApp::checkTickPeriod: tick took 1192% (1.19 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:52 955] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:52 971] - Components::findComponents: found cellappmgr, addr:192.168.27.1:11689
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:52 971] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:52 971] - Components::findComponents: found cellappmgr, addr:192.168.27.1:11689
+ WARNING    baseapp-1 10103 7001  [2019-06-07 22:54:53 972] - EntityApp::checkTickPeriod: tick took 1117% (1.12 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:55 154] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 22:54:55 155] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:55 156] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:55 157] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11691, extaddr:nonsupport, extport:0,  from 192.168.27.1:11754/0/0/0.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:55 157] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:55 157] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11691, extaddr:nonsupport, extport:0,  from 192.168.27.1:11754/0/0/0.
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:55 157] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:55 169] - Components::process(): Found all the components!
+    INFO    baseapp-1 10103 7001  [2019-06-07 22:54:58 156] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:54:58 156] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:54:58 496] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20570, errorno=10048
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:54:59 718] - onInit::isReload:0
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:54:59 719] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.56 seconds
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:54:59 719] - EntityApp::checkTickPeriod: tick took 1563% (1.56 seconds)!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:54:59 955] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:54:59 969] - onBaseAppReady: isBootstrap=True
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:54:59 971] - Spaces::initAlloc
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:54:59 973] - Spaces::init
+    INFO    baseapp01 10103 7001  [2019-06-07 22:54:59 973] - EntityApp::createEntity: new Spaces 2001
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:55:02 956] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:55:02 957] - {'entityType': 'Space', 'spawnPos': (0, 0, 0), 'resPath': 'spaces/novice_1', 'id': 1, 'type': 1, 'name': 'Novice Village'}
+    INFO    baseapp01 10103 7001  [2019-06-07 22:55:02 963] - EntityApp::createEntity: new Space 2002
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:55:02 964] - Spaces::onSpaceCreatedCB: space 1. entityID=2002
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:55:02 970] - Space::onGetCell: 2002
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:55:02 971] - Spaces::onSpaceGetCell: space 1. entityID=2002, spaceKey=6700034314723590144
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:55:02 973] - onGlobalData: space_1
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:55:03 955] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:55:03 955] - {'entityType': 'Space', 'spawnPos': (-97.9299, 0.0, -158.922), 'resPath': 'spaces/novice_2', 'id': 2, 'type': 1, 'name': 'Novice Town'}
+    INFO    baseapp01 10103 7001  [2019-06-07 22:55:03 956] - EntityApp::createEntity: new Space 2003
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:55:03 956] - Spaces::onSpaceCreatedCB: space 2. entityID=2003
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:55:03 958] - Space::onGetCell: 2003
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:55:03 958] - Spaces::onSpaceGetCell: space 2. entityID=2003, spaceKey=6700034319018557440
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:55:03 958] - initProgress: completed!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:55:03 958] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:55:03 958] - onGlobalData: space_2
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:56:43 814] - PendingLoginMgr::add: killingbosser2, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:56:43 860] - Channel::handshake: kcp(192.168.27.1:58926/1/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-07 22:56:43 947] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=9F D4 7E 8A 01 74 67 C0 6D 56 7A C2 37 06 C7 7A , addr:192.168.27.1:58926/1/0/0
+    INFO    baseapp01 10103 7001  [2019-06-07 22:56:44 049] - Baseapp::loginBaseapp: new user[killingbosser2], channel[192.168.27.1:58926/1/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:56:44 073] - PendingLoginMgr::remove: killingbosser2, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:56:44 074] - EntityApp::createEntity: new Account 2004
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:56:44 075] - Account[2004]::onClientEnabled:entities enable. entityCall:Client id:2004, utype:1, component=client[0], addr: 192.168.27.1:58926., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=killingbosser2
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:56:44 075] - account[2004] entities enable. entityCall:Client id:2004, utype:1, component=client[0], addr: 192.168.27.1:58926.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:56:44 075] - Baseapp::onQueryAccountCBFromDbmgr: user=killingbosser2, uuid=6700034752810254336, entityID=2004, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:56:44 251] - Account[2004].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:57:00 459] - Account[2004].selectAvatarGame:31. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-07 22:57:00 473] - EntityApp::createEntity: new Avatar 2005
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:57:00 474] - Avatar[2005-babydingling] entities enable. spaceUTypeB=1, entityCall:Client id:2005, utype:2, component=client[0], addr: 192.168.27.1:58926.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:57:00 474] - Spaces::loginToSpace: avatarEntity=2005
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:57:00 475] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:57:00 477] - Avatar::onGetCell: Cell id:2005, utype:2, component=cellapp[8001], addr: 192.168.27.1:11754.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:57:03 573] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:57:03 611] - Channel::handshake: kcp(192.168.27.1:57840/2/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-07 22:57:03 697] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=AC 0E 61 09 27 35 6E 89 80 4C 82 35 F5 91 A8 C9 , addr:192.168.27.1:57840/2/0/0
+    INFO    baseapp01 10103 7001  [2019-06-07 22:57:03 797] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:57840/2/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:57:03 813] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:57:03 813] - EntityApp::createEntity: new Account 2006
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:57:03 814] - Account[2006]::onClientEnabled:entities enable. entityCall:Client id:2006, utype:1, component=client[0], addr: 192.168.27.1:57840., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:57:03 814] - account[2006] entities enable. entityCall:Client id:2006, utype:1, component=client[0], addr: 192.168.27.1:57840.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:57:03 814] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6700034834414632960, entityID=2006, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:57:04 000] - Account[2006].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:57:05 831] - Account[2006].selectAvatarGame:29. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-07 22:57:05 853] - EntityApp::createEntity: new Avatar 2007
+  S_INFO    baseapp01 10103 7001  [2019-06-07 22:57:05 854] - Avatar[2007-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:2007, utype:2, component=client[0], addr: 192.168.27.1:57840.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:57:05 854] - Spaces::loginToSpace: avatarEntity=2007
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:57:05 855] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:57:05 856] - Avatar::onGetCell: Cell id:2007, utype:2, component=cellapp[8001], addr: 192.168.27.1:11754.
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:57:10 222] - Channel::addReceiveWindow[0x421ece0]: external channel(192.168.27.1:58926/1/0/0), receive window has overflowed(25 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:57:10 222] - Channel::addReceiveWindow[0x421ece0]: external channel(192.168.27.1:58926/1/0/0), receive window has overflowed(26 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:57:10 223] - Channel::addReceiveWindow[0x421ece0]: external channel(192.168.27.1:58926/1/0/0), receive window has overflowed(27 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:57:10 223] - Channel::addReceiveWindow[0x421ece0]: external channel(192.168.27.1:58926/1/0/0), receive window has overflowed(28 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:57:10 224] - Channel::addReceiveWindow[0x421ece0]: external channel(192.168.27.1:58926/1/0/0), receive window has overflowed(29 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:57:10 224] - Channel::addReceiveWindow[0x421ece0]: external channel(192.168.27.1:58926/1/0/0), receive window has overflowed(30 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:57:10 225] - Channel::addReceiveWindow[0x421ece0]: external channel(192.168.27.1:58926/1/0/0), receive window has overflowed(31 > 24).
+ WARNING    baseapp01 10103 7001  [2019-06-07 22:57:10 225] - Channel::addReceiveWindow[0x421ece0]: external channel(192.168.27.1:58926/1/0/0), receive window has overflowed(32 > 24).
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:57:10 226] - Channel::addReceiveWindow[0x421ece0]: external channel(192.168.27.1:58926/1/0/0), receive window has overflowed(33 > 32), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive->messages->external.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:57:10 228] - Channel::processPackets(192.168.27.1:58926/1/16/0): channel[0x421ece0] is condemn.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:57:10 253] - Avatar::onClientDeath: 2005.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:57:10 254] - Avatar[2005].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:57:10 256] - Avatar::onLoseCell: 2005
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:57:10 256] - Account::onDestroy: 2004.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 22:57:10 256] - Avatar::onDestroy: 2005.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 22:57:10 258] - Account::~Account(): 2004
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:57:15 330] - Channel::onPacketReceived[0x1e7f68]: external channel(192.168.27.1:58926/3/0/0), bufferedBytes has overflowed(4355 > 4096), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:57:15 331] - Channel::processPackets(192.168.27.1:58926/3/16/0): channel[0x1e7f68] is condemn.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:57:17 108] - Channel::onPacketReceived[0x1e79a0]: external channel(192.168.27.1:58926/4/0/0), bufferedBytes has overflowed(4422 > 4096), Try adjusting the ouroboros[_defs].xml->windowOverflow->receive.
+   ERROR    baseapp01 10103 7001  [2019-06-07 22:57:17 110] - Channel::processPackets(192.168.27.1:58926/4/16/0): channel[0x1e79a0] is condemn.
+    INFO    baseapp01 10103 7001  [2019-06-07 22:58:47 158] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:58926/5/0/0 timeout!
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 239] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 241] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 241] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 241] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 314] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 314] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 319] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 319] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 325] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12391 )
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 325] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:12391, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 325] - server-configs:
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 325] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 326] - 	entryScriptFile : ouromain
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 326] - 	internalTcpAddr : 192.168.27.1:12391
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 326] - 	externalTcpAddr : 192.168.27.1:20015
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 326] - 	externalUdpAddr : 192.168.27.1:20005
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:01 327] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:02 075] - Components::findLogger: found logger, addr:192.168.27.1:12385
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:02 076] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:02 076] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:02 089] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 13776 ----
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:02 092] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:02 093] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:02 093] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:02 350] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:02 351] - Script::install(): OUROxtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 23:01:02 891] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 23:01:02 891] - loaded entity-script:Avatar(2).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 23:01:02 891] - loaded entity-script:FirstEntity(3).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 23:01:02 892] - loaded entity-script:Scene(4).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 23:01:02 893] - loaded entity-script:Space(5).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 23:01:02 895] - loaded entity-script:SpaceDuplicate(6).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 23:01:02 896] - loaded entity-script:Spaces(7).
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 23:01:02 897] - loaded entity-script:SpawnPoint(8).
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:02 897] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:02 898] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:03 691] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 23:01:03 708] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2019-06-07 23:01:07 423] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20898, errorno=10048
+ WARNING    baseapp-1 10103 7001  [2019-06-07 23:01:10 467] - EntityApp::checkTickPeriod: tick took 6776% (6.78 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:11 496] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:11 579] - Components::findComponents: found dbmgr, addr:192.168.27.1:12386
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:11 579] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:11 579] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:11 580] - Components::findComponents: found dbmgr, addr:192.168.27.1:12386
+ WARNING    baseapp-1 10103 7001  [2019-06-07 23:01:12 581] - EntityApp::checkTickPeriod: tick took 1089% (1.09 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:13 591] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:13 645] - Components::findComponents: found baseappmgr, addr:192.168.27.1:12388
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:13 645] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:13 646] - Components::findComponents: found baseappmgr, addr:192.168.27.1:12388
+ WARNING    baseapp-1 10103 7001  [2019-06-07 23:01:14 646] - EntityApp::checkTickPeriod: tick took 1155% (1.15 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:15 691] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:15 778] - Components::findComponents: found cellappmgr, addr:192.168.27.1:12389
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:15 778] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:15 779] - Components::findComponents: found cellappmgr, addr:192.168.27.1:12389
+ WARNING    baseapp-1 10103 7001  [2019-06-07 23:01:16 778] - EntityApp::checkTickPeriod: tick took 1187% (1.19 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:17 796] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 10103 7001  [2019-06-07 23:01:17 797] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:17 798] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:17 799] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12390, extaddr:nonsupport, extport:0,  from 192.168.27.1:12461/0/0/0.
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:17 799] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:17 799] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12390, extaddr:nonsupport, extport:0,  from 192.168.27.1:12461/0/0/0.
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:17 799] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:17 891] - Components::process(): Found all the components!
+    INFO    baseapp-1 10103 7001  [2019-06-07 23:01:20 808] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO    baseapp01 10103 7001  [2019-06-07 23:01:20 808] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+ WARNING    baseapp01 10103 7001  [2019-06-07 23:01:21 148] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20979, errorno=10048
+ WARNING    baseapp01 10103 7001  [2019-06-07 23:01:21 499] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20103, errorno=10048
+  S_INFO    baseapp01 10103 7001  [2019-06-07 23:01:22 722] - onInit::isReload:0
+ WARNING    baseapp01 10103 7001  [2019-06-07 23:01:22 722] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.91 seconds
+ WARNING    baseapp01 10103 7001  [2019-06-07 23:01:22 722] - EntityApp::checkTickPeriod: tick took 1931% (1.93 seconds)!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 23:01:22 991] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 10103 7001  [2019-06-07 23:01:22 996] - onBaseAppReady: isBootstrap=True
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:01:22 997] - Spaces::initAlloc
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:01:22 997] - Spaces::init
+    INFO    baseapp01 10103 7001  [2019-06-07 23:01:22 997] - EntityApp::createEntity: new Spaces 2001
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:01:25 992] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:01:25 992] - {'entityType': 'Space', 'spawnPos': (0, 0, 0), 'resPath': 'spaces/novice_1', 'id': 1, 'type': 1, 'name': 'Novice Village'}
+    INFO    baseapp01 10103 7001  [2019-06-07 23:01:25 993] - EntityApp::createEntity: new Space 2002
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:01:25 993] - Spaces::onSpaceCreatedCB: space 1. entityID=2002
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:01:25 995] - Space::onGetCell: 2002
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:01:25 995] - Spaces::onSpaceGetCell: space 1. entityID=2002, spaceKey=6700035959696064512
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:01:25 996] - onGlobalData: space_1
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:01:26 991] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:01:26 992] - {'entityType': 'Space', 'spawnPos': (-97.9299, 0.0, -158.922), 'resPath': 'spaces/novice_2', 'id': 2, 'type': 1, 'name': 'Novice Town'}
+    INFO    baseapp01 10103 7001  [2019-06-07 23:01:26 993] - EntityApp::createEntity: new Space 2003
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:01:26 993] - Spaces::onSpaceCreatedCB: space 2. entityID=2003
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:01:26 995] - Space::onGetCell: 2003
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:01:26 995] - Spaces::onSpaceGetCell: space 2. entityID=2003, spaceKey=6700035963991031808
+  S_INFO    baseapp01 10103 7001  [2019-06-07 23:01:26 995] - initProgress: completed!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 23:01:26 995] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:01:26 996] - onGlobalData: space_2
+   DEBUG    baseapp01 10103 7001  [2019-06-07 23:04:51 666] - PendingLoginMgr::add: killingbosser2, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 23:04:51 697] - Channel::handshake: kcp(192.168.27.1:64293/1/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-07 23:04:51 785] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=4F DC FC 49 47 E6 18 35 4E 16 45 47 EA 62 3A 33 , addr:192.168.27.1:64293/1/0/0
+    INFO    baseapp01 10103 7001  [2019-06-07 23:04:51 886] - Baseapp::loginBaseapp: new user[killingbosser2], channel[192.168.27.1:64293/1/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-07 23:04:51 905] - PendingLoginMgr::remove: killingbosser2, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-07 23:04:51 906] - EntityApp::createEntity: new Account 2004
+  S_INFO    baseapp01 10103 7001  [2019-06-07 23:04:51 907] - Account[2004]::onClientEnabled:entities enable. entityCall:Client id:2004, utype:1, component=client[0], addr: 192.168.27.1:64293., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=killingbosser2
+  S_INFO    baseapp01 10103 7001  [2019-06-07 23:04:51 907] - account[2004] entities enable. entityCall:Client id:2004, utype:1, component=client[0], addr: 192.168.27.1:64293.
+    INFO    baseapp01 10103 7001  [2019-06-07 23:04:51 907] - Baseapp::onQueryAccountCBFromDbmgr: user=killingbosser2, uuid=6700036844459327488, entityID=2004, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:04:52 090] - Account[2004].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:04:59 612] - Account[2004].selectAvatarGame:31. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-07 23:04:59 626] - EntityApp::createEntity: new Avatar 2005
+  S_INFO    baseapp01 10103 7001  [2019-06-07 23:04:59 626] - Avatar[2005-babydingling] entities enable. spaceUTypeB=1, entityCall:Client id:2005, utype:2, component=client[0], addr: 192.168.27.1:64293.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:04:59 627] - Spaces::loginToSpace: avatarEntity=2005
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:04:59 627] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:04:59 628] - Avatar::onGetCell: Cell id:2005, utype:2, component=cellapp[8001], addr: 192.168.27.1:12461.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 23:05:07 726] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 23:05:07 767] - Channel::handshake: kcp(192.168.27.1:64295/2/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-07 23:05:07 852] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=90 F8 13 36 E4 43 98 89 69 B5 23 44 36 B9 2A ED , addr:192.168.27.1:64295/2/0/0
+    INFO    baseapp01 10103 7001  [2019-06-07 23:05:07 954] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:64295/2/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-07 23:05:07 985] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-07 23:05:07 985] - EntityApp::createEntity: new Account 2006
+  S_INFO    baseapp01 10103 7001  [2019-06-07 23:05:07 986] - Account[2006]::onClientEnabled:entities enable. entityCall:Client id:2006, utype:1, component=client[0], addr: 192.168.27.1:64295., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-07 23:05:07 986] - account[2006] entities enable. entityCall:Client id:2006, utype:1, component=client[0], addr: 192.168.27.1:64295.
+    INFO    baseapp01 10103 7001  [2019-06-07 23:05:07 986] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6700036913178804224, entityID=2006, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:05:08 156] - Account[2006].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:05:09 630] - Account[2006].selectAvatarGame:29. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-07 23:05:09 645] - EntityApp::createEntity: new Avatar 2007
+  S_INFO    baseapp01 10103 7001  [2019-06-07 23:05:09 646] - Avatar[2007-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:2007, utype:2, component=client[0], addr: 192.168.27.1:64295.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:05:09 646] - Spaces::loginToSpace: avatarEntity=2007
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:05:09 646] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:05:09 647] - Avatar::onGetCell: Cell id:2007, utype:2, component=cellapp[8001], addr: 192.168.27.1:12461.
+    INFO    baseapp01 10103 7001  [2019-06-07 23:07:18 689] - Baseapp::onCellWriteToDBCompleted: Avatar(2005).
+    INFO    baseapp01 10103 7001  [2019-06-07 23:07:33 617] - Baseapp::logoutBaseapp: key=6700036878819065856, entityID=2005.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 23:07:33 688] - Avatar::onClientDeath: 2005.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:07:33 688] - Avatar[2005].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:07:33 689] - Avatar::onLoseCell: 2005
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:07:33 689] - Account::onDestroy: 2004.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:07:33 689] - Avatar::onDestroy: 2005.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 23:07:33 690] - Account::~Account(): 2004
+    INFO    baseapp01 10103 7001  [2019-06-07 23:08:07 765] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:64295/2/0/0 timeout!
+   DEBUG    baseapp01 10103 7001  [2019-06-07 23:08:07 765] - Avatar::onClientDeath: 2007.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:08:07 765] - Avatar[2007].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:08:07 766] - Avatar::onLoseCell: 2007
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:08:07 766] - Account::onDestroy: 2006.
+   S_DBG    baseapp01 10103 7001  [2019-06-07 23:08:07 766] - Avatar::onDestroy: 2007.
+   DEBUG    baseapp01 10103 7001  [2019-06-07 23:08:07 767] - Account::~Account(): 2006
+    INFO    baseapp01 10103 7001  [2019-06-07 23:09:03 718] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:64293/3/0/0 timeout!

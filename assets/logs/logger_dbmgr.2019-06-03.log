@@ -1,1 +1,259 @@
-C:/Users/Black/Ouroboros/assets/logs/logger_dbmgr.2019-06-03.log
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 531] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 533] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 533] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 534] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 550] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:13551 )
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 551] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:13551, SOMAXCONN=5.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 551] - server-configs:
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 551] - 	internalTcpAddr : 192.168.27.1:13551
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 551] - 	componentID : 4000
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 585] - Components::findLogger: found logger, addr:192.168.27.1:13455
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 585] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 586] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 593] - ---- dbmgr Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 7E018B6508A428A183CCC712F3412432. Config: Debug X86. Built: 03:59:31 May 23 2019. AppID: 4000. UID: 10103. PID: 39108 ----
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 594] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 594] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 595] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 857] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:19 857] - Script::install(): OUROxtra is successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 029] - Dbmgr::initializeEnd: digest(A95409634AA737AC5ED3596431383F23)
+  S_INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 029] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 030] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 031] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 10103 4000  [2019-06-03 20:29:21 428] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+DD5E55EB7C7306C56DF2001CE75A30EF6B49623CD7EC0CA67A5E5969ABCCB02E5FD2252EBD4621C5759864BAE73CDC31A811DFCAD0AFAD888744286FC5D8C026298E695ECAC220EA5D81F6E5841ABA4CC64CC6FA6BDE42A14029576BEB4F08A34B1D518D43525946B29341BAD1D2D51EAC772FE18765734B2B9AA3C2CB1D64E6
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 439] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 452] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 452] - DBUtil::createInterface[0x21af0cc]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=ouro, username=ouro, connected=yes.
+
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 453] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 453] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 558] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 10103 4000  [2019-06-03 20:29:21 668] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 0.64 seconds
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:22 155] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:22 156] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 454] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 454] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 455] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 455] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 455] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 459] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 460] - DBThread::onStart(): 0x250ecf0!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 462] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 462] - DBThread::onStart(): 0x250ef10!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 463] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 464] - DBThread::onStart(): 0x250f020!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 465] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 465] - DBThread::onStart(): 0x250ef98!
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 467] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:29:21 467] - DBThread::onStart(): 0x250f460!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 560] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 560] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 561] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 562] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 562] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 563] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 642] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:21 645] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:28 789] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:28 789] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:28 789] - Components::addComponent[interfaces], uid=10103, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:29 829] - Components::process(): Found all the components!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:32 255] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13552, extaddr:nonsupport, extport:0,  from 192.168.27.1:13592/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:32 255] - Components::addComponent: reset orderLog, uid=10103!
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:32 255] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:32 261] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13555, extaddr:nonsupport, extport:0,  from 192.168.27.1:13594/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:32 261] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:59 057] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13618, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:13651/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:29:59 057] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:30:02 069] - IDServer::allocRange: 1-2001.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:30:02 069] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:30:03 605] - GlobalDataServer::broadcastDataChanged: writer(baseapp, addr=192.168.27.1:13651/0/0/0), keySize=12, valSize=45, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:30:25 093] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13690, extaddr:nonsupport, extport:0,  from 192.168.27.1:13741/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:30:25 093] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:30:28 109] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:30:28 109] - SyncAppDatasHandler::~SyncAppDatasHandler()
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:30:29 392] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:13741/0/0/0), keySize=13, valSize=45, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:30:29 394] - GlobalDataServer::broadcastDataChanged: writer(cellapp, addr=192.168.27.1:13741/0/0/0), keySize=13, valSize=45, isDelete=0
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:30:37 570] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13738, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:13768/0/0/0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:30:37 570] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:30:40 588] - SyncAppDatasHandler::~SyncAppDatasHandler()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:34:41 326] - Dbmgr::onAccountLogin:loginName=killingbosser1, accountName=killingbosser1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:34:41 586] - Dbmgr::queryAccount: killingbosser1, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:34:49 446] - Dbmgr::writeEntity: Avatar(25).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:34:49 466] - Dbmgr::onEntityOffline: 25, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:34:49 466] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:34:52 206] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:34:52 446] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:35:02 826] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:35:02 846] - Dbmgr::onEntityOffline: 26, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:35:02 846] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:35:08 726] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=25, entityID=8, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:35:13 985] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=26, entityID=9, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:37:36 605] - Dbmgr::onEntityOffline: 2, entityType=1.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:37:36 624] - Dbmgr::writeEntity: Avatar(25).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:37:36 625] - Dbmgr::onEntityOffline: 25, entityType=2.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:37:36 605] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=25, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:37:39 424] - Dbmgr::onEntityOffline: 1, entityType=1.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:37:39 425] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:37:39 425] - Dbmgr::onEntityOffline: 26, entityType=2.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:37:39 406] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=26, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:45:21 840] - Dbmgr::onAccountLogin:loginName=killingbosser1, accountName=killingbosser1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:45:22 040] - Dbmgr::queryAccount: killingbosser1, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:45:24 780] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=25, entityID=11, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:45:32 199] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:45:32 440] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:45:34 479] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=26, entityID=13, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:47:09 899] - Dbmgr::writeEntity: Avatar(25).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:47:09 899] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:47:09 899] - Dbmgr::onEntityOffline: 25, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:47:09 899] - Dbmgr::onEntityOffline: 2, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:47:09 894] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=25, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:47:09 895] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=2, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:48:28 217] - Dbmgr::onAccountLogin:loginName=killingbosser1, accountName=killingbosser1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:48:32 258] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:48:32 258] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:48:32 258] - Dbmgr::onEntityOffline: 26, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:48:32 258] - Dbmgr::onEntityOffline: 1, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:48:32 242] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=26, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:48:32 244] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:48:51 938] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:48:52 197] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:49:00 117] - Dbmgr::onAccountLogin:loginName=killingbosser1, accountName=killingbosser1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:49:00 357] - Dbmgr::queryAccount: killingbosser1, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:49:06 218] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=25, entityID=16, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:49:17 517] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=10, componentID=7001, entityID=14, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:49:21 617] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=26, entityID=17, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:50:59 796] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:52:14 796] - Dbmgr::writeEntity: Avatar(25).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:52:49 695] - Dbmgr::onEntityOffline: 2, entityType=1.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:52:49 695] - Dbmgr::writeEntity: Avatar(25).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:52:49 695] - Dbmgr::onEntityOffline: 25, entityType=2.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:52:49 687] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=25, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:53:29 795] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:53:47 554] - Dbmgr::onEntityOffline: 26, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:53:47 554] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:53:47 574] - Dbmgr::onEntityOffline: 1, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 20:53:47 553] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:55:19 334] - Dbmgr::onAccountLogin:loginName=killingbosser1, accountName=killingbosser1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:55:19 594] - Dbmgr::queryAccount: killingbosser1, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:55:21 513] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=25, entityID=19, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:55:26 053] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:55:26 233] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 20:55:28 213] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=26, entityID=21, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 21:00:59 790] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 21:02:14 790] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 21:03:29 789] - Dbmgr::writeEntity: Avatar(25).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 21:04:44 788] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 21:26:11 475] - Dbmgr::onEntityOffline: 25, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 21:26:11 475] - Dbmgr::onEntityOffline: 2, entityType=1.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 21:27:26 074] - Dbmgr::onEntityOffline: 26, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 21:27:26 074] - Dbmgr::onEntityOffline: 1, entityType=1.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 21:29:21 654] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 22:29:24 569] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:08:59 765] - Dbmgr::onAccountLogin:loginName=killingbosser1, accountName=killingbosser1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:09:00 005] - Dbmgr::queryAccount: killingbosser1, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:09:02 605] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=25, entityID=23, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:09:06 065] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:09:06 305] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:09:08 685] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=26, entityID=25, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:11:02 624] - Dbmgr::writeEntity: Avatar(25).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:12:17 623] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:13:32 622] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:14:47 622] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:16:51 621] - Dbmgr::onEntityOffline: 2, entityType=1.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:16:51 621] - Dbmgr::writeEntity: Avatar(25).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:16:51 621] - Dbmgr::onEntityOffline: 25, entityType=2.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:16:51 604] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=25, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:18:06 119] - Dbmgr::onEntityOffline: 26, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:18:06 119] - Dbmgr::onEntityOffline: 1, entityType=1.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:21:42 858] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:21:43 098] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:21:46 577] - Dbmgr::onAccountLogin:loginName=killingbosser1, accountName=killingbosser1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:21:46 838] - Dbmgr::queryAccount: killingbosser1, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:21:48 758] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=25, entityID=28, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:21:54 077] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=26, entityID=29, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:25:34 495] - Dbmgr::writeEntity: Avatar(25).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:25:34 515] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:25:34 515] - Dbmgr::onEntityOffline: 25, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:25:34 515] - Dbmgr::onEntityOffline: 2, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:25:34 494] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=25, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:25:34 496] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=2, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:26:42 915] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:26:42 915] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:26:42 915] - Dbmgr::onEntityOffline: 26, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:26:42 915] - Dbmgr::onEntityOffline: 1, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:26:42 897] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=26, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:26:42 900] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:27:23 494] - Dbmgr::onAccountLogin:loginName=killingbosser1, accountName=killingbosser1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:27:23 754] - Dbmgr::queryAccount: killingbosser1, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:27:49 494] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:27:49 754] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:27:52 234] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=26, entityID=32, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:27:55 294] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=25, entityID=33, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:28:25 893] - Dbmgr::writeEntity: Avatar(25).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:28:25 893] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:28:25 913] - Dbmgr::onEntityOffline: 25, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:28:25 913] - Dbmgr::onEntityOffline: 2, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:28:25 890] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=25, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:28:25 892] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=2, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:24 533] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:24 853] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=10, componentID=7001, entityID=31, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:25 093] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:25 093] - Dbmgr::onEntityOffline: 26, entityType=2.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:29:25 081] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=26, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:28 013] - Dbmgr::onAccountLogin:loginName=killingbosser1, accountName=killingbosser1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:28 273] - Dbmgr::queryAccount: killingbosser1, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:30 453] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=25, entityID=35, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:33 212] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=26, entityID=36, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:53 392] - Dbmgr::writeEntity: Avatar(25).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:53 392] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:53 392] - Dbmgr::onEntityOffline: 25, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:53 412] - Dbmgr::onEntityOffline: 2, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:29:53 388] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=25, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:29:53 390] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=2, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:55 492] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:55 493] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:55 493] - Dbmgr::onEntityOffline: 26, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:29:55 512] - Dbmgr::onEntityOffline: 1, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:29:55 488] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=26, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:29:55 490] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:30:46 192] - Dbmgr::onAccountLogin:loginName=killingbosser1, accountName=killingbosser1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:30:46 432] - Dbmgr::queryAccount: killingbosser1, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:31:06 152] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=25, entityID=38, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:31:08 272] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:31:08 512] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:31:10 152] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=26, entityID=40, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:34:02 790] - Dbmgr::writeEntity: Avatar(25).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:34:02 790] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:34:02 790] - Dbmgr::onEntityOffline: 25, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:34:02 810] - Dbmgr::onEntityOffline: 2, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:34:02 785] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=25, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:34:02 786] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=2, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:34:38 329] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:34:38 329] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:34:38 330] - Dbmgr::onEntityOffline: 26, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:34:38 330] - Dbmgr::onEntityOffline: 1, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:34:38 313] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=26, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:34:38 315] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:35:40 529] - Dbmgr::onAccountLogin:loginName=test13, accountName=test13, success=0, componentID=0, entityID=0, dbid=1, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:35:40 769] - Dbmgr::queryAccount: test13, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:35:48 509] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=26, entityID=42, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:35:51 129] - Dbmgr::onAccountLogin:loginName=killingbosser1, accountName=killingbosser1, success=0, componentID=0, entityID=0, dbid=2, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:35:51 329] - Dbmgr::queryAccount: killingbosser1, success=true, flags=0, deadline=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:35:53 509] - Dbmgr::DBTaskQueryEntity: Avatar, dbid=25, entityID=44, wasActive=false, queryMode=0, componentID=7001, success=true.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:37:37 187] - Dbmgr::writeEntity: Avatar(25).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:37:37 188] - Dbmgr::writeEntity: Account(2).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:37:37 188] - Dbmgr::onEntityOffline: 25, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:37:37 208] - Dbmgr::onEntityOffline: 2, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:37:37 182] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=25, dbid_tasks_size=3, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:37:37 184] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=2, dbid_tasks_size=2, entityid_tasks_size=0.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:38:40 572] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=26, dbid_tasks_size=3, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:38:40 587] - Dbmgr::writeEntity: Avatar(26).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:38:40 588] - Dbmgr::writeEntity: Account(1).
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:38:40 588] - Dbmgr::onEntityOffline: 26, entityType=2.
+   DEBUG      dbmgr-1 10103 4000  [2019-06-03 23:38:40 588] - Dbmgr::onEntityOffline: 1, entityType=1.
+    INFO      dbmgr-1 10103 4000  [2019-06-03 23:38:40 573] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=1, dbid_tasks_size=2, entityid_tasks_size=0.

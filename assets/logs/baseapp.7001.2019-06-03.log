@@ -1,1 +1,43 @@
-C:/Users/Black/Ouroboros/assets/logs/baseapp.7001.2019-06-03.log
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,052] - 
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,053] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,054] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,055] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,055] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,069] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,069] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,074] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,074] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,078] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:13618 )
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,079] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:13618, SOMAXCONN=128.
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,079] - server-configs:
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,079] - 	gameUpdateHertz : 10
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,079] - 	entryScriptFile : ouromain
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,079] - 	internalTcpAddr : 192.168.27.1:13618
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,079] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,079] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,080] - 	componentID : 7001
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,437] - Components::findLogger: found logger, addr:192.168.27.1:13455
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,437] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,437] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,445] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 42944 ----
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,445] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,445] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,446] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,684] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x0000b3f4] [2019-06-03 20:29:43,684] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x0000b3f4] [2019-06-03 20:29:44,063] - loaded entity-script:Account(1).
+ DEBUG root [0x0000b3f4] [2019-06-03 20:29:44,064] - loaded entity-script:Avatar(2).
+ DEBUG root [0x0000b3f4] [2019-06-03 20:29:44,065] - loaded entity-script:FirstEntity(3).
+ DEBUG root [0x0000b3f4] [2019-06-03 20:29:44,066] - loaded entity-script:Scene(4).
+ DEBUG root [0x0000b3f4] [2019-06-03 20:29:44,067] - loaded entity-script:Space(5).
+ DEBUG root [0x0000b3f4] [2019-06-03 20:29:44,068] - loaded entity-script:SpaceDuplicate(6).
+ DEBUG root [0x0000b3f4] [2019-06-03 20:29:44,069] - loaded entity-script:Spaces(7).
+ DEBUG root [0x0000b3f4] [2019-06-03 20:29:44,070] - loaded entity-script:SpawnPoint(8).
+  INFO root [0x0000b3f4] [2019-06-03 20:29:44,070] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x0000b3f4] [2019-06-03 20:29:44,071] - TelnetServer server is running on port 40000
+  INFO root [0x0000b3f4] [2019-06-03 20:29:44,803] - ---- baseapp is running ----
+ DEBUG root [0x0000b3f4] [2019-06-03 20:29:44,804] - Components::process(): Request for the process of identity...
+  WARN root [0x0000b3f4] [2019-06-03 20:29:51,552] - Forwarding logs to logger[192.168.27.1:13455/0/0/0]...
+ ERROR root [0x0000b3f4] [2019-06-03 23:16:51,596] - For a long time(3600s) not to empty the garbages, there may be a leak of the entitys(size:8), please use the "Ouroboros.entities.garbages.items()" command query!

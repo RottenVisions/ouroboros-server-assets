@@ -1,1 +1,689 @@
-C:/Users/Black/Ouroboros/assets/logs/logger_cellapp.2019-06-07.log
+   S_DBG    cellapp01 10103 8001  [2019-06-07 00:09:14 790] - Avatar::onDestroy: 2086.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 00:09:14 854] - Avatar::~Avatar(): 2086
+   S_DBG    cellapp01 10103 8001  [2019-06-07 00:09:29 791] - Avatar::onWitnessed: 2085 isWitnessed=0.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 00:09:29 791] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 00:10:16 363] - Avatar::onDestroy: 2085.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 00:10:16 454] - Avatar::~Avatar(): 2085
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 565] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 567] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 568] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 568] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 580] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:3999 )
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 581] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:3999, SOMAXCONN=5.
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 581] - server-configs:
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 581] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 582] - 	defaultViewRadius : 80
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 582] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 582] - 	entryScriptFile : ouromain
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 582] - 	internalTcpAddr : 192.168.27.1:3999
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 582] - 	componentID : 8001
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 598] - Components::findLogger: found logger, addr:192.168.27.1:3862
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 598] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 598] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 604] - ---- cellapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8652043B9D1A1F169DDC4E8CD899D692. Config: Debug X86. Built: 02:55:12 May 23 2019. AppID: 8001. UID: 10103. PID: 2092 ----
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 605] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 606] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 606] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 810] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:06 810] - Script::install(): OUROxtra is successfully!
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 21:53:07 089] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 10103 8001  [2019-06-07 21:53:07 090] - EntityDef::checkDefMethod: exposed of method: Avatar.updateEG, check the caller can use "def updateEG(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 21:53:07 091] - EntityDef::checkDefMethod: exposed of method: Avatar.updateLastSyncTime, check the caller can use "def updateLastSyncTime(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 21:53:07 091] - EntityDef::checkDefMethod: exposed of method: Avatar.updatePositionSynced, check the caller can use "def updatePositionSynced(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 21:53:07 091] - loaded entity-script:Avatar(2).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 21:53:07 092] - loaded entity-script:FirstEntity(3).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 21:53:07 092] - loaded entity-script:Scene(4).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 21:53:07 092] - loaded entity-script:Space(5).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 21:53:07 093] - loaded entity-script:SpaceDuplicate(6).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 21:53:07 095] - loaded entity-script:SpawnPoint(8).
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:07 096] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:07 501] - ---- cellapp is running ----
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 21:53:07 502] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 10103 8001  [2019-06-07 21:53:13 726] - EntityApp::checkTickPeriod: tick took 6224% (6.22 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:14 802] - Components::findComponents: find dbmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:14 875] - Components::findComponents: found dbmgr, addr:192.168.27.1:3920
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:14 876] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:14 876] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:14 876] - Components::findComponents: found dbmgr, addr:192.168.27.1:3920
+ WARNING    cellapp-1 10103 8001  [2019-06-07 21:53:15 877] - EntityApp::checkTickPeriod: tick took 1175% (1.17 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:16 901] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:16 985] - Components::findComponents: found cellappmgr, addr:192.168.27.1:3963
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:16 985] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:16 986] - Components::findComponents: found cellappmgr, addr:192.168.27.1:3963
+ WARNING    cellapp-1 10103 8001  [2019-06-07 21:53:17 986] - EntityApp::checkTickPeriod: tick took 1184% (1.18 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:19 001] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:19 009] - Components::findComponents: found baseappmgr, addr:192.168.27.1:3945
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:19 010] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:19 010] - Components::findComponents: found baseappmgr, addr:192.168.27.1:3945
+ WARNING    cellapp-1 10103 8001  [2019-06-07 21:53:20 011] - EntityApp::checkTickPeriod: tick took 1109% (1.11 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:21 102] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:21 111] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:21 115] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=3, grouporderID=1, intaddr:192.168.27.1, intport:3981, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:4034/0/0/0.
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:21 116] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:21 116] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=3, grouporderID=1, intaddr:192.168.27.1, intport:3981, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:4034/0/0/0.
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:21 117] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:21 170] - Components::process(): Found all the components!
+   S_DBG    cellapp-1 10103 8001  [2019-06-07 21:53:24 106] - onGlobalData: Spaces
+    INFO    cellapp-1 10103 8001  [2019-06-07 21:53:24 106] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=4, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO    cellapp01 10103 8001  [2019-06-07 21:53:24 106] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 21:53:25 318] - onInit::isReload:0
+ WARNING    cellapp01 10103 8001  [2019-06-07 21:53:25 318] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.21 seconds
+ WARNING    cellapp01 10103 8001  [2019-06-07 21:53:25 319] - EntityApp::checkTickPeriod: tick took 1216% (1.22 seconds)!
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 374] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 375] - Spaces::createNewSpace: new space(Space) 1.
+    INFO    cellapp01 10103 8001  [2019-06-07 21:53:25 376] - EntityApp::createEntity: new Space 2
+    INFO    cellapp01 10103 8001  [2019-06-07 21:53:25 378] - Ouroboros::addSpaceGeometryMapping: spaceID=1, respath=spaces/novice_1, shouldLoadOnServer=true!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 21:53:25 378] - onSpaceData: spaceID=1, key=_mapping, value=spaces/novice_1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 21:53:25 378] - created space[1] entityID = 2, res = spaces/novice_1.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 380] - Spaces::createNewSpace: new space(Space) 2.
+    INFO    cellapp01 10103 8001  [2019-06-07 21:53:25 380] - EntityApp::createEntity: new Space 3
+    INFO    cellapp01 10103 8001  [2019-06-07 21:53:25 381] - Ouroboros::addSpaceGeometryMapping: spaceID=2, respath=spaces/novice_2, shouldLoadOnServer=true!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 21:53:25 381] - onSpaceData: spaceID=2, key=_mapping, value=spaces/novice_2.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 21:53:25 381] - created space[2] entityID = 3, res = spaces/novice_2.
+    INFO    cellapp01 10103 8001  [2019-06-07 21:53:25 402] - Ouroboros::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/novice_1!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 21:53:25 402] - onSpaceGeometryLoaded: spaceID=1, mapping=spaces/novice_1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 21:53:25 402] - onAllSpaceGeometryLoaded: spaceID=1, isBootstrap=1, mapping=spaces/novice_1.
+    INFO    cellapp01 10103 8001  [2019-06-07 21:53:25 402] - Ouroboros::onLoadedSpaceGeometryMapping: spaceID=2, respath=spaces/novice_2!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 21:53:25 402] - onSpaceGeometryLoaded: spaceID=2, mapping=spaces/novice_2.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 21:53:25 402] - onAllSpaceGeometryLoaded: spaceID=2, isBootstrap=1, mapping=spaces/novice_2.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 387] - NavMeshHandle::create: (C:/Users/Black/Ouroboros/assets/res/spaces/novice_1/srv_novice_village_1.navmesh), layer=0
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 388] - 	==> tiles loaded: 1
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 388] - 	==> BVTree nodes: 2
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 388] - 	==> 1 polygons (4 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 388] - 	==> 2 triangles (0 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 388] - 	==> 0.00 MB of data (not including pointers)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 391] - NavMeshHandle::create: (C:/Users/Black/Ouroboros/assets/res/spaces/novice_2/srv_novice_village_2.navmesh), layer=0
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 391] - 	==> tiles loaded: 1
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 391] - 	==> BVTree nodes: 2
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 391] - 	==> 1 polygons (4 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 391] - 	==> 2 triangles (0 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 21:53:25 391] - 	==> 0.00 MB of data (not including pointers)
+    INFO    cellapp01 10103 8001  [2019-06-07 22:01:52 561] - EntityApp::createEntity: new Avatar 6
+   S_ERR    cellapp01 10103 8001  [2019-06-07 22:01:52 564] - TypeError: must be set to a FLOAT type.
+   S_ERR    cellapp01 10103 8001  [2019-06-07 22:01:52 564] - ValueError: can't set Avatar.lastPositionSyncTime to int.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:01:52 566] - Avatar::onGetWitness: 6.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:01:52 566] - Space::onEnter space[1] entityID = 6.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:07:06 939] - Avatar::onDestroy: 6.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:07:07 001] - Avatar::~Avatar(): 6
+    INFO    cellapp01 10103 8001  [2019-06-07 22:08:46 744] - EntityApp::createEntity: new Avatar 11
+   S_ERR    cellapp01 10103 8001  [2019-06-07 22:08:46 746] - TypeError: must be set to a FLOAT type.
+   S_ERR    cellapp01 10103 8001  [2019-06-07 22:08:46 747] - ValueError: can't set Avatar.lastPositionSyncTime to int.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:08:46 749] - Avatar::onGetWitness: 11.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:08:46 749] - Space::onEnter space[1] entityID = 11.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:08:50 722] - EntityApp::createEntity: new Avatar 12
+   S_ERR    cellapp01 10103 8001  [2019-06-07 22:08:50 723] - TypeError: must be set to a FLOAT type.
+   S_ERR    cellapp01 10103 8001  [2019-06-07 22:08:50 725] - ValueError: can't set Avatar.lastPositionSyncTime to int.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:08:50 726] - Avatar::onWitnessed: 12 isWitnessed=1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:08:50 727] - Avatar::onWitnessed: 11 isWitnessed=1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:08:50 728] - Avatar::onGetWitness: 12.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:08:50 729] - Space::onEnter space[1] entityID = 12.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:08:53 689] - Avatar::onDestroy: 12.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:08:53 702] - Avatar::~Avatar(): 12
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:09:08 691] - Avatar::onWitnessed: 11 isWitnessed=0.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:09:08 691] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:09:17 189] - Avatar::onDestroy: 11.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:09:17 201] - Avatar::~Avatar(): 11
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 283] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 284] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 284] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 285] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 298] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:6204 )
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 299] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:6204, SOMAXCONN=5.
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 299] - server-configs:
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 299] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 299] - 	defaultViewRadius : 80
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 300] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 300] - 	entryScriptFile : ouromain
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 300] - 	internalTcpAddr : 192.168.27.1:6204
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 300] - 	componentID : 8001
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 777] - Components::findLogger: found logger, addr:192.168.27.1:6200
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 777] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 777] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 784] - ---- cellapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8652043B9D1A1F169DDC4E8CD899D692. Config: Debug X86. Built: 02:55:12 May 23 2019. AppID: 8001. UID: 10103. PID: 20876 ----
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 784] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 784] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 785] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 992] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:20 992] - Script::install(): OUROxtra is successfully!
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:14:21 289] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:14:21 291] - EntityDef::checkDefMethod: exposed of method: Avatar.updateEG, check the caller can use "def updateEG(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:14:21 291] - EntityDef::checkDefMethod: exposed of method: Avatar.updateLastSyncTime, check the caller can use "def updateLastSyncTime(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:14:21 292] - EntityDef::checkDefMethod: exposed of method: Avatar.updatePositionSynced, check the caller can use "def updatePositionSynced(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:14:21 292] - loaded entity-script:Avatar(2).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:14:21 292] - loaded entity-script:FirstEntity(3).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:14:21 293] - loaded entity-script:Scene(4).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:14:21 293] - loaded entity-script:Space(5).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:14:21 294] - loaded entity-script:SpaceDuplicate(6).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:14:21 296] - loaded entity-script:SpawnPoint(8).
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:21 297] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:21 749] - ---- cellapp is running ----
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:14:21 749] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:14:25 325] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20478, errorno=10048
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:14:28 399] - EntityApp::checkTickPeriod: tick took 6650% (6.65 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:29 486] - Components::findComponents: find dbmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:29 549] - Components::findComponents: found dbmgr, addr:192.168.27.1:6201
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:29 549] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:29 549] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:29 549] - Components::findComponents: found dbmgr, addr:192.168.27.1:6201
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:14:30 550] - EntityApp::checkTickPeriod: tick took 1100% (1.10 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:31 586] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:31 607] - Components::findComponents: found cellappmgr, addr:192.168.27.1:6203
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:31 608] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:31 609] - Components::findComponents: found cellappmgr, addr:192.168.27.1:6203
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:14:32 609] - EntityApp::checkTickPeriod: tick took 1060% (1.06 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:33 649] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:33 736] - Components::findComponents: found baseappmgr, addr:192.168.27.1:6202
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:33 736] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:33 736] - Components::findComponents: found baseappmgr, addr:192.168.27.1:6202
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:14:34 737] - EntityApp::checkTickPeriod: tick took 1188% (1.19 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:35 786] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:35 788] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:35 789] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6205, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:6264/0/0/0.
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:35 789] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:35 789] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6205, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:6264/0/0/0.
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:35 789] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:35 849] - Components::process(): Found all the components!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:14:38 804] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:14:38 804] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:14:40 018] - onInit::isReload:0
+ WARNING    cellapp01 10103 8001  [2019-06-07 22:14:40 018] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.21 seconds
+ WARNING    cellapp01 10103 8001  [2019-06-07 22:14:40 019] - EntityApp::checkTickPeriod: tick took 1269% (1.27 seconds)!
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:40 049] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:14:40 674] - onGlobalData: Spaces
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:43 648] - Spaces::createNewSpace: new space(Space) 1.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:14:43 648] - EntityApp::createEntity: new Space 2
+    INFO    cellapp01 10103 8001  [2019-06-07 22:14:43 649] - Ouroboros::addSpaceGeometryMapping: spaceID=1, respath=spaces/novice_1, shouldLoadOnServer=true!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:14:43 649] - onSpaceData: spaceID=1, key=_mapping, value=spaces/novice_1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:14:43 650] - created space[1] entityID = 2, res = spaces/novice_1.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:43 651] - NavMeshHandle::create: (C:/Users/Black/Ouroboros/assets/res/spaces/novice_1/srv_novice_village_1.navmesh), layer=0
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:43 652] - 	==> tiles loaded: 1
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:43 652] - 	==> BVTree nodes: 2
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:43 652] - 	==> 1 polygons (4 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:43 652] - 	==> 2 triangles (0 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:43 652] - 	==> 0.00 MB of data (not including pointers)
+    INFO    cellapp01 10103 8001  [2019-06-07 22:14:43 749] - Ouroboros::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/novice_1!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:14:43 750] - onSpaceGeometryLoaded: spaceID=1, mapping=spaces/novice_1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:14:43 750] - onAllSpaceGeometryLoaded: spaceID=1, isBootstrap=1, mapping=spaces/novice_1.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:44 645] - Spaces::createNewSpace: new space(Space) 2.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:14:44 645] - EntityApp::createEntity: new Space 3
+    INFO    cellapp01 10103 8001  [2019-06-07 22:14:44 646] - Ouroboros::addSpaceGeometryMapping: spaceID=2, respath=spaces/novice_2, shouldLoadOnServer=true!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:14:44 646] - onSpaceData: spaceID=2, key=_mapping, value=spaces/novice_2.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:14:44 646] - created space[2] entityID = 3, res = spaces/novice_2.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:14:44 649] - Ouroboros::onLoadedSpaceGeometryMapping: spaceID=2, respath=spaces/novice_2!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:14:44 649] - onSpaceGeometryLoaded: spaceID=2, mapping=spaces/novice_2.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:14:44 649] - onAllSpaceGeometryLoaded: spaceID=2, isBootstrap=1, mapping=spaces/novice_2.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:44 647] - NavMeshHandle::create: (C:/Users/Black/Ouroboros/assets/res/spaces/novice_2/srv_novice_village_2.navmesh), layer=0
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:44 648] - 	==> tiles loaded: 1
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:44 648] - 	==> BVTree nodes: 2
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:44 648] - 	==> 1 polygons (4 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:44 648] - 	==> 2 triangles (0 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:14:44 648] - 	==> 0.00 MB of data (not including pointers)
+    INFO    cellapp01 10103 8001  [2019-06-07 22:16:27 324] - EntityApp::createEntity: new Avatar 5
+   S_ERR    cellapp01 10103 8001  [2019-06-07 22:16:27 328] - TypeError: must be set to a FLOAT type.
+   S_ERR    cellapp01 10103 8001  [2019-06-07 22:16:27 329] - ValueError: can't set Avatar.lastPositionSyncTime to int.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:16:27 329] - Avatar::onGetWitness: 5.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:16:27 329] - Space::onEnter space[1] entityID = 5.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:17:02 805] - EntityApp::createEntity: new Avatar 7
+   S_ERR    cellapp01 10103 8001  [2019-06-07 22:17:02 807] - TypeError: must be set to a FLOAT type.
+   S_ERR    cellapp01 10103 8001  [2019-06-07 22:17:02 809] - ValueError: can't set Avatar.lastPositionSyncTime to int.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:17:02 810] - Avatar::onWitnessed: 7 isWitnessed=1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:17:02 814] - Avatar::onWitnessed: 5 isWitnessed=1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:17:02 814] - Avatar::onGetWitness: 7.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:17:02 814] - Space::onEnter space[1] entityID = 7.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:19:48 540] - Avatar::onDestroy: 7.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:19:48 550] - Avatar::~Avatar(): 7
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:19:50 839] - Avatar::onDestroy: 5.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:19:50 849] - Avatar::~Avatar(): 5
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:20:03 541] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:12 418] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:12 419] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:12 419] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:12 419] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:12 437] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:8451 )
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:12 438] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:8451, SOMAXCONN=5.
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:12 438] - server-configs:
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:12 438] - 	gameUpdateHertz : 20
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:12 439] - 	defaultViewRadius : 80
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:12 439] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:12 439] - 	entryScriptFile : ouromain
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:12 439] - 	internalTcpAddr : 192.168.27.1:8451
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:12 439] - 	componentID : 8001
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:13 947] - ---- cellapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8652043B9D1A1F169DDC4E8CD899D692. Config: Debug X86. Built: 02:55:12 May 23 2019. AppID: 8001. UID: 10103. PID: 21372 ----
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:13 947] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:13 947] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:13 948] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:14 180] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:14 180] - Script::install(): OUROxtra is successfully!
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:28:14 494] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:28:14 495] - EntityDef::checkDefMethod: exposed of method: Avatar.updateEG, check the caller can use "def updateEG(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:28:14 495] - EntityDef::checkDefMethod: exposed of method: Avatar.updateLastSyncTime, check the caller can use "def updateLastSyncTime(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:28:14 496] - EntityDef::checkDefMethod: exposed of method: Avatar.updatePositionSynced, check the caller can use "def updatePositionSynced(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:28:14 496] - loaded entity-script:Avatar(2).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:28:14 496] - loaded entity-script:FirstEntity(3).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:28:14 497] - loaded entity-script:Scene(4).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:28:14 497] - loaded entity-script:Space(5).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:28:14 497] - loaded entity-script:SpaceDuplicate(6).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:28:14 499] - loaded entity-script:SpawnPoint(8).
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:14 500] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:14 921] - ---- cellapp is running ----
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:28:14 922] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:28:21 269] - EntityApp::checkTickPeriod: tick took 12694% (12.69 seconds)!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:28:21 275] - TCPPacketReceiver::processPendingEvents(192.168.27.1:8478): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:22 322] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:22 395] - Components::findComponents: found logger, addr:192.168.27.1:8446
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:22 396] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:22 396] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:22 397] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:22 501] - Components::findComponents: found dbmgr, addr:192.168.27.1:8448
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:22 501] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:22 501] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:22 502] - Components::findComponents: found dbmgr, addr:192.168.27.1:8448
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:28:23 502] - EntityApp::checkTickPeriod: tick took 2460% (2.46 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:24 521] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:24 547] - Components::findComponents: found cellappmgr, addr:192.168.27.1:8450
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:24 547] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:24 548] - Components::findComponents: found cellappmgr, addr:192.168.27.1:8450
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:28:25 548] - EntityApp::checkTickPeriod: tick took 2152% (2.15 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:26 572] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:26 668] - Components::findComponents: found baseappmgr, addr:192.168.27.1:8447
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:26 668] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:26 669] - Components::findComponents: found baseappmgr, addr:192.168.27.1:8447
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:28:27 669] - EntityApp::checkTickPeriod: tick took 2294% (2.29 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:28 722] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:28 727] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:28 729] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8449, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:8513/0/0/0.
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:28 729] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:28 729] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8449, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:8513/0/0/0.
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:28 730] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:28 772] - Components::process(): Found all the components!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:28:31 733] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:28:31 733] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+ WARNING    cellapp01 10103 8001  [2019-06-07 22:28:32 071] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20327, errorno=10048
+ WARNING    cellapp01 10103 8001  [2019-06-07 22:28:32 421] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20450, errorno=10048
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:28:33 649] - onInit::isReload:0
+ WARNING    cellapp01 10103 8001  [2019-06-07 22:28:33 649] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.92 seconds
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:28:33 650] - onGlobalData: Spaces
+ WARNING    cellapp01 10103 8001  [2019-06-07 22:28:33 650] - EntityApp::checkTickPeriod: tick took 3856% (3.86 seconds)!
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:33 672] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:36 516] - Spaces::createNewSpace: new space(Space) 1.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:28:36 516] - EntityApp::createEntity: new Space 2
+    INFO    cellapp01 10103 8001  [2019-06-07 22:28:36 518] - Ouroboros::addSpaceGeometryMapping: spaceID=1, respath=spaces/novice_1, shouldLoadOnServer=true!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:28:36 518] - onSpaceData: spaceID=1, key=_mapping, value=spaces/novice_1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:28:36 518] - created space[1] entityID = 2, res = spaces/novice_1.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:36 520] - NavMeshHandle::create: (C:/Users/Black/Ouroboros/assets/res/spaces/novice_1/srv_novice_village_1.navmesh), layer=0
+    INFO    cellapp01 10103 8001  [2019-06-07 22:28:36 523] - Ouroboros::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/novice_1!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:28:36 523] - onSpaceGeometryLoaded: spaceID=1, mapping=spaces/novice_1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:28:36 524] - onAllSpaceGeometryLoaded: spaceID=1, isBootstrap=1, mapping=spaces/novice_1.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:36 521] - 	==> tiles loaded: 1
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:36 521] - 	==> BVTree nodes: 2
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:36 521] - 	==> 1 polygons (4 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:36 521] - 	==> 2 triangles (0 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:36 521] - 	==> 0.00 MB of data (not including pointers)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:37 511] - Spaces::createNewSpace: new space(Space) 2.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:28:37 512] - EntityApp::createEntity: new Space 3
+    INFO    cellapp01 10103 8001  [2019-06-07 22:28:37 513] - Ouroboros::addSpaceGeometryMapping: spaceID=2, respath=spaces/novice_2, shouldLoadOnServer=true!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:28:37 513] - onSpaceData: spaceID=2, key=_mapping, value=spaces/novice_2.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:28:37 513] - created space[2] entityID = 3, res = spaces/novice_2.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:37 515] - NavMeshHandle::create: (C:/Users/Black/Ouroboros/assets/res/spaces/novice_2/srv_novice_village_2.navmesh), layer=0
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:37 516] - 	==> tiles loaded: 1
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:37 516] - 	==> BVTree nodes: 2
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:37 516] - 	==> 1 polygons (4 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:37 516] - 	==> 2 triangles (0 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:28:37 516] - 	==> 0.00 MB of data (not including pointers)
+    INFO    cellapp01 10103 8001  [2019-06-07 22:28:37 523] - Ouroboros::onLoadedSpaceGeometryMapping: spaceID=2, respath=spaces/novice_2!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:28:37 524] - onSpaceGeometryLoaded: spaceID=2, mapping=spaces/novice_2.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:28:37 524] - onAllSpaceGeometryLoaded: spaceID=2, isBootstrap=1, mapping=spaces/novice_2.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:33:42 267] - EntityApp::createEntity: new Avatar 5
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:33:42 274] - Avatar::onGetWitness: 5.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:33:42 274] - Space::onEnter space[1] entityID = 5.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:34:09 236] - EntityApp::createEntity: new Avatar 7
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:34:09 243] - Avatar::onWitnessed: 7 isWitnessed=1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:34:09 246] - Avatar::onWitnessed: 5 isWitnessed=1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:34:09 246] - Avatar::onGetWitness: 7.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:34:09 247] - Space::onEnter space[1] entityID = 7.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:37:41 905] - Avatar::onDestroy: 7.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:37:41 922] - Avatar::~Avatar(): 7
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:37:43 904] - Avatar::onDestroy: 5.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:37:43 922] - Avatar::~Avatar(): 5
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:37:56 906] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:47 514] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:47 515] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:47 516] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:47 516] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:47 561] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:9759 )
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:47 561] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:9759, SOMAXCONN=5.
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:47 561] - server-configs:
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:47 562] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:47 562] - 	defaultViewRadius : 80
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:47 562] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:47 562] - 	entryScriptFile : ouromain
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:47 562] - 	internalTcpAddr : 192.168.27.1:9759
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:47 562] - 	componentID : 8001
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:48 099] - Components::findLogger: found logger, addr:192.168.27.1:9753
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:48 099] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:48 099] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:48 111] - ---- cellapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8652043B9D1A1F169DDC4E8CD899D692. Config: Debug X86. Built: 02:55:12 May 23 2019. AppID: 8001. UID: 10103. PID: 14872 ----
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:48 112] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:48 112] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:48 113] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:48 350] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:48 351] - Script::install(): OUROxtra is successfully!
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:38:48 753] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:38:48 755] - EntityDef::checkDefMethod: exposed of method: Avatar.updateEG, check the caller can use "def updateEG(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:38:48 756] - EntityDef::checkDefMethod: exposed of method: Avatar.updateLastSyncTime, check the caller can use "def updateLastSyncTime(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:38:48 757] - EntityDef::checkDefMethod: exposed of method: Avatar.updatePositionSynced, check the caller can use "def updatePositionSynced(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:38:48 758] - loaded entity-script:Avatar(2).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:38:48 758] - loaded entity-script:FirstEntity(3).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:38:48 759] - loaded entity-script:Scene(4).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:38:48 759] - loaded entity-script:Space(5).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:38:48 760] - loaded entity-script:SpaceDuplicate(6).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:38:48 762] - loaded entity-script:SpawnPoint(8).
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:48 763] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:49 479] - ---- cellapp is running ----
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:38:49 479] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:38:49 818] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20791, errorno=10048
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:38:56 197] - EntityApp::checkTickPeriod: tick took 6718% (6.72 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:57 279] - Components::findComponents: find dbmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:57 330] - Components::findComponents: found dbmgr, addr:192.168.27.1:9756
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:57 330] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:57 330] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:57 331] - Components::findComponents: found dbmgr, addr:192.168.27.1:9756
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:38:58 332] - EntityApp::checkTickPeriod: tick took 1153% (1.15 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:59 343] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:59 392] - Components::findComponents: found cellappmgr, addr:192.168.27.1:9757
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:59 392] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:38:59 393] - Components::findComponents: found cellappmgr, addr:192.168.27.1:9757
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:39:00 394] - EntityApp::checkTickPeriod: tick took 1115% (1.12 seconds)!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:39:00 591] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\server\cellapp\cellapp.cpp:251: Profile gameTick took 0.20 seconds
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:39:00 596] - EntityApp::checkTickPeriod: tick took 202% (0.20 seconds)!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:39:00 599] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 0.21 seconds
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:39:01 444] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:39:01 523] - Components::findComponents: found baseappmgr, addr:192.168.27.1:9755
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:39:01 523] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:39:01 524] - Components::findComponents: found baseappmgr, addr:192.168.27.1:9755
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:39:02 524] - EntityApp::checkTickPeriod: tick took 1144% (1.14 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:39:03 578] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:39:03 642] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:39:03 679] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:39:03 744] - Components::process(): Found all the components!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:39:06 583] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:39:06 583] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    cellapp01 10103 8001  [2019-06-07 22:39:06 923] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20076, errorno=10048
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:39:08 151] - onInit::isReload:0
+ WARNING    cellapp01 10103 8001  [2019-06-07 22:39:08 151] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.57 seconds
+ WARNING    cellapp01 10103 8001  [2019-06-07 22:39:08 152] - EntityApp::checkTickPeriod: tick took 1572% (1.57 seconds)!
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:08 179] - InitProgressHandler::~InitProgressHandler()
+    INFO    cellapp01 10103 8001  [2019-06-07 22:39:10 038] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=5, grouporderID=1, intaddr:192.168.27.1, intport:9761, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:9756/0/0/0.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:39:10 038] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:39:14 539] - onGlobalData: Spaces
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:17 439] - Spaces::createNewSpace: new space(Space) 1.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:39:17 440] - EntityApp::createEntity: new Space 2002
+    INFO    cellapp01 10103 8001  [2019-06-07 22:39:17 441] - Ouroboros::addSpaceGeometryMapping: spaceID=1, respath=spaces/novice_1, shouldLoadOnServer=true!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:39:17 441] - onSpaceData: spaceID=1, key=_mapping, value=spaces/novice_1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:39:17 441] - created space[1] entityID = 2002, res = spaces/novice_1.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:17 442] - NavMeshHandle::create: (C:/Users/Black/Ouroboros/assets/res/spaces/novice_1/srv_novice_village_1.navmesh), layer=0
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:17 442] - 	==> tiles loaded: 1
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:17 442] - 	==> BVTree nodes: 2
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:17 442] - 	==> 1 polygons (4 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:17 442] - 	==> 2 triangles (0 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:17 442] - 	==> 0.00 MB of data (not including pointers)
+    INFO    cellapp01 10103 8001  [2019-06-07 22:39:17 479] - Ouroboros::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/novice_1!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:39:17 479] - onSpaceGeometryLoaded: spaceID=1, mapping=spaces/novice_1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:39:17 479] - onAllSpaceGeometryLoaded: spaceID=1, isBootstrap=1, mapping=spaces/novice_1.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:18 438] - Spaces::createNewSpace: new space(Space) 2.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:39:18 439] - EntityApp::createEntity: new Space 2003
+    INFO    cellapp01 10103 8001  [2019-06-07 22:39:18 439] - Ouroboros::addSpaceGeometryMapping: spaceID=2, respath=spaces/novice_2, shouldLoadOnServer=true!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:39:18 439] - onSpaceData: spaceID=2, key=_mapping, value=spaces/novice_2.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:39:18 440] - created space[2] entityID = 2003, res = spaces/novice_2.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:18 440] - NavMeshHandle::create: (C:/Users/Black/Ouroboros/assets/res/spaces/novice_2/srv_novice_village_2.navmesh), layer=0
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:18 441] - 	==> tiles loaded: 1
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:18 441] - 	==> BVTree nodes: 2
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:18 441] - 	==> 1 polygons (4 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:18 441] - 	==> 2 triangles (0 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:39:18 441] - 	==> 0.00 MB of data (not including pointers)
+    INFO    cellapp01 10103 8001  [2019-06-07 22:39:18 479] - Ouroboros::onLoadedSpaceGeometryMapping: spaceID=2, respath=spaces/novice_2!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:39:18 479] - onSpaceGeometryLoaded: spaceID=2, mapping=spaces/novice_2.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:39:18 479] - onAllSpaceGeometryLoaded: spaceID=2, isBootstrap=1, mapping=spaces/novice_2.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:43:46 723] - EntityApp::createEntity: new Avatar 2006
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:43:46 731] - Avatar::onGetWitness: 2006.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:43:46 731] - Space::onEnter space[1] entityID = 2006.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:43:48 901] - EntityApp::createEntity: new Avatar 2007
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:43:48 902] - Avatar::onWitnessed: 2007 isWitnessed=1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:43:48 905] - Avatar::onWitnessed: 2006 isWitnessed=1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:43:48 905] - Avatar::onGetWitness: 2007.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:43:48 906] - Space::onEnter space[1] entityID = 2007.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:44:50 330] - Avatar::onDestroy: 2006.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:44:50 379] - Avatar::~Avatar(): 2006
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:44:53 330] - Avatar::onDestroy: 2007.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:44:53 379] - Avatar::~Avatar(): 2007
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:45:05 332] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:38 485] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:38 486] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:38 486] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:38 486] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:38 500] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:11691 )
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:38 500] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:11691, SOMAXCONN=5.
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:38 500] - server-configs:
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:38 500] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:38 501] - 	defaultViewRadius : 80
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:38 501] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:38 501] - 	entryScriptFile : ouromain
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:38 501] - 	internalTcpAddr : 192.168.27.1:11691
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:38 501] - 	componentID : 8001
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:40 010] - ---- cellapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8652043B9D1A1F169DDC4E8CD899D692. Config: Debug X86. Built: 02:55:12 May 23 2019. AppID: 8001. UID: 10103. PID: 17424 ----
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:40 011] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:40 011] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:40 012] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:40 226] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:40 226] - Script::install(): OUROxtra is successfully!
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:54:40 561] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:54:40 562] - EntityDef::checkDefMethod: exposed of method: Avatar.updateEG, check the caller can use "def updateEG(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:54:40 563] - EntityDef::checkDefMethod: exposed of method: Avatar.updateLastSyncTime, check the caller can use "def updateLastSyncTime(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:54:40 563] - EntityDef::checkDefMethod: exposed of method: Avatar.updatePositionSynced, check the caller can use "def updatePositionSynced(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:54:40 563] - loaded entity-script:Avatar(2).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:54:40 564] - loaded entity-script:FirstEntity(3).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:54:40 564] - loaded entity-script:Scene(4).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:54:40 564] - loaded entity-script:Space(5).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:54:40 565] - loaded entity-script:SpaceDuplicate(6).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:54:40 567] - loaded entity-script:SpawnPoint(8).
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:40 568] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:41 105] - ---- cellapp is running ----
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 22:54:41 105] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:54:47 450] - EntityApp::checkTickPeriod: tick took 6343% (6.34 seconds)!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:54:47 463] - TCPPacketReceiver::processPendingEvents(192.168.27.1:11717): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:48 488] - Components::findComponents: find logger(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:48 544] - Components::findComponents: found logger, addr:192.168.27.1:11686
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:48 544] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:48 544] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:48 547] - Components::findComponents: find dbmgr(2)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:48 557] - Components::findComponents: found logger, addr:192.168.27.1:11686
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:48 563] - Components::findComponents: found dbmgr, addr:192.168.27.1:11687
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:48 563] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:48 563] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:48 666] - Components::findComponents: found dbmgr, addr:192.168.27.1:11687
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:54:49 667] - EntityApp::checkTickPeriod: tick took 1261% (1.26 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:50 687] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:50 739] - Components::findComponents: found cellappmgr, addr:192.168.27.1:11689
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:50 740] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:50 740] - Components::findComponents: found cellappmgr, addr:192.168.27.1:11689
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:54:51 740] - EntityApp::checkTickPeriod: tick took 1134% (1.13 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:52 788] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:52 865] - Components::findComponents: found baseappmgr, addr:192.168.27.1:11685
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:52 865] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:52 866] - Components::findComponents: found baseappmgr, addr:192.168.27.1:11685
+ WARNING    cellapp-1 10103 8001  [2019-06-07 22:54:53 867] - EntityApp::checkTickPeriod: tick took 1161% (1.16 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:54 988] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:55 005] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:55 088] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:55 105] - Components::process(): Found all the components!
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:55 156] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=5, grouporderID=1, intaddr:192.168.27.1, intport:11690, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:11687/0/0/0.
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:55 156] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 22:54:58 156] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:54:58 156] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    cellapp01 10103 8001  [2019-06-07 22:54:58 496] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20570, errorno=10048
+ WARNING    cellapp01 10103 8001  [2019-06-07 22:54:58 844] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20693, errorno=10048
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:55:00 068] - onInit::isReload:0
+ WARNING    cellapp01 10103 8001  [2019-06-07 22:55:00 068] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.91 seconds
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:55:00 068] - onGlobalData: Spaces
+ WARNING    cellapp01 10103 8001  [2019-06-07 22:55:00 069] - EntityApp::checkTickPeriod: tick took 1963% (1.96 seconds)!
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:00 088] - InitProgressHandler::~InitProgressHandler()
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:02 964] - Spaces::createNewSpace: new space(Space) 1.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:55:02 965] - EntityApp::createEntity: new Space 2002
+    INFO    cellapp01 10103 8001  [2019-06-07 22:55:02 966] - Ouroboros::addSpaceGeometryMapping: spaceID=1, respath=spaces/novice_1, shouldLoadOnServer=true!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:55:02 967] - onSpaceData: spaceID=1, key=_mapping, value=spaces/novice_1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:55:02 967] - created space[1] entityID = 2002, res = spaces/novice_1.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:02 970] - NavMeshHandle::create: (C:/Users/Black/Ouroboros/assets/res/spaces/novice_1/srv_novice_village_1.navmesh), layer=0
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:02 970] - 	==> tiles loaded: 1
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:02 970] - 	==> BVTree nodes: 2
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:02 970] - 	==> 1 polygons (4 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:02 970] - 	==> 2 triangles (0 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:02 971] - 	==> 0.00 MB of data (not including pointers)
+    INFO    cellapp01 10103 8001  [2019-06-07 22:55:03 008] - Ouroboros::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/novice_1!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:55:03 008] - onSpaceGeometryLoaded: spaceID=1, mapping=spaces/novice_1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:55:03 009] - onAllSpaceGeometryLoaded: spaceID=1, isBootstrap=1, mapping=spaces/novice_1.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:03 956] - Spaces::createNewSpace: new space(Space) 2.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:55:03 956] - EntityApp::createEntity: new Space 2003
+    INFO    cellapp01 10103 8001  [2019-06-07 22:55:03 957] - Ouroboros::addSpaceGeometryMapping: spaceID=2, respath=spaces/novice_2, shouldLoadOnServer=true!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:55:03 957] - onSpaceData: spaceID=2, key=_mapping, value=spaces/novice_2.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:55:03 957] - created space[2] entityID = 2003, res = spaces/novice_2.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:03 958] - NavMeshHandle::create: (C:/Users/Black/Ouroboros/assets/res/spaces/novice_2/srv_novice_village_2.navmesh), layer=0
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:03 958] - 	==> tiles loaded: 1
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:03 958] - 	==> BVTree nodes: 2
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:03 958] - 	==> 1 polygons (4 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:03 958] - 	==> 2 triangles (0 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:55:03 958] - 	==> 0.00 MB of data (not including pointers)
+    INFO    cellapp01 10103 8001  [2019-06-07 22:55:04 008] - Ouroboros::onLoadedSpaceGeometryMapping: spaceID=2, respath=spaces/novice_2!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:55:04 008] - onSpaceGeometryLoaded: spaceID=2, mapping=spaces/novice_2.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:55:04 009] - onAllSpaceGeometryLoaded: spaceID=2, isBootstrap=1, mapping=spaces/novice_2.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:57:00 476] - EntityApp::createEntity: new Avatar 2005
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:57:00 482] - Avatar::onGetWitness: 2005.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:57:00 482] - Space::onEnter space[1] entityID = 2005.
+    INFO    cellapp01 10103 8001  [2019-06-07 22:57:05 855] - EntityApp::createEntity: new Avatar 2007
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:57:05 856] - Avatar::onWitnessed: 2007 isWitnessed=1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:57:05 859] - Avatar::onWitnessed: 2005 isWitnessed=1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:57:05 859] - Avatar::onGetWitness: 2007.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:57:05 859] - Space::onEnter space[1] entityID = 2007.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:57:10 254] - Avatar::onDestroy: 2005.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:57:10 306] - Avatar::~Avatar(): 2005
+   S_DBG    cellapp01 10103 8001  [2019-06-07 22:57:25 257] - Avatar::onWitnessed: 2007 isWitnessed=0.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 22:57:25 257] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:01 241] - -----------------------------------------------------------------------------------------
+
+
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:01 243] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:01 243] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:01 243] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:01 287] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12390 )
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:01 287] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:12390, SOMAXCONN=5.
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:01 288] - server-configs:
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:01 288] - 	gameUpdateHertz : 10
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:01 288] - 	defaultViewRadius : 80
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:01 289] - 	defaultViewHysteresisArea : 5
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:01 289] - 	entryScriptFile : ouromain
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:01 289] - 	internalTcpAddr : 192.168.27.1:12390
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:01 289] - 	componentID : 8001
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:02 079] - Components::findLogger: found logger, addr:192.168.27.1:12385
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:02 079] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:02 080] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:02 092] - ---- cellapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 8652043B9D1A1F169DDC4E8CD899D692. Config: Debug X86. Built: 02:55:12 May 23 2019. AppID: 8001. UID: 10103. PID: 31860 ----
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:02 092] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:02 093] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:02 093] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:02 353] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:02 353] - Script::install(): OUROxtra is successfully!
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 23:01:02 879] - loaded entity-script:Account(1).
+ WARNING    cellapp-1 10103 8001  [2019-06-07 23:01:02 880] - EntityDef::checkDefMethod: exposed of method: Avatar.updateEG, check the caller can use "def updateEG(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 23:01:02 886] - EntityDef::checkDefMethod: exposed of method: Avatar.updateLastSyncTime, check the caller can use "def updateLastSyncTime(self, callerID, ...)", such as: if callerID == self.id!
+ WARNING    cellapp-1 10103 8001  [2019-06-07 23:01:02 887] - EntityDef::checkDefMethod: exposed of method: Avatar.updatePositionSynced, check the caller can use "def updatePositionSynced(self, callerID, ...)", such as: if callerID == self.id!
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 23:01:02 887] - loaded entity-script:Avatar(2).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 23:01:02 887] - loaded entity-script:FirstEntity(3).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 23:01:02 888] - loaded entity-script:Scene(4).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 23:01:02 888] - loaded entity-script:Space(5).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 23:01:02 889] - loaded entity-script:SpaceDuplicate(6).
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 23:01:02 891] - loaded entity-script:SpawnPoint(8).
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:02 892] - TelnetServer server is running on port 50000
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:03 707] - ---- cellapp is running ----
+   DEBUG    cellapp-1 10103 8001  [2019-06-07 23:01:03 715] - Components::process(): Request for the process of identity...
+ WARNING    cellapp-1 10103 8001  [2019-06-07 23:01:10 114] - EntityApp::checkTickPeriod: tick took 6407% (6.41 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:11 207] - Components::findComponents: find dbmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:11 274] - Components::findComponents: found dbmgr, addr:192.168.27.1:12386
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:11 274] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:11 274] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:11 274] - Components::findComponents: found dbmgr, addr:192.168.27.1:12386
+ WARNING    cellapp-1 10103 8001  [2019-06-07 23:01:12 275] - EntityApp::checkTickPeriod: tick took 1167% (1.17 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:13 308] - Components::findComponents: find cellappmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:13 336] - Components::findComponents: found cellappmgr, addr:192.168.27.1:12389
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:13 336] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:13 337] - Components::findComponents: found cellappmgr, addr:192.168.27.1:12389
+ WARNING    cellapp-1 10103 8001  [2019-06-07 23:01:14 337] - EntityApp::checkTickPeriod: tick took 1130% (1.13 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:15 373] - Components::findComponents: find baseappmgr(1)...
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:15 469] - Components::findComponents: found baseappmgr, addr:192.168.27.1:12388
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:15 469] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:15 470] - Components::findComponents: found baseappmgr, addr:192.168.27.1:12388
+ WARNING    cellapp-1 10103 8001  [2019-06-07 23:01:16 470] - EntityApp::checkTickPeriod: tick took 1162% (1.16 seconds)!
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:17 507] - Components::findComponents: register self to dbmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:17 573] - Components::findComponents: register self to cellappmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:17 606] - Components::findComponents: register self to baseappmgr...
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:17 673] - Components::process(): Found all the components!
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:17 798] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=5, grouporderID=1, intaddr:192.168.27.1, intport:12391, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:12386/0/0/0.
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:17 798] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO    cellapp-1 10103 8001  [2019-06-07 23:01:20 807] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=4, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO    cellapp01 10103 8001  [2019-06-07 23:01:20 807] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+ WARNING    cellapp01 10103 8001  [2019-06-07 23:01:21 148] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20979, errorno=10048
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:01:22 373] - onInit::isReload:0
+ WARNING    cellapp01 10103 8001  [2019-06-07 23:01:22 373] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.57 seconds
+ WARNING    cellapp01 10103 8001  [2019-06-07 23:01:22 373] - EntityApp::checkTickPeriod: tick took 1665% (1.66 seconds)!
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:22 407] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:01:22 998] - onGlobalData: Spaces
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:25 993] - Spaces::createNewSpace: new space(Space) 1.
+    INFO    cellapp01 10103 8001  [2019-06-07 23:01:25 993] - EntityApp::createEntity: new Space 2002
+    INFO    cellapp01 10103 8001  [2019-06-07 23:01:25 993] - Ouroboros::addSpaceGeometryMapping: spaceID=1, respath=spaces/novice_1, shouldLoadOnServer=true!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:01:25 993] - onSpaceData: spaceID=1, key=_mapping, value=spaces/novice_1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:01:25 994] - created space[1] entityID = 2002, res = spaces/novice_1.
+    INFO    cellapp01 10103 8001  [2019-06-07 23:01:26 007] - Ouroboros::onLoadedSpaceGeometryMapping: spaceID=1, respath=spaces/novice_1!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:01:26 007] - onSpaceGeometryLoaded: spaceID=1, mapping=spaces/novice_1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:01:26 007] - onAllSpaceGeometryLoaded: spaceID=1, isBootstrap=1, mapping=spaces/novice_1.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:25 994] - NavMeshHandle::create: (C:/Users/Black/Ouroboros/assets/res/spaces/novice_1/srv_novice_village_1.navmesh), layer=0
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:25 994] - 	==> tiles loaded: 1
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:25 994] - 	==> BVTree nodes: 2
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:25 994] - 	==> 1 polygons (4 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:25 994] - 	==> 2 triangles (0 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:25 994] - 	==> 0.00 MB of data (not including pointers)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:26 993] - Spaces::createNewSpace: new space(Space) 2.
+    INFO    cellapp01 10103 8001  [2019-06-07 23:01:26 993] - EntityApp::createEntity: new Space 2003
+    INFO    cellapp01 10103 8001  [2019-06-07 23:01:26 994] - Ouroboros::addSpaceGeometryMapping: spaceID=2, respath=spaces/novice_2, shouldLoadOnServer=true!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:01:26 994] - onSpaceData: spaceID=2, key=_mapping, value=spaces/novice_2.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:01:26 994] - created space[2] entityID = 2003, res = spaces/novice_2.
+    INFO    cellapp01 10103 8001  [2019-06-07 23:01:27 007] - Ouroboros::onLoadedSpaceGeometryMapping: spaceID=2, respath=spaces/novice_2!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:01:27 008] - onSpaceGeometryLoaded: spaceID=2, mapping=spaces/novice_2.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:01:27 008] - onAllSpaceGeometryLoaded: spaceID=2, isBootstrap=1, mapping=spaces/novice_2.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:26 995] - NavMeshHandle::create: (C:/Users/Black/Ouroboros/assets/res/spaces/novice_2/srv_novice_village_2.navmesh), layer=0
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:26 995] - 	==> tiles loaded: 1
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:26 995] - 	==> BVTree nodes: 2
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:26 995] - 	==> 1 polygons (4 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:26 995] - 	==> 2 triangles (0 vertices)
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:01:26 995] - 	==> 0.00 MB of data (not including pointers)
+    INFO    cellapp01 10103 8001  [2019-06-07 23:04:59 627] - EntityApp::createEntity: new Avatar 2005
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:04:59 631] - Avatar::onGetWitness: 2005.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:04:59 631] - Space::onEnter space[1] entityID = 2005.
+    INFO    cellapp01 10103 8001  [2019-06-07 23:05:09 647] - EntityApp::createEntity: new Avatar 2007
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:05:09 649] - Avatar::onWitnessed: 2007 isWitnessed=1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:05:09 651] - Avatar::onWitnessed: 2005 isWitnessed=1.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:05:09 651] - Avatar::onGetWitness: 2007.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:05:09 651] - Space::onEnter space[1] entityID = 2007.
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:07:33 688] - Avatar::onDestroy: 2005.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:07:33 708] - Avatar::~Avatar(): 2005
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:07:48 690] - Avatar::onWitnessed: 2007 isWitnessed=0.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:07:48 690] - WitnessedTimeoutHandler::handleTimeout: witnesseds is empty, timer is canceled!
+   S_DBG    cellapp01 10103 8001  [2019-06-07 23:08:07 765] - Avatar::onDestroy: 2007.
+   DEBUG    cellapp01 10103 8001  [2019-06-07 23:08:07 808] - Avatar::~Avatar(): 2007

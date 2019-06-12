@@ -1,1 +1,5 @@
-C:/Users/Black/Ouroboros/assets/logs/logger_dbmgr.2019-06-04.log
+   DEBUG      dbmgr-1 10103 4000  [2019-06-04 00:29:24 497] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-04 01:29:24 481] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-04 02:29:24 445] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-04 03:29:24 409] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-04 04:29:24 373] - Dbmgr::DBTaskServerLog()

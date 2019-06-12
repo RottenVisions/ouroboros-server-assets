@@ -1,1 +1,273 @@
-C:/Users/Black/Ouroboros/assets/logs/loginapp.9000.2019-06-07.log
+  INFO root [2019-06-07 21:53:14,546] - 
+  INFO root [2019-06-07 21:53:14,547] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-07 21:53:14,550] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-07 21:53:14,550] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-07 21:53:14,550] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-07 21:53:14,563] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20013 )
+  INFO root [2019-06-07 21:53:14,564] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20013, SOMAXCONN=128.
+  INFO root [2019-06-07 21:53:14,566] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4018 )
+  INFO root [2019-06-07 21:53:14,567] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4018, SOMAXCONN=128.
+  INFO root [2019-06-07 21:53:14,567] - server-configs:
+  INFO root [2019-06-07 21:53:14,567] - 	internalTcpAddr : 192.168.27.1:4018
+  INFO root [2019-06-07 21:53:14,567] - 	externalTcpAddr : 192.168.27.1:20013
+  INFO root [2019-06-07 21:53:14,567] - 	componentID : 9000
+  INFO root [2019-06-07 21:53:14,770] - Components::findLogger: found logger, addr:192.168.27.1:3862
+  INFO root [2019-06-07 21:53:14,771] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-07 21:53:14,771] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-07 21:53:14,776] - ---- loginapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: FAEB96C1009ABB16D0D16DD0697D59A8. Config: Debug X86. Built: 02:53:45 May 23 2019. AppID: 9000. UID: 10103. PID: 3436 ----
+  INFO root [2019-06-07 21:53:14,776] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-07 21:53:14,777] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-07 21:53:14,778] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-07 21:53:14,981] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-07 21:53:14,982] - Script::install(): OUROxtra is successfully!
+S_INFO root [2019-06-07 21:53:14,998] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-07 21:53:14,998] - TelnetServer server is running on port 31000
+  INFO root [2019-06-07 21:53:15,356] - ---- loginapp is running ----
+ DEBUG root [2019-06-07 21:53:15,357] - Components::process(): Request for the process of identity...
+  WARN root [2019-06-07 21:53:21,563] - Forwarding logs to logger[192.168.27.1:3862/0/0/0]...
+ ERROR root [2019-06-07 22:14:15,994] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=110379810352, lastReceivedTime=110239866840, inactivityExceptionPeriod=599500192)
+  INFO root [2019-06-07 22:14:15,997] - The following logs sent to logger failed:
+  WARN root [2019-06-07 22:14:15,997] - ==> [2019-06-07 22:14:15 993] TCPPacketReceiver::processPendingEvents(192.168.27.1:3862): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-07 22:14:15,997] - ==> [2019-06-07 22:14:15 995] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=110379810352, lastReceivedTime=110239866840, inactivityExceptionPeriod=599500192)
+  WARN root [2019-06-07 22:14:16,103] - TCPPacketReceiver::processPendingEvents(192.168.27.1:3920): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-07 22:14:16,104] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=110380915119, lastReceivedTime=110257977346, inactivityExceptionPeriod=599500192)
+  INFO root [2019-06-07 22:14:16,111] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2019-06-07 22:14:16,115] - onLoginAppShutDown()
+  INFO root [2019-06-07 22:14:16,115] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-07 22:14:16,115] - Shutdowner::onShutdownEnd: shutting down
+  INFO root [2019-06-07 22:14:16,123] - Script::uninstall(): is successfully!
+ DEBUG root [2019-06-07 22:14:16,123] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-07 22:14:16,424] - ThreadPool::destroy(): waiting for thread(2)[0x99bfb0,0x99bda8,], try=1
+  INFO root [2019-06-07 22:14:20,292] - 
+  INFO root [2019-06-07 22:14:20,292] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-07 22:14:20,294] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-07 22:14:20,294] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-07 22:14:20,294] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-07 22:14:20,309] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20013 )
+  INFO root [2019-06-07 22:14:20,309] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20013, SOMAXCONN=128.
+  INFO root [2019-06-07 22:14:20,314] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:6206 )
+  INFO root [2019-06-07 22:14:20,314] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:6206, SOMAXCONN=128.
+  INFO root [2019-06-07 22:14:20,314] - server-configs:
+  INFO root [2019-06-07 22:14:20,314] - 	internalTcpAddr : 192.168.27.1:6206
+  INFO root [2019-06-07 22:14:20,315] - 	externalTcpAddr : 192.168.27.1:20013
+  INFO root [2019-06-07 22:14:20,315] - 	componentID : 9000
+  INFO root [2019-06-07 22:14:20,775] - Components::findLogger: found logger, addr:192.168.27.1:6200
+  INFO root [2019-06-07 22:14:20,775] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-07 22:14:20,775] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-07 22:14:20,781] - ---- loginapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: FAEB96C1009ABB16D0D16DD0697D59A8. Config: Debug X86. Built: 02:53:45 May 23 2019. AppID: 9000. UID: 10103. PID: 19872 ----
+  INFO root [2019-06-07 22:14:20,781] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-07 22:14:20,782] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-07 22:14:20,782] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-07 22:14:20,999] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-07 22:14:20,999] - Script::install(): OUROxtra is successfully!
+S_INFO root [2019-06-07 22:14:21,011] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-07 22:14:21,011] - TelnetServer server is running on port 31000
+  INFO root [2019-06-07 22:14:21,467] - ---- loginapp is running ----
+ DEBUG root [2019-06-07 22:14:21,467] - Components::process(): Request for the process of identity...
+  WARN root [2019-06-07 22:14:27,705] - Forwarding logs to logger[192.168.27.1:6200/0/0/0]...
+ ERROR root [2019-06-07 22:28:05,376] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=118673636638, lastReceivedTime=118520395294, inactivityExceptionPeriod=599500064)
+  INFO root [2019-06-07 22:28:05,379] - The following logs sent to logger failed:
+  WARN root [2019-06-07 22:28:05,379] - ==> [2019-06-07 22:28:05 376] TCPPacketReceiver::processPendingEvents(192.168.27.1:6200): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-07 22:28:05,380] - ==> [2019-06-07 22:28:05 377] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=118673636638, lastReceivedTime=118520395294, inactivityExceptionPeriod=599500064)
+  WARN root [2019-06-07 22:28:05,507] - TCPPacketReceiver::processPendingEvents(192.168.27.1:6201): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-07 22:28:05,508] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=118674953628, lastReceivedTime=118521014425, inactivityExceptionPeriod=599500064)
+  INFO root [2019-06-07 22:28:05,511] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2019-06-07 22:28:05,514] - onLoginAppShutDown()
+  INFO root [2019-06-07 22:28:05,514] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-07 22:28:05,514] - Shutdowner::onShutdownEnd: shutting down
+  INFO root [2019-06-07 22:28:05,523] - Script::uninstall(): is successfully!
+ DEBUG root [2019-06-07 22:28:05,524] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-07 22:28:05,825] - ThreadPool::destroy(): waiting for thread(2)[0xce1800,0xce1ba8,], try=1
+  INFO root [2019-06-07 22:28:12,429] - 
+  INFO root [2019-06-07 22:28:12,430] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-07 22:28:12,432] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-07 22:28:12,432] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-07 22:28:12,432] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-07 22:28:12,446] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20013 )
+  INFO root [2019-06-07 22:28:12,447] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20013, SOMAXCONN=128.
+  INFO root [2019-06-07 22:28:12,451] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:8452 )
+  INFO root [2019-06-07 22:28:12,452] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:8452, SOMAXCONN=128.
+  INFO root [2019-06-07 22:28:12,452] - server-configs:
+  INFO root [2019-06-07 22:28:12,452] - 	internalTcpAddr : 192.168.27.1:8452
+  INFO root [2019-06-07 22:28:12,452] - 	externalTcpAddr : 192.168.27.1:20013
+  INFO root [2019-06-07 22:28:12,452] - 	componentID : 9000
+  INFO root [2019-06-07 22:28:12,918] - Components::findLogger: found logger, addr:192.168.27.1:8446
+  INFO root [2019-06-07 22:28:12,918] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-07 22:28:12,918] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-07 22:28:12,925] - ---- loginapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: FAEB96C1009ABB16D0D16DD0697D59A8. Config: Debug X86. Built: 02:53:45 May 23 2019. AppID: 9000. UID: 10103. PID: 6668 ----
+  INFO root [2019-06-07 22:28:12,925] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-07 22:28:12,926] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-07 22:28:12,926] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-07 22:28:13,123] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-07 22:28:13,123] - Script::install(): OUROxtra is successfully!
+S_INFO root [2019-06-07 22:28:13,137] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-07 22:28:13,138] - TelnetServer server is running on port 31000
+  INFO root [2019-06-07 22:28:13,519] - ---- loginapp is running ----
+ DEBUG root [2019-06-07 22:28:13,519] - Components::process(): Request for the process of identity...
+  WARN root [2019-06-07 22:28:19,865] - Forwarding logs to logger[192.168.27.1:8446/0/0/0]...
+ ERROR root [2019-06-07 22:38:42,190] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=125041768785, lastReceivedTime=125040879847, inactivityExceptionPeriod=599499873)
+  INFO root [2019-06-07 22:38:42,192] - The following logs sent to logger failed:
+  WARN root [2019-06-07 22:38:42,192] - ==> [2019-06-07 22:38:42 189] TCPPacketReceiver::processPendingEvents(192.168.27.1:8446): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-07 22:38:42,193] - ==> [2019-06-07 22:38:42 190] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=125041768785, lastReceivedTime=125040879847, inactivityExceptionPeriod=599499873)
+  WARN root [2019-06-07 22:38:42,334] - TCPPacketReceiver::processPendingEvents(192.168.27.1:8448): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-07 22:38:42,337] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=125043246894, lastReceivedTime=125041620839, inactivityExceptionPeriod=599499873)
+  INFO root [2019-06-07 22:38:42,342] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2019-06-07 22:38:42,345] - onLoginAppShutDown()
+  INFO root [2019-06-07 22:38:42,345] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-07 22:38:42,345] - Shutdowner::onShutdownEnd: shutting down
+  INFO root [2019-06-07 22:38:42,356] - Script::uninstall(): is successfully!
+ DEBUG root [2019-06-07 22:38:42,357] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-07 22:38:42,658] - ThreadPool::destroy(): waiting for thread(2)[0xa14180,0xa14320,], try=1
+ DEBUG root [2019-06-07 22:38:43,060] - TPThread::~TPThread(): 0xa14180
+ DEBUG root [2019-06-07 22:38:43,060] - TPThread::~TPThread(): 0xa14320
+ DEBUG root [2019-06-07 22:38:43,060] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-06-07 22:38:43,081] - Bundle::destroyObjPool(): size 5.
+ DEBUG root [2019-06-07 22:38:43,082] - Channel::destroyObjPool(): size 15.
+ DEBUG root [2019-06-07 22:38:43,082] - TCPPacket::destroyObjPool(): size 5.
+ DEBUG root [2019-06-07 22:38:43,082] - UDPPacket::destroyObjPool(): size 2.
+ DEBUG root [2019-06-07 22:38:43,083] - EndPoint::destroyObjPool(): size 14.
+ DEBUG root [2019-06-07 22:38:43,083] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-06-07 22:38:43,083] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-06-07 22:38:43,083] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-06-07 22:38:43,083] - loginapp(9000) has shut down.
+  INFO root [2019-06-07 22:38:47,559] - 
+  INFO root [2019-06-07 22:38:47,560] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-07 22:38:47,561] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-07 22:38:47,562] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-07 22:38:47,562] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-07 22:38:47,577] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20013 )
+  INFO root [2019-06-07 22:38:47,578] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20013, SOMAXCONN=128.
+  INFO root [2019-06-07 22:38:47,584] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:9760 )
+  INFO root [2019-06-07 22:38:47,584] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:9760, SOMAXCONN=128.
+  INFO root [2019-06-07 22:38:47,584] - server-configs:
+  INFO root [2019-06-07 22:38:47,585] - 	internalTcpAddr : 192.168.27.1:9760
+  INFO root [2019-06-07 22:38:47,585] - 	externalTcpAddr : 192.168.27.1:20013
+  INFO root [2019-06-07 22:38:47,585] - 	componentID : 9000
+  INFO root [2019-06-07 22:38:48,099] - Components::findLogger: found logger, addr:192.168.27.1:9753
+  INFO root [2019-06-07 22:38:48,100] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-07 22:38:48,100] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-07 22:38:48,107] - ---- loginapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: FAEB96C1009ABB16D0D16DD0697D59A8. Config: Debug X86. Built: 02:53:45 May 23 2019. AppID: 9000. UID: 10103. PID: 28200 ----
+  INFO root [2019-06-07 22:38:48,108] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-07 22:38:48,110] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-07 22:38:48,110] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-07 22:38:48,349] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-07 22:38:48,350] - Script::install(): OUROxtra is successfully!
+S_INFO root [2019-06-07 22:38:48,364] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-07 22:38:48,365] - TelnetServer server is running on port 31000
+  INFO root [2019-06-07 22:38:49,038] - ---- loginapp is running ----
+ DEBUG root [2019-06-07 22:38:49,039] - Components::process(): Request for the process of identity...
+  WARN root [2019-06-07 22:38:55,398] - Forwarding logs to logger[192.168.27.1:9753/0/0/0]...
+ ERROR root [2019-06-07 22:54:08,115] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=134301032073, lastReceivedTime=134091032525, inactivityExceptionPeriod=599499745)
+  INFO root [2019-06-07 22:54:08,118] - The following logs sent to logger failed:
+  WARN root [2019-06-07 22:54:08,118] - ==> [2019-06-07 22:54:08 116] TCPPacketReceiver::processPendingEvents(192.168.27.1:9753): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-07 22:54:08,119] - ==> [2019-06-07 22:54:08 116] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=134301032073, lastReceivedTime=134091032525, inactivityExceptionPeriod=599499745)
+  WARN root [2019-06-07 22:54:08,223] - TCPPacketReceiver::processPendingEvents(192.168.27.1:9756): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-07 22:54:08,224] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=134302113566, lastReceivedTime=134093468679, inactivityExceptionPeriod=599499745)
+  INFO root [2019-06-07 22:54:08,232] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2019-06-07 22:54:08,238] - onLoginAppShutDown()
+  INFO root [2019-06-07 22:54:08,238] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-07 22:54:08,238] - Shutdowner::onShutdownEnd: shutting down
+  INFO root [2019-06-07 22:54:08,250] - Script::uninstall(): is successfully!
+ DEBUG root [2019-06-07 22:54:08,250] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-07 22:54:08,551] - ThreadPool::destroy(): waiting for thread(2)[0x200c4b8,0x200c5f0,], try=1
+  INFO root [2019-06-07 22:54:38,500] - 
+  INFO root [2019-06-07 22:54:38,500] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-07 22:54:38,502] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-07 22:54:38,502] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-07 22:54:38,502] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-07 22:54:38,515] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20013 )
+  INFO root [2019-06-07 22:54:38,515] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20013, SOMAXCONN=128.
+  INFO root [2019-06-07 22:54:38,520] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:11692 )
+  INFO root [2019-06-07 22:54:38,520] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:11692, SOMAXCONN=128.
+  INFO root [2019-06-07 22:54:38,520] - server-configs:
+  INFO root [2019-06-07 22:54:38,521] - 	internalTcpAddr : 192.168.27.1:11692
+  INFO root [2019-06-07 22:54:38,521] - 	externalTcpAddr : 192.168.27.1:20013
+  INFO root [2019-06-07 22:54:38,521] - 	componentID : 9000
+  INFO root [2019-06-07 22:54:40,270] - ---- loginapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: FAEB96C1009ABB16D0D16DD0697D59A8. Config: Debug X86. Built: 02:53:45 May 23 2019. AppID: 9000. UID: 10103. PID: 5228 ----
+  INFO root [2019-06-07 22:54:40,271] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-07 22:54:40,271] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-07 22:54:40,271] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-07 22:54:40,494] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-07 22:54:40,495] - Script::install(): OUROxtra is successfully!
+S_INFO root [2019-06-07 22:54:40,508] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-07 22:54:40,509] - TelnetServer server is running on port 31000
+  INFO root [2019-06-07 22:54:41,023] - ---- loginapp is running ----
+ DEBUG root [2019-06-07 22:54:41,023] - Components::process(): Request for the process of identity...
+  WARN root [2019-06-07 22:54:47,397] - TCPPacketReceiver::processPendingEvents(192.168.27.1:11722): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [2019-06-07 22:54:48,403] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-07 22:54:48,422] - Components::findComponents: found logger, addr:192.168.27.1:11686
+  INFO root [2019-06-07 22:54:48,422] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-07 22:54:48,423] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-07 22:54:48,424] - Components::findComponents: find dbmgr(2)...
+  INFO root [2019-06-07 22:54:48,533] - Components::findComponents: found dbmgr, addr:192.168.27.1:11687
+  INFO root [2019-06-07 22:54:48,534] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-07 22:54:48,534] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-07 22:54:48,551] - Components::findComponents: found dbmgr, addr:192.168.27.1:11687
+  WARN root [2019-06-07 22:54:49,552] - Forwarding logs to logger[192.168.27.1:11686/0/0/0]...
+ ERROR root [2019-06-07 23:00:06,127] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=137881149490, lastReceivedTime=137603709249, inactivityExceptionPeriod=599500064)
+  INFO root [2019-06-07 23:00:06,129] - The following logs sent to logger failed:
+  WARN root [2019-06-07 23:00:06,130] - ==> [2019-06-07 23:00:06 127] TCPPacketReceiver::processPendingEvents(192.168.27.1:11686): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-07 23:00:06,130] - ==> [2019-06-07 23:00:06 128] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=137881149490, lastReceivedTime=137603709249, inactivityExceptionPeriod=599500064)
+  WARN root [2019-06-07 23:00:06,231] - TCPPacketReceiver::processPendingEvents(192.168.27.1:11687): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-07 23:00:06,231] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=137882186027, lastReceivedTime=137604257434, inactivityExceptionPeriod=599500064)
+  INFO root [2019-06-07 23:00:06,234] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2019-06-07 23:00:06,235] - onLoginAppShutDown()
+  INFO root [2019-06-07 23:00:06,235] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-07 23:00:06,236] - Shutdowner::onShutdownEnd: shutting down
+  INFO root [2019-06-07 23:00:06,246] - Script::uninstall(): is successfully!
+ DEBUG root [2019-06-07 23:00:06,246] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-07 23:00:06,547] - ThreadPool::destroy(): waiting for thread(2)[0x838c20,0x839030,], try=1
+  INFO root [2019-06-07 23:01:01,238] - 
+  INFO root [2019-06-07 23:01:01,245] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-07 23:01:01,247] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-07 23:01:01,248] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-07 23:01:01,248] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-07 23:01:01,319] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20013 )
+  INFO root [2019-06-07 23:01:01,319] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20013, SOMAXCONN=128.
+  INFO root [2019-06-07 23:01:01,324] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12392 )
+  INFO root [2019-06-07 23:01:01,324] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:12392, SOMAXCONN=128.
+  INFO root [2019-06-07 23:01:01,325] - server-configs:
+  INFO root [2019-06-07 23:01:01,325] - 	internalTcpAddr : 192.168.27.1:12392
+  INFO root [2019-06-07 23:01:01,325] - 	externalTcpAddr : 192.168.27.1:20013
+  INFO root [2019-06-07 23:01:01,325] - 	componentID : 9000
+  INFO root [2019-06-07 23:01:02,069] - Components::findLogger: found logger, addr:192.168.27.1:12385
+  INFO root [2019-06-07 23:01:02,070] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-07 23:01:02,070] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-07 23:01:02,082] - ---- loginapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: FAEB96C1009ABB16D0D16DD0697D59A8. Config: Debug X86. Built: 02:53:45 May 23 2019. AppID: 9000. UID: 10103. PID: 5828 ----
+  INFO root [2019-06-07 23:01:02,089] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-07 23:01:02,091] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-07 23:01:02,091] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-07 23:01:02,338] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-07 23:01:02,338] - Script::install(): OUROxtra is successfully!
+S_INFO root [2019-06-07 23:01:02,355] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-07 23:01:02,355] - TelnetServer server is running on port 31000
+  INFO root [2019-06-07 23:01:03,134] - ---- loginapp is running ----
+ DEBUG root [2019-06-07 23:01:03,135] - Components::process(): Request for the process of identity...
+  WARN root [2019-06-07 23:01:09,532] - Forwarding logs to logger[192.168.27.1:12385/0/0/0]...

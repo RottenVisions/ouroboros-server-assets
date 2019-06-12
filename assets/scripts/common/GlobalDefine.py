@@ -1,1 +1,75 @@
-C:/Users/Black/Ouroboros/assets/scripts/common/GlobalDefine.py
+"""
+"""
+
+# ------------------------------------------------------------------------------
+# Entity State
+# ------------------------------------------------------------------------------
+ENTITY_STATE_UNKNOWN									= -1
+ENTITY_STATE_FREE										= 0
+ENTITY_STATE_DEAD										= 1
+ENTITY_STATE_REST										= 2
+ENTITY_STATE_FIGHT										= 3
+ENTITY_STATE_MAX    									= 4
+
+# Sub State
+ENTITY_SUB_STATE_NORMAL									= 0
+ENTITY_SUB_STATE_RANDOM_STROLL							= 1
+ENTITY_SUB_STATE_GO_BACK								= 2
+ENTITY_SUB_STATE_CHASE_TARGET							= 3
+ENTITY_SUB_STATE_FLEE									= 4
+
+# Some behavioral prohibition signs
+FORBID_NO												= 0x00000000
+FORBID_MOTION											= 0x00000001
+FORBID_CHAT												= 0x00000002
+FORBID_SPELL											= 0x00000004
+FORBID_TRADE											= 0x00000008
+FORBID_EQUIP											= 0x00000010
+FORBID_INTONATE											= 0x00000020
+FORBID_ATTACK_PHY_NEAR									= 0x00000040
+FORBID_ATTACK_PHY_FAR									= 0x00000080
+FORBID_ATTACK_MAGIC										= 0x00000080
+FORBID_YAW												= 0x00008000
+
+FORBID_ATTACK_PHY = FORBID_ATTACK_PHY_NEAR | FORBID_ATTACK_PHY_FAR
+FORBID_ATTACK_MAG = FORBID_ATTACK_MAGIC
+FORBID_ATTACK = FORBID_ATTACK_PHY | FORBID_ATTACK_MAG
+FORBID_MOTION_YAW = FORBID_MOTION | FORBID_YAW
+
+FORBID_ALL = [
+	FORBID_MOTION,
+	FORBID_YAW,
+	FORBID_CHAT,
+	FORBID_ATTACK,
+	FORBID_SPELL,
+	FORBID_TRADE,
+	FORBID_EQUIP,
+	FORBID_INTONATE,
+	FORBID_ATTACK_PHY_NEAR,
+	FORBID_ATTACK_PHY_FAR,
+	FORBID_ATTACK_MAGIC,
+]
+
+FORBID_ACTIONS = {
+	ENTITY_STATE_UNKNOWN  : 0,
+	ENTITY_STATE_FREE    : FORBID_NO,
+	ENTITY_STATE_DEAD    : FORBID_MOTION_YAW | FORBID_TRADE | FORBID_ATTACK | FORBID_SPELL | FORBID_EQUIP,
+	ENTITY_STATE_REST    : FORBID_MOTION_YAW | FORBID_TRADE | FORBID_ATTACK | FORBID_SPELL | FORBID_EQUIP,
+	ENTITY_STATE_FIGHT   : FORBID_EQUIP | FORBID_TRADE,
+	}
+
+for f in FORBID_ALL: FORBID_ACTIONS[ENTITY_STATE_UNKNOWN] |= f
+
+# ------------------------------------------------------------------------------
+# Define conversation related
+# ------------------------------------------------------------------------------
+DIALOG_TYPE_NORMAL			= 0 # Ordinary conversation
+DIALOG_TYPE_QUEST			= 1 # Task dialogue
+
+# ------------------------------------------------------------------------------
+# Ability related
+# ------------------------------------------------------------------------------
+# Ability object category
+ABILITY_OBJECT_TYPE_UNKNOWN		= 0
+ABILITY_OBJECT_TYPE_ENTITY		= 1
+ABILITY_OBJECT_TYPE_POSITION	= 2

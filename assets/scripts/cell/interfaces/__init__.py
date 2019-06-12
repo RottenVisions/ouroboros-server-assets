@@ -1,1 +1,5 @@
-C:/Users/Black/Ouroboros/assets/scripts/cell/interfaces/__init__.py
+# -*- coding: utf-8 -*-
+#
+"""
+"""
+from OURODebug import *

@@ -1,1 +1,38 @@
-C:/Users/Black/Ouroboros/assets/logs/cellapp.8001.2019-06-04.log
+ ERROR root [0x0000ac60] [2019-06-04 05:07:58,697] - Components::removeComponentByChannel: baseapp : 7001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=4581308314992, lastReceivedTime=4581179355305, inactivityExceptionPeriod=599477363)
+ ERROR root [0x0000ac60] [2019-06-04 05:07:58,728] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=4581308630516, lastReceivedTime=4581052039966, inactivityExceptionPeriod=599477363)
+  INFO root [0x0000ac60] [2019-06-04 05:07:58,730] - The following logs sent to logger failed:
+  WARN root [0x0000ac60] [2019-06-04 05:07:58,731] - ==> [2019-06-04 05:07:58 664] TCPPacketReceiver::processPendingEvents(192.168.27.1:13742): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000ac60] [2019-06-04 05:07:58,732] - ==> [2019-06-04 05:07:58 699] Components::removeComponentByChannel: baseapp : 7001, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=4581308314992, lastReceivedTime=4581179355305, inactivityExceptionPeriod=599477363)
+  WARN root [0x0000ac60] [2019-06-04 05:07:58,732] - ==> [2019-06-04 05:07:58 728] TCPPacketReceiver::processPendingEvents(192.168.27.1:13455): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000ac60] [2019-06-04 05:07:58,733] - ==> [2019-06-04 05:07:58 729] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=4581308630516, lastReceivedTime=4581052039966, inactivityExceptionPeriod=599477363)
+  WARN root [0x0000ac60] [2019-06-04 05:07:58,734] - TCPPacketReceiver::processPendingEvents(192.168.27.1:13551): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000ac60] [2019-06-04 05:07:58,734] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=4581308689876, lastReceivedTime=4581243533351, inactivityExceptionPeriod=599477363)
+  INFO root [0x0000ac60] [2019-06-04 05:07:58,736] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x0000ac60] [2019-06-04 05:07:58,737] - Shutdowner::onShutdown: shutting down
+  INFO root [0x0000ac60] [2019-06-04 05:07:58,739] - Spaces::destroySpace: 1.
+ ERROR root [0x0000ac60] [2019-06-04 05:07:58,740] - EntityCallAbstract::sendCall: invalid channel(0.0.0.0:0), entityID(2)!
+ ERROR root [0x0000ac60] [2019-06-04 05:07:58,742] - EntityCallAbstract::sendCall: invalid channel(0.0.0.0:0), entityID(2)!
+  INFO root [0x0000ac60] [2019-06-04 05:07:58,743] - Spaces::destroySpace: 2.
+ ERROR root [0x0000ac60] [2019-06-04 05:07:58,744] - EntityCallAbstract::sendCall: invalid channel(0.0.0.0:0), entityID(3)!
+ ERROR root [0x0000ac60] [2019-06-04 05:07:58,745] - EntityCallAbstract::sendCall: invalid channel(0.0.0.0:0), entityID(3)!
+  INFO root [0x0000ac60] [2019-06-04 05:07:58,746] - Shutdowner::onShutdownEnd: shutting down
+  WARN root [0x0000ac60] [2019-06-04 05:07:58,747] - TCPPacketReceiver::processPendingEvents(192.168.27.1:13555): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [0x0000ac60] [2019-06-04 05:07:58,747] - Components::removeComponentByChannel: cellappmgr : 6000, Normal exit!
+  WARN root [0x0000ac60] [2019-06-04 05:07:58,748] - ServerApp::shutDown:  In shuttingdown!
+  WARN root [0x0000ac60] [2019-06-04 05:07:58,748] - TCPPacketReceiver::processPendingEvents(192.168.27.1:13552): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO root [0x0000ac60] [2019-06-04 05:07:58,748] - Components::removeComponentByChannel: baseappmgr : 5000, Normal exit!
+ DEBUG root [0x0000ac60] [2019-06-04 05:07:58,749] - Space::~Space(): 3
+ DEBUG root [0x0000ac60] [2019-06-04 05:07:58,750] - Space::~Space(): 2
+ DEBUG root [0x0000ac60] [2019-06-04 05:07:58,751] - NavMeshHandle::~NavMeshHandle(): (spaces/novice_1) is destroyed!
+ DEBUG root [0x0000ac60] [2019-06-04 05:07:58,751] - NavMeshHandle::~NavMeshHandle(): (spaces/novice_2) is destroyed!
+ DEBUG root [0x0000ac60] [2019-06-04 05:07:58,751] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x0000ac60] [2019-06-04 05:07:58,752] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x0000ac60] [2019-06-04 05:07:58,783] - PyGC::debugTracing(): EntityCall : leaked(1)
+  INFO root [0x0000ac60] [2019-06-04 05:07:58,860] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000ac60] [2019-06-04 05:07:58,860] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000ac60] [2019-06-04 05:07:59,161] - ThreadPool::destroy(): waiting for thread(2)[0xfda000,0xfda0d0,], try=1

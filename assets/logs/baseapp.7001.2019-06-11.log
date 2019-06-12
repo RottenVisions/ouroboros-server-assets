@@ -1,1 +1,567 @@
-C:/Users/Black/Ouroboros/assets/logs/baseapp.7001.2019-06-11.log
+ ERROR root [0x0000b520] [2019-06-11 00:10:09,919] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2771893561003, lastReceivedTime=2771724540248, inactivityExceptionPeriod=599493414)
+  INFO root [0x0000b520] [2019-06-11 00:10:09,929] - The following logs sent to logger failed:
+  WARN root [0x0000b520] [2019-06-11 00:10:09,929] - ==> [2019-06-11 00:10:09 920] TCPPacketReceiver::processPendingEvents(192.168.27.1:14070): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000b520] [2019-06-11 00:10:09,930] - ==> [2019-06-11 00:10:09 922] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2771893561003, lastReceivedTime=2771724540248, inactivityExceptionPeriod=599493414)
+  WARN root [0x0000b520] [2019-06-11 00:10:10,130] - TCPPacketReceiver::processPendingEvents(192.168.27.1:14072): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000b520] [2019-06-11 00:10:10,132] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2771895683227, lastReceivedTime=2771725072472, inactivityExceptionPeriod=599493414)
+  INFO root [0x0000b520] [2019-06-11 00:10:10,141] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x0000b520] [2019-06-11 00:10:10,145] - onBaseAppShutDown: state=0
+  INFO root [0x0000b520] [2019-06-11 00:10:10,146] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x0000b520] [2019-06-11 00:10:10,146] - onBaseAppShutDown: state=1
+  INFO root [0x0000b520] [2019-06-11 00:10:10,146] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x0000b520] [2019-06-11 00:10:10,147] - onBaseAppShutDown: state=2
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,166] - SpawnPoint::~SpawnPoint(): 2009
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,166] - SpawnPoint::~SpawnPoint(): 2003
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,167] - SpawnPoint::~SpawnPoint(): 2004
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,167] - SpawnPoint::~SpawnPoint(): 2005
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,167] - SpawnPoint::~SpawnPoint(): 2006
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,167] - SpawnPoint::~SpawnPoint(): 2007
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,168] - SpawnPoint::~SpawnPoint(): 2008
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,168] - SpawnPoint::~SpawnPoint(): 2010
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,168] - SpawnPoint::~SpawnPoint(): 2011
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,169] - SpawnPoint::~SpawnPoint(): 2013
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,169] - SpawnPoint::~SpawnPoint(): 2014
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,169] - SpawnPoint::~SpawnPoint(): 2015
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,169] - SpawnPoint::~SpawnPoint(): 2016
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,169] - SpawnPoint::~SpawnPoint(): 2017
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,169] - SpawnPoint::~SpawnPoint(): 2018
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,170] - SpawnPoint::~SpawnPoint(): 2019
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,170] - SpawnPoint::~SpawnPoint(): 2020
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,170] - SpawnPoint::~SpawnPoint(): 2021
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,170] - SpawnPoint::~SpawnPoint(): 2022
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,170] - SpawnPoint::~SpawnPoint(): 2023
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,171] - SpawnPoint::~SpawnPoint(): 2024
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,171] - SpawnPoint::~SpawnPoint(): 2025
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,171] - SpawnPoint::~SpawnPoint(): 2026
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,172] - SpawnPoint::~SpawnPoint(): 2027
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,172] - SpawnPoint::~SpawnPoint(): 2028
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,173] - SpawnPoint::~SpawnPoint(): 2029
+ ERROR root [0x0000b520] [2019-06-11 00:10:10,178] - PyGC::debugTracing(): Entity : leaked(3)
+ ERROR root [0x0000b520] [2019-06-11 00:10:10,178] - PyGC::debugTracing(): EntityCall : leaked(2)
+ ERROR root [0x0000b520] [2019-06-11 00:10:10,193] - EntityGarbages::~EntityGarbages(): leaked, size=3.
+ ERROR root [0x0000b520] [2019-06-11 00:10:10,194] - 	--> leaked: Spaces(2001).
+ ERROR root [0x0000b520] [2019-06-11 00:10:10,195] - 	--> leaked: Space(2002).
+ ERROR root [0x0000b520] [2019-06-11 00:10:10,196] - 	--> leaked: Space(2012).
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,196] - Spaces::~Spaces(): 2001
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,197] - Space::~Space(): 2002
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,197] - Space::~Space(): 2012
+  INFO root [0x0000b520] [2019-06-11 00:10:10,209] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000b520] [2019-06-11 00:10:10,209] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000b520] [2019-06-11 00:10:10,511] - ThreadPool::destroy(): waiting for thread(2)[0x22ed28,0x22edf8,], try=1
+  INFO root [0x000083fc] [2019-06-11 00:10:15,227] - 
+  INFO root [0x000083fc] [2019-06-11 00:10:15,228] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000083fc] [2019-06-11 00:10:15,228] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x000083fc] [2019-06-11 00:10:15,228] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x000083fc] [2019-06-11 00:10:15,228] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x000083fc] [2019-06-11 00:10:15,243] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x000083fc] [2019-06-11 00:10:15,244] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x000083fc] [2019-06-11 00:10:15,248] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x000083fc] [2019-06-11 00:10:15,249] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x000083fc] [2019-06-11 00:10:15,254] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:7636 )
+  INFO root [0x000083fc] [2019-06-11 00:10:15,254] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:7636, SOMAXCONN=128.
+  INFO root [0x000083fc] [2019-06-11 00:10:15,254] - server-configs:
+  INFO root [0x000083fc] [2019-06-11 00:10:15,254] - 	gameUpdateHertz : 10
+  INFO root [0x000083fc] [2019-06-11 00:10:15,255] - 	entryScriptFile : ouromain
+  INFO root [0x000083fc] [2019-06-11 00:10:15,255] - 	internalTcpAddr : 192.168.27.1:7636
+  INFO root [0x000083fc] [2019-06-11 00:10:15,255] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x000083fc] [2019-06-11 00:10:15,255] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x000083fc] [2019-06-11 00:10:15,255] - 	componentID : 7001
+  INFO root [0x000083fc] [2019-06-11 00:10:17,076] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 32048 ----
+  INFO root [0x000083fc] [2019-06-11 00:10:17,076] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x000083fc] [2019-06-11 00:10:17,077] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000083fc] [2019-06-11 00:10:17,077] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000083fc] [2019-06-11 00:10:17,313] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000083fc] [2019-06-11 00:10:17,314] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x000083fc] [2019-06-11 00:10:17,749] - loaded entity-script:Account(1).
+ DEBUG root [0x000083fc] [2019-06-11 00:10:17,749] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000083fc] [2019-06-11 00:10:17,756] - loaded entity-script:FirstEntity(6).
+ DEBUG root [0x000083fc] [2019-06-11 00:10:17,756] - loaded entity-script:Scene(7).
+ DEBUG root [0x000083fc] [2019-06-11 00:10:17,757] - loaded entity-script:Space(8).
+ DEBUG root [0x000083fc] [2019-06-11 00:10:17,758] - loaded entity-script:Spaces(9).
+ DEBUG root [0x000083fc] [2019-06-11 00:10:17,759] - loaded entity-script:SpaceDuplicate(10).
+ DEBUG root [0x000083fc] [2019-06-11 00:10:17,759] - loaded entity-script:SpawnPoint(11).
+  INFO root [0x000083fc] [2019-06-11 00:10:17,759] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x000083fc] [2019-06-11 00:10:17,760] - TelnetServer server is running on port 40000
+  INFO root [0x000083fc] [2019-06-11 00:10:18,259] - ---- baseapp is running ----
+ DEBUG root [0x000083fc] [2019-06-11 00:10:18,259] - Components::process(): Request for the process of identity...
+  WARN root [0x000083fc] [2019-06-11 00:10:24,841] - EntityApp::checkTickPeriod: tick took 6582% (6.58 seconds)!
+  INFO root [0x000083fc] [2019-06-11 00:10:25,859] - Components::findComponents: find logger(1)...
+  INFO root [0x000083fc] [2019-06-11 00:10:25,897] - Components::findComponents: found logger, addr:192.168.27.1:7632
+  INFO root [0x000083fc] [2019-06-11 00:10:25,897] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x000083fc] [2019-06-11 00:10:25,897] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000083fc] [2019-06-11 00:10:25,899] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x000083fc] [2019-06-11 00:10:26,008] - Components::findComponents: found dbmgr, addr:192.168.27.1:7633
+  INFO root [0x000083fc] [2019-06-11 00:10:26,008] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x000083fc] [2019-06-11 00:10:26,009] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000083fc] [2019-06-11 00:10:26,023] - Components::findComponents: found dbmgr, addr:192.168.27.1:7633
+  WARN root [0x000083fc] [2019-06-11 00:10:27,024] - EntityApp::checkTickPeriod: tick took 1264% (1.26 seconds)!
+  WARN root [0x000083fc] [2019-06-11 00:10:27,025] - Forwarding logs to logger[192.168.27.1:7632/0/0/0]...
+ ERROR root [0x000083fc] [2019-06-11 03:15:55,006] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2883344423679, lastReceivedTime=2883243975519, inactivityExceptionPeriod=599488234)
+  INFO root [0x000083fc] [2019-06-11 03:15:55,015] - The following logs sent to logger failed:
+  WARN root [0x000083fc] [2019-06-11 03:15:55,015] - ==> [2019-06-11 03:15:55 006] TCPPacketReceiver::processPendingEvents(192.168.27.1:7632): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000083fc] [2019-06-11 03:15:55,016] - ==> [2019-06-11 03:15:55 007] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2883344423679, lastReceivedTime=2883243975519, inactivityExceptionPeriod=599488234)
+  WARN root [0x000083fc] [2019-06-11 03:15:55,199] - TCPPacketReceiver::processPendingEvents(192.168.27.1:7633): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000083fc] [2019-06-11 03:15:55,201] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2883346369431, lastReceivedTime=2883241540443, inactivityExceptionPeriod=599488234)
+  INFO root [0x000083fc] [2019-06-11 03:15:55,212] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x000083fc] [2019-06-11 03:15:55,218] - onBaseAppShutDown: state=0
+  INFO root [0x000083fc] [2019-06-11 03:15:55,218] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x000083fc] [2019-06-11 03:15:55,219] - onBaseAppShutDown: state=1
+  INFO root [0x000083fc] [2019-06-11 03:15:55,219] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x000083fc] [2019-06-11 03:15:55,219] - onBaseAppShutDown: state=2
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,243] - SpawnPoint::~SpawnPoint(): 2009
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,244] - SpawnPoint::~SpawnPoint(): 2003
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,244] - SpawnPoint::~SpawnPoint(): 2004
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,244] - SpawnPoint::~SpawnPoint(): 2005
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,245] - SpawnPoint::~SpawnPoint(): 2006
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,245] - SpawnPoint::~SpawnPoint(): 2007
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,245] - SpawnPoint::~SpawnPoint(): 2008
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,246] - SpawnPoint::~SpawnPoint(): 2010
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,246] - SpawnPoint::~SpawnPoint(): 2011
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,247] - SpawnPoint::~SpawnPoint(): 2013
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,247] - SpawnPoint::~SpawnPoint(): 2014
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,247] - SpawnPoint::~SpawnPoint(): 2015
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,248] - SpawnPoint::~SpawnPoint(): 2016
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,248] - SpawnPoint::~SpawnPoint(): 2017
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,248] - SpawnPoint::~SpawnPoint(): 2018
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,249] - SpawnPoint::~SpawnPoint(): 2019
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,249] - SpawnPoint::~SpawnPoint(): 2020
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,249] - SpawnPoint::~SpawnPoint(): 2021
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,250] - SpawnPoint::~SpawnPoint(): 2022
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,251] - SpawnPoint::~SpawnPoint(): 2023
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,251] - SpawnPoint::~SpawnPoint(): 2024
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,252] - SpawnPoint::~SpawnPoint(): 2025
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,253] - SpawnPoint::~SpawnPoint(): 2026
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,253] - SpawnPoint::~SpawnPoint(): 2027
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,254] - SpawnPoint::~SpawnPoint(): 2028
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,254] - SpawnPoint::~SpawnPoint(): 2029
+ ERROR root [0x000083fc] [2019-06-11 03:15:55,260] - PyGC::debugTracing(): Entity : leaked(3)
+ ERROR root [0x000083fc] [2019-06-11 03:15:55,261] - PyGC::debugTracing(): EntityCall : leaked(2)
+ ERROR root [0x000083fc] [2019-06-11 03:15:55,298] - EntityGarbages::~EntityGarbages(): leaked, size=3.
+ ERROR root [0x000083fc] [2019-06-11 03:15:55,303] - 	--> leaked: Spaces(2001).
+ ERROR root [0x000083fc] [2019-06-11 03:15:55,307] - 	--> leaked: Space(2002).
+ ERROR root [0x000083fc] [2019-06-11 03:15:55,308] - 	--> leaked: Space(2012).
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,313] - Spaces::~Spaces(): 2001
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,313] - Space::~Space(): 2002
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,313] - Space::~Space(): 2012
+  INFO root [0x000083fc] [2019-06-11 03:15:55,329] - Script::uninstall(): is successfully!
+ DEBUG root [0x000083fc] [2019-06-11 03:15:55,329] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000083fc] [2019-06-11 03:15:55,630] - ThreadPool::destroy(): waiting for thread(2)[0xc7c040,0xc7c110,], try=1
+  INFO root [0x000080b0] [2019-06-11 03:16:00,500] - 
+  INFO root [0x000080b0] [2019-06-11 03:16:00,503] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000080b0] [2019-06-11 03:16:00,506] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x000080b0] [2019-06-11 03:16:00,507] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x000080b0] [2019-06-11 03:16:00,507] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x000080b0] [2019-06-11 03:16:00,535] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x000080b0] [2019-06-11 03:16:00,535] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x000080b0] [2019-06-11 03:16:00,540] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x000080b0] [2019-06-11 03:16:00,541] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x000080b0] [2019-06-11 03:16:00,545] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:11474 )
+  INFO root [0x000080b0] [2019-06-11 03:16:00,546] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:11474, SOMAXCONN=128.
+  INFO root [0x000080b0] [2019-06-11 03:16:00,546] - server-configs:
+  INFO root [0x000080b0] [2019-06-11 03:16:00,546] - 	gameUpdateHertz : 10
+  INFO root [0x000080b0] [2019-06-11 03:16:00,546] - 	entryScriptFile : ouromain
+  INFO root [0x000080b0] [2019-06-11 03:16:00,546] - 	internalTcpAddr : 192.168.27.1:11474
+  INFO root [0x000080b0] [2019-06-11 03:16:00,547] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x000080b0] [2019-06-11 03:16:00,547] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x000080b0] [2019-06-11 03:16:00,547] - 	componentID : 7001
+  WARN root [0x000080b0] [2019-06-11 03:16:01,256] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20230, errorno=10048
+  INFO root [0x000080b0] [2019-06-11 03:16:01,263] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 28728 ----
+  INFO root [0x000080b0] [2019-06-11 03:16:01,264] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x000080b0] [2019-06-11 03:16:01,264] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000080b0] [2019-06-11 03:16:01,265] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000080b0] [2019-06-11 03:16:01,527] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000080b0] [2019-06-11 03:16:01,527] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x000080b0] [2019-06-11 03:16:01,938] - loaded entity-script:Account(1).
+ DEBUG root [0x000080b0] [2019-06-11 03:16:01,939] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000080b0] [2019-06-11 03:16:01,943] - loaded entity-script:FirstEntity(6).
+ DEBUG root [0x000080b0] [2019-06-11 03:16:01,944] - loaded entity-script:Scene(7).
+ DEBUG root [0x000080b0] [2019-06-11 03:16:01,945] - loaded entity-script:Space(8).
+ DEBUG root [0x000080b0] [2019-06-11 03:16:01,946] - loaded entity-script:Spaces(9).
+ DEBUG root [0x000080b0] [2019-06-11 03:16:01,947] - loaded entity-script:SpaceDuplicate(10).
+ DEBUG root [0x000080b0] [2019-06-11 03:16:01,947] - loaded entity-script:SpawnPoint(11).
+  INFO root [0x000080b0] [2019-06-11 03:16:01,947] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x000080b0] [2019-06-11 03:16:01,948] - TelnetServer server is running on port 40000
+  INFO root [0x000080b0] [2019-06-11 03:16:02,503] - ---- baseapp is running ----
+ DEBUG root [0x000080b0] [2019-06-11 03:16:02,505] - Components::process(): Request for the process of identity...
+  WARN root [0x000080b0] [2019-06-11 03:16:09,311] - EntityApp::checkTickPeriod: tick took 6807% (6.81 seconds)!
+  INFO root [0x000080b0] [2019-06-11 03:16:10,404] - Components::findComponents: find logger(1)...
+  INFO root [0x000080b0] [2019-06-11 03:16:10,494] - Components::findComponents: found logger, addr:192.168.27.1:11468
+  INFO root [0x000080b0] [2019-06-11 03:16:10,494] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x000080b0] [2019-06-11 03:16:10,495] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000080b0] [2019-06-11 03:16:10,499] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x000080b0] [2019-06-11 03:16:10,605] - Components::findComponents: found dbmgr, addr:192.168.27.1:11470
+  INFO root [0x000080b0] [2019-06-11 03:16:10,605] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x000080b0] [2019-06-11 03:16:10,605] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000080b0] [2019-06-11 03:16:10,606] - Components::findComponents: found dbmgr, addr:192.168.27.1:11470
+  WARN root [0x000080b0] [2019-06-11 03:16:11,606] - EntityApp::checkTickPeriod: tick took 1301% (1.30 seconds)!
+  WARN root [0x000080b0] [2019-06-11 03:16:11,607] - Forwarding logs to logger[192.168.27.1:11468/0/0/0]...
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,355] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,356] - 192.168.27.1:60568: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,389] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,390] - 192.168.27.1:60568: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,455] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,456] - 192.168.27.1:60568: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,489] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,490] - 192.168.27.1:60568: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,555] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,556] - 192.168.27.1:60568: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,588] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,590] - 192.168.27.1:60568: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,655] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,656] - 192.168.27.1:60568: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,688] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,689] - 192.168.27.1:60568: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,755] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,757] - 192.168.27.1:60568: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,789] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x000080b0] [2019-06-11 03:55:41,790] - 192.168.27.1:60568: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x000080b0] [2019-06-11 04:06:28,072] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2913675086064, lastReceivedTime=2913397071755, inactivityExceptionPeriod=599490025)
+  INFO root [0x000080b0] [2019-06-11 04:06:28,084] - The following logs sent to logger failed:
+  WARN root [0x000080b0] [2019-06-11 04:06:28,084] - ==> [2019-06-11 04:06:28 070] TCPPacketReceiver::processPendingEvents(192.168.27.1:11468): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000080b0] [2019-06-11 04:06:28,085] - ==> [2019-06-11 04:06:28 073] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2913675086064, lastReceivedTime=2913397071755, inactivityExceptionPeriod=599490025)
+  WARN root [0x000080b0] [2019-06-11 04:06:28,283] - TCPPacketReceiver::processPendingEvents(192.168.27.1:11470): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000080b0] [2019-06-11 04:06:28,285] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2913677224441, lastReceivedTime=2913398198696, inactivityExceptionPeriod=599490025)
+  INFO root [0x000080b0] [2019-06-11 04:06:28,298] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x000080b0] [2019-06-11 04:06:28,303] - onBaseAppShutDown: state=0
+  INFO root [0x000080b0] [2019-06-11 04:06:28,303] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x000080b0] [2019-06-11 04:06:28,303] - onBaseAppShutDown: state=1
+  INFO root [0x000080b0] [2019-06-11 04:06:28,304] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x000080b0] [2019-06-11 04:06:28,304] - onBaseAppShutDown: state=2
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,321] - SpawnPoint::~SpawnPoint(): 2009
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,321] - SpawnPoint::~SpawnPoint(): 2003
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,322] - SpawnPoint::~SpawnPoint(): 2004
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,322] - SpawnPoint::~SpawnPoint(): 2005
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,322] - SpawnPoint::~SpawnPoint(): 2006
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,322] - SpawnPoint::~SpawnPoint(): 2007
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,322] - SpawnPoint::~SpawnPoint(): 2008
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,323] - SpawnPoint::~SpawnPoint(): 2010
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,323] - SpawnPoint::~SpawnPoint(): 2011
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,323] - SpawnPoint::~SpawnPoint(): 2013
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,323] - SpawnPoint::~SpawnPoint(): 2014
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,324] - SpawnPoint::~SpawnPoint(): 2015
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,324] - SpawnPoint::~SpawnPoint(): 2016
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,324] - SpawnPoint::~SpawnPoint(): 2017
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,324] - SpawnPoint::~SpawnPoint(): 2018
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,324] - SpawnPoint::~SpawnPoint(): 2019
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,324] - SpawnPoint::~SpawnPoint(): 2020
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,325] - SpawnPoint::~SpawnPoint(): 2021
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,325] - SpawnPoint::~SpawnPoint(): 2022
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,325] - SpawnPoint::~SpawnPoint(): 2023
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,325] - SpawnPoint::~SpawnPoint(): 2024
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,325] - SpawnPoint::~SpawnPoint(): 2025
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,326] - SpawnPoint::~SpawnPoint(): 2026
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,326] - SpawnPoint::~SpawnPoint(): 2027
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,326] - SpawnPoint::~SpawnPoint(): 2028
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,326] - SpawnPoint::~SpawnPoint(): 2029
+ ERROR root [0x000080b0] [2019-06-11 04:06:28,329] - PyGC::debugTracing(): Entity : leaked(3)
+ ERROR root [0x000080b0] [2019-06-11 04:06:28,329] - PyGC::debugTracing(): EntityCall : leaked(2)
+ ERROR root [0x000080b0] [2019-06-11 04:06:28,342] - EntityGarbages::~EntityGarbages(): leaked, size=3.
+ ERROR root [0x000080b0] [2019-06-11 04:06:28,344] - 	--> leaked: Spaces(2001).
+ ERROR root [0x000080b0] [2019-06-11 04:06:28,345] - 	--> leaked: Space(2002).
+ ERROR root [0x000080b0] [2019-06-11 04:06:28,346] - 	--> leaked: Space(2012).
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,347] - Spaces::~Spaces(): 2001
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,347] - Space::~Space(): 2002
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,348] - Space::~Space(): 2012
+  INFO root [0x000080b0] [2019-06-11 04:06:28,358] - Script::uninstall(): is successfully!
+ DEBUG root [0x000080b0] [2019-06-11 04:06:28,358] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000080b0] [2019-06-11 04:06:28,659] - ThreadPool::destroy(): waiting for thread(2)[0x1fcd980,0x1fcda50,], try=1
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,354] - 
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,355] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,357] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,357] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,358] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,372] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,373] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,387] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,387] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,391] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:6352 )
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,391] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:6352, SOMAXCONN=128.
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,391] - server-configs:
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,391] - 	gameUpdateHertz : 10
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,391] - 	entryScriptFile : ouromain
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,392] - 	internalTcpAddr : 192.168.27.1:6352
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,392] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,392] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,392] - 	componentID : 7001
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,775] - Components::findLogger: found logger, addr:192.168.27.1:6218
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,776] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,776] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,781] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 44992 ----
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,781] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,782] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,782] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,976] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x0000b28c] [2019-06-11 04:07:19,976] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x0000b28c] [2019-06-11 04:07:20,327] - loaded entity-script:Account(1).
+ DEBUG root [0x0000b28c] [2019-06-11 04:07:20,328] - loaded entity-script:Avatar(2).
+ DEBUG root [0x0000b28c] [2019-06-11 04:07:20,334] - loaded entity-script:FirstEntity(6).
+ DEBUG root [0x0000b28c] [2019-06-11 04:07:20,334] - loaded entity-script:Scene(7).
+ DEBUG root [0x0000b28c] [2019-06-11 04:07:20,335] - loaded entity-script:Space(8).
+ DEBUG root [0x0000b28c] [2019-06-11 04:07:20,336] - loaded entity-script:Spaces(9).
+ DEBUG root [0x0000b28c] [2019-06-11 04:07:20,337] - loaded entity-script:SpaceDuplicate(10).
+ DEBUG root [0x0000b28c] [2019-06-11 04:07:20,338] - loaded entity-script:SpawnPoint(11).
+  INFO root [0x0000b28c] [2019-06-11 04:07:20,338] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x0000b28c] [2019-06-11 04:07:20,339] - TelnetServer server is running on port 40000
+  INFO root [0x0000b28c] [2019-06-11 04:07:20,885] - ---- baseapp is running ----
+ DEBUG root [0x0000b28c] [2019-06-11 04:07:20,885] - Components::process(): Request for the process of identity...
+  WARN root [0x0000b28c] [2019-06-11 04:07:27,429] - Forwarding logs to logger[192.168.27.1:6218/0/0/0]...
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,642] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,646] - 192.168.27.1:59508: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,707] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,708] - 192.168.27.1:59508: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,742] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,744] - 192.168.27.1:59508: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,745] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,746] - 192.168.27.1:59508: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,747] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,748] - 192.168.27.1:59508: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,749] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,751] - 192.168.27.1:59508: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,752] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,753] - 192.168.27.1:59508: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,807] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,811] - 192.168.27.1:59508: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,842] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,843] - 192.168.27.1:59508: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,907] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:22:36,908] - 192.168.27.1:59508: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,542] - KCPPacketSender::ikcp_send: send error! currPacketSize=19, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,544] - 192.168.27.1:54751: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,546] - KCPPacketSender::ikcp_send: send error! currPacketSize=19, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,547] - 192.168.27.1:54751: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,548] - KCPPacketSender::ikcp_send: send error! currPacketSize=19, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,549] - 192.168.27.1:54751: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,561] - KCPPacketSender::ikcp_send: send error! currPacketSize=19, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,562] - 192.168.27.1:54751: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,642] - KCPPacketSender::ikcp_send: send error! currPacketSize=19, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,643] - 192.168.27.1:54751: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,661] - KCPPacketSender::ikcp_send: send error! currPacketSize=19, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,663] - 192.168.27.1:54751: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,741] - KCPPacketSender::ikcp_send: send error! currPacketSize=19, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,742] - 192.168.27.1:54751: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,760] - KCPPacketSender::ikcp_send: send error! currPacketSize=19, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,761] - 192.168.27.1:54751: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,840] - KCPPacketSender::ikcp_send: send error! currPacketSize=19, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,842] - 192.168.27.1:54751: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,861] - KCPPacketSender::ikcp_send: send error! currPacketSize=19, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:30:25,862] - 192.168.27.1:54751: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,240] - KCPPacketSender::ikcp_send: send error! currPacketSize=51, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,242] - 192.168.27.1:58072: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,315] - KCPPacketSender::ikcp_send: send error! currPacketSize=51, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,316] - 192.168.27.1:58072: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,340] - KCPPacketSender::ikcp_send: send error! currPacketSize=51, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,341] - 192.168.27.1:58072: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,415] - KCPPacketSender::ikcp_send: send error! currPacketSize=51, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,416] - 192.168.27.1:58072: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,440] - KCPPacketSender::ikcp_send: send error! currPacketSize=51, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,441] - 192.168.27.1:58072: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,515] - KCPPacketSender::ikcp_send: send error! currPacketSize=51, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,516] - 192.168.27.1:58072: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,540] - KCPPacketSender::ikcp_send: send error! currPacketSize=51, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,542] - 192.168.27.1:58072: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,615] - KCPPacketSender::ikcp_send: send error! currPacketSize=51, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,616] - 192.168.27.1:58072: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,641] - KCPPacketSender::ikcp_send: send error! currPacketSize=51, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,642] - 192.168.27.1:58072: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,715] - KCPPacketSender::ikcp_send: send error! currPacketSize=51, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 04:36:55,715] - 192.168.27.1:58072: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,038] - KCPPacketSender::ikcp_send: send error! currPacketSize=35, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,039] - 192.168.27.1:51547: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,110] - KCPPacketSender::ikcp_send: send error! currPacketSize=35, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,111] - 192.168.27.1:51547: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,146] - KCPPacketSender::ikcp_send: send error! currPacketSize=35, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,147] - 192.168.27.1:51547: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,210] - KCPPacketSender::ikcp_send: send error! currPacketSize=35, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,211] - 192.168.27.1:51547: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,238] - KCPPacketSender::ikcp_send: send error! currPacketSize=35, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,239] - 192.168.27.1:51547: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,310] - KCPPacketSender::ikcp_send: send error! currPacketSize=35, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,311] - 192.168.27.1:51547: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,338] - KCPPacketSender::ikcp_send: send error! currPacketSize=35, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,339] - 192.168.27.1:51547: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,410] - KCPPacketSender::ikcp_send: send error! currPacketSize=35, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,411] - 192.168.27.1:51547: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,437] - KCPPacketSender::ikcp_send: send error! currPacketSize=35, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,438] - 192.168.27.1:51547: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,510] - KCPPacketSender::ikcp_send: send error! currPacketSize=35, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:26:44,511] - 192.168.27.1:51547: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,537] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,538] - 192.168.27.1:59271: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,612] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,613] - 192.168.27.1:59271: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,637] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,638] - 192.168.27.1:59271: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,712] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,713] - 192.168.27.1:59271: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,737] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,738] - 192.168.27.1:59271: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,812] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,814] - 192.168.27.1:59271: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,837] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,838] - 192.168.27.1:59271: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,912] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,914] - 192.168.27.1:59271: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,937] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:45:28,938] - 192.168.27.1:59271: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:45:29,013] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x0000b28c] [2019-06-11 05:45:29,015] - 192.168.27.1:59271: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x0000b28c] [2019-06-11 05:57:56,278] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2980557144352, lastReceivedTime=2980510475409, inactivityExceptionPeriod=599490281)
+  INFO root [0x0000b28c] [2019-06-11 05:57:56,283] - The following logs sent to logger failed:
+  WARN root [0x0000b28c] [2019-06-11 05:57:56,284] - ==> [2019-06-11 05:57:56 278] TCPPacketReceiver::processPendingEvents(192.168.27.1:6218): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000b28c] [2019-06-11 05:57:56,284] - ==> [2019-06-11 05:57:56 279] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2980557144352, lastReceivedTime=2980510475409, inactivityExceptionPeriod=599490281)
+  WARN root [0x0000b28c] [2019-06-11 05:57:56,480] - TCPPacketReceiver::processPendingEvents(192.168.27.1:6310): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000b28c] [2019-06-11 05:57:56,482] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2980559187720, lastReceivedTime=2980394853716, inactivityExceptionPeriod=599490281)
+  INFO root [0x0000b28c] [2019-06-11 05:57:56,488] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x0000b28c] [2019-06-11 05:57:56,491] - onBaseAppShutDown: state=0
+  INFO root [0x0000b28c] [2019-06-11 05:57:56,491] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x0000b28c] [2019-06-11 05:57:56,492] - onBaseAppShutDown: state=1
+  INFO root [0x0000b28c] [2019-06-11 05:57:56,492] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x0000b28c] [2019-06-11 05:57:56,492] - onBaseAppShutDown: state=2
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,519] - SpawnPoint::~SpawnPoint(): 9
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,519] - SpawnPoint::~SpawnPoint(): 4
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,519] - SpawnPoint::~SpawnPoint(): 5
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,520] - SpawnPoint::~SpawnPoint(): 6
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,520] - SpawnPoint::~SpawnPoint(): 7
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,521] - SpawnPoint::~SpawnPoint(): 8
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,521] - SpawnPoint::~SpawnPoint(): 10
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,521] - SpawnPoint::~SpawnPoint(): 11
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,522] - SpawnPoint::~SpawnPoint(): 12
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,522] - SpawnPoint::~SpawnPoint(): 13
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,523] - SpawnPoint::~SpawnPoint(): 14
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,523] - SpawnPoint::~SpawnPoint(): 15
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,523] - SpawnPoint::~SpawnPoint(): 16
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,524] - SpawnPoint::~SpawnPoint(): 17
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,524] - SpawnPoint::~SpawnPoint(): 18
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,524] - SpawnPoint::~SpawnPoint(): 19
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,525] - SpawnPoint::~SpawnPoint(): 20
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,525] - SpawnPoint::~SpawnPoint(): 21
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,525] - SpawnPoint::~SpawnPoint(): 22
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,526] - SpawnPoint::~SpawnPoint(): 23
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,526] - SpawnPoint::~SpawnPoint(): 24
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,526] - SpawnPoint::~SpawnPoint(): 25
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,527] - SpawnPoint::~SpawnPoint(): 26
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,527] - SpawnPoint::~SpawnPoint(): 27
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,527] - SpawnPoint::~SpawnPoint(): 28
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,528] - SpawnPoint::~SpawnPoint(): 29
+ ERROR root [0x0000b28c] [2019-06-11 05:57:56,533] - PyGC::debugTracing(): Entity : leaked(3)
+ ERROR root [0x0000b28c] [2019-06-11 05:57:56,534] - PyGC::debugTracing(): EntityCall : leaked(2)
+ ERROR root [0x0000b28c] [2019-06-11 05:57:56,565] - EntityGarbages::~EntityGarbages(): leaked, size=3.
+ ERROR root [0x0000b28c] [2019-06-11 05:57:56,567] - 	--> leaked: Spaces(1).
+ ERROR root [0x0000b28c] [2019-06-11 05:57:56,568] - 	--> leaked: Space(2).
+ ERROR root [0x0000b28c] [2019-06-11 05:57:56,571] - 	--> leaked: Space(3).
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,571] - Spaces::~Spaces(): 1
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,572] - Space::~Space(): 2
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,572] - Space::~Space(): 3
+  INFO root [0x0000b28c] [2019-06-11 05:57:56,585] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000b28c] [2019-06-11 05:57:56,586] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000b28c] [2019-06-11 05:57:56,887] - ThreadPool::destroy(): waiting for thread(2)[0xa43610,0xa42f90,], try=1
+  INFO root [0x00004234] [2019-06-11 18:34:54,852] - 
+  INFO root [0x00004234] [2019-06-11 18:34:54,852] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00004234] [2019-06-11 18:34:54,854] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [0x00004234] [2019-06-11 18:34:54,854] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [0x00004234] [2019-06-11 18:34:54,855] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [0x00004234] [2019-06-11 18:34:54,868] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+  INFO root [0x00004234] [2019-06-11 18:34:54,868] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+  INFO root [0x00004234] [2019-06-11 18:34:54,872] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+  INFO root [0x00004234] [2019-06-11 18:34:54,873] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+  INFO root [0x00004234] [2019-06-11 18:34:54,877] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12924 )
+  INFO root [0x00004234] [2019-06-11 18:34:54,877] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:12924, SOMAXCONN=128.
+  INFO root [0x00004234] [2019-06-11 18:34:54,877] - server-configs:
+  INFO root [0x00004234] [2019-06-11 18:34:54,877] - 	gameUpdateHertz : 10
+  INFO root [0x00004234] [2019-06-11 18:34:54,877] - 	entryScriptFile : ouromain
+  INFO root [0x00004234] [2019-06-11 18:34:54,877] - 	internalTcpAddr : 192.168.27.1:12924
+  INFO root [0x00004234] [2019-06-11 18:34:54,877] - 	externalTcpAddr : 192.168.27.1:20015
+  INFO root [0x00004234] [2019-06-11 18:34:54,877] - 	externalUdpAddr : 192.168.27.1:20005
+  INFO root [0x00004234] [2019-06-11 18:34:54,877] - 	componentID : 7001
+  INFO root [0x00004234] [2019-06-11 18:34:56,717] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 24684 ----
+  INFO root [0x00004234] [2019-06-11 18:34:56,718] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [0x00004234] [2019-06-11 18:34:56,719] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00004234] [2019-06-11 18:34:56,719] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00004234] [2019-06-11 18:34:56,948] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00004234] [2019-06-11 18:34:56,948] - Script::install(): OUROxtra is successfully!
+ DEBUG root [0x00004234] [2019-06-11 18:34:57,371] - loaded entity-script:Account(1).
+ DEBUG root [0x00004234] [2019-06-11 18:34:57,372] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00004234] [2019-06-11 18:34:57,377] - loaded entity-script:FirstEntity(6).
+ DEBUG root [0x00004234] [2019-06-11 18:34:57,378] - loaded entity-script:Scene(7).
+ DEBUG root [0x00004234] [2019-06-11 18:34:57,379] - loaded entity-script:Space(8).
+ DEBUG root [0x00004234] [2019-06-11 18:34:57,380] - loaded entity-script:Spaces(9).
+ DEBUG root [0x00004234] [2019-06-11 18:34:57,381] - loaded entity-script:SpaceDuplicate(10).
+ DEBUG root [0x00004234] [2019-06-11 18:34:57,381] - loaded entity-script:SpawnPoint(11).
+  INFO root [0x00004234] [2019-06-11 18:34:57,382] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00004234] [2019-06-11 18:34:57,382] - TelnetServer server is running on port 40000
+  INFO root [0x00004234] [2019-06-11 18:34:57,850] - ---- baseapp is running ----
+ DEBUG root [0x00004234] [2019-06-11 18:34:57,850] - Components::process(): Request for the process of identity...
+  WARN root [0x00004234] [2019-06-11 18:35:04,461] - EntityApp::checkTickPeriod: tick took 6611% (6.61 seconds)!
+  WARN root [0x00004234] [2019-06-11 18:35:04,468] - TCPPacketReceiver::processPendingEvents(192.168.27.1:12949): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+  INFO root [0x00004234] [2019-06-11 18:35:05,550] - Components::findComponents: find logger(1)...
+  INFO root [0x00004234] [2019-06-11 18:35:05,594] - Components::findComponents: found logger, addr:192.168.27.1:12920
+  INFO root [0x00004234] [2019-06-11 18:35:05,594] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00004234] [2019-06-11 18:35:05,594] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00004234] [2019-06-11 18:35:05,596] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00004234] [2019-06-11 18:35:05,616] - Components::findComponents: found logger, addr:192.168.27.1:12920
+  INFO root [0x00004234] [2019-06-11 18:35:05,624] - Components::findComponents: found dbmgr, addr:192.168.27.1:12922
+  INFO root [0x00004234] [2019-06-11 18:35:05,624] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00004234] [2019-06-11 18:35:05,625] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00004234] [2019-06-11 18:35:05,727] - Components::findComponents: found dbmgr, addr:192.168.27.1:12922
+  WARN root [0x00004234] [2019-06-11 18:35:06,729] - EntityApp::checkTickPeriod: tick took 1277% (1.28 seconds)!
+  WARN root [0x00004234] [2019-06-11 18:35:06,730] - Forwarding logs to logger[192.168.27.1:12920/0/0/0]...
+ ERROR root [0x00004234] [2019-06-11 18:46:39,165] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 18:46:39,168] - 192.168.27.1:56863: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 18:46:39,171] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 18:46:39,173] - 192.168.27.1:56863: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 18:46:39,263] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 18:46:39,265] - 192.168.27.1:56863: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 18:46:39,271] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 18:46:39,273] - 192.168.27.1:56863: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 18:46:39,363] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 18:46:39,364] - 192.168.27.1:56863: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 18:46:39,371] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 18:46:39,372] - 192.168.27.1:56863: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 18:46:39,462] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 18:46:39,463] - 192.168.27.1:56863: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 18:46:39,470] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 18:46:39,471] - 192.168.27.1:56863: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 18:46:39,562] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 18:46:39,563] - 192.168.27.1:56863: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 18:46:39,571] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 18:46:39,572] - 192.168.27.1:56863: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 19:37:22,473] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 19:37:22,474] - 192.168.27.1:54941: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 19:37:22,508] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 19:37:22,509] - 192.168.27.1:54941: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 19:37:22,573] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 19:37:22,574] - 192.168.27.1:54941: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 19:37:22,608] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 19:37:22,609] - 192.168.27.1:54941: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 19:37:22,673] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 19:37:22,674] - 192.168.27.1:54941: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 19:37:22,708] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 19:37:22,709] - 192.168.27.1:54941: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 19:37:22,772] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 19:37:22,773] - 192.168.27.1:54941: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 19:37:22,809] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 19:37:22,809] - 192.168.27.1:54941: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 19:37:22,873] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 19:37:22,874] - 192.168.27.1:54941: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00004234] [2019-06-11 19:37:22,908] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00004234] [2019-06-11 19:37:22,909] - 192.168.27.1:54941: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE

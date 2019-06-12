@@ -1,1 +1,45 @@
-C:/Users/Black/Ouroboros/assets/logs/interfaces.2019-06-03.log
+  INFO root [2019-06-03 20:28:54,662] - 
+  INFO root [2019-06-03 20:28:54,663] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-03 20:28:54,664] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-03 20:28:54,664] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-03 20:28:54,665] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-03 20:28:54,681] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:30099 )
+  INFO root [2019-06-03 20:28:54,682] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:30099, SOMAXCONN=5.
+  INFO root [2019-06-03 20:28:54,690] - ---- interfaces Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 0E59D11FC12211A3C85A025234B77AAF. Config: Debug X86. Built: 02:53:00 May 23 2019. AppID: 3000. UID: 10103. PID: 35080 ----
+  INFO root [2019-06-03 20:28:54,690] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-03 20:28:54,691] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-03 20:28:54,691] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-03 20:28:54,932] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-03 20:28:54,933] - Script::install(): OUROxtra is successfully!
+S_INFO root [2019-06-03 20:28:55,044] - onInterfaceAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-06-03 20:28:55,046] - TelnetServer server is running on port 33000
+  INFO root [2019-06-03 20:28:55,536] - ---- interfaces is running ----
+ DEBUG root [2019-06-03 20:28:55,536] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-03 20:29:03,467] - Components::process(): Found all the components!
+  INFO root [2019-06-03 20:29:21,031] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13551, extaddr:nonsupport, extport:0,  from 127.0.0.1:13561/0/0/0.
+  INFO root [2019-06-03 20:29:21,032] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2019-06-03 20:29:21,032] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+S_INFO root [2019-06-03 20:34:41,309] - onRequestAccountLogin: registerName=killingbosser1
+S_INFO root [2019-06-03 20:34:52,189] - onRequestAccountLogin: registerName=test13
+S_INFO root [2019-06-03 20:45:21,823] - onRequestAccountLogin: registerName=killingbosser1
+S_INFO root [2019-06-03 20:45:32,181] - onRequestAccountLogin: registerName=test13
+S_INFO root [2019-06-03 20:48:28,208] - onRequestAccountLogin: registerName=killingbosser1
+S_INFO root [2019-06-03 20:48:51,928] - onRequestAccountLogin: registerName=test13
+S_INFO root [2019-06-03 20:49:00,097] - onRequestAccountLogin: registerName=killingbosser1
+S_INFO root [2019-06-03 20:49:17,493] - onRequestAccountLogin: registerName=test13
+S_INFO root [2019-06-03 20:55:19,324] - onRequestAccountLogin: registerName=killingbosser1
+S_INFO root [2019-06-03 20:55:26,030] - onRequestAccountLogin: registerName=test13
+S_INFO root [2019-06-03 23:08:59,750] - onRequestAccountLogin: registerName=killingbosser1
+S_INFO root [2019-06-03 23:09:06,049] - onRequestAccountLogin: registerName=test13
+S_INFO root [2019-06-03 23:21:42,839] - onRequestAccountLogin: registerName=test13
+S_INFO root [2019-06-03 23:21:46,568] - onRequestAccountLogin: registerName=killingbosser1
+S_INFO root [2019-06-03 23:27:23,486] - onRequestAccountLogin: registerName=killingbosser1
+S_INFO root [2019-06-03 23:27:49,489] - onRequestAccountLogin: registerName=test13
+S_INFO root [2019-06-03 23:29:24,829] - onRequestAccountLogin: registerName=test13
+S_INFO root [2019-06-03 23:29:28,004] - onRequestAccountLogin: registerName=killingbosser1
+S_INFO root [2019-06-03 23:30:46,172] - onRequestAccountLogin: registerName=killingbosser1
+S_INFO root [2019-06-03 23:31:08,256] - onRequestAccountLogin: registerName=test13
+S_INFO root [2019-06-03 23:35:40,514] - onRequestAccountLogin: registerName=test13
+S_INFO root [2019-06-03 23:35:51,120] - onRequestAccountLogin: registerName=killingbosser1

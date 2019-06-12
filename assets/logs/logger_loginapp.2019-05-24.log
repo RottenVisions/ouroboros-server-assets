@@ -1,1 +1,145 @@
-C:/Users/Black/Ouroboros/assets/logs/logger_loginapp.2019-05-24.log
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 594] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 597] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 597] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 598] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 610] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20013 )
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 611] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20013, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 614] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4392 )
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 615] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4392, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 615] - server-configs:
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 615] - 	internalTcpAddr : 192.168.27.1:4392
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 615] - 	externalTcpAddr : 192.168.27.1:20013
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 615] - 	componentID : 9000
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 865] - Components::findLogger: found logger, addr:192.168.27.1:4218
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 865] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 865] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 869] - ---- loginapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: FAEB96C1009ABB16D0D16DD0697D59A8. Config: Debug X86. Built: 02:53:45 May 23 2019. AppID: 9000. UID: 10103. PID: 69640 ----
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 870] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 871] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:31:59 871] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:00 081] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:00 081] - Script::install(): OUROxtra is successfully!
+  S_INFO   loginapp-1 10103 9000  [2019-05-24 00:32:00 098] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:00 099] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:00 432] - ---- loginapp is running ----
+   DEBUG   loginapp-1 10103 9000  [2019-05-24 00:32:00 433] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:08 278] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:08 338] - Components::findComponents: found dbmgr, addr:192.168.27.1:4216
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:08 338] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:08 338] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:08 340] - Components::findComponents: found dbmgr, addr:192.168.27.1:4216
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:10 358] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:10 383] - Components::findComponents: found baseappmgr, addr:192.168.27.1:4256
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:10 383] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:10 384] - Components::findComponents: found baseappmgr, addr:192.168.27.1:4256
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:12 400] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:12 418] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:12 421] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:12 421] - Components::process(): Found all the components!
+    INFO   loginapp-1 10103 9000  [2019-05-24 00:32:15 402] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=5, startGroupOrder=1, digest=A95409634AA737AC5ED3596431383F23.
+    INFO   loginapp01 10103 9000  [2019-05-24 00:32:16 622] - HTTPCBHandler::bind: 192.168.27.1:21103
+ WARNING   loginapp01 10103 9000  [2019-05-24 00:32:16 622] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.22 seconds
+    INFO   loginapp01 10103 9000  [2019-05-24 02:12:45 937] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:2715/0/0/0
+ WARNING   loginapp01 10103 9000  [2019-05-24 02:12:45 937] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:2715/0/0/0
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:12:45 982] - onRequestLogin() loginName=test13, clientType=2
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:12:45 982] - PendingLoginMgr::add: test13, size=1.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:12:45 983] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=test13, datas=IDMO_Login.
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:12:46 012] - onLoginCallbackFromDB() loginName=test13, accountName=test13, errorno=0
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:12:46 013] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=test13, addr=192.168.27.1:20015.
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:12:46 013] - PendingLoginMgr::remove: test13, size=0.
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:14:07 461] - onRequestCreateAccount() killingbosser1
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:14:07 461] - Loginapp::_createAccount: accountName=killingbosser1, passwordsize=8, type=1, oldType=3.
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:14:07 461] - PendingLoginMgr::add: killingbosser1, size=1.
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:14:07 489] - onCreateAccountCallbackFromDB() accountName=killingbosser1, errorno=0
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:14:07 490] - Loginapp::onReqCreateAccountResult: accountName=killingbosser1, failedcode=0.
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:14:07 490] - PendingLoginMgr::remove: killingbosser1, size=0.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:14:09 174] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:2861/0/0/0
+ WARNING   loginapp01 10103 9000  [2019-05-24 02:14:09 174] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:2861/0/0/0
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:14:09 225] - onRequestLogin() loginName=killingbosser1, clientType=2
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:14:09 225] - PendingLoginMgr::add: killingbosser1, size=1.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:14:09 225] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=killingbosser1, datas=IDMO_Login.
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:14:09 249] - onLoginCallbackFromDB() loginName=killingbosser1, accountName=killingbosser1, errorno=0
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:14:09 250] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=killingbosser1, addr=192.168.27.1:20015.
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:14:09 250] - PendingLoginMgr::remove: killingbosser1, size=0.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:15:01 078] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:2964/0/0/0
+ WARNING   loginapp01 10103 9000  [2019-05-24 02:15:01 078] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:2964/0/0/0
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:15:01 120] - onRequestLogin() loginName=test13, clientType=2
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:15:01 120] - PendingLoginMgr::add: test13, size=1.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:15:01 120] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=test13, datas=IDMO_Login.
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:15:01 128] - onLoginCallbackFromDB() loginName=test13, accountName=test13, errorno=0
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:15:01 129] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=test13, addr=192.168.27.1:20015.
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:15:01 129] - PendingLoginMgr::remove: test13, size=0.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:28:50 422] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:4666/0/0/0
+ WARNING   loginapp01 10103 9000  [2019-05-24 02:28:50 423] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:4666/0/0/0
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:28:50 460] - onRequestLogin() loginName=killingbosser1, clientType=2
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:28:50 460] - PendingLoginMgr::add: killingbosser1, size=1.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:28:50 461] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=killingbosser1, datas=IDMO_Login.
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:28:50 488] - onLoginCallbackFromDB() loginName=killingbosser1, accountName=killingbosser1, errorno=0
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:28:50 489] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=killingbosser1, addr=192.168.27.1:20015.
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:28:50 489] - PendingLoginMgr::remove: killingbosser1, size=0.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:28:56 477] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:4678/0/0/0
+ WARNING   loginapp01 10103 9000  [2019-05-24 02:28:56 478] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:4678/0/0/0
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:28:56 523] - onRequestLogin() loginName=test13, clientType=2
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:28:56 523] - PendingLoginMgr::add: test13, size=1.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:28:56 524] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=test13, datas=IDMO_Login.
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:28:56 548] - onLoginCallbackFromDB() loginName=test13, accountName=test13, errorno=0
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:28:56 550] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=test13, addr=192.168.27.1:20015.
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:28:56 550] - PendingLoginMgr::remove: test13, size=0.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:38:11 160] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:5820/0/0/0
+ WARNING   loginapp01 10103 9000  [2019-05-24 02:38:11 161] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:5820/0/0/0
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:38:11 206] - onRequestLogin() loginName=killingbosser1, clientType=2
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:38:11 206] - PendingLoginMgr::add: killingbosser1, size=1.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:38:11 206] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=killingbosser1, datas=IDMO_Login.
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:38:11 233] - onLoginCallbackFromDB() loginName=killingbosser1, accountName=killingbosser1, errorno=0
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:38:11 234] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=killingbosser1, addr=192.168.27.1:20015.
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:38:11 234] - PendingLoginMgr::remove: killingbosser1, size=0.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:38:36 184] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:5888/0/0/0
+ WARNING   loginapp01 10103 9000  [2019-05-24 02:38:36 184] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:5888/0/0/0
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:38:36 229] - onRequestLogin() loginName=test13, clientType=2
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:38:36 229] - PendingLoginMgr::add: test13, size=1.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:38:36 229] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=test13, datas=IDMO_Login.
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:38:36 253] - onLoginCallbackFromDB() loginName=test13, accountName=test13, errorno=0
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:38:36 254] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=test13, addr=192.168.27.1:20015.
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:38:36 254] - PendingLoginMgr::remove: test13, size=0.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:39:10 419] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:5955/0/0/0
+ WARNING   loginapp01 10103 9000  [2019-05-24 02:39:10 419] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:5955/0/0/0
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:39:10 462] - onRequestLogin() loginName=test13, clientType=2
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:39:10 462] - PendingLoginMgr::add: test13, size=1.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:39:10 462] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=test13, datas=IDMO_Login.
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:39:10 473] - onLoginCallbackFromDB() loginName=test13, accountName=test13, errorno=10
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:39:10 474] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=test13, addr=192.168.27.1:20015.
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:39:10 474] - PendingLoginMgr::remove: test13, size=0.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:42:39 058] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:6372/0/0/0
+ WARNING   loginapp01 10103 9000  [2019-05-24 02:42:39 059] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:6372/0/0/0
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:42:39 097] - onRequestLogin() loginName=killingbosser1, clientType=2
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:42:39 098] - PendingLoginMgr::add: killingbosser1, size=1.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:42:39 098] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=killingbosser1, datas=IDMO_Login.
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:42:39 107] - onLoginCallbackFromDB() loginName=killingbosser1, accountName=killingbosser1, errorno=0
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:42:39 108] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=killingbosser1, addr=192.168.27.1:20015.
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:42:39 108] - PendingLoginMgr::remove: killingbosser1, size=0.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:42:50 990] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:6397/0/0/0
+ WARNING   loginapp01 10103 9000  [2019-05-24 02:42:50 991] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:6397/0/0/0
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:42:51 034] - onRequestLogin() loginName=test13, clientType=2
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:42:51 034] - PendingLoginMgr::add: test13, size=1.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:42:51 034] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=test13, datas=IDMO_Login.
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:42:51 047] - onLoginCallbackFromDB() loginName=test13, accountName=test13, errorno=0
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:42:51 049] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=test13, addr=192.168.27.1:20015.
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:42:51 049] - PendingLoginMgr::remove: test13, size=0.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:46:43 813] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:6829/0/0/0
+ WARNING   loginapp01 10103 9000  [2019-05-24 02:46:43 814] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:6829/0/0/0
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:46:43 856] - onRequestLogin() loginName=killingbosser1, clientType=2
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:46:43 856] - PendingLoginMgr::add: killingbosser1, size=1.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:46:43 856] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=killingbosser1, datas=IDMO_Login.
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:46:43 881] - onLoginCallbackFromDB() loginName=killingbosser1, accountName=killingbosser1, errorno=0
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:46:43 881] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=killingbosser1, addr=192.168.27.1:20015.
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:46:43 882] - PendingLoginMgr::remove: killingbosser1, size=0.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:47:14 067] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:6894/0/0/0
+ WARNING   loginapp01 10103 9000  [2019-05-24 02:47:14 068] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:6894/0/0/0
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:47:14 109] - onRequestLogin() loginName=test13, clientType=2
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:47:14 109] - PendingLoginMgr::add: test13, size=1.
+    INFO   loginapp01 10103 9000  [2019-05-24 02:47:14 109] - Loginapp::login: new client[CLIENT_TYPE_WIN], loginName=test13, datas=IDMO_Login.
+  S_INFO   loginapp01 10103 9000  [2019-05-24 02:47:14 120] - onLoginCallbackFromDB() loginName=test13, accountName=test13, errorno=0
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:47:14 121] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=test13, addr=192.168.27.1:20015.
+   DEBUG   loginapp01 10103 9000  [2019-05-24 02:47:14 121] - PendingLoginMgr::remove: test13, size=0.

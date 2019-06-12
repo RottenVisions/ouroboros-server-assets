@@ -1,1 +1,1 @@
-C:/Users/Black/Ouroboros/assets/logs/interfaces.2019-05-27.log
+  WARN root [2019-05-27 00:10:59,195] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 20.62 seconds

@@ -1,1 +1,3 @@
-C:/Users/Black/Ouroboros/assets/scripts/entity_defs/SpaceDuplicate.def
+﻿<root>
+	<Parent>Space</Parent>
+</root>

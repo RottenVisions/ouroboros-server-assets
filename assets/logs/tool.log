@@ -1,1 +1,765 @@
-C:/Users/Black/Ouroboros/assets/logs/tool.log
+  INFO root [2019-05-23 02:01:09,416] - 
+  INFO root [2019-05-23 02:01:09,417] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-05-23 02:01:09,417] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-05-23 02:01:09,418] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-05-23 02:01:09,418] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-05-23 02:01:09,431] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:9315 )
+  INFO root [2019-05-23 02:01:09,431] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:9315, SOMAXCONN=5.
+  INFO root [2019-05-23 02:01:09,437] - ---- tool Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 0EC8DC82EC0C70B8A058CDC8E69EE611. Config: Debug X86. Built: 19:21:08 May 22 2019. AppID: 18446744073709551615. UID: 10103. PID: 33148 ----
+  INFO root [2019-05-23 02:01:09,438] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-05-23 02:01:09,438] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-05-23 02:01:09,439] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-05-23 02:01:09,648] - Script::install(): is successfully, Python=(3.7.3 (default, May 22 2019, 19:19:00) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-05-23 02:01:09,648] - Script::install(): KBExtra is successfully!
+ DEBUG root [2019-05-23 02:01:10,561] - ClientSDK::writeServerErrorDescrsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//ServerErrorDescrs.cs
+ DEBUG root [2019-05-23 02:01:10,561] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/ServerErrorDescrs.cs
+ DEBUG root [2019-05-23 02:01:10,570] - ClientSDK::writeEngineMessagesModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Messages.cs
+ DEBUG root [2019-05-23 02:01:10,574] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/Messages.cs
+ DEBUG root [2019-05-23 02:01:10,583] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/KBETypes.cs
+ DEBUG root [2019-05-23 02:01:10,590] - ClientSDK::writeEntityDefsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//EntityDef.cs
+ DEBUG root [2019-05-23 02:01:10,596] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityDef.cs
+ DEBUG root [2019-05-23 02:01:10,614] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/CustomDataTypes.cs
+ DEBUG root [2019-05-23 02:01:10,621] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Account
+ DEBUG root [2019-05-23 02:01:10,623] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AccountBase.cs
+ DEBUG root [2019-05-23 02:01:10,632] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAccountBase.cs
+ DEBUG root [2019-05-23 02:01:10,640] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Avatar
+ DEBUG root [2019-05-23 02:01:10,648] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AvatarBase.cs
+ DEBUG root [2019-05-23 02:01:10,659] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAvatarBase.cs
+ DEBUG root [2019-05-23 02:01:10,661] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//FirstEntity
+ DEBUG root [2019-05-23 02:01:10,662] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/FirstEntityBase.cs
+ DEBUG root [2019-05-23 02:01:10,671] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallFirstEntityBase.cs
+ DEBUG root [2019-05-23 02:01:10,674] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Scene
+ DEBUG root [2019-05-23 02:01:10,675] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SceneBase.cs
+ DEBUG root [2019-05-23 02:01:10,685] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSceneBase.cs
+ DEBUG root [2019-05-23 02:01:10,692] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Space
+ DEBUG root [2019-05-23 02:01:10,693] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceBase.cs
+ DEBUG root [2019-05-23 02:01:10,696] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceBase.cs
+ DEBUG root [2019-05-23 02:01:10,702] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpaceDuplicate
+ DEBUG root [2019-05-23 02:01:10,704] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceDuplicateBase.cs
+ DEBUG root [2019-05-23 02:01:10,707] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceDuplicateBase.cs
+ DEBUG root [2019-05-23 02:01:10,709] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Spaces
+ DEBUG root [2019-05-23 02:01:10,710] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpacesBase.cs
+ DEBUG root [2019-05-23 02:01:10,719] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpacesBase.cs
+ DEBUG root [2019-05-23 02:01:10,725] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpawnPoint
+ DEBUG root [2019-05-23 02:01:10,726] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpawnPointBase.cs
+ DEBUG root [2019-05-23 02:01:10,735] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpawnPointBase.cs
+  INFO root [2019-05-23 02:01:10,759] - Script::uninstall(): is successfully!
+ DEBUG root [2019-05-23 02:01:10,759] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-05-23 02:01:11,060] - ThreadPool::destroy(): waiting for thread(2)[0x201f218,0x201efa8,], try=1
+ DEBUG root [2019-05-23 02:01:11,462] - TPThread::~TPThread(): 0x201f218
+ DEBUG root [2019-05-23 02:01:11,462] - TPThread::~TPThread(): 0x201efa8
+ DEBUG root [2019-05-23 02:01:11,462] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-05-23 02:01:11,474] - Bundle::destroyObjPool(): size 14.
+ DEBUG root [2019-05-23 02:01:11,474] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 02:01:11,474] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 02:01:11,474] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 02:01:11,474] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 02:01:11,475] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 02:01:11,475] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 02:01:11,475] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-05-23 02:01:11,475] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2019-05-23 02:01:12,477] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-05-23 05:03:28,855] - 
+  INFO root [2019-05-23 05:03:28,856] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-05-23 05:03:28,857] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-05-23 05:03:28,857] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-05-23 05:03:28,857] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-05-23 05:03:28,870] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:3925 )
+  INFO root [2019-05-23 05:03:28,871] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:3925, SOMAXCONN=5.
+  INFO root [2019-05-23 05:03:28,887] - ---- tool Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 22B356D1B7966F21C954CEC7C7F4EFBF. Config: Debug X86. Built: 02:53:01 May 23 2019. AppID: 18446744073709551615. UID: 10103. PID: 54616 ----
+  INFO root [2019-05-23 05:03:28,888] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-05-23 05:03:28,888] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-05-23 05:03:28,889] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-05-23 05:03:29,787] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-05-23 05:03:29,788] - Script::install(): OUROxtra is successfully!
+ DEBUG root [2019-05-23 05:03:31,963] - ClientSDK::writeServerErrorDescrsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//ServerErrorDescrs.cs
+ DEBUG root [2019-05-23 05:03:31,964] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/ServerErrorDescrs.cs
+ DEBUG root [2019-05-23 05:03:31,973] - ClientSDK::writeEngineMessagesModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Messages.cs
+ DEBUG root [2019-05-23 05:03:31,983] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/Messages.cs
+ DEBUG root [2019-05-23 05:03:31,993] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/OUROTypes.cs
+ DEBUG root [2019-05-23 05:03:31,999] - ClientSDK::writeEntityDefsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//EntityDef.cs
+ DEBUG root [2019-05-23 05:03:32,008] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityDef.cs
+ DEBUG root [2019-05-23 05:03:32,029] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/CustomDataTypes.cs
+ DEBUG root [2019-05-23 05:03:32,038] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Account
+ DEBUG root [2019-05-23 05:03:32,040] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AccountBase.cs
+ DEBUG root [2019-05-23 05:03:32,048] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAccountBase.cs
+ DEBUG root [2019-05-23 05:03:32,056] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Avatar
+ DEBUG root [2019-05-23 05:03:32,062] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AvatarBase.cs
+ DEBUG root [2019-05-23 05:03:32,074] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAvatarBase.cs
+ DEBUG root [2019-05-23 05:03:32,082] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//FirstEntity
+ DEBUG root [2019-05-23 05:03:32,084] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/FirstEntityBase.cs
+ DEBUG root [2019-05-23 05:03:32,095] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallFirstEntityBase.cs
+ DEBUG root [2019-05-23 05:03:32,102] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Scene
+ DEBUG root [2019-05-23 05:03:32,103] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SceneBase.cs
+ DEBUG root [2019-05-23 05:03:32,112] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSceneBase.cs
+ DEBUG root [2019-05-23 05:03:32,119] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Space
+ DEBUG root [2019-05-23 05:03:32,120] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceBase.cs
+ DEBUG root [2019-05-23 05:03:32,130] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceBase.cs
+ DEBUG root [2019-05-23 05:03:32,136] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpaceDuplicate
+ DEBUG root [2019-05-23 05:03:32,138] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceDuplicateBase.cs
+ DEBUG root [2019-05-23 05:03:32,147] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceDuplicateBase.cs
+ DEBUG root [2019-05-23 05:03:32,154] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Spaces
+ DEBUG root [2019-05-23 05:03:32,156] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpacesBase.cs
+ DEBUG root [2019-05-23 05:03:32,165] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpacesBase.cs
+ DEBUG root [2019-05-23 05:03:32,172] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpawnPoint
+ DEBUG root [2019-05-23 05:03:32,174] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpawnPointBase.cs
+ DEBUG root [2019-05-23 05:03:32,185] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpawnPointBase.cs
+  INFO root [2019-05-23 05:03:32,208] - Script::uninstall(): is successfully!
+ DEBUG root [2019-05-23 05:03:32,208] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-05-23 05:03:32,510] - ThreadPool::destroy(): waiting for thread(2)[0x1dea090,0x1de9fc0,], try=1
+ DEBUG root [2019-05-23 05:03:32,912] - TPThread::~TPThread(): 0x1dea090
+ DEBUG root [2019-05-23 05:03:32,912] - TPThread::~TPThread(): 0x1de9fc0
+ DEBUG root [2019-05-23 05:03:32,912] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-05-23 05:03:32,929] - Bundle::destroyObjPool(): size 14.
+ DEBUG root [2019-05-23 05:03:32,929] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 05:03:32,930] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 05:03:32,930] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 05:03:32,930] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 05:03:32,930] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 05:03:32,931] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 05:03:32,931] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-05-23 05:03:32,931] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2019-05-23 05:03:33,933] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-05-23 05:26:51,516] - 
+  INFO root [2019-05-23 05:26:51,517] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-05-23 05:26:51,517] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-05-23 05:26:51,517] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-05-23 05:26:51,517] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-05-23 05:26:51,527] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:6816 )
+  INFO root [2019-05-23 05:26:51,527] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:6816, SOMAXCONN=5.
+  INFO root [2019-05-23 05:26:51,531] - ---- tool Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 22B356D1B7966F21C954CEC7C7F4EFBF. Config: Debug X86. Built: 02:53:01 May 23 2019. AppID: 18446744073709551615. UID: 10103. PID: 58004 ----
+  INFO root [2019-05-23 05:26:51,532] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-05-23 05:26:51,532] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-05-23 05:26:51,533] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-05-23 05:26:51,744] - Script::install(): is successfully, Python=(3.7.3 (default, May 23 2019, 03:58:29) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-05-23 05:26:51,744] - Script::install(): OUROxtra is successfully!
+ DEBUG root [2019-05-23 05:26:52,800] - ClientSDK::writeServerErrorDescrsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//ServerErrorDescrs.cs
+ DEBUG root [2019-05-23 05:26:52,801] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/ServerErrorDescrs.cs
+ DEBUG root [2019-05-23 05:26:52,808] - ClientSDK::writeEngineMessagesModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Messages.cs
+ DEBUG root [2019-05-23 05:26:52,814] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/Messages.cs
+ DEBUG root [2019-05-23 05:26:52,826] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/OUROTypes.cs
+ DEBUG root [2019-05-23 05:26:52,832] - ClientSDK::writeEntityDefsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//EntityDef.cs
+ DEBUG root [2019-05-23 05:26:52,837] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityDef.cs
+ DEBUG root [2019-05-23 05:26:52,853] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/CustomDataTypes.cs
+ DEBUG root [2019-05-23 05:26:52,860] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Account
+ DEBUG root [2019-05-23 05:26:52,862] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AccountBase.cs
+ DEBUG root [2019-05-23 05:26:52,873] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAccountBase.cs
+ DEBUG root [2019-05-23 05:26:52,880] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Avatar
+ DEBUG root [2019-05-23 05:26:52,888] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AvatarBase.cs
+ DEBUG root [2019-05-23 05:26:52,900] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAvatarBase.cs
+ DEBUG root [2019-05-23 05:26:52,906] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//FirstEntity
+ DEBUG root [2019-05-23 05:26:52,907] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/FirstEntityBase.cs
+ DEBUG root [2019-05-23 05:26:52,915] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallFirstEntityBase.cs
+ DEBUG root [2019-05-23 05:26:52,920] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Scene
+ DEBUG root [2019-05-23 05:26:52,921] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SceneBase.cs
+ DEBUG root [2019-05-23 05:26:52,928] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSceneBase.cs
+ DEBUG root [2019-05-23 05:26:52,934] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Space
+ DEBUG root [2019-05-23 05:26:52,935] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceBase.cs
+ DEBUG root [2019-05-23 05:26:52,944] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceBase.cs
+ DEBUG root [2019-05-23 05:26:52,950] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpaceDuplicate
+ DEBUG root [2019-05-23 05:26:52,952] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceDuplicateBase.cs
+ DEBUG root [2019-05-23 05:26:52,962] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceDuplicateBase.cs
+ DEBUG root [2019-05-23 05:26:52,968] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Spaces
+ DEBUG root [2019-05-23 05:26:52,970] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpacesBase.cs
+ DEBUG root [2019-05-23 05:26:52,981] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpacesBase.cs
+ DEBUG root [2019-05-23 05:26:52,988] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpawnPoint
+ DEBUG root [2019-05-23 05:26:52,990] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpawnPointBase.cs
+ DEBUG root [2019-05-23 05:26:52,999] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpawnPointBase.cs
+  INFO root [2019-05-23 05:26:53,023] - Script::uninstall(): is successfully!
+ DEBUG root [2019-05-23 05:26:53,023] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-05-23 05:26:53,324] - ThreadPool::destroy(): waiting for thread(2)[0x203dcc8,0x203dfa0,], try=1
+ DEBUG root [2019-05-23 05:26:53,726] - TPThread::~TPThread(): 0x203dcc8
+ DEBUG root [2019-05-23 05:26:53,726] - TPThread::~TPThread(): 0x203dfa0
+ DEBUG root [2019-05-23 05:26:53,726] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-05-23 05:26:53,739] - Bundle::destroyObjPool(): size 14.
+ DEBUG root [2019-05-23 05:26:53,740] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 05:26:53,741] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 05:26:53,741] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 05:26:53,741] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 05:26:53,741] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 05:26:53,742] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-05-23 05:26:53,742] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-05-23 05:26:53,742] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2019-05-23 05:26:54,745] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-06-08 04:42:56,788] - 
+  INFO root [2019-06-08 04:42:56,789] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-08 04:42:56,790] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-08 04:42:56,790] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-08 04:42:56,791] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-08 04:42:56,806] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:10506 )
+  INFO root [2019-06-08 04:42:56,806] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:10506, SOMAXCONN=5.
+  INFO root [2019-06-08 04:42:56,812] - ---- tool Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 22B356D1B7966F21C954CEC7C7F4EFBF. Config: Debug X86. Built: 02:53:01 May 23 2019. AppID: 18446744073709551615. UID: 10103. PID: 228 ----
+  INFO root [2019-06-08 04:42:56,812] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-08 04:42:56,813] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-08 04:42:56,814] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-08 04:42:56,998] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-08 04:42:56,998] - Script::install(): OUROxtra is successfully!
+ DEBUG root [2019-06-08 04:42:58,198] - ClientSDK::writeServerErrorDescrsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//ServerErrorDescrs.cs
+ DEBUG root [2019-06-08 04:42:58,199] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/ServerErrorDescrs.cs
+ DEBUG root [2019-06-08 04:42:58,206] - ClientSDK::writeEngineMessagesModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Messages.cs
+ DEBUG root [2019-06-08 04:42:58,210] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/Messages.cs
+ DEBUG root [2019-06-08 04:42:58,218] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/OUROTypes.cs
+ DEBUG root [2019-06-08 04:42:58,222] - ClientSDK::writeEntityDefsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//EntityDef.cs
+ DEBUG root [2019-06-08 04:42:58,229] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityDef.cs
+ DEBUG root [2019-06-08 04:42:58,244] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/CustomDataTypes.cs
+ DEBUG root [2019-06-08 04:42:58,250] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Account
+ DEBUG root [2019-06-08 04:42:58,252] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AccountBase.cs
+ DEBUG root [2019-06-08 04:42:58,259] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAccountBase.cs
+ DEBUG root [2019-06-08 04:42:58,263] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Avatar
+ DEBUG root [2019-06-08 04:42:58,267] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AvatarBase.cs
+ DEBUG root [2019-06-08 04:42:58,276] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAvatarBase.cs
+ DEBUG root [2019-06-08 04:42:58,281] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Enemy
+ DEBUG root [2019-06-08 04:42:58,284] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EnemyBase.cs
+ DEBUG root [2019-06-08 04:42:58,291] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallEnemyBase.cs
+ DEBUG root [2019-06-08 04:42:58,296] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//NPC
+ DEBUG root [2019-06-08 04:42:58,298] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/NPCBase.cs
+ DEBUG root [2019-06-08 04:42:58,305] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallNPCBase.cs
+ DEBUG root [2019-06-08 04:42:58,309] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Gate
+ DEBUG root [2019-06-08 04:42:58,311] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/GateBase.cs
+ DEBUG root [2019-06-08 04:42:58,318] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallGateBase.cs
+ DEBUG root [2019-06-08 04:42:58,322] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//FirstEntity
+ DEBUG root [2019-06-08 04:42:58,323] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/FirstEntityBase.cs
+ DEBUG root [2019-06-08 04:42:58,329] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallFirstEntityBase.cs
+ DEBUG root [2019-06-08 04:42:58,334] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Scene
+ DEBUG root [2019-06-08 04:42:58,335] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SceneBase.cs
+ DEBUG root [2019-06-08 04:42:58,341] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSceneBase.cs
+ DEBUG root [2019-06-08 04:42:58,345] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Space
+ DEBUG root [2019-06-08 04:42:58,346] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceBase.cs
+ DEBUG root [2019-06-08 04:42:58,352] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceBase.cs
+ DEBUG root [2019-06-08 04:42:58,357] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Spaces
+ DEBUG root [2019-06-08 04:42:58,358] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpacesBase.cs
+ DEBUG root [2019-06-08 04:42:58,364] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpacesBase.cs
+ DEBUG root [2019-06-08 04:42:58,369] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpaceDuplicate
+ DEBUG root [2019-06-08 04:42:58,370] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceDuplicateBase.cs
+ DEBUG root [2019-06-08 04:42:58,377] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceDuplicateBase.cs
+ DEBUG root [2019-06-08 04:42:58,382] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpawnPoint
+ DEBUG root [2019-06-08 04:42:58,383] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpawnPointBase.cs
+ DEBUG root [2019-06-08 04:42:58,390] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpawnPointBase.cs
+  INFO root [2019-06-08 04:42:58,414] - Script::uninstall(): is successfully!
+ DEBUG root [2019-06-08 04:42:58,414] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-08 04:42:58,715] - ThreadPool::destroy(): waiting for thread(2)[0x2168630,0x21685c8,], try=1
+ DEBUG root [2019-06-08 04:42:59,117] - TPThread::~TPThread(): 0x2168630
+ DEBUG root [2019-06-08 04:42:59,117] - TPThread::~TPThread(): 0x21685c8
+ DEBUG root [2019-06-08 04:42:59,117] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-06-08 04:42:59,128] - Bundle::destroyObjPool(): size 5.
+ DEBUG root [2019-06-08 04:42:59,129] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-06-08 04:42:59,129] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-08 04:42:59,129] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-08 04:42:59,129] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-06-08 04:42:59,129] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-06-08 04:42:59,129] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-06-08 04:42:59,129] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-06-08 04:42:59,129] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2019-06-08 04:43:00,131] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-06-10 06:22:04,273] - 
+  INFO root [2019-06-10 06:22:04,274] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-10 06:22:04,275] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-10 06:22:04,276] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-10 06:22:04,276] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-10 06:22:04,292] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:7895 )
+  INFO root [2019-06-10 06:22:04,292] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:7895, SOMAXCONN=5.
+  INFO root [2019-06-10 06:22:04,297] - ---- tool Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 22B356D1B7966F21C954CEC7C7F4EFBF. Config: Debug X86. Built: 02:53:01 May 23 2019. AppID: 18446744073709551615. UID: 10103. PID: 34860 ----
+  INFO root [2019-06-10 06:22:04,298] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-10 06:22:04,299] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-10 06:22:04,299] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-10 06:22:04,541] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-10 06:22:04,541] - Script::install(): OUROxtra is successfully!
+ DEBUG root [2019-06-10 06:22:07,245] - ClientSDK::writeServerErrorDescrsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//ServerErrorDescrs.cs
+ DEBUG root [2019-06-10 06:22:07,247] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/ServerErrorDescrs.cs
+ DEBUG root [2019-06-10 06:22:07,275] - ClientSDK::writeEngineMessagesModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Messages.cs
+ DEBUG root [2019-06-10 06:22:07,299] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/Messages.cs
+ DEBUG root [2019-06-10 06:22:07,318] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/OUROTypes.cs
+ DEBUG root [2019-06-10 06:22:07,330] - ClientSDK::writeEntityDefsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//EntityDef.cs
+ DEBUG root [2019-06-10 06:22:07,353] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityDef.cs
+ DEBUG root [2019-06-10 06:22:07,410] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/CustomDataTypes.cs
+ DEBUG root [2019-06-10 06:22:07,430] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Account
+ DEBUG root [2019-06-10 06:22:07,433] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AccountBase.cs
+ DEBUG root [2019-06-10 06:22:07,452] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAccountBase.cs
+ DEBUG root [2019-06-10 06:22:07,462] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Avatar
+ DEBUG root [2019-06-10 06:22:07,473] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AvatarBase.cs
+ DEBUG root [2019-06-10 06:22:07,494] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAvatarBase.cs
+ DEBUG root [2019-06-10 06:22:07,507] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Enemy
+ DEBUG root [2019-06-10 06:22:07,514] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EnemyBase.cs
+ DEBUG root [2019-06-10 06:22:07,530] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallEnemyBase.cs
+ DEBUG root [2019-06-10 06:22:07,539] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//NPC
+ DEBUG root [2019-06-10 06:22:07,544] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/NPCBase.cs
+ DEBUG root [2019-06-10 06:22:07,556] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallNPCBase.cs
+ DEBUG root [2019-06-10 06:22:07,561] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Gate
+ DEBUG root [2019-06-10 06:22:07,565] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/GateBase.cs
+ DEBUG root [2019-06-10 06:22:07,577] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallGateBase.cs
+ DEBUG root [2019-06-10 06:22:07,586] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//FirstEntity
+ DEBUG root [2019-06-10 06:22:07,588] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/FirstEntityBase.cs
+ DEBUG root [2019-06-10 06:22:07,602] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallFirstEntityBase.cs
+ DEBUG root [2019-06-10 06:22:07,611] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Scene
+ DEBUG root [2019-06-10 06:22:07,612] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SceneBase.cs
+ DEBUG root [2019-06-10 06:22:07,624] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSceneBase.cs
+ DEBUG root [2019-06-10 06:22:07,630] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Space
+ DEBUG root [2019-06-10 06:22:07,632] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceBase.cs
+ DEBUG root [2019-06-10 06:22:07,642] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceBase.cs
+ DEBUG root [2019-06-10 06:22:07,648] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Spaces
+ DEBUG root [2019-06-10 06:22:07,649] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpacesBase.cs
+ DEBUG root [2019-06-10 06:22:07,661] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpacesBase.cs
+ DEBUG root [2019-06-10 06:22:07,667] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpaceDuplicate
+ DEBUG root [2019-06-10 06:22:07,669] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceDuplicateBase.cs
+ DEBUG root [2019-06-10 06:22:07,680] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceDuplicateBase.cs
+ DEBUG root [2019-06-10 06:22:07,688] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpawnPoint
+ DEBUG root [2019-06-10 06:22:07,691] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpawnPointBase.cs
+ DEBUG root [2019-06-10 06:22:07,704] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpawnPointBase.cs
+  INFO root [2019-06-10 06:22:07,737] - Script::uninstall(): is successfully!
+ DEBUG root [2019-06-10 06:22:07,737] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-10 06:22:08,039] - ThreadPool::destroy(): waiting for thread(2)[0x22f80a8,0x22f7e38,], try=1
+ DEBUG root [2019-06-10 06:22:08,442] - TPThread::~TPThread(): 0x22f80a8
+ DEBUG root [2019-06-10 06:22:08,442] - TPThread::~TPThread(): 0x22f7e38
+ DEBUG root [2019-06-10 06:22:08,442] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-06-10 06:22:08,463] - Bundle::destroyObjPool(): size 5.
+ DEBUG root [2019-06-10 06:22:08,464] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 06:22:08,464] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 06:22:08,464] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 06:22:08,465] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 06:22:08,465] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 06:22:08,465] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 06:22:08,465] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-06-10 06:22:08,466] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2019-06-10 06:22:09,467] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-06-10 06:29:34,588] - 
+  INFO root [2019-06-10 06:29:34,588] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-10 06:29:34,589] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-10 06:29:34,589] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-10 06:29:34,590] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-10 06:29:34,604] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:9127 )
+  INFO root [2019-06-10 06:29:34,604] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:9127, SOMAXCONN=5.
+  INFO root [2019-06-10 06:29:34,609] - ---- tool Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 22B356D1B7966F21C954CEC7C7F4EFBF. Config: Debug X86. Built: 02:53:01 May 23 2019. AppID: 18446744073709551615. UID: 10103. PID: 40812 ----
+  INFO root [2019-06-10 06:29:34,609] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-10 06:29:34,610] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-10 06:29:34,610] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-10 06:29:34,796] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-10 06:29:34,796] - Script::install(): OUROxtra is successfully!
+ DEBUG root [2019-06-10 06:29:35,855] - ClientSDK::writeServerErrorDescrsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//ServerErrorDescrs.cs
+ DEBUG root [2019-06-10 06:29:35,856] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/ServerErrorDescrs.cs
+ DEBUG root [2019-06-10 06:29:35,858] - ClientSDK::writeEngineMessagesModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Messages.cs
+ DEBUG root [2019-06-10 06:29:35,863] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/Messages.cs
+ DEBUG root [2019-06-10 06:29:35,872] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/OUROTypes.cs
+ DEBUG root [2019-06-10 06:29:35,877] - ClientSDK::writeEntityDefsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//EntityDef.cs
+ DEBUG root [2019-06-10 06:29:35,885] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityDef.cs
+ DEBUG root [2019-06-10 06:29:35,903] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/CustomDataTypes.cs
+ DEBUG root [2019-06-10 06:29:35,909] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Account
+ DEBUG root [2019-06-10 06:29:35,912] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AccountBase.cs
+ DEBUG root [2019-06-10 06:29:35,920] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAccountBase.cs
+ DEBUG root [2019-06-10 06:29:35,923] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Avatar
+ DEBUG root [2019-06-10 06:29:35,927] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AvatarBase.cs
+ DEBUG root [2019-06-10 06:29:35,937] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAvatarBase.cs
+ DEBUG root [2019-06-10 06:29:35,939] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Enemy
+ DEBUG root [2019-06-10 06:29:35,942] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EnemyBase.cs
+ DEBUG root [2019-06-10 06:29:35,952] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallEnemyBase.cs
+ DEBUG root [2019-06-10 06:29:35,957] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//NPC
+ DEBUG root [2019-06-10 06:29:35,959] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/NPCBase.cs
+ DEBUG root [2019-06-10 06:29:35,968] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallNPCBase.cs
+ DEBUG root [2019-06-10 06:29:35,973] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Gate
+ DEBUG root [2019-06-10 06:29:35,977] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/GateBase.cs
+ DEBUG root [2019-06-10 06:29:35,985] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallGateBase.cs
+ DEBUG root [2019-06-10 06:29:35,987] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//FirstEntity
+ DEBUG root [2019-06-10 06:29:35,988] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/FirstEntityBase.cs
+ DEBUG root [2019-06-10 06:29:35,997] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallFirstEntityBase.cs
+ DEBUG root [2019-06-10 06:29:36,000] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Scene
+ DEBUG root [2019-06-10 06:29:36,002] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SceneBase.cs
+ DEBUG root [2019-06-10 06:29:36,004] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSceneBase.cs
+ DEBUG root [2019-06-10 06:29:36,006] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Space
+ DEBUG root [2019-06-10 06:29:36,007] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceBase.cs
+ DEBUG root [2019-06-10 06:29:36,010] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceBase.cs
+ DEBUG root [2019-06-10 06:29:36,012] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Spaces
+ DEBUG root [2019-06-10 06:29:36,013] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpacesBase.cs
+ DEBUG root [2019-06-10 06:29:36,016] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpacesBase.cs
+ DEBUG root [2019-06-10 06:29:36,020] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpaceDuplicate
+ DEBUG root [2019-06-10 06:29:36,022] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceDuplicateBase.cs
+ DEBUG root [2019-06-10 06:29:36,024] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceDuplicateBase.cs
+ DEBUG root [2019-06-10 06:29:36,026] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpawnPoint
+ DEBUG root [2019-06-10 06:29:36,030] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpawnPointBase.cs
+ DEBUG root [2019-06-10 06:29:36,038] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpawnPointBase.cs
+  INFO root [2019-06-10 06:29:36,057] - Script::uninstall(): is successfully!
+ DEBUG root [2019-06-10 06:29:36,057] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-10 06:29:36,359] - ThreadPool::destroy(): waiting for thread(2)[0x2146df0,0x2146be8,], try=1
+ DEBUG root [2019-06-10 06:29:36,760] - TPThread::~TPThread(): 0x2146df0
+ DEBUG root [2019-06-10 06:29:36,760] - TPThread::~TPThread(): 0x2146be8
+ DEBUG root [2019-06-10 06:29:36,760] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-06-10 06:29:36,770] - Bundle::destroyObjPool(): size 5.
+ DEBUG root [2019-06-10 06:29:36,771] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 06:29:36,771] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 06:29:36,771] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 06:29:36,771] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 06:29:36,771] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 06:29:36,771] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 06:29:36,771] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-06-10 06:29:36,772] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2019-06-10 06:29:37,772] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-06-10 08:40:43,567] - 
+  INFO root [2019-06-10 08:40:43,568] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-10 08:40:43,569] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-10 08:40:43,569] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-10 08:40:43,569] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-10 08:40:43,583] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:3551 )
+  INFO root [2019-06-10 08:40:43,583] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:3551, SOMAXCONN=5.
+  INFO root [2019-06-10 08:40:43,588] - ---- tool Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 22B356D1B7966F21C954CEC7C7F4EFBF. Config: Debug X86. Built: 02:53:01 May 23 2019. AppID: 18446744073709551615. UID: 10103. PID: 28168 ----
+  INFO root [2019-06-10 08:40:43,589] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-10 08:40:43,589] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-10 08:40:43,589] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-10 08:40:43,783] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-10 08:40:43,783] - Script::install(): OUROxtra is successfully!
+ DEBUG root [2019-06-10 08:40:44,919] - ClientSDK::writeServerErrorDescrsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//ServerErrorDescrs.cs
+ DEBUG root [2019-06-10 08:40:44,920] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/ServerErrorDescrs.cs
+ DEBUG root [2019-06-10 08:40:44,928] - ClientSDK::writeEngineMessagesModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Messages.cs
+ DEBUG root [2019-06-10 08:40:44,934] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/Messages.cs
+ DEBUG root [2019-06-10 08:40:44,942] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/OUROTypes.cs
+ DEBUG root [2019-06-10 08:40:44,948] - ClientSDK::writeEntityDefsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//EntityDef.cs
+ DEBUG root [2019-06-10 08:40:44,958] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityDef.cs
+ DEBUG root [2019-06-10 08:40:44,979] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/CustomDataTypes.cs
+ DEBUG root [2019-06-10 08:40:44,988] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Account
+ DEBUG root [2019-06-10 08:40:44,990] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AccountBase.cs
+ DEBUG root [2019-06-10 08:40:44,998] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAccountBase.cs
+ DEBUG root [2019-06-10 08:40:45,004] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Avatar
+ DEBUG root [2019-06-10 08:40:45,008] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AvatarBase.cs
+ DEBUG root [2019-06-10 08:40:45,016] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAvatarBase.cs
+ DEBUG root [2019-06-10 08:40:45,021] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Enemy
+ DEBUG root [2019-06-10 08:40:45,024] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EnemyBase.cs
+ DEBUG root [2019-06-10 08:40:45,031] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallEnemyBase.cs
+ DEBUG root [2019-06-10 08:40:45,033] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//NPC
+ DEBUG root [2019-06-10 08:40:45,035] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/NPCBase.cs
+ DEBUG root [2019-06-10 08:40:45,042] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallNPCBase.cs
+ DEBUG root [2019-06-10 08:40:45,051] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Gate
+ DEBUG root [2019-06-10 08:40:45,053] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/GateBase.cs
+ DEBUG root [2019-06-10 08:40:45,060] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallGateBase.cs
+ DEBUG root [2019-06-10 08:40:45,065] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//FirstEntity
+ DEBUG root [2019-06-10 08:40:45,066] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/FirstEntityBase.cs
+ DEBUG root [2019-06-10 08:40:45,068] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallFirstEntityBase.cs
+ DEBUG root [2019-06-10 08:40:45,072] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Scene
+ DEBUG root [2019-06-10 08:40:45,073] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SceneBase.cs
+ DEBUG root [2019-06-10 08:40:45,080] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSceneBase.cs
+ DEBUG root [2019-06-10 08:40:45,085] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Space
+ DEBUG root [2019-06-10 08:40:45,086] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceBase.cs
+ DEBUG root [2019-06-10 08:40:45,099] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceBase.cs
+ DEBUG root [2019-06-10 08:40:45,103] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Spaces
+ DEBUG root [2019-06-10 08:40:45,104] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpacesBase.cs
+ DEBUG root [2019-06-10 08:40:45,112] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpacesBase.cs
+ DEBUG root [2019-06-10 08:40:45,117] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpaceDuplicate
+ DEBUG root [2019-06-10 08:40:45,118] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceDuplicateBase.cs
+ DEBUG root [2019-06-10 08:40:45,125] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceDuplicateBase.cs
+ DEBUG root [2019-06-10 08:40:45,130] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpawnPoint
+ DEBUG root [2019-06-10 08:40:45,133] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpawnPointBase.cs
+ DEBUG root [2019-06-10 08:40:45,140] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpawnPointBase.cs
+  INFO root [2019-06-10 08:40:45,157] - Script::uninstall(): is successfully!
+ DEBUG root [2019-06-10 08:40:45,157] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-10 08:40:45,458] - ThreadPool::destroy(): waiting for thread(2)[0x9f3af8,0x9f39c0,], try=1
+ DEBUG root [2019-06-10 08:40:45,860] - TPThread::~TPThread(): 0x9f3af8
+ DEBUG root [2019-06-10 08:40:45,860] - TPThread::~TPThread(): 0x9f39c0
+ DEBUG root [2019-06-10 08:40:45,860] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-06-10 08:40:45,875] - Bundle::destroyObjPool(): size 5.
+ DEBUG root [2019-06-10 08:40:45,875] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 08:40:45,875] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 08:40:45,875] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 08:40:45,875] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 08:40:45,875] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 08:40:45,876] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 08:40:45,876] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-06-10 08:40:45,876] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2019-06-10 08:40:46,877] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-06-10 22:59:02,992] - 
+  INFO root [2019-06-10 22:59:02,992] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-10 22:59:02,993] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-10 22:59:02,994] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-10 22:59:02,994] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-10 22:59:03,008] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:9400 )
+  INFO root [2019-06-10 22:59:03,008] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:9400, SOMAXCONN=5.
+  INFO root [2019-06-10 22:59:03,014] - ---- tool Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 22B356D1B7966F21C954CEC7C7F4EFBF. Config: Debug X86. Built: 02:53:01 May 23 2019. AppID: 18446744073709551615. UID: 10103. PID: 25340 ----
+  INFO root [2019-06-10 22:59:03,015] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-10 22:59:03,016] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-10 22:59:03,016] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-10 22:59:03,194] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-10 22:59:03,194] - Script::install(): OUROxtra is successfully!
+ DEBUG root [2019-06-10 22:59:04,263] - ClientSDK::writeServerErrorDescrsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//ServerErrorDescrs.cs
+ DEBUG root [2019-06-10 22:59:04,265] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/ServerErrorDescrs.cs
+ DEBUG root [2019-06-10 22:59:04,272] - ClientSDK::writeEngineMessagesModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Messages.cs
+ DEBUG root [2019-06-10 22:59:04,277] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/Messages.cs
+ DEBUG root [2019-06-10 22:59:04,286] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/OUROTypes.cs
+ DEBUG root [2019-06-10 22:59:04,292] - ClientSDK::writeEntityDefsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//EntityDef.cs
+ DEBUG root [2019-06-10 22:59:04,302] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityDef.cs
+ DEBUG root [2019-06-10 22:59:04,322] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/CustomDataTypes.cs
+ DEBUG root [2019-06-10 22:59:04,328] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Account
+ DEBUG root [2019-06-10 22:59:04,330] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AccountBase.cs
+ DEBUG root [2019-06-10 22:59:04,338] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAccountBase.cs
+ DEBUG root [2019-06-10 22:59:04,344] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Avatar
+ DEBUG root [2019-06-10 22:59:04,349] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AvatarBase.cs
+ DEBUG root [2019-06-10 22:59:04,359] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAvatarBase.cs
+ DEBUG root [2019-06-10 22:59:04,364] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Enemy
+ DEBUG root [2019-06-10 22:59:04,368] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EnemyBase.cs
+ DEBUG root [2019-06-10 22:59:04,377] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallEnemyBase.cs
+ DEBUG root [2019-06-10 22:59:04,382] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//NPC
+ DEBUG root [2019-06-10 22:59:04,384] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/NPCBase.cs
+ DEBUG root [2019-06-10 22:59:04,394] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallNPCBase.cs
+ DEBUG root [2019-06-10 22:59:04,399] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Gate
+ DEBUG root [2019-06-10 22:59:04,402] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/GateBase.cs
+ DEBUG root [2019-06-10 22:59:04,409] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallGateBase.cs
+ DEBUG root [2019-06-10 22:59:04,414] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//FirstEntity
+ DEBUG root [2019-06-10 22:59:04,417] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/FirstEntityBase.cs
+ DEBUG root [2019-06-10 22:59:04,427] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallFirstEntityBase.cs
+ DEBUG root [2019-06-10 22:59:04,435] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Scene
+ DEBUG root [2019-06-10 22:59:04,436] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SceneBase.cs
+ DEBUG root [2019-06-10 22:59:04,446] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSceneBase.cs
+ DEBUG root [2019-06-10 22:59:04,453] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Space
+ DEBUG root [2019-06-10 22:59:04,455] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceBase.cs
+ DEBUG root [2019-06-10 22:59:04,462] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceBase.cs
+ DEBUG root [2019-06-10 22:59:04,470] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Spaces
+ DEBUG root [2019-06-10 22:59:04,472] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpacesBase.cs
+ DEBUG root [2019-06-10 22:59:04,480] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpacesBase.cs
+ DEBUG root [2019-06-10 22:59:04,487] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpaceDuplicate
+ DEBUG root [2019-06-10 22:59:04,488] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceDuplicateBase.cs
+ DEBUG root [2019-06-10 22:59:04,499] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceDuplicateBase.cs
+ DEBUG root [2019-06-10 22:59:04,505] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpawnPoint
+ DEBUG root [2019-06-10 22:59:04,507] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpawnPointBase.cs
+ DEBUG root [2019-06-10 22:59:04,516] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpawnPointBase.cs
+  INFO root [2019-06-10 22:59:04,544] - Script::uninstall(): is successfully!
+ DEBUG root [2019-06-10 22:59:04,545] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-10 22:59:04,845] - ThreadPool::destroy(): waiting for thread(2)[0x83980,0x83918,], try=1
+ DEBUG root [2019-06-10 22:59:05,247] - TPThread::~TPThread(): 0x83980
+ DEBUG root [2019-06-10 22:59:05,247] - TPThread::~TPThread(): 0x83918
+ DEBUG root [2019-06-10 22:59:05,247] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-06-10 22:59:05,259] - Bundle::destroyObjPool(): size 5.
+ DEBUG root [2019-06-10 22:59:05,259] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 22:59:05,259] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 22:59:05,259] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 22:59:05,259] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 22:59:05,260] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 22:59:05,260] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-06-10 22:59:05,260] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-06-10 22:59:05,260] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2019-06-10 22:59:06,264] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-06-11 00:35:28,209] - 
+  INFO root [2019-06-11 00:35:28,209] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-11 00:35:28,210] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-11 00:35:28,210] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-11 00:35:28,210] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-11 00:35:28,222] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12009 )
+  INFO root [2019-06-11 00:35:28,222] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:12009, SOMAXCONN=5.
+  INFO root [2019-06-11 00:35:28,226] - ---- tool Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 22B356D1B7966F21C954CEC7C7F4EFBF. Config: Debug X86. Built: 02:53:01 May 23 2019. AppID: 18446744073709551615. UID: 10103. PID: 11020 ----
+  INFO root [2019-06-11 00:35:28,226] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-11 00:35:28,226] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-11 00:35:28,227] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-11 00:35:28,412] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-11 00:35:28,412] - Script::install(): OUROxtra is successfully!
+ DEBUG root [2019-06-11 00:35:29,474] - ClientSDK::writeServerErrorDescrsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//ServerErrorDescrs.cs
+ DEBUG root [2019-06-11 00:35:29,475] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/ServerErrorDescrs.cs
+ DEBUG root [2019-06-11 00:35:29,486] - ClientSDK::writeEngineMessagesModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Messages.cs
+ DEBUG root [2019-06-11 00:35:29,491] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/Messages.cs
+ DEBUG root [2019-06-11 00:35:29,499] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/OUROTypes.cs
+ DEBUG root [2019-06-11 00:35:29,504] - ClientSDK::writeEntityDefsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//EntityDef.cs
+ DEBUG root [2019-06-11 00:35:29,512] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityDef.cs
+ DEBUG root [2019-06-11 00:35:29,530] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/CustomDataTypes.cs
+ DEBUG root [2019-06-11 00:35:29,537] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Account
+ DEBUG root [2019-06-11 00:35:29,539] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AccountBase.cs
+ DEBUG root [2019-06-11 00:35:29,542] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAccountBase.cs
+ DEBUG root [2019-06-11 00:35:29,547] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Avatar
+ DEBUG root [2019-06-11 00:35:29,553] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AvatarBase.cs
+ DEBUG root [2019-06-11 00:35:29,562] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAvatarBase.cs
+ DEBUG root [2019-06-11 00:35:29,570] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Enemy
+ DEBUG root [2019-06-11 00:35:29,574] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EnemyBase.cs
+ DEBUG root [2019-06-11 00:35:29,583] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallEnemyBase.cs
+ DEBUG root [2019-06-11 00:35:29,590] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//NPC
+ DEBUG root [2019-06-11 00:35:29,592] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/NPCBase.cs
+ DEBUG root [2019-06-11 00:35:29,600] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallNPCBase.cs
+ DEBUG root [2019-06-11 00:35:29,611] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Gate
+ DEBUG root [2019-06-11 00:35:29,613] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/GateBase.cs
+ DEBUG root [2019-06-11 00:35:29,622] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallGateBase.cs
+ DEBUG root [2019-06-11 00:35:29,628] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//FirstEntity
+ DEBUG root [2019-06-11 00:35:29,629] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/FirstEntityBase.cs
+ DEBUG root [2019-06-11 00:35:29,636] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallFirstEntityBase.cs
+ DEBUG root [2019-06-11 00:35:29,642] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Scene
+ DEBUG root [2019-06-11 00:35:29,643] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SceneBase.cs
+ DEBUG root [2019-06-11 00:35:29,650] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSceneBase.cs
+ DEBUG root [2019-06-11 00:35:29,655] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Space
+ DEBUG root [2019-06-11 00:35:29,656] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceBase.cs
+ DEBUG root [2019-06-11 00:35:29,663] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceBase.cs
+ DEBUG root [2019-06-11 00:35:29,669] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Spaces
+ DEBUG root [2019-06-11 00:35:29,670] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpacesBase.cs
+ DEBUG root [2019-06-11 00:35:29,677] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpacesBase.cs
+ DEBUG root [2019-06-11 00:35:29,684] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpaceDuplicate
+ DEBUG root [2019-06-11 00:35:29,685] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceDuplicateBase.cs
+ DEBUG root [2019-06-11 00:35:29,693] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceDuplicateBase.cs
+ DEBUG root [2019-06-11 00:35:29,701] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpawnPoint
+ DEBUG root [2019-06-11 00:35:29,703] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpawnPointBase.cs
+ DEBUG root [2019-06-11 00:35:29,711] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpawnPointBase.cs
+  INFO root [2019-06-11 00:35:29,734] - Script::uninstall(): is successfully!
+ DEBUG root [2019-06-11 00:35:29,734] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-11 00:35:30,035] - ThreadPool::destroy(): waiting for thread(2)[0x175640,0x1758b0,], try=1
+ DEBUG root [2019-06-11 00:35:30,438] - TPThread::~TPThread(): 0x175640
+ DEBUG root [2019-06-11 00:35:30,438] - TPThread::~TPThread(): 0x1758b0
+ DEBUG root [2019-06-11 00:35:30,438] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-06-11 00:35:30,447] - Bundle::destroyObjPool(): size 5.
+ DEBUG root [2019-06-11 00:35:30,447] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 00:35:30,447] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 00:35:30,448] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 00:35:30,448] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 00:35:30,448] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 00:35:30,448] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 00:35:30,448] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-06-11 00:35:30,448] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2019-06-11 00:35:31,451] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-06-11 03:15:42,690] - 
+  INFO root [2019-06-11 03:15:42,690] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-11 03:15:42,691] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-11 03:15:42,691] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-11 03:15:42,691] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-11 03:15:42,704] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:11412 )
+  INFO root [2019-06-11 03:15:42,705] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:11412, SOMAXCONN=5.
+  INFO root [2019-06-11 03:15:42,709] - ---- tool Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 22B356D1B7966F21C954CEC7C7F4EFBF. Config: Debug X86. Built: 02:53:01 May 23 2019. AppID: 18446744073709551615. UID: 10103. PID: 46412 ----
+  INFO root [2019-06-11 03:15:42,709] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-11 03:15:42,710] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-11 03:15:42,710] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-11 03:15:42,894] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-11 03:15:42,894] - Script::install(): OUROxtra is successfully!
+ DEBUG root [2019-06-11 03:15:44,111] - ClientSDK::writeServerErrorDescrsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//ServerErrorDescrs.cs
+ DEBUG root [2019-06-11 03:15:44,113] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/ServerErrorDescrs.cs
+ DEBUG root [2019-06-11 03:15:44,123] - ClientSDK::writeEngineMessagesModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Messages.cs
+ DEBUG root [2019-06-11 03:15:44,130] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/Messages.cs
+ DEBUG root [2019-06-11 03:15:44,140] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/OUROTypes.cs
+ DEBUG root [2019-06-11 03:15:44,147] - ClientSDK::writeEntityDefsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//EntityDef.cs
+ DEBUG root [2019-06-11 03:15:44,156] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityDef.cs
+ DEBUG root [2019-06-11 03:15:44,175] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/CustomDataTypes.cs
+ DEBUG root [2019-06-11 03:15:44,182] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Account
+ DEBUG root [2019-06-11 03:15:44,183] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AccountBase.cs
+ DEBUG root [2019-06-11 03:15:44,191] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAccountBase.cs
+ DEBUG root [2019-06-11 03:15:44,196] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Avatar
+ DEBUG root [2019-06-11 03:15:44,201] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AvatarBase.cs
+ DEBUG root [2019-06-11 03:15:44,211] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAvatarBase.cs
+ DEBUG root [2019-06-11 03:15:44,216] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Enemy
+ DEBUG root [2019-06-11 03:15:44,220] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EnemyBase.cs
+ DEBUG root [2019-06-11 03:15:44,228] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallEnemyBase.cs
+ DEBUG root [2019-06-11 03:15:44,233] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//NPC
+ DEBUG root [2019-06-11 03:15:44,235] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/NPCBase.cs
+ DEBUG root [2019-06-11 03:15:44,242] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallNPCBase.cs
+ DEBUG root [2019-06-11 03:15:44,247] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Gate
+ DEBUG root [2019-06-11 03:15:44,249] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/GateBase.cs
+ DEBUG root [2019-06-11 03:15:44,256] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallGateBase.cs
+ DEBUG root [2019-06-11 03:15:44,260] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//FirstEntity
+ DEBUG root [2019-06-11 03:15:44,261] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/FirstEntityBase.cs
+ DEBUG root [2019-06-11 03:15:44,268] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallFirstEntityBase.cs
+ DEBUG root [2019-06-11 03:15:44,272] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Scene
+ DEBUG root [2019-06-11 03:15:44,273] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SceneBase.cs
+ DEBUG root [2019-06-11 03:15:44,280] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSceneBase.cs
+ DEBUG root [2019-06-11 03:15:44,284] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Space
+ DEBUG root [2019-06-11 03:15:44,285] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceBase.cs
+ DEBUG root [2019-06-11 03:15:44,291] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceBase.cs
+ DEBUG root [2019-06-11 03:15:44,296] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Spaces
+ DEBUG root [2019-06-11 03:15:44,297] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpacesBase.cs
+ DEBUG root [2019-06-11 03:15:44,302] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpacesBase.cs
+ DEBUG root [2019-06-11 03:15:44,308] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpaceDuplicate
+ DEBUG root [2019-06-11 03:15:44,309] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceDuplicateBase.cs
+ DEBUG root [2019-06-11 03:15:44,315] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceDuplicateBase.cs
+ DEBUG root [2019-06-11 03:15:44,320] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpawnPoint
+ DEBUG root [2019-06-11 03:15:44,321] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpawnPointBase.cs
+ DEBUG root [2019-06-11 03:15:44,328] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpawnPointBase.cs
+  INFO root [2019-06-11 03:15:44,345] - Script::uninstall(): is successfully!
+ DEBUG root [2019-06-11 03:15:44,346] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-11 03:15:44,646] - ThreadPool::destroy(): waiting for thread(2)[0x1df3728,0x1df32b0,], try=1
+ DEBUG root [2019-06-11 03:15:45,048] - TPThread::~TPThread(): 0x1df3728
+ DEBUG root [2019-06-11 03:15:45,048] - TPThread::~TPThread(): 0x1df32b0
+ DEBUG root [2019-06-11 03:15:45,048] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-06-11 03:15:45,057] - Bundle::destroyObjPool(): size 5.
+ DEBUG root [2019-06-11 03:15:45,058] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 03:15:45,058] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 03:15:45,058] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 03:15:45,059] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 03:15:45,059] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 03:15:45,059] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 03:15:45,059] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-06-11 03:15:45,059] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2019-06-11 03:15:46,060] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2019-06-11 04:06:27,320] - 
+  INFO root [2019-06-11 04:06:27,320] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-11 04:06:27,321] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO root [2019-06-11 04:06:27,321] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO root [2019-06-11 04:06:27,321] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO root [2019-06-11 04:06:27,338] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:6133 )
+  INFO root [2019-06-11 04:06:27,338] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:6133, SOMAXCONN=5.
+  INFO root [2019-06-11 04:06:27,351] - ---- tool Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 22B356D1B7966F21C954CEC7C7F4EFBF. Config: Debug X86. Built: 02:53:01 May 23 2019. AppID: 18446744073709551615. UID: 10103. PID: 13704 ----
+  INFO root [2019-06-11 04:06:27,351] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO root [2019-06-11 04:06:27,352] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-11 04:06:27,353] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-11 04:06:27,847] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-06-11 04:06:27,847] - Script::install(): OUROxtra is successfully!
+ DEBUG root [2019-06-11 04:06:29,976] - ClientSDK::writeServerErrorDescrsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//ServerErrorDescrs.cs
+ DEBUG root [2019-06-11 04:06:29,977] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/ServerErrorDescrs.cs
+ DEBUG root [2019-06-11 04:06:29,987] - ClientSDK::writeEngineMessagesModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Messages.cs
+ DEBUG root [2019-06-11 04:06:29,996] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/Messages.cs
+ DEBUG root [2019-06-11 04:06:30,005] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/OUROTypes.cs
+ DEBUG root [2019-06-11 04:06:30,011] - ClientSDK::writeEntityDefsModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//EntityDef.cs
+ DEBUG root [2019-06-11 04:06:30,026] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityDef.cs
+ DEBUG root [2019-06-11 04:06:30,045] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/CustomDataTypes.cs
+ DEBUG root [2019-06-11 04:06:30,054] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Account
+ DEBUG root [2019-06-11 04:06:30,056] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AccountBase.cs
+ DEBUG root [2019-06-11 04:06:30,064] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAccountBase.cs
+ DEBUG root [2019-06-11 04:06:30,072] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Avatar
+ DEBUG root [2019-06-11 04:06:30,082] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/AvatarBase.cs
+ DEBUG root [2019-06-11 04:06:30,096] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallAvatarBase.cs
+ DEBUG root [2019-06-11 04:06:30,102] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Enemy
+ DEBUG root [2019-06-11 04:06:30,108] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EnemyBase.cs
+ DEBUG root [2019-06-11 04:06:30,122] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallEnemyBase.cs
+ DEBUG root [2019-06-11 04:06:30,130] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//NPC
+ DEBUG root [2019-06-11 04:06:30,133] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/NPCBase.cs
+ DEBUG root [2019-06-11 04:06:30,143] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallNPCBase.cs
+ DEBUG root [2019-06-11 04:06:30,150] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Gate
+ DEBUG root [2019-06-11 04:06:30,154] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/GateBase.cs
+ DEBUG root [2019-06-11 04:06:30,161] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallGateBase.cs
+ DEBUG root [2019-06-11 04:06:30,168] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//FirstEntity
+ DEBUG root [2019-06-11 04:06:30,169] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/FirstEntityBase.cs
+ DEBUG root [2019-06-11 04:06:30,176] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallFirstEntityBase.cs
+ DEBUG root [2019-06-11 04:06:30,182] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Scene
+ DEBUG root [2019-06-11 04:06:30,183] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SceneBase.cs
+ DEBUG root [2019-06-11 04:06:30,190] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSceneBase.cs
+ DEBUG root [2019-06-11 04:06:30,195] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Space
+ DEBUG root [2019-06-11 04:06:30,196] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceBase.cs
+ DEBUG root [2019-06-11 04:06:30,203] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceBase.cs
+ DEBUG root [2019-06-11 04:06:30,208] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//Spaces
+ DEBUG root [2019-06-11 04:06:30,210] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpacesBase.cs
+ DEBUG root [2019-06-11 04:06:30,217] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpacesBase.cs
+ DEBUG root [2019-06-11 04:06:30,222] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpaceDuplicate
+ DEBUG root [2019-06-11 04:06:30,223] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpaceDuplicateBase.cs
+ DEBUG root [2019-06-11 04:06:30,232] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpaceDuplicateBase.cs
+ DEBUG root [2019-06-11 04:06:30,240] - ClientSDK::writeEntityModule(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros//SpawnPoint
+ DEBUG root [2019-06-11 04:06:30,241] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/SpawnPointBase.cs
+ DEBUG root [2019-06-11 04:06:30,251] - ClientSDK::saveFile(): C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros/EntityCallSpawnPointBase.cs
+  INFO root [2019-06-11 04:06:30,280] - Script::uninstall(): is successfully!
+ DEBUG root [2019-06-11 04:06:30,280] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-11 04:06:30,581] - ThreadPool::destroy(): waiting for thread(2)[0x21a6bd8,0x21a6a38,], try=1
+ DEBUG root [2019-06-11 04:06:30,982] - TPThread::~TPThread(): 0x21a6bd8
+ DEBUG root [2019-06-11 04:06:30,982] - TPThread::~TPThread(): 0x21a6a38
+ DEBUG root [2019-06-11 04:06:30,982] - ThreadPool::destroy(): successfully!
+ DEBUG root [2019-06-11 04:06:30,994] - Bundle::destroyObjPool(): size 5.
+ DEBUG root [2019-06-11 04:06:30,994] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 04:06:30,994] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 04:06:30,994] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 04:06:30,994] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 04:06:30,994] - Address::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 04:06:30,995] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2019-06-11 04:06:30,995] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2019-06-11 04:06:30,995] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2019-06-11 04:06:31,999] - EventDispatcher()::~EventDispatcher: Num timers = 2
