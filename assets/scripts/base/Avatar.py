@@ -102,3 +102,17 @@ class Avatar(Ouroboros.Proxy,
 		avatarCell.resetProperties()
 		#for key, info in self.equipItemList.items():
 			#items.getItem(info[1]).use(self)
+
+	def deactivate(self):
+		'''
+		Allows player to logout of their current avatar
+		'''
+
+		if self.cell is not None:
+			# Destroy the cell entity
+			self.destroyCellEntity()
+		# Destroy base
+		if not self.isDestroyed:
+			self.destroy()
+
+		DEBUG_MSG("Avatar::Deactivate")

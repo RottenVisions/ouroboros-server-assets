@@ -71,6 +71,9 @@
         <createCell>
             <Arg>ENTITYCALL</Arg>
         </createCell>
+        <deactivate>
+            <Exposed />
+        </deactivate>
     </BaseMethods>
     <CellMethods>
         <updatePositionSynced>

@@ -1,0 +1,14 @@
+ ERROR root [2019-06-12 05:12:57,299] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=3817524297649, lastReceivedTime=3817236864012, inactivityExceptionPeriod=599499169)
+  INFO root [2019-06-12 05:12:57,310] - The following logs sent to logger failed:
+  WARN root [2019-06-12 05:12:57,311] - ==> [2019-06-12 05:12:57 296] TCPPacketReceiver::processPendingEvents(192.168.27.1:12920): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-12 05:12:57,311] - ==> [2019-06-12 05:12:57 301] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=3817524297649, lastReceivedTime=3817236864012, inactivityExceptionPeriod=599499169)
+  WARN root [2019-06-12 05:12:57,527] - TCPPacketReceiver::processPendingEvents(192.168.27.1:12922): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-12 05:12:57,532] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=3817526639440, lastReceivedTime=3817234370179, inactivityExceptionPeriod=599499169)
+  INFO root [2019-06-12 05:12:57,542] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2019-06-12 05:12:57,545] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-12 05:12:57,546] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2019-06-12 05:12:57,547] - ThreadPool::destroy(): starting size 2.
+  WARN root [2019-06-12 05:12:57,848] - ThreadPool::destroy(): waiting for thread(2)[0x1c008e0,0x1c00b50,], try=1

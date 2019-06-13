@@ -1,0 +1,5 @@
+   DEBUG      dbmgr-1 10103 4000  [2019-06-12 00:35:01 433] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-12 01:35:01 363] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-12 02:35:01 293] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-12 03:35:01 223] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 10103 4000  [2019-06-12 04:35:01 133] - Dbmgr::DBTaskServerLog()

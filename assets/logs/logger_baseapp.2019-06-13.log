@@ -1,0 +1,1142 @@
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 282] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 285] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 285] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 285] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 300] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 300] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 304] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 304] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 308] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4852 )
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 309] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4852, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 309] - server-configs:
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 309] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 309] - 	entryScriptFile : ouromain
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 309] - 	internalTcpAddr : 192.168.27.1:4852
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 309] - 	externalTcpAddr : 192.168.27.1:20015
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 310] - 	externalUdpAddr : 192.168.27.1:20005
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 310] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 529] - Components::findLogger: found logger, addr:192.168.27.1:4720
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 529] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 529] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 534] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 28484 ----
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 535] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 535] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 536] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 737] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:30 737] - Script::install(): OUROxtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 02:02:31 051] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 02:02:31 052] - loaded entity-script:Avatar(2).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 02:02:31 056] - loaded entity-script:FirstEntity(6).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 02:02:31 056] - loaded entity-script:Scene(7).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 02:02:31 057] - loaded entity-script:Space(8).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 02:02:31 057] - loaded entity-script:Spaces(9).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 02:02:31 058] - loaded entity-script:SpaceDuplicate(10).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 02:02:31 058] - loaded entity-script:SpawnPoint(11).
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:31 059] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:31 059] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:31 435] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 02:02:31 435] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2019-06-13 02:02:37 734] - EntityApp::checkTickPeriod: tick took 6299% (6.30 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:38 787] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:38 853] - Components::findComponents: found dbmgr, addr:192.168.27.1:4780
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:38 853] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:38 853] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:38 854] - Components::findComponents: found dbmgr, addr:192.168.27.1:4780
+ WARNING    baseapp-1 10103 7001  [2019-06-13 02:02:39 855] - EntityApp::checkTickPeriod: tick took 1119% (1.12 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:40 887] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:40 961] - Components::findComponents: found baseappmgr, addr:192.168.27.1:4817
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:40 961] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:40 961] - Components::findComponents: found baseappmgr, addr:192.168.27.1:4817
+ WARNING    baseapp-1 10103 7001  [2019-06-13 02:02:41 963] - EntityApp::checkTickPeriod: tick took 1127% (1.13 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:42 987] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:43 085] - Components::findComponents: found cellappmgr, addr:192.168.27.1:4835
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:43 085] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:43 086] - Components::findComponents: found cellappmgr, addr:192.168.27.1:4835
+ WARNING    baseapp-1 10103 7001  [2019-06-13 02:02:44 086] - EntityApp::checkTickPeriod: tick took 1150% (1.15 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:45 134] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 02:02:45 135] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:45 187] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:45 234] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:45 287] - Components::process(): Found all the components!
+    INFO    baseapp-1 10103 7001  [2019-06-13 02:02:48 146] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=3, startGroupOrder=1, digest=B5FE60E9D05957ED8896B2F64BBB057D.
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:48 146] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:02:49 362] - onInit::isReload:0
+ WARNING    baseapp01 10103 7001  [2019-06-13 02:02:49 362] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.22 seconds
+ WARNING    baseapp01 10103 7001  [2019-06-13 02:02:49 363] - EntityApp::checkTickPeriod: tick took 1228% (1.23 seconds)!
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:02:49 686] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:02:49 687] - onBaseAppReady: isBootstrap=True
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:49 688] - Spaces::initAlloc
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:49 690] - Spaces::init
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:49 690] - EntityApp::createEntity: new Spaces 1
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:52 637] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:52 637] - {'entityType': 'Space', 'spawnPos': (0, 0, 0), 'resPath': 'spaces/novice_1', 'id': 1, 'type': 1, 'name': 'Novice Village'}
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:52 661] - Space::createSpawnPointData: C:/Users/Black/Ouroboros/assets/scripts/data/spawn_points/novice_1_spawn_points.xml
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:52 662] - EntityApp::createEntity: new Space 2
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:52 662] - Spaces::onSpaceCreatedCB: space 1. entityID=2
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:53 250] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=4, grouporderID=1, intaddr:192.168.27.1, intport:4876, extaddr:nonsupport, extport:0,  from 192.168.27.1:4780/0/0/0.
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:53 250] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:53 635] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:53 635] - {'entityType': 'Space', 'spawnPos': (-97.9299, 0.0, -158.922), 'resPath': 'spaces/novice_2', 'id': 2, 'type': 1, 'name': 'Novice Town'}
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:53 640] - Space::createSpawnPointData: C:/Users/Black/Ouroboros/assets/scripts/data/spawn_points/novice_2_spawn_points.xml
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:53 640] - EntityApp::createEntity: new Space 3
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:53 640] - Spaces::onSpaceCreatedCB: space 2. entityID=3
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 564] - onGlobalData: space_1
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 566] - Space::onGetCell: 2
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 566] - Spaces::onSpaceGetCell: space 1. entityID=2, spaceKey=6701938144876888064
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 569] - Space::onGetCell: 3
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 569] - Spaces::onSpaceGetCell: space 2. entityID=3, spaceKey=6701938149171855360
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:02:57 569] - initProgress: completed!
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:02:57 570] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 570] - onGlobalData: space_2
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 635] - spawn timer 22
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 636] - Created [40001002]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 637] - spawn timer 4
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 638] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:57 639] - EntityApp::createEntity: new SpawnPoint 4
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:57 640] - EntityApp::createEntity: new SpawnPoint 5
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 734] - spawn timer 21
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 735] - Created [40001002]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 735] - spawn timer 3
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 736] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:57 737] - EntityApp::createEntity: new SpawnPoint 6
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:57 737] - EntityApp::createEntity: new SpawnPoint 7
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 835] - spawn timer 20
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 835] - Created [40001002]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 835] - spawn timer 2
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 837] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:57 838] - EntityApp::createEntity: new SpawnPoint 8
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:57 839] - EntityApp::createEntity: new SpawnPoint 9
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 936] - spawn timer 19
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 936] - Created [40001002]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 936] - spawn timer 1
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:57 937] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:57 937] - EntityApp::createEntity: new SpawnPoint 10
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:57 938] - EntityApp::createEntity: new SpawnPoint 11
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 035] - spawn timer 18
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 036] - Created [80008001]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 038] - spawn timer 0
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:58 040] - EntityApp::createEntity: new SpawnPoint 12
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 135] - spawn timer 17
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 137] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:58 139] - EntityApp::createEntity: new SpawnPoint 13
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 236] - spawn timer 16
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 237] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:58 240] - EntityApp::createEntity: new SpawnPoint 14
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 336] - spawn timer 15
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 338] - Created [80008003]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:58 344] - EntityApp::createEntity: new SpawnPoint 15
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 436] - spawn timer 14
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 438] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:58 440] - EntityApp::createEntity: new SpawnPoint 16
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 536] - spawn timer 13
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 537] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:58 539] - EntityApp::createEntity: new SpawnPoint 17
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 636] - spawn timer 12
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 637] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:58 640] - EntityApp::createEntity: new SpawnPoint 18
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 736] - spawn timer 11
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 739] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:58 741] - EntityApp::createEntity: new SpawnPoint 19
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 835] - spawn timer 10
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 836] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:58 837] - EntityApp::createEntity: new SpawnPoint 20
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 935] - spawn timer 9
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:58 936] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:58 937] - EntityApp::createEntity: new SpawnPoint 21
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 035] - spawn timer 8
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 035] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:59 036] - EntityApp::createEntity: new SpawnPoint 22
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 135] - spawn timer 7
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 135] - Created [80008003]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:59 136] - EntityApp::createEntity: new SpawnPoint 23
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 235] - spawn timer 6
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 236] - Created [40001003]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:59 237] - EntityApp::createEntity: new SpawnPoint 24
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 335] - spawn timer 5
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 336] - Created [40001003]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:59 337] - EntityApp::createEntity: new SpawnPoint 25
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 435] - spawn timer 4
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 435] - Created [40001003]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:59 436] - EntityApp::createEntity: new SpawnPoint 26
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 535] - spawn timer 3
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 535] - Created [40001003]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:59 536] - EntityApp::createEntity: new SpawnPoint 27
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 635] - spawn timer 2
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 636] - Created [40001004]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:59 637] - EntityApp::createEntity: new SpawnPoint 28
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 735] - spawn timer 1
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 736] - Created [80008002]
+    INFO    baseapp01 10103 7001  [2019-06-13 02:02:59 737] - EntityApp::createEntity: new SpawnPoint 29
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:02:59 835] - spawn timer 0
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:13:24 727] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:13:24 753] - Channel::handshake: kcp(192.168.27.1:54893/1/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 02:13:24 845] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=7C 3B F7 8B 86 D1 34 D7 DC B2 75 FA C0 0E 6D 85 , addr:192.168.27.1:54893/1/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 02:13:24 946] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:54893/1/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:13:24 967] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 02:13:24 969] - EntityApp::createEntity: new Account 30
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:13:24 971] - Account[30]::onClientEnabled:entities enable. entityCall:Client id:30, utype:1, component=client[0], addr: 192.168.27.1:54893., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:13:24 971] - account[30] entities enable. entityCall:Client id:30, utype:1, component=client[0], addr: 192.168.27.1:54893.
+    INFO    baseapp01 10103 7001  [2019-06-13 02:13:24 971] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701940859296219136, entityID=30, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:13:25 149] - Account[30].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:13:28 046] - Account[30].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 02:13:28 067] - EntityApp::createEntity: new Avatar 31
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:13:28 068] - Avatar[31-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:31, utype:2, component=client[0], addr: 192.168.27.1:54893.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:13:28 068] - Spaces::loginToSpace: avatarEntity=31
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:13:28 068] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:13:28 069] - Avatar::onGetCell: Cell id:31, utype:2, component=cellapp[8001], addr: 192.168.27.1:4876.
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:27 750] - KCPPacketSender::ikcp_send: send error! currPacketSize=59, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:27 751] - 192.168.27.1:54893: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:27 766] - KCPPacketSender::ikcp_send: send error! currPacketSize=59, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:27 767] - 192.168.27.1:54893: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:27 849] - KCPPacketSender::ikcp_send: send error! currPacketSize=59, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:27 850] - 192.168.27.1:54893: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:27 866] - KCPPacketSender::ikcp_send: send error! currPacketSize=59, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:27 867] - 192.168.27.1:54893: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:27 949] - KCPPacketSender::ikcp_send: send error! currPacketSize=59, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:27 951] - 192.168.27.1:54893: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:27 967] - KCPPacketSender::ikcp_send: send error! currPacketSize=59, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:27 968] - 192.168.27.1:54893: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:28 049] - KCPPacketSender::ikcp_send: send error! currPacketSize=59, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:28 050] - 192.168.27.1:54893: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:28 066] - KCPPacketSender::ikcp_send: send error! currPacketSize=59, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:28 067] - 192.168.27.1:54893: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:28 149] - KCPPacketSender::ikcp_send: send error! currPacketSize=59, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:28 150] - 192.168.27.1:54893: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:28 166] - KCPPacketSender::ikcp_send: send error! currPacketSize=59, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:14:28 167] - 192.168.27.1:54893: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:14:28 218] - Avatar::onClientDeath: 31.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:14:28 218] - Avatar[31].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:14:28 225] - Avatar::onLoseCell: 31
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:14:28 226] - Account::onDestroy: 30.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:14:28 226] - Avatar::onDestroy: 31.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:14:28 231] - Account::~Account(): 30
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:14:28 231] - Avatar::~Avatar(): 31
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:14:41 484] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:14:41 520] - Channel::handshake: kcp(192.168.27.1:65119/2/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 02:14:41 611] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=B8 AC D6 26 C4 A0 3A E1 5F 1B 01 80 C8 FE 2D 4F , addr:192.168.27.1:65119/2/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 02:14:41 712] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:65119/2/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:14:41 724] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 02:14:41 724] - EntityApp::createEntity: new Account 32
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:14:41 724] - Account[32]::onClientEnabled:entities enable. entityCall:Client id:32, utype:1, component=client[0], addr: 192.168.27.1:65119., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:14:41 725] - account[32] entities enable. entityCall:Client id:32, utype:1, component=client[0], addr: 192.168.27.1:65119.
+    INFO    baseapp01 10103 7001  [2019-06-13 02:14:41 725] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701941190008700928, entityID=32, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:14:41 915] - Account[32].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:14:43 441] - Account[32].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 02:14:43 465] - EntityApp::createEntity: new Avatar 33
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:14:43 466] - Avatar[33-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:33, utype:2, component=client[0], addr: 192.168.27.1:65119.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:14:43 466] - Spaces::loginToSpace: avatarEntity=33
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:14:43 466] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:14:43 467] - Avatar::onGetCell: Cell id:33, utype:2, component=cellapp[8001], addr: 192.168.27.1:4876.
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 049] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 050] - 192.168.27.1:65119: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 060] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 061] - 192.168.27.1:65119: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 149] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 150] - 192.168.27.1:65119: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 161] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 162] - 192.168.27.1:65119: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 248] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 251] - 192.168.27.1:65119: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 260] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 261] - 192.168.27.1:65119: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 349] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 350] - 192.168.27.1:65119: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 360] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 361] - 192.168.27.1:65119: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 449] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 450] - 192.168.27.1:65119: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 460] - KCPPacketSender::ikcp_send: send error! currPacketSize=75, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:18:17 462] - 192.168.27.1:65119: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:18:17 511] - Avatar::onClientDeath: 33.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:18:17 511] - Avatar[33].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:18:17 513] - Avatar::onLoseCell: 33
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:18:17 513] - Account::onDestroy: 32.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:18:17 513] - Avatar::onDestroy: 33.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:18:17 514] - Account::~Account(): 32
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:18:17 515] - Avatar::~Avatar(): 33
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:23:10 690] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:23:10 732] - Channel::handshake: kcp(192.168.27.1:55399/3/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 02:23:10 822] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=A1 F0 69 A1 8A 30 84 70 74 17 39 62 FC FF DF E4 , addr:192.168.27.1:55399/3/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 02:23:10 873] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:55399/3/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:23:10 889] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 02:23:10 889] - EntityApp::createEntity: new Account 34
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:23:10 890] - Account[34]::onClientEnabled:entities enable. entityCall:Client id:34, utype:1, component=client[0], addr: 192.168.27.1:55399., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:23:10 890] - account[34] entities enable. entityCall:Client id:34, utype:1, component=client[0], addr: 192.168.27.1:55399.
+    INFO    baseapp01 10103 7001  [2019-06-13 02:23:10 890] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701943376147054592, entityID=34, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:23:11 075] - Account[34].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:23:21 800] - Account[34].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 02:23:21 810] - EntityApp::createEntity: new Avatar 35
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:23:21 811] - Avatar[35-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:35, utype:2, component=client[0], addr: 192.168.27.1:55399.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:23:21 811] - Spaces::loginToSpace: avatarEntity=35
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:23:21 811] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:23:21 811] - Avatar::onGetCell: Cell id:35, utype:2, component=cellapp[8001], addr: 192.168.27.1:4876.
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:10 848] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:10 849] - 192.168.27.1:55399: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:10 900] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:10 901] - 192.168.27.1:55399: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:10 948] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:10 949] - 192.168.27.1:55399: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:11 001] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:11 002] - 192.168.27.1:55399: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:11 048] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:11 050] - 192.168.27.1:55399: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:11 100] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:11 101] - 192.168.27.1:55399: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:11 147] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:11 149] - 192.168.27.1:55399: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:11 200] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:11 202] - 192.168.27.1:55399: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:11 248] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:11 249] - 192.168.27.1:55399: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:11 300] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 02:30:11 301] - 192.168.27.1:55399: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:30:11 392] - Avatar::onClientDeath: 35.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:30:11 392] - Avatar[35].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:30:11 393] - Avatar::onLoseCell: 35
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:30:11 393] - Account::onDestroy: 34.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:30:11 393] - Avatar::onDestroy: 35.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:30:11 394] - Account::~Account(): 34
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:30:11 394] - Avatar::~Avatar(): 35
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:43:24 733] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:43:24 774] - Channel::handshake: kcp(192.168.27.1:55369/4/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 02:43:24 862] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=98 ED EA F4 82 DD D9 B6 F9 AA E8 9D B1 E5 59 BD , addr:192.168.27.1:55369/4/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 02:43:24 962] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:55369/4/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 02:43:24 972] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 02:43:24 973] - EntityApp::createEntity: new Account 36
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:43:24 973] - Account[36]::onClientEnabled:entities enable. entityCall:Client id:36, utype:1, component=client[0], addr: 192.168.27.1:55369., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:43:24 973] - account[36] entities enable. entityCall:Client id:36, utype:1, component=client[0], addr: 192.168.27.1:55369.
+    INFO    baseapp01 10103 7001  [2019-06-13 02:43:24 973] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701948590237351936, entityID=36, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:43:25 165] - Account[36].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:43:26 437] - Account[36].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 02:43:26 454] - EntityApp::createEntity: new Avatar 37
+  S_INFO    baseapp01 10103 7001  [2019-06-13 02:43:26 455] - Avatar[37-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:37, utype:2, component=client[0], addr: 192.168.27.1:55369.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:43:26 455] - Spaces::loginToSpace: avatarEntity=37
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:43:26 456] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 02:43:26 456] - Avatar::onGetCell: Cell id:37, utype:2, component=cellapp[8001], addr: 192.168.27.1:4876.
+    INFO    baseapp01 10103 7001  [2019-06-13 02:50:01 363] - Baseapp::onCellWriteToDBCompleted: Avatar(37).
+    INFO    baseapp01 10103 7001  [2019-06-13 02:57:31 351] - Baseapp::onCellWriteToDBCompleted: Avatar(37).
+    INFO    baseapp01 10103 7001  [2019-06-13 03:00:01 347] - Baseapp::onCellWriteToDBCompleted: Avatar(37).
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:03:53 165] - PacketReader::processMessages: not found msgID=37552, msglen=31, from 192.168.27.1:55369/4/0/0.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:03:53 240] - Avatar::onClientDeath: 37.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:03:53 240] - Avatar[37].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:03:53 241] - Avatar::onLoseCell: 37
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:03:53 241] - Account::onDestroy: 36.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:03:53 241] - Avatar::onDestroy: 37.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:03:53 242] - Account::~Account(): 36
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:03:53 242] - Avatar::~Avatar(): 37
+    INFO    baseapp01 10103 7001  [2019-06-13 03:05:53 263] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:55369/5/0/0 timeout!
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:12:54 502] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:12:54 536] - Channel::handshake: kcp(192.168.27.1:51762/6/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 03:12:54 620] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=39 06 06 97 0E 5D 35 32 AD FD A9 EA 36 E8 32 88 , addr:192.168.27.1:51762/6/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 03:12:54 722] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:51762/6/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:12:54 740] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:12:54 740] - EntityApp::createEntity: new Account 38
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:12:54 741] - Account[38]::onClientEnabled:entities enable. entityCall:Client id:38, utype:1, component=client[0], addr: 192.168.27.1:51762., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:12:54 741] - account[38] entities enable. entityCall:Client id:38, utype:1, component=client[0], addr: 192.168.27.1:51762.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:12:54 741] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701956192329465856, entityID=38, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:12:54 925] - Account[38].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:12:56 856] - Account[38].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 03:12:56 881] - EntityApp::createEntity: new Avatar 39
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:12:56 882] - Avatar[39-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:39, utype:2, component=client[0], addr: 192.168.27.1:51762.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:12:56 882] - Spaces::loginToSpace: avatarEntity=39
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:12:56 882] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:12:56 884] - Avatar::onGetCell: Cell id:39, utype:2, component=cellapp[8001], addr: 192.168.27.1:4876.
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 645] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 647] - 192.168.27.1:51762: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 680] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 681] - 192.168.27.1:51762: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 746] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 747] - 192.168.27.1:51762: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 779] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 780] - 192.168.27.1:51762: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 847] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 850] - 192.168.27.1:51762: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 879] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 881] - 192.168.27.1:51762: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 945] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 946] - 192.168.27.1:51762: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 980] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:18 981] - 192.168.27.1:51762: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:19 045] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:19 046] - 192.168.27.1:51762: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:19 080] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:14:19 082] - 192.168.27.1:51762: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:14:19 123] - Avatar::onClientDeath: 39.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:14:19 123] - Avatar[39].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:14:19 124] - Avatar::onLoseCell: 39
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:14:19 125] - Account::onDestroy: 38.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:14:19 125] - Avatar::onDestroy: 39.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:14:19 125] - Account::~Account(): 38
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:14:19 125] - Avatar::~Avatar(): 39
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:15:02 797] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:15:02 832] - Channel::handshake: kcp(192.168.27.1:64707/7/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 03:15:02 919] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=B6 11 A6 04 AF 0F A5 C9 D7 CE 54 9A DA FA D8 C9 , addr:192.168.27.1:64707/7/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 03:15:03 019] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:64707/7/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:15:03 035] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:15:03 035] - EntityApp::createEntity: new Account 40
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:15:03 036] - Account[40]::onClientEnabled:entities enable. entityCall:Client id:40, utype:1, component=client[0], addr: 192.168.27.1:64707., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:15:03 036] - account[40] entities enable. entityCall:Client id:40, utype:1, component=client[0], addr: 192.168.27.1:64707.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:15:03 036] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701956746380247040, entityID=40, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:15:03 222] - Account[40].reqAvatarList: size=1.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:18:35 646] - Baseapp::logoutBaseapp: key=6701956746380247040, entityID=40.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:18:35 717] - Account::onClientDeath: 40.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:18:35 717] - Account[40].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:18:35 717] - Account::onDestroy: 40.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:18:35 718] - Account::~Account(): 40
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:20:24 607] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:20:24 638] - Channel::handshake: kcp(192.168.27.1:55884/8/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 03:20:24 729] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=4E 7D 3F 40 3E 03 47 F8 F2 8A F2 F5 F0 EC 45 65 , addr:192.168.27.1:55884/8/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 03:20:24 780] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:55884/8/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:20:24 786] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:20:24 786] - EntityApp::createEntity: new Account 41
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:20:24 787] - Account[41]::onClientEnabled:entities enable. entityCall:Client id:41, utype:1, component=client[0], addr: 192.168.27.1:55884., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:20:24 787] - account[41] entities enable. entityCall:Client id:41, utype:1, component=client[0], addr: 192.168.27.1:55884.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:20:24 787] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701958125064749056, entityID=41, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:20:24 983] - Account[41].reqAvatarList: size=1.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:21:09 056] - Baseapp::logoutBaseapp: key=6701958125064749056, entityID=41.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:21:09 112] - Account::onClientDeath: 41.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:21:09 112] - Account[41].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:21:09 113] - Account::onDestroy: 41.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:21:09 113] - Account::~Account(): 41
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:24:13 699] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:24:13 729] - Channel::handshake: kcp(192.168.27.1:60769/9/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 03:24:13 819] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=B5 71 5B 46 59 91 3A 0D 1F B1 B9 88 7C F1 76 16 , addr:192.168.27.1:60769/9/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 03:24:13 920] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:60769/9/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:24:13 939] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:24:13 940] - EntityApp::createEntity: new Account 42
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:24:13 940] - Account[42]::onClientEnabled:entities enable. entityCall:Client id:42, utype:1, component=client[0], addr: 192.168.27.1:60769., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:24:13 940] - account[42] entities enable. entityCall:Client id:42, utype:1, component=client[0], addr: 192.168.27.1:60769.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:24:13 940] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701959108612259840, entityID=42, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:24:14 124] - Account[42].reqAvatarList: size=1.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:26:13 726] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:60769/9/0/0 timeout!
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:26:13 726] - Account::onClientDeath: 42.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:26:13 727] - Account[42].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:26:13 727] - Account::onDestroy: 42.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:26:13 727] - Account::~Account(): 42
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:26:45 955] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:26:46 000] - Channel::handshake: kcp(192.168.27.1:51641/10/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 03:26:46 089] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=C1 91 57 76 22 C0 B1 8B 6A 96 D0 DD 03 05 20 25 , addr:192.168.27.1:51641/10/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 03:26:46 190] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:51641/10/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:26:46 215] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:26:46 215] - EntityApp::createEntity: new Account 43
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:26:46 216] - Account[43]::onClientEnabled:entities enable. entityCall:Client id:43, utype:1, component=client[0], addr: 192.168.27.1:51641., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:26:46 216] - account[43] entities enable. entityCall:Client id:43, utype:1, component=client[0], addr: 192.168.27.1:51641.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:26:46 216] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701959765742256128, entityID=43, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:26:46 393] - Account[43].reqAvatarList: size=1.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:28:15 998] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:51641/10/0/0 timeout!
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:28:15 998] - Account::onClientDeath: 43.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:28:15 998] - Account[43].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:28:15 999] - Account::onDestroy: 43.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:28:15 999] - Account::~Account(): 43
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:32:28 185] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:32:28 218] - Channel::handshake: kcp(192.168.27.1:60885/11/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 03:32:28 306] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=B7 6F 1A 51 76 F3 B1 B8 00 60 16 B8 7E F2 E1 D7 , addr:192.168.27.1:60885/11/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 03:32:28 406] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:60885/11/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:32:28 424] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:32:28 425] - EntityApp::createEntity: new Account 44
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:32:28 425] - Account[44]::onClientEnabled:entities enable. entityCall:Client id:44, utype:1, component=client[0], addr: 192.168.27.1:60885., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:32:28 425] - account[44] entities enable. entityCall:Client id:44, utype:1, component=client[0], addr: 192.168.27.1:60885.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:32:28 425] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701961234621071360, entityID=44, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:32:28 610] - Account[44].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:33:03 985] - Account[44].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 03:33:04 005] - EntityApp::createEntity: new Avatar 45
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:33:04 006] - Avatar[45-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:45, utype:2, component=client[0], addr: 192.168.27.1:60885.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:33:04 006] - Spaces::loginToSpace: avatarEntity=45
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:33:04 006] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:33:04 007] - Avatar::onGetCell: Cell id:45, utype:2, component=cellapp[8001], addr: 192.168.27.1:4876.
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:23 844] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:23 845] - 192.168.27.1:60885: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:23 899] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:23 900] - 192.168.27.1:60885: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:23 944] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:23 945] - 192.168.27.1:60885: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:23 999] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:24 002] - 192.168.27.1:60885: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:24 043] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:24 044] - 192.168.27.1:60885: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:24 099] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:24 104] - 192.168.27.1:60885: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:24 144] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:24 146] - 192.168.27.1:60885: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:24 199] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:24 200] - 192.168.27.1:60885: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:24 244] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:24 246] - 192.168.27.1:60885: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:24 299] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:37:24 300] - 192.168.27.1:60885: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:37:24 388] - Avatar::onClientDeath: 45.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:37:24 388] - Avatar[45].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:37:24 389] - Avatar::onLoseCell: 45
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:37:24 389] - Account::onDestroy: 44.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:37:24 389] - Avatar::onDestroy: 45.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:37:24 391] - Account::~Account(): 44
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:37:24 391] - Avatar::~Avatar(): 45
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:39:00 054] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:39:00 080] - Channel::handshake: kcp(192.168.27.1:51868/12/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 03:39:00 171] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=37 A1 8C 27 F3 33 1C F1 12 27 48 41 82 26 61 A0 , addr:192.168.27.1:51868/12/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 03:39:00 271] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:51868/12/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:39:00 292] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:39:00 293] - EntityApp::createEntity: new Account 46
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:39:00 293] - Account[46]::onClientEnabled:entities enable. entityCall:Client id:46, utype:1, component=client[0], addr: 192.168.27.1:51868., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:39:00 293] - account[46] entities enable. entityCall:Client id:46, utype:1, component=client[0], addr: 192.168.27.1:51868.
+    INFO    baseapp01 10103 7001  [2019-06-13 03:39:00 293] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701962918248251392, entityID=46, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:39:00 475] - Account[46].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:39:03 625] - Account[46].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 03:39:03 634] - EntityApp::createEntity: new Avatar 47
+  S_INFO    baseapp01 10103 7001  [2019-06-13 03:39:03 634] - Avatar[47-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:47, utype:2, component=client[0], addr: 192.168.27.1:51868.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:39:03 634] - Spaces::loginToSpace: avatarEntity=47
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:39:03 635] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:39:03 635] - Avatar::onGetCell: Cell id:47, utype:2, component=cellapp[8001], addr: 192.168.27.1:4876.
+   ERROR    baseapp01 10103 7001  [2019-06-13 03:40:20 949] - onRemoteMethodCallhandler::handle: Illegal access to entityID:46! proxyID=47
+ WARNING    baseapp01 10103 7001  [2019-06-13 03:40:20 950] - PacketReader::processMessages(Entity::onRemoteMethodCall): rpos(8) invalid, expect=12. msgID=302, msglen=8.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:40:20 983] - Avatar::onClientDeath: 47.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:40:20 983] - Avatar[47].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:40:20 984] - Avatar::onLoseCell: 47
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:40:20 985] - Account::onDestroy: 46.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 03:40:20 985] - Avatar::onDestroy: 47.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:40:20 985] - Account::~Account(): 46
+   DEBUG    baseapp01 10103 7001  [2019-06-13 03:40:20 985] - Avatar::~Avatar(): 47
+    INFO    baseapp01 10103 7001  [2019-06-13 03:42:21 047] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:51868/13/0/0 timeout!
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:06:50 044] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:06:50 070] - Channel::handshake: kcp(192.168.27.1:56171/14/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 04:06:50 161] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=9A 22 89 F9 D2 1A F2 CA 6C 31 54 9A A6 6B 5F E8 , addr:192.168.27.1:56171/14/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 04:06:50 210] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:56171/14/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:06:50 223] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:06:50 224] - EntityApp::createEntity: new Account 48
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:06:50 225] - Account[48]::onClientEnabled:entities enable. entityCall:Client id:48, utype:1, component=client[0], addr: 192.168.27.1:56171., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:06:50 225] - account[48] entities enable. entityCall:Client id:48, utype:1, component=client[0], addr: 192.168.27.1:56171.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:06:50 225] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701970090843635712, entityID=48, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:06:50 413] - Account[48].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:06:53 007] - Account[48].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 04:06:53 023] - EntityApp::createEntity: new Avatar 49
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:06:53 023] - Avatar[49-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:49, utype:2, component=client[0], addr: 192.168.27.1:56171.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:06:53 024] - Spaces::loginToSpace: avatarEntity=49
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:06:53 024] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:06:53 025] - Avatar::onGetCell: Cell id:49, utype:2, component=cellapp[8001], addr: 192.168.27.1:4876.
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 442] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 444] - 192.168.27.1:56171: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 519] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 520] - 192.168.27.1:56171: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 542] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 544] - 192.168.27.1:56171: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 620] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 621] - 192.168.27.1:56171: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 641] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 643] - 192.168.27.1:56171: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 720] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 721] - 192.168.27.1:56171: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 742] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 744] - 192.168.27.1:56171: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 819] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 821] - 192.168.27.1:56171: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 842] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 843] - 192.168.27.1:56171: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 919] - KCPPacketSender::ikcp_send: send error! currPacketSize=43, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:09:32 920] - 192.168.27.1:56171: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:09:32 937] - Avatar::onClientDeath: 49.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:09:32 937] - Avatar[49].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:09:32 941] - Avatar::onLoseCell: 49
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:09:32 941] - Account::onDestroy: 48.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:09:32 941] - Avatar::onDestroy: 49.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:09:32 943] - Account::~Account(): 48
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:09:32 944] - Avatar::~Avatar(): 49
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:10:14 377] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:10:14 409] - Channel::handshake: kcp(192.168.27.1:56242/15/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 04:10:14 498] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=E7 32 4D 02 9B FE FD A7 A3 F0 AF 77 CA 48 5F A3 , addr:192.168.27.1:56242/15/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 04:10:14 599] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:56242/15/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:10:14 617] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:10:14 617] - EntityApp::createEntity: new Account 50
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:10:14 618] - Account[50]::onClientEnabled:entities enable. entityCall:Client id:50, utype:1, component=client[0], addr: 192.168.27.1:56242., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:10:14 618] - account[50] entities enable. entityCall:Client id:50, utype:1, component=client[0], addr: 192.168.27.1:56242.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:10:14 618] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701970967016964096, entityID=50, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:10:14 802] - Account[50].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:10:16 885] - Account[50].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 04:10:16 898] - EntityApp::createEntity: new Avatar 51
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:10:16 898] - Avatar[51-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:51, utype:2, component=client[0], addr: 192.168.27.1:56242.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:10:16 898] - Spaces::loginToSpace: avatarEntity=51
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:10:16 899] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:10:16 900] - Avatar::onGetCell: Cell id:51, utype:2, component=cellapp[8001], addr: 192.168.27.1:4876.
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:50 943] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:50 945] - 192.168.27.1:56242: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:50 995] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:50 997] - 192.168.27.1:56242: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 043] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 044] - 192.168.27.1:56242: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 095] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 096] - 192.168.27.1:56242: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 142] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 143] - 192.168.27.1:56242: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 194] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 197] - 192.168.27.1:56242: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 242] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 244] - 192.168.27.1:56242: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 294] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 300] - 192.168.27.1:56242: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 342] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 355] - 192.168.27.1:56242: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 397] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:12:51 399] - 192.168.27.1:56242: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:12:51 432] - Avatar::onClientDeath: 51.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:12:51 433] - Avatar[51].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:12:51 434] - Avatar::onLoseCell: 51
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:12:51 435] - Account::onDestroy: 50.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:12:51 435] - Avatar::onDestroy: 51.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:12:51 436] - Account::~Account(): 50
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:12:51 436] - Avatar::~Avatar(): 51
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:19:57 159] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:19:57 196] - Channel::handshake: kcp(192.168.27.1:50396/16/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 04:19:57 285] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=1C 45 94 63 64 67 EF A4 08 E5 B8 99 52 47 63 4A , addr:192.168.27.1:50396/16/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 04:19:57 386] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:50396/16/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:19:57 399] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:19:57 399] - EntityApp::createEntity: new Account 52
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:19:57 400] - Account[52]::onClientEnabled:entities enable. entityCall:Client id:52, utype:1, component=client[0], addr: 192.168.27.1:50396., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:19:57 400] - account[52] entities enable. entityCall:Client id:52, utype:1, component=client[0], addr: 192.168.27.1:50396.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:19:57 400] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701973470982897664, entityID=52, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:19:57 589] - Account[52].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:20:00 943] - Account[52].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 04:20:00 959] - EntityApp::createEntity: new Avatar 53
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:20:00 960] - Avatar[53-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:53, utype:2, component=client[0], addr: 192.168.27.1:50396.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:20:00 960] - Spaces::loginToSpace: avatarEntity=53
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:20:00 960] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:20:00 961] - Avatar::onGetCell: Cell id:53, utype:2, component=cellapp[8001], addr: 192.168.27.1:4876.
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:40 841] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:40 842] - 192.168.27.1:50396: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:40 859] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:40 861] - 192.168.27.1:50396: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:40 943] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:40 944] - 192.168.27.1:50396: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:40 959] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:40 961] - 192.168.27.1:50396: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:41 041] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:41 042] - 192.168.27.1:50396: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:41 059] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:41 060] - 192.168.27.1:50396: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:41 142] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:41 143] - 192.168.27.1:50396: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:41 160] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:41 161] - 192.168.27.1:50396: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:41 241] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:41 242] - 192.168.27.1:50396: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:41 260] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:20:41 261] - 192.168.27.1:50396: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:20:41 320] - Avatar::onClientDeath: 53.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:20:41 320] - Avatar[53].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:20:41 322] - Avatar::onLoseCell: 53
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:20:41 322] - Account::onDestroy: 52.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:20:41 322] - Avatar::onDestroy: 53.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:20:41 323] - Account::~Account(): 52
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:20:41 323] - Avatar::~Avatar(): 53
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:20:53 878] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:20:53 923] - Channel::handshake: kcp(192.168.27.1:60777/17/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 04:20:54 009] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=92 E7 41 72 BC 6B B6 E2 64 A4 57 6B 7D 04 F2 47 , addr:192.168.27.1:60777/17/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 04:20:54 110] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:60777/17/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:20:54 117] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:20:54 118] - EntityApp::createEntity: new Account 54
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:20:54 119] - Account[54]::onClientEnabled:entities enable. entityCall:Client id:54, utype:1, component=client[0], addr: 192.168.27.1:60777., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:20:54 119] - account[54] entities enable. entityCall:Client id:54, utype:1, component=client[0], addr: 192.168.27.1:60777.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:20:54 119] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701973715796033536, entityID=54, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:20:54 314] - Account[54].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:22:08 986] - Account[54].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 04:22:08 996] - EntityApp::createEntity: new Avatar 55
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:22:08 996] - Avatar[55-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:55, utype:2, component=client[0], addr: 192.168.27.1:60777.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:22:08 997] - Spaces::loginToSpace: avatarEntity=55
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:22:08 997] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:22:08 997] - Avatar::onGetCell: Cell id:55, utype:2, component=cellapp[8001], addr: 192.168.27.1:4876.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:22:51 914] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:22:51 945] - Channel::handshake: kcp(192.168.27.1:60300/18/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 04:22:52 034] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=45 39 07 3C 63 81 0D 16 55 A3 63 55 F1 4D F9 03 , addr:192.168.27.1:60300/18/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 04:22:52 085] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:60300/18/0/0].
+    INFO    baseapp01 10103 7001  [2019-06-13 04:22:52 085] - Baseapp::loginBaseapp: user[test13] has entity(54).
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:22:52 085] - Account[54]::onLogOnAttempt: ip=192.168.27.1, port=60300, selfclient=None
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:22:52 086] - Account[54]::onClientEnabled:entities enable. entityCall:Client id:54, utype:1, component=client[0], addr: 192.168.27.1:60777., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=Avatar object at 0x04446B60., accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:22:52 086] - account[54] entities enable. entityCall:Client id:54, utype:1, component=client[0], addr: 192.168.27.1:60777.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:22:52 086] - Baseapp::loginBaseapp: script LOG_ON_ACCEPT. oldClientChannel=192.168.27.1:60777/17/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 04:22:52 086] - Baseapp::kickChannel: pChannel=192.168.27.1:60777/17/0/0, failedcode=9, proxyID=54.
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:22:52 087] - Account[54]::onClientEnabled:entities enable. entityCall:Client id:54, utype:1, component=client[0], addr: 192.168.27.1:60300., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:22:52 087] - account[54] entities enable. entityCall:Client id:54, utype:1, component=client[0], addr: 192.168.27.1:60300.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:22:52 088] - Avatar::onLoseCell: 55
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:22:52 088] - Avatar[55].destroySelf: relogin =0
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:22:52 088] - Avatar::onDestroy: 55.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:22:52 089] - Avatar::~Avatar(): 55
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:22:52 186] - Account[54].reqAvatarList: size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:22:52 847] - PendingLoginMgr::process: [test13] is timeout, currsize=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:22:53 762] - Account[54].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 04:22:53 774] - EntityApp::createEntity: new Avatar 56
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:22:53 775] - Avatar[56-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:56, utype:2, component=client[0], addr: 192.168.27.1:60300.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:22:53 775] - Spaces::loginToSpace: avatarEntity=56
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:22:53 775] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:22:53 776] - Avatar::onGetCell: Cell id:56, utype:2, component=cellapp[8001], addr: 192.168.27.1:4876.
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:23:16 088] - onRemoteMethodCallhandler::handle: Illegal access to entityID:54! proxyID=56
+ WARNING    baseapp01 10103 7001  [2019-06-13 04:23:16 090] - PacketReader::processMessages(Entity::onRemoteMethodCall): rpos(8) invalid, expect=12. msgID=302, msglen=8.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:23:16 116] - Avatar::onClientDeath: 56.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:23:16 116] - Avatar[56].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:23:16 118] - Avatar::onLoseCell: 56
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:23:16 118] - Account::onDestroy: 54.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:23:16 118] - Avatar::onDestroy: 56.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:23:16 120] - Account::~Account(): 54
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:23:16 120] - Avatar::~Avatar(): 56
+    INFO    baseapp01 10103 7001  [2019-06-13 04:23:53 918] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:60777/17/8/0 timeout!
+    INFO    baseapp01 10103 7001  [2019-06-13 04:24:46 138] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:60300/19/0/0 timeout!
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:27:01 867] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:27:01 917] - Channel::handshake: kcp(192.168.27.1:54281/20/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 04:27:02 008] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=CA 56 B3 5B C7 5F BB B5 05 19 92 6A EA 42 6D 7C , addr:192.168.27.1:54281/20/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 04:27:02 057] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:54281/20/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:27:02 066] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:27:02 066] - EntityApp::createEntity: new Account 57
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:27:02 067] - Account[57]::onClientEnabled:entities enable. entityCall:Client id:57, utype:1, component=client[0], addr: 192.168.27.1:54281., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:27:02 067] - account[57] entities enable. entityCall:Client id:57, utype:1, component=client[0], addr: 192.168.27.1:54281.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:27:02 067] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701975296343998464, entityID=57, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:27:02 260] - Account[57].reqAvatarList: size=1.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:28:31 916] - ServerApp::onChannelTimeOut: Channel 192.168.27.1:54281/20/0/0 timeout!
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:28:31 916] - Account::onClientDeath: 57.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:28:31 916] - Account[57].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:28:31 916] - Account::onDestroy: 57.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:28:31 917] - Account::~Account(): 57
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:28:33 965] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:28:33 996] - Channel::handshake: kcp(192.168.27.1:54129/21/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 04:28:34 087] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=38 9D 5A F3 6F BD 98 24 2D 26 E2 6E D6 73 9F A4 , addr:192.168.27.1:54129/21/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 04:28:34 136] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:54129/21/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:28:34 143] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:28:34 144] - EntityApp::createEntity: new Account 58
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:28:34 144] - Account[58]::onClientEnabled:entities enable. entityCall:Client id:58, utype:1, component=client[0], addr: 192.168.27.1:54129., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:28:34 144] - account[58] entities enable. entityCall:Client id:58, utype:1, component=client[0], addr: 192.168.27.1:54129.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:28:34 144] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701975691480989696, entityID=58, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:28:34 339] - Account[58].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:28:36 473] - Account[58].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 04:28:36 484] - EntityApp::createEntity: new Avatar 59
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:28:36 485] - Avatar[59-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:59, utype:2, component=client[0], addr: 192.168.27.1:54129.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:28:36 485] - Spaces::loginToSpace: avatarEntity=59
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:28:36 485] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:28:36 486] - Avatar::onGetCell: Cell id:59, utype:2, component=cellapp[8001], addr: 192.168.27.1:4876.
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:11 940] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:11 942] - 192.168.27.1:54129: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:11 985] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:11 989] - 192.168.27.1:54129: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 042] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 043] - 192.168.27.1:54129: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 084] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 086] - 192.168.27.1:54129: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 141] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 142] - 192.168.27.1:54129: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 184] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 185] - 192.168.27.1:54129: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 240] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 242] - 192.168.27.1:54129: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 284] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 285] - 192.168.27.1:54129: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 340] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 342] - 192.168.27.1:54129: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 384] - KCPPacketSender::ikcp_send: send error! currPacketSize=67, ikcp_waitsnd=257, snd_wndsize=128
+   ERROR    baseapp01 10103 7001  [2019-06-13 04:29:12 385] - 192.168.27.1:54129: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:29:12 407] - Avatar::onClientDeath: 59.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:29:12 407] - Avatar[59].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:29:12 408] - Avatar::onLoseCell: 59
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:29:12 408] - Account::onDestroy: 58.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:29:12 408] - Avatar::onDestroy: 59.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:29:12 410] - Account::~Account(): 58
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:29:12 410] - Avatar::~Avatar(): 59
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 674] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 675] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 675] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 675] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 689] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 689] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 693] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 693] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 696] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12413 )
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 697] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:12413, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 697] - server-configs:
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 697] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 697] - 	entryScriptFile : ouromain
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 697] - 	internalTcpAddr : 192.168.27.1:12413
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 697] - 	externalTcpAddr : 192.168.27.1:20015
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 698] - 	externalUdpAddr : 192.168.27.1:20005
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:51 698] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:53 542] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 27424 ----
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:53 543] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:53 543] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:53 543] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:53 762] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:53 762] - Script::install(): OUROxtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 04:58:54 157] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 04:58:54 158] - loaded entity-script:Avatar(2).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 04:58:54 163] - loaded entity-script:FirstEntity(6).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 04:58:54 163] - loaded entity-script:Scene(7).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 04:58:54 165] - loaded entity-script:Space(8).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 04:58:54 166] - loaded entity-script:Spaces(9).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 04:58:54 167] - loaded entity-script:SpaceDuplicate(10).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 04:58:54 167] - loaded entity-script:SpawnPoint(11).
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:54 167] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:54 168] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:58:54 693] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 04:58:54 693] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2019-06-13 04:59:01 064] - EntityApp::checkTickPeriod: tick took 6370% (6.37 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:02 077] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:02 118] - Components::findComponents: found logger, addr:192.168.27.1:12409
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:02 118] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:02 118] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:02 120] - Components::findComponents: find dbmgr(2)...
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:02 225] - Components::findComponents: found dbmgr, addr:192.168.27.1:12410
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:02 225] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:02 226] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:02 237] - Components::findComponents: found dbmgr, addr:192.168.27.1:12410
+ WARNING    baseapp-1 10103 7001  [2019-06-13 04:59:03 239] - EntityApp::checkTickPeriod: tick took 1245% (1.25 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:04 276] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:04 313] - Components::findComponents: found baseappmgr, addr:192.168.27.1:12411
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:04 313] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:04 313] - Components::findComponents: found baseappmgr, addr:192.168.27.1:12411
+ WARNING    baseapp-1 10103 7001  [2019-06-13 04:59:05 313] - EntityApp::checkTickPeriod: tick took 1120% (1.12 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:06 376] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:06 442] - Components::findComponents: found cellappmgr, addr:192.168.27.1:12412
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:06 442] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:06 442] - Components::findComponents: found cellappmgr, addr:192.168.27.1:12412
+ WARNING    baseapp-1 10103 7001  [2019-06-13 04:59:07 442] - EntityApp::checkTickPeriod: tick took 1148% (1.15 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:08 577] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 04:59:08 579] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:08 582] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:08 584] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12414, extaddr:nonsupport, extport:0,  from 192.168.27.1:12486/0/0/0.
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:08 585] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:08 585] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12414, extaddr:nonsupport, extport:0,  from 192.168.27.1:12486/0/0/0.
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:08 585] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:08 593] - Components::process(): Found all the components!
+    INFO    baseapp-1 10103 7001  [2019-06-13 04:59:11 589] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=41157AFFB8BF39DA41E0737A47CCB149.
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:11 589] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+ WARNING    baseapp01 10103 7001  [2019-06-13 04:59:11 928] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20796, errorno=10048
+ WARNING    baseapp01 10103 7001  [2019-06-13 04:59:12 278] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20919, errorno=10048
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:59:13 503] - onInit::isReload:0
+ WARNING    baseapp01 10103 7001  [2019-06-13 04:59:13 503] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.92 seconds
+ WARNING    baseapp01 10103 7001  [2019-06-13 04:59:13 504] - EntityApp::checkTickPeriod: tick took 2010% (2.01 seconds)!
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:59:13 876] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:59:13 893] - onBaseAppReady: isBootstrap=True
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:13 895] - Spaces::initAlloc
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:13 896] - Spaces::init
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:13 897] - EntityApp::createEntity: new Spaces 2001
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:16 793] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:16 793] - {'entityType': 'Space', 'spawnPos': (0, 0, 0), 'resPath': 'spaces/novice_1', 'id': 1, 'type': 1, 'name': 'Novice Village'}
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:16 799] - Space::createSpawnPointData: C:/Users/Black/Ouroboros/assets/scripts/data/spawn_points/novice_1_spawn_points.xml
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:16 801] - EntityApp::createEntity: new Space 2002
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:16 801] - Spaces::onSpaceCreatedCB: space 1. entityID=2002
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:16 802] - onGlobalData: space_1
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:16 802] - Space::onGetCell: 2002
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:16 803] - Spaces::onSpaceGetCell: space 1. entityID=2002, spaceKey=6701983602810748928
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:16 895] - spawn timer 22
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:16 897] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:16 899] - EntityApp::createEntity: new SpawnPoint 2003
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:16 993] - spawn timer 21
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:16 993] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:16 994] - EntityApp::createEntity: new SpawnPoint 2004
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 092] - spawn timer 20
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 093] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:17 093] - EntityApp::createEntity: new SpawnPoint 2005
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 193] - spawn timer 19
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 194] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:17 195] - EntityApp::createEntity: new SpawnPoint 2006
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 293] - spawn timer 18
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 293] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:17 294] - EntityApp::createEntity: new SpawnPoint 2007
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 393] - spawn timer 17
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 393] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:17 394] - EntityApp::createEntity: new SpawnPoint 2008
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 493] - spawn timer 16
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 493] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:17 494] - EntityApp::createEntity: new SpawnPoint 2009
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 593] - spawn timer 15
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 593] - Created [80008003]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:17 594] - EntityApp::createEntity: new SpawnPoint 2010
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 692] - spawn timer 14
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 696] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:17 704] - EntityApp::createEntity: new SpawnPoint 2011
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 793] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 793] - {'entityType': 'Space', 'spawnPos': (-97.9299, 0.0, -158.922), 'resPath': 'spaces/novice_2', 'id': 2, 'type': 1, 'name': 'Novice Town'}
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 795] - spawn timer 13
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 795] - Created [80008001]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 797] - Space::createSpawnPointData: C:/Users/Black/Ouroboros/assets/scripts/data/spawn_points/novice_2_spawn_points.xml
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:17 797] - EntityApp::createEntity: new Space 2012
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 797] - Spaces::onSpaceCreatedCB: space 2. entityID=2012
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:17 797] - EntityApp::createEntity: new SpawnPoint 2013
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 798] - onGlobalData: space_2
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 798] - Space::onGetCell: 2012
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 798] - Spaces::onSpaceGetCell: space 2. entityID=2012, spaceKey=6701983607105716224
+  S_INFO    baseapp01 10103 7001  [2019-06-13 04:59:17 798] - initProgress: completed!
+   DEBUG    baseapp01 10103 7001  [2019-06-13 04:59:17 799] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 894] - spawn timer 12
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 895] - Created [80008001]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 895] - spawn timer 4
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 896] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:17 898] - EntityApp::createEntity: new SpawnPoint 2014
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:17 901] - EntityApp::createEntity: new SpawnPoint 2015
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 993] - spawn timer 11
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 993] - Created [80008001]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 993] - spawn timer 3
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:17 994] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:17 994] - EntityApp::createEntity: new SpawnPoint 2016
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:17 995] - EntityApp::createEntity: new SpawnPoint 2017
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 094] - spawn timer 10
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 096] - Created [80008001]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 096] - spawn timer 2
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 098] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:18 100] - EntityApp::createEntity: new SpawnPoint 2018
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:18 102] - EntityApp::createEntity: new SpawnPoint 2019
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 193] - spawn timer 9
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 194] - Created [80008001]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 194] - spawn timer 1
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 195] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:18 196] - EntityApp::createEntity: new SpawnPoint 2020
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:18 197] - EntityApp::createEntity: new SpawnPoint 2021
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 293] - spawn timer 8
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 293] - Created [80008001]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 293] - spawn timer 0
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:18 294] - EntityApp::createEntity: new SpawnPoint 2022
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 394] - spawn timer 7
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 395] - Created [80008003]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:18 397] - EntityApp::createEntity: new SpawnPoint 2023
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 493] - spawn timer 6
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 496] - Created [40001003]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:18 498] - EntityApp::createEntity: new SpawnPoint 2024
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 593] - spawn timer 5
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 594] - Created [40001003]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:18 594] - EntityApp::createEntity: new SpawnPoint 2025
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 693] - spawn timer 4
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 695] - Created [40001003]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:18 697] - EntityApp::createEntity: new SpawnPoint 2026
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 793] - spawn timer 3
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 794] - Created [40001003]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:18 795] - EntityApp::createEntity: new SpawnPoint 2027
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 893] - spawn timer 2
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 894] - Created [40001004]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:18 894] - EntityApp::createEntity: new SpawnPoint 2028
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 993] - spawn timer 1
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:18 994] - Created [80008002]
+    INFO    baseapp01 10103 7001  [2019-06-13 04:59:18 995] - EntityApp::createEntity: new SpawnPoint 2029
+   S_DBG    baseapp01 10103 7001  [2019-06-13 04:59:19 093] - spawn timer 0
+   DEBUG    baseapp01 10103 7001  [2019-06-13 05:22:01 236] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 05:22:01 278] - Channel::handshake: kcp(192.168.27.1:59198/1/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 05:22:01 366] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=E7 75 7A 25 FD 23 0E E0 1C 3D B0 0F B4 7E 43 85 , addr:192.168.27.1:59198/1/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 05:22:01 467] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:59198/1/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 05:22:01 495] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 05:22:01 496] - EntityApp::createEntity: new Account 2030
+  S_INFO    baseapp01 10103 7001  [2019-06-13 05:22:01 496] - Account[2030]::onClientEnabled:entities enable. entityCall:Client id:2030, utype:1, component=client[0], addr: 192.168.27.1:59198., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 05:22:01 497] - account[2030] entities enable. entityCall:Client id:2030, utype:1, component=client[0], addr: 192.168.27.1:59198.
+    INFO    baseapp01 10103 7001  [2019-06-13 05:22:01 497] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701989465441107968, entityID=2030, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:22:01 670] - Account[2030].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:22:09 748] - Account[2030].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 05:22:09 776] - EntityApp::createEntity: new Avatar 2031
+  S_INFO    baseapp01 10103 7001  [2019-06-13 05:22:09 776] - Avatar[2031-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:2031, utype:2, component=client[0], addr: 192.168.27.1:59198.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:22:09 776] - Spaces::loginToSpace: avatarEntity=2031
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:22:09 777] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:22:09 777] - Avatar::onGetCell: Cell id:2031, utype:2, component=cellapp[8001], addr: 192.168.27.1:12486.
+   ERROR    baseapp01 10103 7001  [2019-06-13 05:22:32 878] - onRemoteMethodCallhandler::handle: Illegal access to entityID:2030! proxyID=2031
+ WARNING    baseapp01 10103 7001  [2019-06-13 05:22:32 879] - PacketReader::processMessages(Entity::onRemoteMethodCall): rpos(8) invalid, expect=12. msgID=302, msglen=8.
+   ERROR    baseapp01 10103 7001  [2019-06-13 05:22:32 879] - Channel::processPackets(192.168.27.1:59198/1/16/0): channel[0x3b3a438] is condemn.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 05:22:32 956] - Avatar::onClientDeath: 2031.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:22:32 956] - Avatar[2031].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:22:32 958] - Avatar::onLoseCell: 2031
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:22:32 958] - Account::onDestroy: 2030.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:22:32 958] - Avatar::onDestroy: 2031.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 05:22:32 959] - Account::~Account(): 2030
+   DEBUG    baseapp01 10103 7001  [2019-06-13 05:22:32 960] - Avatar::~Avatar(): 2031
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 843] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 844] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 845] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 845] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 860] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20015 )
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 861] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 865] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:20005 )
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 865] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.27.1:20005, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 870] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:1408 )
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 871] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:1408, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 871] - server-configs:
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 871] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 871] - 	entryScriptFile : ouromain
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 872] - 	internalTcpAddr : 192.168.27.1:1408
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 872] - 	externalTcpAddr : 192.168.27.1:20015
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 872] - 	externalUdpAddr : 192.168.27.1:20005
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:36 872] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:38 654] - ---- baseapp Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 2A960BECD30E90E83AD965BB31769E2B. Config: Debug X86. Built: 02:54:19 May 23 2019. AppID: 7001. UID: 10103. PID: 27604 ----
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:38 654] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:38 655] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:38 655] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:38 887] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:38 887] - Script::install(): OUROxtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 05:24:39 238] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 05:24:39 239] - loaded entity-script:Avatar(2).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 05:24:39 243] - loaded entity-script:FirstEntity(6).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 05:24:39 243] - loaded entity-script:Scene(7).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 05:24:39 244] - loaded entity-script:Space(8).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 05:24:39 244] - loaded entity-script:Spaces(9).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 05:24:39 245] - loaded entity-script:SpaceDuplicate(10).
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 05:24:39 245] - loaded entity-script:SpawnPoint(11).
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:39 245] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:39 246] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:39 806] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 05:24:39 806] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2019-06-13 05:24:46 224] - EntityApp::checkTickPeriod: tick took 6417% (6.42 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:47 247] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:47 289] - Components::findComponents: found logger, addr:192.168.27.1:1400
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:47 290] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:47 291] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:47 295] - Components::findComponents: find dbmgr(2)...
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:47 401] - Components::findComponents: found dbmgr, addr:192.168.27.1:1401
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:47 401] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:47 401] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:47 422] - Components::findComponents: found dbmgr, addr:192.168.27.1:1401
+ WARNING    baseapp-1 10103 7001  [2019-06-13 05:24:48 425] - EntityApp::checkTickPeriod: tick took 1218% (1.22 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:49 446] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:49 497] - Components::findComponents: found baseappmgr, addr:192.168.27.1:1402
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:49 497] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:49 498] - Components::findComponents: found baseappmgr, addr:192.168.27.1:1402
+ WARNING    baseapp-1 10103 7001  [2019-06-13 05:24:50 499] - EntityApp::checkTickPeriod: tick took 1092% (1.09 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:51 506] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:51 531] - Components::findComponents: found cellappmgr, addr:192.168.27.1:1404
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:51 531] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:51 532] - Components::findComponents: found cellappmgr, addr:192.168.27.1:1404
+ WARNING    baseapp-1 10103 7001  [2019-06-13 05:24:52 533] - EntityApp::checkTickPeriod: tick took 1126% (1.13 seconds)!
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:53 647] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 10103 7001  [2019-06-13 05:24:53 649] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:53 650] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:53 652] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:1405, extaddr:nonsupport, extport:0,  from 192.168.27.1:1464/0/0/0.
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:53 652] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:53 652] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:1405, extaddr:nonsupport, extport:0,  from 192.168.27.1:1464/0/0/0.
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:53 653] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:53 705] - Components::process(): Found all the components!
+    INFO    baseapp-1 10103 7001  [2019-06-13 05:24:56 659] - EntityApp::onDbmgrInitCompleted: entityID alloc(2001-4001), startGlobalOrder=5, startGroupOrder=1, digest=41157AFFB8BF39DA41E0737A47CCB149.
+    INFO    baseapp01 10103 7001  [2019-06-13 05:24:56 659] - IDClient::onAddRange: number of ids increased from 2001 to 4001.
+ WARNING    baseapp01 10103 7001  [2019-06-13 05:24:56 998] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20046, errorno=10048
+  S_INFO    baseapp01 10103 7001  [2019-06-13 05:24:58 230] - onInit::isReload:0
+ WARNING    baseapp01 10103 7001  [2019-06-13 05:24:58 230] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\channel.cpp:1023: Profile processRecvMessages took 1.57 seconds
+ WARNING    baseapp01 10103 7001  [2019-06-13 05:24:58 231] - EntityApp::checkTickPeriod: tick took 1625% (1.63 seconds)!
+   DEBUG    baseapp01 10103 7001  [2019-06-13 05:24:58 546] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 10103 7001  [2019-06-13 05:24:58 606] - onBaseAppReady: isBootstrap=True
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:24:58 607] - Spaces::initAlloc
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:24:58 608] - Spaces::init
+    INFO    baseapp01 10103 7001  [2019-06-13 05:24:58 608] - EntityApp::createEntity: new Spaces 2001
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 506] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 506] - {'entityType': 'Space', 'spawnPos': (0, 0, 0), 'resPath': 'spaces/novice_1', 'id': 1, 'type': 1, 'name': 'Novice Village'}
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 509] - Space::createSpawnPointData: C:/Users/Black/Ouroboros/assets/scripts/data/spawn_points/novice_1_spawn_points.xml
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:01 509] - EntityApp::createEntity: new Space 2002
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 509] - Spaces::onSpaceCreatedCB: space 1. entityID=2002
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 510] - onGlobalData: space_1
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 510] - Space::onGetCell: 2002
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 510] - Spaces::onSpaceGetCell: space 1. entityID=2002, spaceKey=6701990238535221248
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 606] - spawn timer 22
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 606] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:01 607] - EntityApp::createEntity: new SpawnPoint 2003
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 706] - spawn timer 21
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 707] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:01 708] - EntityApp::createEntity: new SpawnPoint 2004
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 806] - spawn timer 20
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 807] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:01 807] - EntityApp::createEntity: new SpawnPoint 2005
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 906] - spawn timer 19
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:01 908] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:01 910] - EntityApp::createEntity: new SpawnPoint 2006
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 006] - spawn timer 18
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 007] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 007] - EntityApp::createEntity: new SpawnPoint 2007
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 106] - spawn timer 17
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 107] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 107] - EntityApp::createEntity: new SpawnPoint 2008
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 206] - spawn timer 16
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 207] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 208] - EntityApp::createEntity: new SpawnPoint 2009
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 307] - spawn timer 15
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 309] - Created [80008003]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 311] - EntityApp::createEntity: new SpawnPoint 2010
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 406] - spawn timer 14
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 408] - Created [80008001]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 409] - EntityApp::createEntity: new SpawnPoint 2011
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 506] - Spaces::createSpace %s
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 506] - {'entityType': 'Space', 'spawnPos': (-97.9299, 0.0, -158.922), 'resPath': 'spaces/novice_2', 'id': 2, 'type': 1, 'name': 'Novice Town'}
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 507] - spawn timer 13
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 508] - Created [80008001]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 509] - Space::createSpawnPointData: C:/Users/Black/Ouroboros/assets/scripts/data/spawn_points/novice_2_spawn_points.xml
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 509] - EntityApp::createEntity: new Space 2012
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 509] - Spaces::onSpaceCreatedCB: space 2. entityID=2012
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 510] - EntityApp::createEntity: new SpawnPoint 2013
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 510] - onGlobalData: space_2
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 510] - Space::onGetCell: 2012
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 511] - Spaces::onSpaceGetCell: space 2. entityID=2012, spaceKey=6701990242830188544
+  S_INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 511] - initProgress: completed!
+   DEBUG    baseapp01 10103 7001  [2019-06-13 05:25:02 511] - InitProgressHandler::~InitProgressHandler()
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 608] - spawn timer 12
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 610] - Created [80008001]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 610] - spawn timer 4
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 611] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 613] - EntityApp::createEntity: new SpawnPoint 2014
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 621] - EntityApp::createEntity: new SpawnPoint 2015
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 706] - spawn timer 11
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 707] - Created [80008001]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 707] - spawn timer 3
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 708] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 709] - EntityApp::createEntity: new SpawnPoint 2016
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 709] - EntityApp::createEntity: new SpawnPoint 2017
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 807] - spawn timer 10
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 809] - Created [80008001]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 809] - spawn timer 2
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 811] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 813] - EntityApp::createEntity: new SpawnPoint 2018
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 814] - EntityApp::createEntity: new SpawnPoint 2019
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 907] - spawn timer 9
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 909] - Created [80008001]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 909] - spawn timer 1
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:02 911] - Created [40001002]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 913] - EntityApp::createEntity: new SpawnPoint 2020
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:02 915] - EntityApp::createEntity: new SpawnPoint 2021
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 008] - spawn timer 8
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 011] - Created [80008001]
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 011] - spawn timer 0
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:03 014] - EntityApp::createEntity: new SpawnPoint 2022
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 106] - spawn timer 7
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 106] - Created [80008003]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:03 107] - EntityApp::createEntity: new SpawnPoint 2023
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 206] - spawn timer 6
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 206] - Created [40001003]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:03 207] - EntityApp::createEntity: new SpawnPoint 2024
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 306] - spawn timer 5
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 306] - Created [40001003]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:03 307] - EntityApp::createEntity: new SpawnPoint 2025
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 407] - spawn timer 4
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 408] - Created [40001003]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:03 410] - EntityApp::createEntity: new SpawnPoint 2026
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 506] - spawn timer 3
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 506] - Created [40001003]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:03 507] - EntityApp::createEntity: new SpawnPoint 2027
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 607] - spawn timer 2
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 608] - Created [40001004]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:03 609] - EntityApp::createEntity: new SpawnPoint 2028
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 706] - spawn timer 1
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 707] - Created [80008002]
+    INFO    baseapp01 10103 7001  [2019-06-13 05:25:03 708] - EntityApp::createEntity: new SpawnPoint 2029
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:25:03 806] - spawn timer 0
+   DEBUG    baseapp01 10103 7001  [2019-06-13 05:27:43 476] - PendingLoginMgr::add: test13, size=1.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 05:27:43 518] - Channel::handshake: kcp(192.168.27.1:51562/1/0/0) successfully!
+    INFO    baseapp01 10103 7001  [2019-06-13 05:27:43 606] - ServerApp::onHello: verInfo=2.5.0, scriptVerInfo=0.1.0, encryptedKey=8D 1A 68 D6 9D 4D 7F DE 24 A3 C6 F7 9B 35 71 10 , addr:192.168.27.1:51562/1/0/0
+    INFO    baseapp01 10103 7001  [2019-06-13 05:27:43 705] - Baseapp::loginBaseapp: new user[test13], channel[192.168.27.1:51562/1/0/0].
+   DEBUG    baseapp01 10103 7001  [2019-06-13 05:27:43 715] - PendingLoginMgr::remove: test13, size=0.
+    INFO    baseapp01 10103 7001  [2019-06-13 05:27:43 716] - EntityApp::createEntity: new Account 2030
+  S_INFO    baseapp01 10103 7001  [2019-06-13 05:27:43 716] - Account[2030]::onClientEnabled:entities enable. entityCall:Client id:2030, utype:1, component=client[0], addr: 192.168.27.1:51562., clientType(2), clientDatas=((b'IDMO_Login', b'IDMO_Login')), hasAvatar=None, accountName=test13
+  S_INFO    baseapp01 10103 7001  [2019-06-13 05:27:43 716] - account[2030] entities enable. entityCall:Client id:2030, utype:1, component=client[0], addr: 192.168.27.1:51562.
+    INFO    baseapp01 10103 7001  [2019-06-13 05:27:43 716] - Baseapp::onQueryAccountCBFromDbmgr: user=test13, uuid=6701990934319923200, entityID=2030, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:27:43 910] - Account[2030].reqAvatarList: size=1.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:27:45 789] - Account[2030].selectAvatarGame:35. self.activeAvatar=None
+    INFO    baseapp01 10103 7001  [2019-06-13 05:27:45 816] - EntityApp::createEntity: new Avatar 2031
+  S_INFO    baseapp01 10103 7001  [2019-06-13 05:27:45 817] - Avatar[2031-sickdesires] entities enable. spaceUTypeB=1, entityCall:Client id:2031, utype:2, component=client[0], addr: 192.168.27.1:51562.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:27:45 817] - Spaces::loginToSpace: avatarEntity=2031
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:27:45 817] - Avatar::createCell
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:27:45 818] - Avatar::onGetCell: Cell id:2031, utype:2, component=cellapp[8001], addr: 192.168.27.1:1464.
+   ERROR    baseapp01 10103 7001  [2019-06-13 05:28:15 382] - onRemoteMethodCallhandler::handle: Illegal access to entityID:2030! proxyID=2031
+ WARNING    baseapp01 10103 7001  [2019-06-13 05:28:15 382] - PacketReader::processMessages(Entity::onRemoteMethodCall): rpos(8) invalid, expect=12. msgID=302, msglen=8.
+   ERROR    baseapp01 10103 7001  [2019-06-13 05:28:15 383] - Channel::processPackets(192.168.27.1:51562/1/16/0): channel[0x15295d8] is condemn.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 05:28:15 404] - Avatar::onClientDeath: 2031.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:28:15 404] - Avatar[2031].onClientDeath:
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:28:15 405] - Avatar::onLoseCell: 2031
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:28:15 406] - Account::onDestroy: 2030.
+   S_DBG    baseapp01 10103 7001  [2019-06-13 05:28:15 406] - Avatar::onDestroy: 2031.
+   DEBUG    baseapp01 10103 7001  [2019-06-13 05:28:15 407] - Account::~Account(): 2030
+   DEBUG    baseapp01 10103 7001  [2019-06-13 05:28:15 407] - Avatar::~Avatar(): 2031
