@@ -1,607 +1,396 @@
-  INFO [0x0000a540] [2019-06-10 09:58:14,802] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:6700947392475365376, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4272, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:4274/0/0/0.
-  INFO [0x0000a540] [2019-06-10 09:58:14,809] - Components::addComponent[baseapp], uid=10103, componentID=6700947392475365376, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x0000a540] [2019-06-10 09:58:22,469] - Components::removeComponentByChannel: baseapp : 6700947392475365376, Normal exit!
-  INFO [0x0000a540] [2019-06-10 09:58:46,912] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:6700947528182661120, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4369, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:4371/0/0/0.
-  INFO [0x0000a540] [2019-06-10 09:58:46,913] - Components::addComponent[baseapp], uid=10103, componentID=6700947528182661120, globalorderid=5, grouporderid=2, totalcount=1
-  INFO [0x0000a540] [2019-06-10 09:58:54,605] - Components::removeComponentByChannel: baseapp : 6700947528182661120, Normal exit!
-  INFO [0x0000a540] [2019-06-10 09:59:09,184] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:6700947623148847104, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4445, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:4446/0/0/0.
-  INFO [0x0000a540] [2019-06-10 09:59:09,184] - Components::addComponent[baseapp], uid=10103, componentID=6700947623148847104, globalorderid=6, grouporderid=3, totalcount=1
-  INFO [0x0000a540] [2019-06-10 09:59:16,927] - Components::removeComponentByChannel: baseapp : 6700947623148847104, Normal exit!
-  INFO [0x0000a540] [2019-06-10 09:59:32,230] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6700947726928969728, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4517, extaddr:nonsupport, extport:0,  from 192.168.27.1:4518/0/0/0.
-  INFO [0x0000a540] [2019-06-10 09:59:32,230] - Components::addComponent[cellapp], uid=10103, componentID=6700947726928969728, globalorderid=7, grouporderid=1, totalcount=1
-  INFO [0x0000a540] [2019-06-10 09:59:39,949] - Components::removeComponentByChannel: cellapp : 6700947726928969728, Normal exit!
-  INFO [0x0000a540] [2019-06-10 10:00:27,131] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6700947962007846912, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4680, extaddr:nonsupport, extport:0,  from 192.168.27.1:4681/0/0/0.
-  INFO [0x0000a540] [2019-06-10 10:00:27,132] - Components::addComponent[cellapp], uid=10103, componentID=6700947962007846912, globalorderid=8, grouporderid=2, totalcount=1
-  INFO [0x0000a540] [2019-06-10 10:00:34,883] - Components::removeComponentByChannel: cellapp : 6700947962007846912, Normal exit!
-  INFO [0x0000a540] [2019-06-10 10:02:55,987] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6700948597318746112, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5121, extaddr:nonsupport, extport:0,  from 192.168.27.1:5122/0/0/0.
-  INFO [0x0000a540] [2019-06-10 10:02:55,987] - Components::addComponent[cellapp], uid=10103, componentID=6700948597318746112, globalorderid=9, grouporderid=3, totalcount=1
-  WARN [0x0000a540] [2019-06-10 10:03:03,720] - TCPPacketReceiver::processPendingEvents(192.168.27.1:5122): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
-  INFO [0x0000a540] [2019-06-10 10:03:03,720] - Components::removeComponentByChannel: cellapp : 6700948597318746112, Normal exit!
-  INFO [0x0000a540] [2019-06-10 10:04:36,024] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:6700949028845977600, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5413, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:5416/0/0/0.
-  INFO [0x0000a540] [2019-06-10 10:04:36,024] - Components::addComponent[baseapp], uid=10103, componentID=6700949028845977600, globalorderid=10, grouporderid=4, totalcount=1
-  INFO [0x0000a540] [2019-06-10 10:04:43,675] - Components::removeComponentByChannel: baseapp : 6700949028845977600, Normal exit!
-  INFO [0x0000a540] [2019-06-10 10:04:48,616] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6700949083117453312, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5457, extaddr:nonsupport, extport:0,  from 192.168.27.1:5458/0/0/0.
-  INFO [0x0000a540] [2019-06-10 10:04:48,616] - Components::addComponent[cellapp], uid=10103, componentID=6700949083117453312, globalorderid=11, grouporderid=4, totalcount=1
-  INFO [0x0000a540] [2019-06-10 10:04:56,289] - Components::removeComponentByChannel: cellapp : 6700949083117453312, Normal exit!
-  INFO [0x0000b548] [2019-06-10 20:12:15,303] - 
-  INFO [0x0000b548] [2019-06-10 20:12:15,306] - -----------------------------------------------------------------------------------------
+  INFO [0x00000d60] [2019-06-17 22:26:02,582] - Components::process(): Found all the components!
+  INFO [0x00000d60] [2019-06-17 22:26:27,458] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8423, extaddr:nonsupport, extport:0,  from 192.168.27.1:8424/0/0/0.
+  INFO [0x00000d60] [2019-06-17 22:26:27,458] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00000d60] [2019-06-17 22:26:27,458] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00000d60] [2019-06-17 22:26:36,046] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8447, extaddr:nonsupport, extport:0,  from 192.168.27.1:8448/0/0/0.
+  INFO [0x00000d60] [2019-06-17 22:26:36,046] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00000d60] [2019-06-17 22:26:44,444] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8465, extaddr:nonsupport, extport:0,  from 192.168.27.1:8466/0/0/0.
+  INFO [0x00000d60] [2019-06-17 22:26:44,445] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00000d60] [2019-06-17 22:26:53,046] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8483, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:8484/0/0/0.
+  INFO [0x00000d60] [2019-06-17 22:26:53,047] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00000d60] [2019-06-17 22:27:01,244] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8501, extaddr:nonsupport, extport:0,  from 192.168.27.1:8502/0/0/0.
+  INFO [0x00000d60] [2019-06-17 22:27:01,245] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00000d60] [2019-06-17 22:27:09,862] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8522, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:8523/0/0/0.
+  INFO [0x00000d60] [2019-06-17 22:27:09,862] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00003b70] [2019-06-18 00:00:35,606] - 
+  INFO [0x00003b70] [2019-06-18 00:00:35,607] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x0000b548] [2019-06-10 20:12:15,307] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x0000b548] [2019-06-10 20:12:15,308] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x0000b548] [2019-06-10 20:12:15,308] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x0000b548] [2019-06-10 20:12:15,348] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:5965 )
-  INFO [0x0000b548] [2019-06-10 20:12:15,348] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:5965, SOMAXCONN=5.
-  INFO [0x0000b548] [2019-06-10 20:12:15,356] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:5966 )
-  INFO [0x0000b548] [2019-06-10 20:12:15,356] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:5966, SOMAXCONN=5.
-  INFO [0x0000b548] [2019-06-10 20:12:15,363] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 46404 ----
-  INFO [0x0000b548] [2019-06-10 20:12:15,364] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x0000b548] [2019-06-10 20:12:15,364] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x0000b548] [2019-06-10 20:12:15,364] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x0000b548] [2019-06-10 20:12:15,699] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x0000b548] [2019-06-10 20:12:15,699] - Script::install(): OUROxtra is successfully!
-S_INFO [0x0000b548] [2019-06-10 20:12:15,754] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x0000b548] [2019-06-10 20:12:15,755] - TelnetServer server is running on port 34000
-  INFO [0x0000b548] [2019-06-10 20:12:15,774] - ---- logger is running ----
- DEBUG [0x0000b548] [2019-06-10 20:12:15,776] - Components::process(): Request for the process of identity...
-  INFO [0x0000b548] [2019-06-10 20:12:24,015] - Components::process(): Found all the components!
-  INFO [0x0000b548] [2019-06-10 20:12:25,687] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5971, extaddr:nonsupport, extport:0,  from 192.168.27.1:6053/0/0/0.
-  INFO [0x0000b548] [2019-06-10 20:12:25,687] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x0000b548] [2019-06-10 20:12:25,687] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x0000b548] [2019-06-10 20:12:25,993] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5975, extaddr:nonsupport, extport:0,  from 192.168.27.1:6057/0/0/0.
-  INFO [0x0000b548] [2019-06-10 20:12:25,993] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x0000b548] [2019-06-10 20:12:27,614] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5977, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:6068/0/0/0.
-  INFO [0x0000b548] [2019-06-10 20:12:27,614] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x0000b548] [2019-06-10 20:15:18,916] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:6701106408773976064, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6694, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:6695/0/0/0.
-  INFO [0x0000b548] [2019-06-10 20:15:18,917] - Components::addComponent[baseapp], uid=10103, componentID=6701106408773976064, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x0000b548] [2019-06-10 20:15:26,571] - Components::removeComponentByChannel: baseapp : 6701106408773976064, Normal exit!
-  INFO [0x0000b548] [2019-06-10 21:33:15,514] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6701126496503726080, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6137, extaddr:nonsupport, extport:0,  from 192.168.27.1:6139/0/0/0.
-  INFO [0x0000b548] [2019-06-10 21:33:15,515] - Components::addComponent[cellapp], uid=10103, componentID=6701126496503726080, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x0000b548] [2019-06-10 21:33:23,208] - Components::removeComponentByChannel: cellapp : 6701126496503726080, Normal exit!
-  INFO [0x0000b548] [2019-06-10 21:41:23,920] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6701128591749742592, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7533, extaddr:nonsupport, extport:0,  from 192.168.27.1:7535/0/0/0.
-  INFO [0x0000b548] [2019-06-10 21:41:23,921] - Components::addComponent[cellapp], uid=10103, componentID=6701128591749742592, globalorderid=6, grouporderid=2, totalcount=1
-  INFO [0x0000b548] [2019-06-10 21:41:31,651] - Components::removeComponentByChannel: cellapp : 6701128591749742592, Normal exit!
-  INFO [0x0000b548] [2019-06-10 21:42:35,240] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6701128901223579648, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7769, extaddr:nonsupport, extport:0,  from 192.168.27.1:7770/0/0/0.
-  INFO [0x0000b548] [2019-06-10 21:42:35,240] - Components::addComponent[cellapp], uid=10103, componentID=6701128901223579648, globalorderid=7, grouporderid=3, totalcount=1
-  INFO [0x0000b548] [2019-06-10 21:42:42,917] - Components::removeComponentByChannel: cellapp : 6701128901223579648, Normal exit!
-  INFO [0x0000b548] [2019-06-10 21:56:24,894] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6701132461050757120, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:10153, extaddr:nonsupport, extport:0,  from 192.168.27.1:10155/0/0/0.
-  INFO [0x0000b548] [2019-06-10 21:56:24,894] - Components::addComponent[cellapp], uid=10103, componentID=6701132461050757120, globalorderid=8, grouporderid=4, totalcount=1
-  INFO [0x0000b548] [2019-06-10 21:56:32,611] - Components::removeComponentByChannel: cellapp : 6701132461050757120, Normal exit!
-  INFO [0x0000b548] [2019-06-10 22:00:56,280] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6701133629391110144, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:10957, extaddr:nonsupport, extport:0,  from 192.168.27.1:10959/0/0/0.
-  INFO [0x0000b548] [2019-06-10 22:00:56,281] - Components::addComponent[cellapp], uid=10103, componentID=6701133629391110144, globalorderid=9, grouporderid=5, totalcount=1
-  INFO [0x0000b548] [2019-06-10 22:01:04,102] - Components::removeComponentByChannel: cellapp : 6701133629391110144, Normal exit!
-  INFO [0x0000b548] [2019-06-10 22:01:44,333] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6701133835104616448, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11101, extaddr:nonsupport, extport:0,  from 192.168.27.1:11102/0/0/0.
-  INFO [0x0000b548] [2019-06-10 22:01:44,334] - Components::addComponent[cellapp], uid=10103, componentID=6701133835104616448, globalorderid=10, grouporderid=6, totalcount=1
-  WARN [0x0000b548] [2019-06-10 22:01:52,016] - TCPPacketReceiver::processPendingEvents(192.168.27.1:11102): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
-  INFO [0x0000b548] [2019-06-10 22:01:52,017] - Components::removeComponentByChannel: cellapp : 6701133835104616448, Normal exit!
-  INFO [0x0000b548] [2019-06-10 22:01:59,251] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6701133900568526848, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11145, extaddr:nonsupport, extport:0,  from 192.168.27.1:11146/0/0/0.
-  INFO [0x0000b548] [2019-06-10 22:01:59,252] - Components::addComponent[cellapp], uid=10103, componentID=6701133900568526848, globalorderid=11, grouporderid=7, totalcount=1
-  INFO [0x0000b548] [2019-06-10 22:02:07,112] - Components::removeComponentByChannel: cellapp : 6701133900568526848, Normal exit!
-  INFO [0x0000b548] [2019-06-10 22:04:05,948] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6701134440929951744, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11509, extaddr:nonsupport, extport:0,  from 192.168.27.1:11510/0/0/0.
-  INFO [0x0000b548] [2019-06-10 22:04:05,948] - Components::addComponent[cellapp], uid=10103, componentID=6701134440929951744, globalorderid=12, grouporderid=8, totalcount=1
-  INFO [0x0000b548] [2019-06-10 22:04:13,674] - Components::removeComponentByChannel: cellapp : 6701134440929951744, Normal exit!
-  INFO [0x0000b548] [2019-06-10 22:05:29,328] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6701134802373902336, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11753, extaddr:nonsupport, extport:0,  from 192.168.27.1:11755/0/0/0.
-  INFO [0x0000b548] [2019-06-10 22:05:29,329] - Components::addComponent[cellapp], uid=10103, componentID=6701134802373902336, globalorderid=13, grouporderid=9, totalcount=1
-  INFO [0x0000b548] [2019-06-10 22:05:37,087] - Components::removeComponentByChannel: cellapp : 6701134802373902336, Normal exit!
-  INFO [0x0000b548] [2019-06-10 22:06:36,144] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6701135089409851392, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11944, extaddr:nonsupport, extport:0,  from 192.168.27.1:11945/0/0/0.
-  INFO [0x0000b548] [2019-06-10 22:06:36,145] - Components::addComponent[cellapp], uid=10103, componentID=6701135089409851392, globalorderid=14, grouporderid=10, totalcount=1
-  INFO [0x0000b548] [2019-06-10 22:06:43,877] - Components::removeComponentByChannel: cellapp : 6701135089409851392, Normal exit!
-  INFO [0x0000b548] [2019-06-10 22:07:22,700] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:6701135288339988480, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12105, extaddr:nonsupport, extport:0,  from 192.168.27.1:12106/0/0/0.
-  INFO [0x0000b548] [2019-06-10 22:07:22,701] - Components::addComponent[cellapp], uid=10103, componentID=6701135288339988480, globalorderid=15, grouporderid=11, totalcount=1
-  WARN [0x0000b548] [2019-06-10 22:07:25,290] - TCPPacketReceiver::processPendingEvents(192.168.27.1:12106): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
-  INFO [0x0000b548] [2019-06-10 22:07:25,290] - Components::removeComponentByChannel: cellapp : 6701135288339988480, Normal exit!
-  INFO [0x0000b548] [2019-06-10 22:07:28,894] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:6701135313246355456, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12123, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:12124/0/0/0.
-  INFO [0x0000b548] [2019-06-10 22:07:28,894] - Components::addComponent[baseapp], uid=10103, componentID=6701135313246355456, globalorderid=16, grouporderid=2, totalcount=1
-  WARN [0x0000b548] [2019-06-10 22:07:31,249] - TCPPacketReceiver::processPendingEvents(192.168.27.1:12124): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
-  INFO [0x0000b548] [2019-06-10 22:07:31,250] - Components::removeComponentByChannel: baseapp : 6701135313246355456, Normal exit!
-  INFO [0x00009fa4] [2019-06-10 22:07:41,943] - 
-  INFO [0x00009fa4] [2019-06-10 22:07:41,943] - -----------------------------------------------------------------------------------------
+  INFO [0x00003b70] [2019-06-18 00:00:35,608] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO [0x00003b70] [2019-06-18 00:00:35,608] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO [0x00003b70] [2019-06-18 00:00:35,608] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO [0x00003b70] [2019-06-18 00:00:35,620] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:5074 )
+  INFO [0x00003b70] [2019-06-18 00:00:35,621] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:5074, SOMAXCONN=5.
+  INFO [0x00003b70] [2019-06-18 00:00:35,626] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:5075 )
+  INFO [0x00003b70] [2019-06-18 00:00:35,626] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:5075, SOMAXCONN=5.
+  INFO [0x00003b70] [2019-06-18 00:00:35,634] - ---- logger Version: 2.5.2. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 16:20:01 Jun 16 2019. AppID: 2000. UID: 10103. PID: 10588 ----
+  INFO [0x00003b70] [2019-06-18 00:00:35,635] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO [0x00003b70] [2019-06-18 00:00:35,636] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00003b70] [2019-06-18 00:00:35,636] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00003b70] [2019-06-18 00:00:35,874] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 16 2019, 16:18:08) [MSC v.1916 32 bit (Intel)])!
+  INFO [0x00003b70] [2019-06-18 00:00:35,874] - Script::install(): OUROxtra is successfully!
+S_INFO [0x00003b70] [2019-06-18 00:00:35,888] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00003b70] [2019-06-18 00:00:35,889] - TelnetServer server is running on port 34000
+  INFO [0x00003b70] [2019-06-18 00:00:35,893] - ---- logger is running ----
+ DEBUG [0x00003b70] [2019-06-18 00:00:35,894] - Components::process(): Request for the process of identity...
+  INFO [0x00003b70] [2019-06-18 00:00:43,269] - Components::process(): Found all the components!
+  INFO [0x00003b70] [2019-06-18 00:00:45,152] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5076, extaddr:nonsupport, extport:0,  from 192.168.27.1:5112/0/0/0.
+  INFO [0x00003b70] [2019-06-18 00:00:45,152] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00003b70] [2019-06-18 00:00:45,152] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00003b70] [2019-06-18 00:00:45,257] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5079, extaddr:nonsupport, extport:0,  from 192.168.27.1:5113/0/0/0.
+  INFO [0x00003b70] [2019-06-18 00:00:45,258] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00003b70] [2019-06-18 00:00:45,790] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5081, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:5116/0/0/0.
+  INFO [0x00003b70] [2019-06-18 00:00:45,791] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00003b70] [2019-06-18 00:00:46,001] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5080, extaddr:nonsupport, extport:0,  from 192.168.27.1:5117/0/0/0.
+  INFO [0x00003b70] [2019-06-18 00:00:46,001] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00003b70] [2019-06-18 00:00:46,215] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5078, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:5118/0/0/0.
+  INFO [0x00003b70] [2019-06-18 00:00:46,216] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00003b70] [2019-06-18 00:00:46,431] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5077, extaddr:nonsupport, extport:0,  from 192.168.27.1:5119/0/0/0.
+  INFO [0x00003b70] [2019-06-18 00:00:46,432] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00003b70] [2019-06-18 04:00:03,099] - Logger::registerLogWatcher: addr=192.168.27.1:6262 is successfully!
+  INFO [0x00007840] [2019-06-18 04:02:16,738] - 
+  INFO [0x00007840] [2019-06-18 04:02:16,739] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x00009fa4] [2019-06-10 22:07:41,944] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x00009fa4] [2019-06-10 22:07:41,945] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x00009fa4] [2019-06-10 22:07:41,945] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x00009fa4] [2019-06-10 22:07:41,958] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12168 )
-  INFO [0x00009fa4] [2019-06-10 22:07:41,959] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:12168, SOMAXCONN=5.
-  INFO [0x00009fa4] [2019-06-10 22:07:41,962] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12169 )
-  INFO [0x00009fa4] [2019-06-10 22:07:41,962] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:12169, SOMAXCONN=5.
-  INFO [0x00009fa4] [2019-06-10 22:07:41,968] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 20672 ----
-  INFO [0x00009fa4] [2019-06-10 22:07:41,969] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x00009fa4] [2019-06-10 22:07:41,969] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x00009fa4] [2019-06-10 22:07:41,970] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x00009fa4] [2019-06-10 22:07:42,280] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x00009fa4] [2019-06-10 22:07:42,280] - Script::install(): OUROxtra is successfully!
-S_INFO [0x00009fa4] [2019-06-10 22:07:42,295] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x00009fa4] [2019-06-10 22:07:42,295] - TelnetServer server is running on port 34000
-  INFO [0x00009fa4] [2019-06-10 22:07:42,300] - ---- logger is running ----
- DEBUG [0x00009fa4] [2019-06-10 22:07:42,300] - Components::process(): Request for the process of identity...
-  INFO [0x00009fa4] [2019-06-10 22:07:49,815] - Components::process(): Found all the components!
-  INFO [0x00009fa4] [2019-06-10 22:07:51,595] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12171, extaddr:nonsupport, extport:0,  from 192.168.27.1:12208/0/0/0.
-  INFO [0x00009fa4] [2019-06-10 22:07:51,595] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x00009fa4] [2019-06-10 22:07:51,595] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x00009fa4] [2019-06-10 22:07:51,823] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12172, extaddr:nonsupport, extport:0,  from 192.168.27.1:12209/0/0/0.
-  INFO [0x00009fa4] [2019-06-10 22:07:51,823] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x00009fa4] [2019-06-10 22:07:52,453] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12173, extaddr:nonsupport, extport:0,  from 192.168.27.1:12211/0/0/0.
-  INFO [0x00009fa4] [2019-06-10 22:07:52,454] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x00009fa4] [2019-06-10 22:07:52,577] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12174, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:12212/0/0/0.
-  INFO [0x00009fa4] [2019-06-10 22:07:52,578] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x00009fa4] [2019-06-10 22:07:52,714] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12175, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:12213/0/0/0.
-  INFO [0x00009fa4] [2019-06-10 22:07:52,715] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x00009fa4] [2019-06-10 22:07:53,054] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12170, extaddr:nonsupport, extport:0,  from 192.168.27.1:12214/0/0/0.
-  INFO [0x00009fa4] [2019-06-10 22:07:53,055] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x00009fa4] [2019-06-10 22:08:37,114] - Logger::registerLogWatcher: addr=192.168.27.1:12357 is successfully!
-  INFO [0x000056dc] [2019-06-10 22:24:14,451] - 
-  INFO [0x000056dc] [2019-06-10 22:24:14,451] - -----------------------------------------------------------------------------------------
+  INFO [0x00007840] [2019-06-18 04:02:16,739] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO [0x00007840] [2019-06-18 04:02:16,739] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO [0x00007840] [2019-06-18 04:02:16,740] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO [0x00007840] [2019-06-18 04:02:16,749] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:6574 )
+  INFO [0x00007840] [2019-06-18 04:02:16,749] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:6574, SOMAXCONN=5.
+  INFO [0x00007840] [2019-06-18 04:02:16,755] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:6575 )
+  INFO [0x00007840] [2019-06-18 04:02:16,755] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:6575, SOMAXCONN=5.
+  INFO [0x00007840] [2019-06-18 04:02:16,759] - ---- logger Version: 2.5.2. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 16:20:01 Jun 16 2019. AppID: 2000. UID: 10103. PID: 30320 ----
+  INFO [0x00007840] [2019-06-18 04:02:16,760] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO [0x00007840] [2019-06-18 04:02:16,760] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00007840] [2019-06-18 04:02:16,761] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00007840] [2019-06-18 04:02:16,973] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 16 2019, 16:18:08) [MSC v.1916 32 bit (Intel)])!
+  INFO [0x00007840] [2019-06-18 04:02:16,973] - Script::install(): OUROxtra is successfully!
+S_INFO [0x00007840] [2019-06-18 04:02:16,994] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00007840] [2019-06-18 04:02:16,994] - TelnetServer server is running on port 34000
+  INFO [0x00007840] [2019-06-18 04:02:17,000] - ---- logger is running ----
+ DEBUG [0x00007840] [2019-06-18 04:02:17,002] - Components::process(): Request for the process of identity...
+  INFO [0x00007840] [2019-06-18 04:02:23,505] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6582, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:6585/0/0/0.
+  INFO [0x00007840] [2019-06-18 04:02:23,505] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00007840] [2019-06-18 04:02:23,505] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00007840] [2019-06-18 04:02:23,506] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6583, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:6586/0/0/0.
+  INFO [0x00007840] [2019-06-18 04:02:23,506] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00007840] [2019-06-18 04:02:24,535] - Components::process(): Found all the components!
+  INFO [0x00007840] [2019-06-18 04:02:25,419] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6580, extaddr:nonsupport, extport:0,  from 192.168.27.1:6613/0/0/0.
+  INFO [0x00007840] [2019-06-18 04:02:25,419] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00007840] [2019-06-18 04:02:26,742] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6579, extaddr:nonsupport, extport:0,  from 192.168.27.1:6616/0/0/0.
+  INFO [0x00007840] [2019-06-18 04:02:26,742] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00007840] [2019-06-18 04:02:27,562] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6581, extaddr:nonsupport, extport:0,  from 192.168.27.1:6620/0/0/0.
+  INFO [0x00007840] [2019-06-18 04:02:27,563] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00007840] [2019-06-18 04:02:27,798] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6577, extaddr:nonsupport, extport:0,  from 192.168.27.1:6621/0/0/0.
+  INFO [0x00007840] [2019-06-18 04:02:27,798] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  WARN [0x00007840] [2019-06-18 06:36:47,343] - TCPPacketReceiver::processPendingEvents(192.168.27.1:6585): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00007840] [2019-06-18 06:36:47,393] - Components::removeComponentByChannel: baseapp : 7001, Normal exit!
+  WARN [0x00007840] [2019-06-18 06:36:47,393] - TCPPacketReceiver::processPendingEvents(192.168.27.1:6586): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00007840] [2019-06-18 06:36:47,447] - Components::removeComponentByChannel: loginapp : 9000, Normal exit!
+  WARN [0x00007840] [2019-06-18 06:36:47,447] - TCPPacketReceiver::processPendingEvents(192.168.27.1:6613): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00007840] [2019-06-18 06:36:47,457] - Components::removeComponentByChannel: cellappmgr : 6000, Normal exit!
+  WARN [0x00007840] [2019-06-18 06:36:47,457] - TCPPacketReceiver::processPendingEvents(192.168.27.1:6616): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00007840] [2019-06-18 06:36:47,460] - Components::removeComponentByChannel: baseappmgr : 5000, Normal exit!
+  WARN [0x00007840] [2019-06-18 06:36:47,460] - TCPPacketReceiver::processPendingEvents(192.168.27.1:6620): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00007840] [2019-06-18 06:36:47,463] - Components::removeComponentByChannel: cellapp : 8001, Normal exit!
+  WARN [0x00007840] [2019-06-18 06:36:47,463] - TCPPacketReceiver::processPendingEvents(192.168.27.1:6621): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00007840] [2019-06-18 06:36:47,463] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  WARN [0x00007840] [2019-06-18 15:57:31,469] - c:\users\black\ouroboros\ouro\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 18.96 seconds
+  INFO [0x0000963c] [2019-06-18 16:05:21,331] - 
+  INFO [0x0000963c] [2019-06-18 16:05:21,332] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x000056dc] [2019-06-10 22:24:14,452] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x000056dc] [2019-06-10 22:24:14,452] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x000056dc] [2019-06-10 22:24:14,453] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x000056dc] [2019-06-10 22:24:14,468] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:14934 )
-  INFO [0x000056dc] [2019-06-10 22:24:14,469] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:14934, SOMAXCONN=5.
-  INFO [0x000056dc] [2019-06-10 22:24:14,473] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:14935 )
-  INFO [0x000056dc] [2019-06-10 22:24:14,474] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:14935, SOMAXCONN=5.
-  INFO [0x000056dc] [2019-06-10 22:24:14,481] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 42736 ----
-  INFO [0x000056dc] [2019-06-10 22:24:14,482] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x000056dc] [2019-06-10 22:24:14,482] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x000056dc] [2019-06-10 22:24:14,483] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x000056dc] [2019-06-10 22:24:14,751] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x000056dc] [2019-06-10 22:24:14,752] - Script::install(): OUROxtra is successfully!
-S_INFO [0x000056dc] [2019-06-10 22:24:14,774] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x000056dc] [2019-06-10 22:24:14,774] - TelnetServer server is running on port 34000
-  INFO [0x000056dc] [2019-06-10 22:24:14,779] - ---- logger is running ----
- DEBUG [0x000056dc] [2019-06-10 22:24:14,780] - Components::process(): Request for the process of identity...
-  WARN [0x000056dc] [2019-06-10 22:24:21,360] - TCPPacketReceiver::processPendingEvents(192.168.27.1:14959): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
-  INFO [0x000056dc] [2019-06-10 22:24:21,361] - Logger::registerLogWatcher: addr=192.168.27.1:14973 is successfully!
-  INFO [0x000056dc] [2019-06-10 22:24:22,395] - Components::process(): Found all the components!
-  INFO [0x000056dc] [2019-06-10 22:24:23,620] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14939, extaddr:nonsupport, extport:0,  from 192.168.27.1:14981/0/0/0.
-  INFO [0x000056dc] [2019-06-10 22:24:23,621] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x000056dc] [2019-06-10 22:24:23,621] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x000056dc] [2019-06-10 22:24:24,141] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14936, extaddr:nonsupport, extport:0,  from 192.168.27.1:14984/0/0/0.
-  INFO [0x000056dc] [2019-06-10 22:24:24,142] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x000056dc] [2019-06-10 22:24:24,143] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14938, extaddr:nonsupport, extport:0,  from 192.168.27.1:14985/0/0/0.
-  INFO [0x000056dc] [2019-06-10 22:24:24,143] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x000056dc] [2019-06-10 22:24:24,872] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14941, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:14988/0/0/0.
-  INFO [0x000056dc] [2019-06-10 22:24:24,872] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x000056dc] [2019-06-10 22:24:25,195] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14940, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:14989/0/0/0.
-  INFO [0x000056dc] [2019-06-10 22:24:25,195] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x000056dc] [2019-06-10 22:24:25,196] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14937, extaddr:nonsupport, extport:0,  from 192.168.27.1:14990/0/0/0.
-  INFO [0x000056dc] [2019-06-10 22:24:25,196] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x000056dc] [2019-06-10 22:28:39,608] - Logger::registerLogWatcher: addr=192.168.27.1:1949 is successfully!
-  INFO [0x000004d4] [2019-06-10 22:34:50,782] - 
-  INFO [0x000004d4] [2019-06-10 22:34:50,783] - -----------------------------------------------------------------------------------------
+  INFO [0x0000963c] [2019-06-18 16:05:21,332] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO [0x0000963c] [2019-06-18 16:05:21,332] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO [0x0000963c] [2019-06-18 16:05:21,333] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO [0x0000963c] [2019-06-18 16:05:21,345] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4082 )
+  INFO [0x0000963c] [2019-06-18 16:05:21,345] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:4082, SOMAXCONN=5.
+  INFO [0x0000963c] [2019-06-18 16:05:21,349] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4083 )
+  INFO [0x0000963c] [2019-06-18 16:05:21,349] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4083, SOMAXCONN=5.
+  INFO [0x0000963c] [2019-06-18 16:05:21,353] - ---- logger Version: 2.5.2. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 16:20:01 Jun 16 2019. AppID: 2000. UID: 10103. PID: 28112 ----
+  INFO [0x0000963c] [2019-06-18 16:05:21,353] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO [0x0000963c] [2019-06-18 16:05:21,354] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x0000963c] [2019-06-18 16:05:21,354] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x0000963c] [2019-06-18 16:05:21,550] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 16 2019, 16:18:08) [MSC v.1916 32 bit (Intel)])!
+  INFO [0x0000963c] [2019-06-18 16:05:21,550] - Script::install(): OUROxtra is successfully!
+S_INFO [0x0000963c] [2019-06-18 16:05:21,568] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x0000963c] [2019-06-18 16:05:21,569] - TelnetServer server is running on port 34000
+  INFO [0x0000963c] [2019-06-18 16:05:21,573] - ---- logger is running ----
+ DEBUG [0x0000963c] [2019-06-18 16:05:21,573] - Components::process(): Request for the process of identity...
+  INFO [0x0000963c] [2019-06-18 16:05:29,035] - Components::process(): Found all the components!
+  INFO [0x0000963c] [2019-06-18 16:05:40,005] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4130, extaddr:nonsupport, extport:0,  from 192.168.27.1:4131/0/0/0.
+  INFO [0x0000963c] [2019-06-18 16:05:40,006] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x0000963c] [2019-06-18 16:05:40,006] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x0000963c] [2019-06-18 16:05:50,448] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4166, extaddr:nonsupport, extport:0,  from 192.168.27.1:4167/0/0/0.
+  INFO [0x0000963c] [2019-06-18 16:05:50,449] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x0000963c] [2019-06-18 16:05:50,549] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4168, extaddr:nonsupport, extport:0,  from 192.168.27.1:4169/0/0/0.
+  INFO [0x0000963c] [2019-06-18 16:05:50,549] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x0000963c] [2019-06-18 16:06:00,197] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4193, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:4195/0/0/0.
+  INFO [0x0000963c] [2019-06-18 16:06:00,197] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x0000963c] [2019-06-18 16:06:08,858] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4214, extaddr:nonsupport, extport:0,  from 192.168.27.1:4215/0/0/0.
+  INFO [0x0000963c] [2019-06-18 16:06:08,858] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x0000963c] [2019-06-18 16:06:13,810] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4224, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:4225/0/0/0.
+  INFO [0x0000963c] [2019-06-18 16:06:13,811] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x0000963c] [2019-06-18 16:14:36,965] - Logger::registerLogWatcher: addr=192.168.27.1:5217 is successfully!
+  INFO [0x00006b98] [2019-06-18 16:44:09,954] - 
+  INFO [0x00006b98] [2019-06-18 16:44:09,961] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x000004d4] [2019-06-10 22:34:50,783] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x000004d4] [2019-06-10 22:34:50,784] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x000004d4] [2019-06-10 22:34:50,784] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x000004d4] [2019-06-10 22:34:50,794] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:5170 )
-  INFO [0x000004d4] [2019-06-10 22:34:50,795] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:5170, SOMAXCONN=5.
-  INFO [0x000004d4] [2019-06-10 22:34:50,798] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:5171 )
-  INFO [0x000004d4] [2019-06-10 22:34:50,798] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:5171, SOMAXCONN=5.
-  INFO [0x000004d4] [2019-06-10 22:34:50,802] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 46352 ----
-  INFO [0x000004d4] [2019-06-10 22:34:50,802] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x000004d4] [2019-06-10 22:34:50,802] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x000004d4] [2019-06-10 22:34:50,803] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x000004d4] [2019-06-10 22:34:51,042] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x000004d4] [2019-06-10 22:34:51,044] - Script::install(): OUROxtra is successfully!
-S_INFO [0x000004d4] [2019-06-10 22:34:51,064] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x000004d4] [2019-06-10 22:34:51,064] - TelnetServer server is running on port 34000
-  INFO [0x000004d4] [2019-06-10 22:34:51,078] - ---- logger is running ----
- DEBUG [0x000004d4] [2019-06-10 22:34:51,079] - Components::process(): Request for the process of identity...
-  WARN [0x000004d4] [2019-06-10 22:34:51,420] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20429, errorno=10048
-  INFO [0x0000752c] [2019-06-10 22:34:59,074] - 
-  INFO [0x0000752c] [2019-06-10 22:34:59,075] - -----------------------------------------------------------------------------------------
+  INFO [0x00006b98] [2019-06-18 16:44:09,962] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO [0x00006b98] [2019-06-18 16:44:09,962] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO [0x00006b98] [2019-06-18 16:44:09,963] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO [0x00006b98] [2019-06-18 16:44:09,999] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:8571 )
+  INFO [0x00006b98] [2019-06-18 16:44:09,999] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:8571, SOMAXCONN=5.
+  INFO [0x00006b98] [2019-06-18 16:44:10,009] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:8572 )
+  INFO [0x00006b98] [2019-06-18 16:44:10,009] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:8572, SOMAXCONN=5.
+  INFO [0x00006b98] [2019-06-18 16:44:10,026] - ---- logger Version: 2.5.2. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 16:20:01 Jun 16 2019. AppID: 2000. UID: 10103. PID: 31992 ----
+  INFO [0x00006b98] [2019-06-18 16:44:10,033] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO [0x00006b98] [2019-06-18 16:44:10,039] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00006b98] [2019-06-18 16:44:10,040] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00006b98] [2019-06-18 16:44:10,309] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 16 2019, 16:18:08) [MSC v.1916 32 bit (Intel)])!
+  INFO [0x00006b98] [2019-06-18 16:44:10,309] - Script::install(): OUROxtra is successfully!
+S_INFO [0x00006b98] [2019-06-18 16:44:10,336] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00006b98] [2019-06-18 16:44:10,336] - TelnetServer server is running on port 34000
+  INFO [0x00006b98] [2019-06-18 16:44:10,344] - ---- logger is running ----
+ DEBUG [0x00006b98] [2019-06-18 16:44:10,345] - Components::process(): Request for the process of identity...
+  INFO [0x00006b98] [2019-06-18 16:44:17,936] - Components::process(): Found all the components!
+  INFO [0x00006b98] [2019-06-18 16:44:19,843] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8574, extaddr:nonsupport, extport:0,  from 192.168.27.1:8610/0/0/0.
+  INFO [0x00006b98] [2019-06-18 16:44:19,843] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00006b98] [2019-06-18 16:44:19,843] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00006b98] [2019-06-18 16:44:19,956] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8575, extaddr:nonsupport, extport:0,  from 192.168.27.1:8612/0/0/0.
+  INFO [0x00006b98] [2019-06-18 16:44:19,956] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00006b98] [2019-06-18 16:44:20,691] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8577, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:8615/0/0/0.
+  INFO [0x00006b98] [2019-06-18 16:44:20,692] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00006b98] [2019-06-18 16:44:20,809] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8578, extaddr:nonsupport, extport:0,  from 192.168.27.1:8616/0/0/0.
+  INFO [0x00006b98] [2019-06-18 16:44:20,809] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00006b98] [2019-06-18 16:44:21,140] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8576, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:8618/0/0/0.
+  INFO [0x00006b98] [2019-06-18 16:44:21,140] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00006b98] [2019-06-18 16:44:21,141] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:8573, extaddr:nonsupport, extport:0,  from 192.168.27.1:8619/0/0/0.
+  INFO [0x00006b98] [2019-06-18 16:44:21,141] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00008f90] [2019-06-18 16:56:39,901] - 
+  INFO [0x00008f90] [2019-06-18 16:56:39,902] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x0000752c] [2019-06-10 22:34:59,076] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x0000752c] [2019-06-10 22:34:59,076] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x0000752c] [2019-06-10 22:34:59,076] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x0000752c] [2019-06-10 22:34:59,091] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:5215 )
-  INFO [0x0000752c] [2019-06-10 22:34:59,091] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:5215, SOMAXCONN=5.
-  INFO [0x0000752c] [2019-06-10 22:34:59,094] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:5216 )
-  INFO [0x0000752c] [2019-06-10 22:34:59,094] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:5216, SOMAXCONN=5.
-  INFO [0x0000752c] [2019-06-10 22:34:59,098] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 14196 ----
-  INFO [0x0000752c] [2019-06-10 22:34:59,099] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x0000752c] [2019-06-10 22:34:59,099] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x0000752c] [2019-06-10 22:34:59,100] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x0000752c] [2019-06-10 22:34:59,414] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x0000752c] [2019-06-10 22:34:59,415] - Script::install(): OUROxtra is successfully!
-S_INFO [0x0000752c] [2019-06-10 22:34:59,443] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x0000752c] [2019-06-10 22:34:59,444] - TelnetServer server is running on port 34000
-  INFO [0x0000752c] [2019-06-10 22:34:59,448] - ---- logger is running ----
- DEBUG [0x0000752c] [2019-06-10 22:34:59,448] - Components::process(): Request for the process of identity...
-  WARN [0x0000752c] [2019-06-10 22:35:06,061] - TCPPacketReceiver::processPendingEvents(192.168.27.1:5243): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
-  INFO [0x0000752c] [2019-06-10 22:35:06,312] - Logger::registerLogWatcher: addr=192.168.27.1:5258 is successfully!
-  INFO [0x0000752c] [2019-06-10 22:35:07,078] - Components::process(): Found all the components!
-  INFO [0x0000752c] [2019-06-10 22:35:07,753] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5219, extaddr:nonsupport, extport:0,  from 192.168.27.1:5262/0/0/0.
-  INFO [0x0000752c] [2019-06-10 22:35:07,753] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x0000752c] [2019-06-10 22:35:07,753] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x0000752c] [2019-06-10 22:35:08,685] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5218, extaddr:nonsupport, extport:0,  from 192.168.27.1:5268/0/0/0.
-  INFO [0x0000752c] [2019-06-10 22:35:08,687] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x0000752c] [2019-06-10 22:35:09,617] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5222, extaddr:nonsupport, extport:0,  from 192.168.27.1:5273/0/0/0.
-  INFO [0x0000752c] [2019-06-10 22:35:09,617] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x0000752c] [2019-06-10 22:35:09,619] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5224, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:5274/0/0/0.
-  INFO [0x0000752c] [2019-06-10 22:35:09,619] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x0000752c] [2019-06-10 22:35:09,947] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5220, extaddr:nonsupport, extport:0,  from 192.168.27.1:5275/0/0/0.
-  INFO [0x0000752c] [2019-06-10 22:35:09,947] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x0000752c] [2019-06-10 22:35:09,961] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:5223, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:5276/0/0/0.
-  INFO [0x0000752c] [2019-06-10 22:35:09,961] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x0000752c] [2019-06-10 22:37:03,694] - Logger::deregisterLogWatcher: addr=192.168.27.1:5258 is successfully!
-  INFO [0x0000752c] [2019-06-10 22:37:03,695] - Logger::registerLogWatcher: addr=192.168.27.1:5258 is successfully!
-  INFO [0x0000752c] [2019-06-10 22:37:03,700] - Logger::deregisterLogWatcher: addr=192.168.27.1:5258 is successfully!
-  INFO [0x0000b4c0] [2019-06-10 22:50:57,924] - 
-  INFO [0x0000b4c0] [2019-06-10 22:50:57,925] - -----------------------------------------------------------------------------------------
+  INFO [0x00008f90] [2019-06-18 16:56:39,903] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO [0x00008f90] [2019-06-18 16:56:39,903] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO [0x00008f90] [2019-06-18 16:56:39,903] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO [0x00008f90] [2019-06-18 16:56:39,914] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12192 )
+  INFO [0x00008f90] [2019-06-18 16:56:39,914] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:12192, SOMAXCONN=5.
+  INFO [0x00008f90] [2019-06-18 16:56:39,918] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12193 )
+  INFO [0x00008f90] [2019-06-18 16:56:39,918] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:12193, SOMAXCONN=5.
+  INFO [0x00008f90] [2019-06-18 16:56:39,924] - ---- logger Version: 2.5.2. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 16:20:01 Jun 16 2019. AppID: 2000. UID: 10103. PID: 30476 ----
+  INFO [0x00008f90] [2019-06-18 16:56:39,924] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO [0x00008f90] [2019-06-18 16:56:39,925] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00008f90] [2019-06-18 16:56:39,925] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00008f90] [2019-06-18 16:56:40,182] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 16 2019, 16:18:08) [MSC v.1916 32 bit (Intel)])!
+  INFO [0x00008f90] [2019-06-18 16:56:40,182] - Script::install(): OUROxtra is successfully!
+S_INFO [0x00008f90] [2019-06-18 16:56:40,209] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00008f90] [2019-06-18 16:56:40,209] - TelnetServer server is running on port 34000
+  INFO [0x00008f90] [2019-06-18 16:56:40,228] - ---- logger is running ----
+ DEBUG [0x00008f90] [2019-06-18 16:56:40,231] - Components::process(): Request for the process of identity...
+  INFO [0x00008f90] [2019-06-18 16:56:47,669] - Components::process(): Found all the components!
+  INFO [0x00008f90] [2019-06-18 16:56:49,276] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12198, extaddr:nonsupport, extport:0,  from 192.168.27.1:12226/0/0/0.
+  INFO [0x00008f90] [2019-06-18 16:56:49,277] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00008f90] [2019-06-18 16:56:49,277] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00008f90] [2019-06-18 16:56:49,693] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12195, extaddr:nonsupport, extport:0,  from 192.168.27.1:12227/0/0/0.
+  INFO [0x00008f90] [2019-06-18 16:56:49,693] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00008f90] [2019-06-18 16:56:49,695] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12197, extaddr:nonsupport, extport:0,  from 192.168.27.1:12228/0/0/0.
+  INFO [0x00008f90] [2019-06-18 16:56:49,695] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00008f90] [2019-06-18 16:56:50,310] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12196, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:12230/0/0/0.
+  INFO [0x00008f90] [2019-06-18 16:56:50,311] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00008f90] [2019-06-18 16:56:50,738] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12199, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:12232/0/0/0.
+  INFO [0x00008f90] [2019-06-18 16:56:50,738] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00008f90] [2019-06-18 16:56:50,739] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12194, extaddr:nonsupport, extport:0,  from 192.168.27.1:12233/0/0/0.
+  INFO [0x00008f90] [2019-06-18 16:56:50,740] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00008f90] [2019-06-18 16:57:28,137] - Logger::registerLogWatcher: addr=192.168.27.1:12338 is successfully!
+  WARN [0x00008f90] [2019-06-18 17:08:03,612] - TCPPacketReceiver::processPendingEvents(192.168.27.1:12338): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00004438] [2019-06-18 17:10:06,929] - 
+  INFO [0x00004438] [2019-06-18 17:10:06,930] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x0000b4c0] [2019-06-10 22:50:57,925] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x0000b4c0] [2019-06-10 22:50:57,925] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x0000b4c0] [2019-06-10 22:50:57,926] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x0000b4c0] [2019-06-10 22:50:57,938] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:7957 )
-  INFO [0x0000b4c0] [2019-06-10 22:50:57,939] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:7957, SOMAXCONN=5.
-  INFO [0x0000b4c0] [2019-06-10 22:50:57,942] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:7958 )
-  INFO [0x0000b4c0] [2019-06-10 22:50:57,942] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:7958, SOMAXCONN=5.
-  INFO [0x0000b4c0] [2019-06-10 22:50:57,946] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 32124 ----
-  INFO [0x0000b4c0] [2019-06-10 22:50:57,947] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x0000b4c0] [2019-06-10 22:50:57,947] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x0000b4c0] [2019-06-10 22:50:57,948] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x0000b4c0] [2019-06-10 22:50:58,152] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x0000b4c0] [2019-06-10 22:50:58,153] - Script::install(): OUROxtra is successfully!
-S_INFO [0x0000b4c0] [2019-06-10 22:50:58,168] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x0000b4c0] [2019-06-10 22:50:58,168] - TelnetServer server is running on port 34000
-  INFO [0x0000b4c0] [2019-06-10 22:50:58,173] - ---- logger is running ----
- DEBUG [0x0000b4c0] [2019-06-10 22:50:58,173] - Components::process(): Request for the process of identity...
-  INFO [0x0000b4c0] [2019-06-10 22:51:05,727] - Components::process(): Found all the components!
-  INFO [0x0000b4c0] [2019-06-10 22:51:07,794] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7962, extaddr:nonsupport, extport:0,  from 192.168.27.1:8008/0/0/0.
-  INFO [0x0000b4c0] [2019-06-10 22:51:07,794] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x0000b4c0] [2019-06-10 22:51:07,794] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x0000b4c0] [2019-06-10 22:51:07,795] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7966, extaddr:nonsupport, extport:0,  from 192.168.27.1:8009/0/0/0.
-  INFO [0x0000b4c0] [2019-06-10 22:51:07,795] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x0000b4c0] [2019-06-10 22:51:08,424] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7969, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:8013/0/0/0.
-  INFO [0x0000b4c0] [2019-06-10 22:51:08,425] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x0000b4c0] [2019-06-10 22:51:08,567] - Logger::registerLogWatcher: addr=192.168.27.1:8014 is successfully!
-  INFO [0x0000b4c0] [2019-06-10 22:51:08,641] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7968, extaddr:nonsupport, extport:0,  from 192.168.27.1:8017/0/0/0.
-  INFO [0x0000b4c0] [2019-06-10 22:51:08,641] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x0000b4c0] [2019-06-10 22:51:08,857] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7967, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:8018/0/0/0.
-  INFO [0x0000b4c0] [2019-06-10 22:51:08,857] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x0000b4c0] [2019-06-10 22:51:08,858] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7960, extaddr:nonsupport, extport:0,  from 192.168.27.1:8019/0/0/0.
-  INFO [0x0000b4c0] [2019-06-10 22:51:08,858] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x0000b4c0] [2019-06-10 22:52:30,966] - Logger::deregisterLogWatcher: addr=192.168.27.1:8014 is successfully!
-  INFO [0x0000b4c0] [2019-06-10 22:52:30,968] - Logger::registerLogWatcher: addr=192.168.27.1:8014 is successfully!
-  INFO [0x0000b4c0] [2019-06-10 22:52:30,975] - Logger::deregisterLogWatcher: addr=192.168.27.1:8014 is successfully!
-  INFO [0x00007b4c] [2019-06-10 22:57:04,895] - 
-  INFO [0x00007b4c] [2019-06-10 22:57:04,895] - -----------------------------------------------------------------------------------------
+  INFO [0x00004438] [2019-06-18 17:10:06,931] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO [0x00004438] [2019-06-18 17:10:06,931] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO [0x00004438] [2019-06-18 17:10:06,931] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO [0x00004438] [2019-06-18 17:10:06,944] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:13591 )
+  INFO [0x00004438] [2019-06-18 17:10:06,944] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:13591, SOMAXCONN=5.
+  INFO [0x00004438] [2019-06-18 17:10:06,949] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:13592 )
+  INFO [0x00004438] [2019-06-18 17:10:06,949] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:13592, SOMAXCONN=5.
+  INFO [0x00004438] [2019-06-18 17:10:06,956] - ---- logger Version: 2.5.2. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 16:20:01 Jun 16 2019. AppID: 2000. UID: 10103. PID: 11624 ----
+  INFO [0x00004438] [2019-06-18 17:10:06,957] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO [0x00004438] [2019-06-18 17:10:06,958] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00004438] [2019-06-18 17:10:06,958] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00004438] [2019-06-18 17:10:07,278] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 16 2019, 16:18:08) [MSC v.1916 32 bit (Intel)])!
+  INFO [0x00004438] [2019-06-18 17:10:07,278] - Script::install(): OUROxtra is successfully!
+S_INFO [0x00004438] [2019-06-18 17:10:07,291] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00004438] [2019-06-18 17:10:07,292] - TelnetServer server is running on port 34000
+  INFO [0x00004438] [2019-06-18 17:10:07,295] - ---- logger is running ----
+ DEBUG [0x00004438] [2019-06-18 17:10:07,295] - Components::process(): Request for the process of identity...
+  INFO [0x00004438] [2019-06-18 17:10:14,752] - Components::process(): Found all the components!
+  INFO [0x00004438] [2019-06-18 17:10:15,464] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13594, extaddr:nonsupport, extport:0,  from 192.168.27.1:13622/0/0/0.
+  INFO [0x00004438] [2019-06-18 17:10:15,465] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00004438] [2019-06-18 17:10:15,466] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00004438] [2019-06-18 17:10:16,584] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13598, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:13625/0/0/0.
+  INFO [0x00004438] [2019-06-18 17:10:16,585] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00004438] [2019-06-18 17:10:16,700] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13595, extaddr:nonsupport, extport:0,  from 192.168.27.1:13626/0/0/0.
+  INFO [0x00004438] [2019-06-18 17:10:16,700] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00004438] [2019-06-18 17:10:17,340] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13597, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:13628/0/0/0.
+  INFO [0x00004438] [2019-06-18 17:10:17,341] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00004438] [2019-06-18 17:10:17,555] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13596, extaddr:nonsupport, extport:0,  from 192.168.27.1:13629/0/0/0.
+  INFO [0x00004438] [2019-06-18 17:10:17,555] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00004438] [2019-06-18 17:10:17,891] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:13593, extaddr:nonsupport, extport:0,  from 192.168.27.1:13631/0/0/0.
+  INFO [0x00004438] [2019-06-18 17:10:17,892] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00008db8] [2019-06-18 19:04:02,136] - 
+  INFO [0x00008db8] [2019-06-18 19:04:02,137] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x00007b4c] [2019-06-10 22:57:04,896] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x00007b4c] [2019-06-10 22:57:04,897] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x00007b4c] [2019-06-10 22:57:04,897] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x00007b4c] [2019-06-10 22:57:04,911] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:9036 )
-  INFO [0x00007b4c] [2019-06-10 22:57:04,911] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:9036, SOMAXCONN=5.
-  INFO [0x00007b4c] [2019-06-10 22:57:04,917] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:9037 )
-  INFO [0x00007b4c] [2019-06-10 22:57:04,917] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:9037, SOMAXCONN=5.
-  INFO [0x00007b4c] [2019-06-10 22:57:04,922] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 29408 ----
-  INFO [0x00007b4c] [2019-06-10 22:57:04,923] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x00007b4c] [2019-06-10 22:57:04,923] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x00007b4c] [2019-06-10 22:57:04,924] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x00007b4c] [2019-06-10 22:57:05,152] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x00007b4c] [2019-06-10 22:57:05,152] - Script::install(): OUROxtra is successfully!
-S_INFO [0x00007b4c] [2019-06-10 22:57:05,166] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x00007b4c] [2019-06-10 22:57:05,166] - TelnetServer server is running on port 34000
-  INFO [0x00007b4c] [2019-06-10 22:57:05,171] - ---- logger is running ----
- DEBUG [0x00007b4c] [2019-06-10 22:57:05,171] - Components::process(): Request for the process of identity...
-  INFO [0x00007b4c] [2019-06-10 22:57:12,746] - Components::process(): Found all the components!
-  INFO [0x00007b4c] [2019-06-10 22:57:14,602] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:9043, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:9080/0/0/0.
-  INFO [0x00007b4c] [2019-06-10 22:57:14,602] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x00007b4c] [2019-06-10 22:57:14,603] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x00007b4c] [2019-06-10 22:57:14,736] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:9040, extaddr:nonsupport, extport:0,  from 192.168.27.1:9081/0/0/0.
-  INFO [0x00007b4c] [2019-06-10 22:57:14,737] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x00007b4c] [2019-06-10 22:57:14,767] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:9041, extaddr:nonsupport, extport:0,  from 192.168.27.1:9082/0/0/0.
-  INFO [0x00007b4c] [2019-06-10 22:57:14,767] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x00007b4c] [2019-06-10 22:57:15,497] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:9044, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:9084/0/0/0.
-  INFO [0x00007b4c] [2019-06-10 22:57:15,497] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x00007b4c] [2019-06-10 22:57:15,498] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:9042, extaddr:nonsupport, extport:0,  from 192.168.27.1:9085/0/0/0.
-  INFO [0x00007b4c] [2019-06-10 22:57:15,498] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x00007b4c] [2019-06-10 22:57:16,530] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:9039, extaddr:nonsupport, extport:0,  from 192.168.27.1:9088/0/0/0.
-  INFO [0x00007b4c] [2019-06-10 22:57:16,531] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x00007b4c] [2019-06-10 22:58:07,617] - Logger::registerLogWatcher: addr=192.168.27.1:9250 is successfully!
-  INFO [0x00007b4c] [2019-06-10 23:03:14,085] - Logger::deregisterLogWatcher: addr=192.168.27.1:9250 is successfully!
-  INFO [0x00007b4c] [2019-06-10 23:03:14,087] - Logger::registerLogWatcher: addr=192.168.27.1:9250 is successfully!
-  INFO [0x00007b4c] [2019-06-10 23:03:14,091] - Logger::deregisterLogWatcher: addr=192.168.27.1:9250 is successfully!
-  INFO [0x00000ea0] [2019-06-10 23:26:23,030] - 
-  INFO [0x00000ea0] [2019-06-10 23:26:23,031] - -----------------------------------------------------------------------------------------
+  INFO [0x00008db8] [2019-06-18 19:04:02,138] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO [0x00008db8] [2019-06-18 19:04:02,138] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO [0x00008db8] [2019-06-18 19:04:02,138] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO [0x00008db8] [2019-06-18 19:04:02,150] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:14446 )
+  INFO [0x00008db8] [2019-06-18 19:04:02,150] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:14446, SOMAXCONN=5.
+  INFO [0x00008db8] [2019-06-18 19:04:02,154] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:14447 )
+  INFO [0x00008db8] [2019-06-18 19:04:02,154] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:14447, SOMAXCONN=5.
+  INFO [0x00008db8] [2019-06-18 19:04:02,158] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 18:39:31 Jun 18 2019. AppID: 2000. UID: 10103. PID: 8140 ----
+  INFO [0x00008db8] [2019-06-18 19:04:02,158] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO [0x00008db8] [2019-06-18 19:04:02,158] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00008db8] [2019-06-18 19:04:02,159] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00008db8] [2019-06-18 19:04:02,368] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 18 2019, 18:38:22) [MSC v.1916 32 bit (Intel)])!
+  INFO [0x00008db8] [2019-06-18 19:04:02,368] - Script::install(): OUROxtra is successfully!
+S_INFO [0x00008db8] [2019-06-18 19:04:02,380] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00008db8] [2019-06-18 19:04:02,381] - TelnetServer server is running on port 34000
+  INFO [0x00008db8] [2019-06-18 19:04:02,385] - ---- logger is running ----
+ DEBUG [0x00008db8] [2019-06-18 19:04:02,385] - Components::process(): Request for the process of identity...
+  INFO [0x00008db8] [2019-06-18 19:04:09,900] - Components::process(): Found all the components!
+  INFO [0x00008db8] [2019-06-18 19:04:19,862] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14486, extaddr:nonsupport, extport:0,  from 192.168.27.1:14487/0/0/0.
+  INFO [0x00008db8] [2019-06-18 19:04:19,863] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00008db8] [2019-06-18 19:04:19,863] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00008db8] [2019-06-18 19:04:29,139] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14515, extaddr:nonsupport, extport:0,  from 192.168.27.1:14516/0/0/0.
+  INFO [0x00008db8] [2019-06-18 19:04:29,140] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00008db8] [2019-06-18 19:04:38,515] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14540, extaddr:nonsupport, extport:0,  from 192.168.27.1:14541/0/0/0.
+  INFO [0x00008db8] [2019-06-18 19:04:38,515] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00008db8] [2019-06-18 19:04:47,635] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14558, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:14560/0/0/0.
+  INFO [0x00008db8] [2019-06-18 19:04:47,636] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00008db8] [2019-06-18 19:04:57,348] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14591, extaddr:nonsupport, extport:0,  from 192.168.27.1:14592/0/0/0.
+  INFO [0x00008db8] [2019-06-18 19:04:57,349] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00008db8] [2019-06-18 19:05:02,758] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14602, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:14607/0/0/0.
+  INFO [0x00008db8] [2019-06-18 19:05:02,758] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00001a58] [2019-06-18 19:28:37,828] - 
+  INFO [0x00001a58] [2019-06-18 19:28:37,828] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x00000ea0] [2019-06-10 23:26:23,032] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x00000ea0] [2019-06-10 23:26:23,032] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x00000ea0] [2019-06-10 23:26:23,032] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x00000ea0] [2019-06-10 23:26:23,045] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:14069 )
-  INFO [0x00000ea0] [2019-06-10 23:26:23,045] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:14069, SOMAXCONN=5.
-  INFO [0x00000ea0] [2019-06-10 23:26:23,049] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:14070 )
-  INFO [0x00000ea0] [2019-06-10 23:26:23,050] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:14070, SOMAXCONN=5.
-  INFO [0x00000ea0] [2019-06-10 23:26:23,055] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 28260 ----
-  INFO [0x00000ea0] [2019-06-10 23:26:23,055] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x00000ea0] [2019-06-10 23:26:23,056] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x00000ea0] [2019-06-10 23:26:23,057] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x00000ea0] [2019-06-10 23:26:23,276] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x00000ea0] [2019-06-10 23:26:23,276] - Script::install(): OUROxtra is successfully!
-S_INFO [0x00000ea0] [2019-06-10 23:26:23,295] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x00000ea0] [2019-06-10 23:26:23,296] - TelnetServer server is running on port 34000
-  INFO [0x00000ea0] [2019-06-10 23:26:23,301] - ---- logger is running ----
- DEBUG [0x00000ea0] [2019-06-10 23:26:23,301] - Components::process(): Request for the process of identity...
-  INFO [0x00000ea0] [2019-06-10 23:26:30,915] - Components::process(): Found all the components!
-  INFO [0x00000ea0] [2019-06-10 23:26:32,675] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14071, extaddr:nonsupport, extport:0,  from 192.168.27.1:14108/0/0/0.
-  INFO [0x00000ea0] [2019-06-10 23:26:32,676] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x00000ea0] [2019-06-10 23:26:32,676] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x00000ea0] [2019-06-10 23:26:32,789] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14073, extaddr:nonsupport, extport:0,  from 192.168.27.1:14112/0/0/0.
-  INFO [0x00000ea0] [2019-06-10 23:26:32,790] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x00000ea0] [2019-06-10 23:26:33,723] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14074, extaddr:nonsupport, extport:0,  from 192.168.27.1:14114/0/0/0.
-  INFO [0x00000ea0] [2019-06-10 23:26:33,723] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x00000ea0] [2019-06-10 23:26:33,941] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14075, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:14116/0/0/0.
-  INFO [0x00000ea0] [2019-06-10 23:26:33,941] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x00000ea0] [2019-06-10 23:26:34,074] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14072, extaddr:nonsupport, extport:0,  from 192.168.27.1:14118/0/0/0.
-  INFO [0x00000ea0] [2019-06-10 23:26:34,075] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x00000ea0] [2019-06-10 23:26:35,135] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:14076, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:14121/0/0/0.
-  INFO [0x00000ea0] [2019-06-10 23:26:35,135] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x00000ea0] [2019-06-10 23:27:59,358] - Logger::registerLogWatcher: addr=192.168.27.1:14379 is successfully!
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,062] - 
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,063] - -----------------------------------------------------------------------------------------
+  INFO [0x00001a58] [2019-06-18 19:28:37,828] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO [0x00001a58] [2019-06-18 19:28:37,828] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO [0x00001a58] [2019-06-18 19:28:37,828] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO [0x00001a58] [2019-06-18 19:28:37,841] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:3448 )
+  INFO [0x00001a58] [2019-06-18 19:28:37,841] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:3448, SOMAXCONN=5.
+  INFO [0x00001a58] [2019-06-18 19:28:37,846] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:3449 )
+  INFO [0x00001a58] [2019-06-18 19:28:37,846] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:3449, SOMAXCONN=5.
+  INFO [0x00001a58] [2019-06-18 19:28:37,852] - ---- logger Version: 2.5.2. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 16:20:01 Jun 16 2019. AppID: 2000. UID: 10103. PID: 39772 ----
+  INFO [0x00001a58] [2019-06-18 19:28:37,853] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO [0x00001a58] [2019-06-18 19:28:37,854] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00001a58] [2019-06-18 19:28:37,854] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00001a58] [2019-06-18 19:28:38,079] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 16 2019, 16:18:08) [MSC v.1916 32 bit (Intel)])!
+  INFO [0x00001a58] [2019-06-18 19:28:38,080] - Script::install(): OUROxtra is successfully!
+S_INFO [0x00001a58] [2019-06-18 19:28:38,093] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00001a58] [2019-06-18 19:28:38,093] - TelnetServer server is running on port 34000
+  INFO [0x00001a58] [2019-06-18 19:28:38,098] - ---- logger is running ----
+ DEBUG [0x00001a58] [2019-06-18 19:28:38,099] - Components::process(): Request for the process of identity...
+  INFO [0x00001a58] [2019-06-18 19:28:45,534] - Components::process(): Found all the components!
+  INFO [0x00001a58] [2019-06-18 19:28:47,421] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3451, extaddr:nonsupport, extport:0,  from 192.168.27.1:3480/0/0/0.
+  INFO [0x00001a58] [2019-06-18 19:28:47,422] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00001a58] [2019-06-18 19:28:47,422] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00001a58] [2019-06-18 19:28:47,533] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3453, extaddr:nonsupport, extport:0,  from 192.168.27.1:3484/0/0/0.
+  INFO [0x00001a58] [2019-06-18 19:28:47,533] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00001a58] [2019-06-18 19:28:48,267] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3458, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:3487/0/0/0.
+  INFO [0x00001a58] [2019-06-18 19:28:48,268] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00001a58] [2019-06-18 19:28:48,482] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3457, extaddr:nonsupport, extport:0,  from 192.168.27.1:3488/0/0/0.
+  INFO [0x00001a58] [2019-06-18 19:28:48,483] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00001a58] [2019-06-18 19:28:48,600] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3456, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:3490/0/0/0.
+  INFO [0x00001a58] [2019-06-18 19:28:48,600] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00001a58] [2019-06-18 19:28:50,047] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3450, extaddr:nonsupport, extport:0,  from 192.168.27.1:3493/0/0/0.
+  INFO [0x00001a58] [2019-06-18 19:28:50,047] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00009e64] [2019-06-18 19:29:07,305] - 
+  INFO [0x00009e64] [2019-06-18 19:29:07,305] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,064] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,064] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,064] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,077] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:7631 )
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,077] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:7631, SOMAXCONN=5.
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,082] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:7632 )
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,082] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:7632, SOMAXCONN=5.
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,086] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 29536 ----
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,087] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,087] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,087] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,324] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,324] - Script::install(): OUROxtra is successfully!
-S_INFO [0x0000a5f4] [2019-06-11 00:10:15,335] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,335] - TelnetServer server is running on port 34000
-  INFO [0x0000a5f4] [2019-06-11 00:10:15,339] - ---- logger is running ----
- DEBUG [0x0000a5f4] [2019-06-11 00:10:15,339] - Components::process(): Request for the process of identity...
-  INFO [0x0000a5f4] [2019-06-11 00:10:22,875] - Components::process(): Found all the components!
-  INFO [0x0000a5f4] [2019-06-11 00:10:24,843] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7634, extaddr:nonsupport, extport:0,  from 192.168.27.1:7671/0/0/0.
-  INFO [0x0000a5f4] [2019-06-11 00:10:24,844] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x0000a5f4] [2019-06-11 00:10:24,844] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x0000a5f4] [2019-06-11 00:10:24,845] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7635, extaddr:nonsupport, extport:0,  from 192.168.27.1:7672/0/0/0.
-  INFO [0x0000a5f4] [2019-06-11 00:10:24,845] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x0000a5f4] [2019-06-11 00:10:25,566] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7638, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:7676/0/0/0.
-  INFO [0x0000a5f4] [2019-06-11 00:10:25,567] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x0000a5f4] [2019-06-11 00:10:25,567] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7637, extaddr:nonsupport, extport:0,  from 192.168.27.1:7677/0/0/0.
-  INFO [0x0000a5f4] [2019-06-11 00:10:25,568] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x0000a5f4] [2019-06-11 00:10:25,899] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7636, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:7679/0/0/0.
-  INFO [0x0000a5f4] [2019-06-11 00:10:25,900] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x0000a5f4] [2019-06-11 00:10:26,019] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7633, extaddr:nonsupport, extport:0,  from 192.168.27.1:7683/0/0/0.
-  INFO [0x0000a5f4] [2019-06-11 00:10:26,019] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x0000a5f4] [2019-06-11 00:34:48,020] - Logger::registerLogWatcher: addr=192.168.27.1:11875 is successfully!
-  INFO [0x0000a5f4] [2019-06-11 03:15:49,742] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:6701214773847326720, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11431, extaddr:192.168.27.1, extport:20016,  from 192.168.27.1:11433/0/0/0.
-  INFO [0x0000a5f4] [2019-06-11 03:15:49,742] - Components::addComponent[baseapp], uid=10103, componentID=6701214773847326720, globalorderid=7, grouporderid=2, totalcount=2
-  WARN [0x0000a5f4] [2019-06-11 03:15:51,265] - TCPPacketReceiver::processPendingEvents(192.168.27.1:11433): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
-  INFO [0x0000a5f4] [2019-06-11 03:15:51,266] - Components::removeComponentByChannel: baseapp : 6701214773847326720, Normal exit!
-  INFO [0x000096e0] [2019-06-11 03:16:00,300] - 
-  INFO [0x000096e0] [2019-06-11 03:16:00,300] - -----------------------------------------------------------------------------------------
+  INFO [0x00009e64] [2019-06-18 19:29:07,306] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO [0x00009e64] [2019-06-18 19:29:07,306] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO [0x00009e64] [2019-06-18 19:29:07,306] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO [0x00009e64] [2019-06-18 19:29:07,318] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:3537 )
+  INFO [0x00009e64] [2019-06-18 19:29:07,318] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:3537, SOMAXCONN=5.
+  INFO [0x00009e64] [2019-06-18 19:29:07,322] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:3538 )
+  INFO [0x00009e64] [2019-06-18 19:29:07,322] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:3538, SOMAXCONN=5.
+  INFO [0x00009e64] [2019-06-18 19:29:07,329] - ---- logger Version: 2.5.2. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 16:20:01 Jun 16 2019. AppID: 2000. UID: 10103. PID: 38336 ----
+  INFO [0x00009e64] [2019-06-18 19:29:07,330] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO [0x00009e64] [2019-06-18 19:29:07,330] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00009e64] [2019-06-18 19:29:07,330] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00009e64] [2019-06-18 19:29:07,539] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 16 2019, 16:18:08) [MSC v.1916 32 bit (Intel)])!
+  INFO [0x00009e64] [2019-06-18 19:29:07,539] - Script::install(): OUROxtra is successfully!
+S_INFO [0x00009e64] [2019-06-18 19:29:07,552] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00009e64] [2019-06-18 19:29:07,553] - TelnetServer server is running on port 34000
+  INFO [0x00009e64] [2019-06-18 19:29:07,556] - ---- logger is running ----
+ DEBUG [0x00009e64] [2019-06-18 19:29:07,556] - Components::process(): Request for the process of identity...
+  INFO [0x00009e64] [2019-06-18 19:29:14,004] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3547, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:3550/0/0/0.
+  INFO [0x00009e64] [2019-06-18 19:29:14,005] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00009e64] [2019-06-18 19:29:14,005] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00009e64] [2019-06-18 19:29:14,005] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3546, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:3551/0/0/0.
+  INFO [0x00009e64] [2019-06-18 19:29:14,006] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00009e64] [2019-06-18 19:29:15,013] - Components::process(): Found all the components!
+  INFO [0x00009e64] [2019-06-18 19:29:15,850] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3544, extaddr:nonsupport, extport:0,  from 192.168.27.1:3572/0/0/0.
+  INFO [0x00009e64] [2019-06-18 19:29:15,850] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00009e64] [2019-06-18 19:29:17,071] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3541, extaddr:nonsupport, extport:0,  from 192.168.27.1:3575/0/0/0.
+  INFO [0x00009e64] [2019-06-18 19:29:17,072] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00009e64] [2019-06-18 19:29:17,891] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3545, extaddr:nonsupport, extport:0,  from 192.168.27.1:3577/0/0/0.
+  INFO [0x00009e64] [2019-06-18 19:29:17,891] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00009e64] [2019-06-18 19:29:18,128] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:3539, extaddr:nonsupport, extport:0,  from 192.168.27.1:3579/0/0/0.
+  INFO [0x00009e64] [2019-06-18 19:29:18,129] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  INFO [0x00009e64] [2019-06-18 19:40:37,384] - Logger::registerLogWatcher: addr=192.168.27.1:4723 is successfully!
+  INFO [0x00009e64] [2019-06-18 19:50:15,319] - Logger::registerLogWatcher: addr=192.168.27.1:5884 is successfully!
+  INFO [0x00006a78] [2019-06-18 20:00:04,786] - 
+  INFO [0x00006a78] [2019-06-18 20:00:04,787] - -----------------------------------------------------------------------------------------
 
 
-  INFO [0x000096e0] [2019-06-11 03:16:00,301] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x000096e0] [2019-06-11 03:16:00,301] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x000096e0] [2019-06-11 03:16:00,301] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x000096e0] [2019-06-11 03:16:00,314] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:11467 )
-  INFO [0x000096e0] [2019-06-11 03:16:00,315] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:11467, SOMAXCONN=5.
-  INFO [0x000096e0] [2019-06-11 03:16:00,320] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:11468 )
-  INFO [0x000096e0] [2019-06-11 03:16:00,320] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:11468, SOMAXCONN=5.
-  INFO [0x000096e0] [2019-06-11 03:16:00,326] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 30252 ----
-  INFO [0x000096e0] [2019-06-11 03:16:00,327] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x000096e0] [2019-06-11 03:16:00,327] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x000096e0] [2019-06-11 03:16:00,327] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x000096e0] [2019-06-11 03:16:00,618] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x000096e0] [2019-06-11 03:16:00,618] - Script::install(): OUROxtra is successfully!
-S_INFO [0x000096e0] [2019-06-11 03:16:00,636] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x000096e0] [2019-06-11 03:16:00,636] - TelnetServer server is running on port 34000
-  INFO [0x000096e0] [2019-06-11 03:16:00,640] - ---- logger is running ----
- DEBUG [0x000096e0] [2019-06-11 03:16:00,641] - Components::process(): Request for the process of identity...
-  INFO [0x000096e0] [2019-06-11 03:16:08,303] - Components::process(): Found all the components!
-  INFO [0x000096e0] [2019-06-11 03:16:09,131] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11472, extaddr:nonsupport, extport:0,  from 192.168.27.1:11505/0/0/0.
-  INFO [0x000096e0] [2019-06-11 03:16:09,132] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x000096e0] [2019-06-11 03:16:09,132] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x000096e0] [2019-06-11 03:16:10,056] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11473, extaddr:nonsupport, extport:0,  from 192.168.27.1:11511/0/0/0.
-  INFO [0x000096e0] [2019-06-11 03:16:10,056] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x000096e0] [2019-06-11 03:16:10,499] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11474, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:11512/0/0/0.
-  INFO [0x000096e0] [2019-06-11 03:16:10,500] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x000096e0] [2019-06-11 03:16:10,717] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11471, extaddr:nonsupport, extport:0,  from 192.168.27.1:11514/0/0/0.
-  INFO [0x000096e0] [2019-06-11 03:16:10,717] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x000096e0] [2019-06-11 03:16:11,139] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11475, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:11517/0/0/0.
-  INFO [0x000096e0] [2019-06-11 03:16:11,139] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x000096e0] [2019-06-11 03:16:11,785] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:11470, extaddr:nonsupport, extport:0,  from 192.168.27.1:11520/0/0/0.
-  INFO [0x000096e0] [2019-06-11 03:16:11,785] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x000096e0] [2019-06-11 03:21:58,996] - Logger::registerLogWatcher: addr=192.168.27.1:12525 is successfully!
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - 
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - -----------------------------------------------------------------------------------------
-
-
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:6217 )
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:6217, SOMAXCONN=5.
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:6218 )
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:6218, SOMAXCONN=5.
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 47884 ----
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - Script::install(): OUROxtra is successfully!
-S_INFO [0x0000bb04] [2019-06-11 04:06:51,654] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - TelnetServer server is running on port 34000
-  INFO [0x0000bb04] [2019-06-11 04:06:51,654] - ---- logger is running ----
- DEBUG [0x0000bb04] [2019-06-11 04:06:51,654] - Components::process(): Request for the process of identity...
-  INFO [0x0000bb04] [2019-06-11 04:06:59,491] - Components::process(): Found all the components!
-  INFO [0x0000bb04] [2019-06-11 04:07:10,243] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6310, extaddr:nonsupport, extport:0,  from 192.168.27.1:6313/0/0/0.
-  INFO [0x0000bb04] [2019-06-11 04:07:10,243] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x0000bb04] [2019-06-11 04:07:10,243] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x0000bb04] [2019-06-11 04:07:10,243] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6312, extaddr:nonsupport, extport:0,  from 192.168.27.1:6314/0/0/0.
-  INFO [0x0000bb04] [2019-06-11 04:07:10,243] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x0000bb04] [2019-06-11 04:07:10,243] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6311, extaddr:nonsupport, extport:0,  from 192.168.27.1:6315/0/0/0.
-  INFO [0x0000bb04] [2019-06-11 04:07:10,243] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x0000bb04] [2019-06-11 04:07:19,777] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6352, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:6353/0/0/0.
-  INFO [0x0000bb04] [2019-06-11 04:07:19,777] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x0000bb04] [2019-06-11 04:07:28,494] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6379, extaddr:nonsupport, extport:0,  from 192.168.27.1:6380/0/0/0.
-  INFO [0x0000bb04] [2019-06-11 04:07:28,494] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x0000bb04] [2019-06-11 04:07:33,376] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:6393, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:6397/0/0/0.
-  INFO [0x0000bb04] [2019-06-11 04:07:33,376] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x0000bb04] [2019-06-11 05:31:06,393] - Logger::registerLogWatcher: addr=192.168.27.1:6246 is successfully!
-  INFO [0x000056f0] [2019-06-11 18:34:54,685] - 
-  INFO [0x000056f0] [2019-06-11 18:34:54,686] - -----------------------------------------------------------------------------------------
-
-
-  INFO [0x000056f0] [2019-06-11 18:34:54,687] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x000056f0] [2019-06-11 18:34:54,687] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x000056f0] [2019-06-11 18:34:54,687] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x000056f0] [2019-06-11 18:34:54,698] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12919 )
-  INFO [0x000056f0] [2019-06-11 18:34:54,698] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:12919, SOMAXCONN=5.
-  INFO [0x000056f0] [2019-06-11 18:34:54,702] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12920 )
-  INFO [0x000056f0] [2019-06-11 18:34:54,702] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:12920, SOMAXCONN=5.
-  INFO [0x000056f0] [2019-06-11 18:34:54,707] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 47736 ----
-  INFO [0x000056f0] [2019-06-11 18:34:54,709] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x000056f0] [2019-06-11 18:34:54,709] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x000056f0] [2019-06-11 18:34:54,709] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x000056f0] [2019-06-11 18:34:54,955] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x000056f0] [2019-06-11 18:34:54,955] - Script::install(): OUROxtra is successfully!
-S_INFO [0x000056f0] [2019-06-11 18:34:54,969] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x000056f0] [2019-06-11 18:34:54,970] - TelnetServer server is running on port 34000
-  INFO [0x000056f0] [2019-06-11 18:34:54,975] - ---- logger is running ----
- DEBUG [0x000056f0] [2019-06-11 18:34:54,976] - Components::process(): Request for the process of identity...
-  WARN [0x000056f0] [2019-06-11 18:35:01,528] - TCPPacketReceiver::processPendingEvents(192.168.27.1:12947): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
-  INFO [0x000056f0] [2019-06-11 18:35:02,550] - Components::process(): Found all the components!
-  INFO [0x000056f0] [2019-06-11 18:35:04,364] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12921, extaddr:nonsupport, extport:0,  from 192.168.27.1:12972/0/0/0.
-  INFO [0x000056f0] [2019-06-11 18:35:04,365] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x000056f0] [2019-06-11 18:35:04,365] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x000056f0] [2019-06-11 18:35:04,596] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12925, extaddr:nonsupport, extport:0,  from 192.168.27.1:12974/0/0/0.
-  INFO [0x000056f0] [2019-06-11 18:35:04,597] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x000056f0] [2019-06-11 18:35:05,237] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12927, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:12976/0/0/0.
-  INFO [0x000056f0] [2019-06-11 18:35:05,237] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x000056f0] [2019-06-11 18:35:05,470] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12926, extaddr:nonsupport, extport:0,  from 192.168.27.1:12977/0/0/0.
-  INFO [0x000056f0] [2019-06-11 18:35:05,471] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x000056f0] [2019-06-11 18:35:05,596] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12924, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:12978/0/0/0.
-  INFO [0x000056f0] [2019-06-11 18:35:05,597] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x000056f0] [2019-06-11 18:35:05,761] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12922, extaddr:nonsupport, extport:0,  from 192.168.27.1:12980/0/0/0.
-  INFO [0x000056f0] [2019-06-11 18:35:05,762] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x000056f0] [2019-06-11 18:35:11,159] - Logger::registerLogWatcher: addr=192.168.27.1:13003 is successfully!
-  INFO [0x000056f0] [2019-06-11 19:29:11,896] - Logger::registerLogWatcher: addr=192.168.27.1:10004 is successfully!
-  INFO [0x00003a68] [2019-06-13 02:01:26,163] - 
-  INFO [0x00003a68] [2019-06-13 02:01:26,163] - -----------------------------------------------------------------------------------------
-
-
-  INFO [0x00003a68] [2019-06-13 02:01:26,166] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x00003a68] [2019-06-13 02:01:26,166] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x00003a68] [2019-06-13 02:01:26,166] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x00003a68] [2019-06-13 02:01:26,180] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4719 )
-  INFO [0x00003a68] [2019-06-13 02:01:26,180] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:4719, SOMAXCONN=5.
-  INFO [0x00003a68] [2019-06-13 02:01:26,184] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:4720 )
-  INFO [0x00003a68] [2019-06-13 02:01:26,184] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:4720, SOMAXCONN=5.
-  INFO [0x00003a68] [2019-06-13 02:01:26,188] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 1740 ----
-  INFO [0x00003a68] [2019-06-13 02:01:26,189] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x00003a68] [2019-06-13 02:01:26,190] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x00003a68] [2019-06-13 02:01:26,190] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x00003a68] [2019-06-13 02:01:26,543] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x00003a68] [2019-06-13 02:01:26,543] - Script::install(): OUROxtra is successfully!
-S_INFO [0x00003a68] [2019-06-13 02:01:26,577] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x00003a68] [2019-06-13 02:01:26,577] - TelnetServer server is running on port 34000
-  INFO [0x00003a68] [2019-06-13 02:01:26,585] - ---- logger is running ----
- DEBUG [0x00003a68] [2019-06-13 02:01:26,585] - Components::process(): Request for the process of identity...
-  INFO [0x00003a68] [2019-06-13 02:01:33,917] - Components::process(): Found all the components!
-  INFO [0x00003a68] [2019-06-13 02:01:57,904] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4780, extaddr:nonsupport, extport:0,  from 192.168.27.1:4781/0/0/0.
-  INFO [0x00003a68] [2019-06-13 02:01:57,905] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x00003a68] [2019-06-13 02:01:57,905] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x00003a68] [2019-06-13 02:02:14,065] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4817, extaddr:nonsupport, extport:0,  from 192.168.27.1:4818/0/0/0.
-  INFO [0x00003a68] [2019-06-13 02:02:14,065] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x00003a68] [2019-06-13 02:02:22,292] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4835, extaddr:nonsupport, extport:0,  from 192.168.27.1:4836/0/0/0.
-  INFO [0x00003a68] [2019-06-13 02:02:22,293] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x00003a68] [2019-06-13 02:02:30,530] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4852, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:4854/0/0/0.
-  INFO [0x00003a68] [2019-06-13 02:02:30,530] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x00003a68] [2019-06-13 02:02:38,548] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4876, extaddr:nonsupport, extport:0,  from 192.168.27.1:4877/0/0/0.
-  INFO [0x00003a68] [2019-06-13 02:02:38,548] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x00003a68] [2019-06-13 02:02:46,820] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:4895, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:4897/0/0/0.
-  INFO [0x00003a68] [2019-06-13 02:02:46,820] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x00003a68] [2019-06-13 02:15:12,420] - Logger::registerLogWatcher: addr=192.168.27.1:6317 is successfully!
-  INFO [0x00003a68] [2019-06-13 02:31:35,892] - Logger::registerLogWatcher: addr=192.168.27.1:8091 is successfully!
-  INFO [0x00003a68] [2019-06-13 02:32:15,522] - Logger::registerLogWatcher: addr=192.168.27.1:8457 is successfully!
-  INFO [0x00007a34] [2019-06-13 04:58:51,522] - 
-  INFO [0x00007a34] [2019-06-13 04:58:51,522] - -----------------------------------------------------------------------------------------
-
-
-  INFO [0x00007a34] [2019-06-13 04:58:51,523] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x00007a34] [2019-06-13 04:58:51,523] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x00007a34] [2019-06-13 04:58:51,523] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x00007a34] [2019-06-13 04:58:51,538] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12408 )
-  INFO [0x00007a34] [2019-06-13 04:58:51,539] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:12408, SOMAXCONN=5.
-  INFO [0x00007a34] [2019-06-13 04:58:51,543] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:12409 )
-  INFO [0x00007a34] [2019-06-13 04:58:51,544] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:12409, SOMAXCONN=5.
-  INFO [0x00007a34] [2019-06-13 04:58:51,548] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 29524 ----
-  INFO [0x00007a34] [2019-06-13 04:58:51,548] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x00007a34] [2019-06-13 04:58:51,548] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x00007a34] [2019-06-13 04:58:51,549] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x00007a34] [2019-06-13 04:58:51,776] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x00007a34] [2019-06-13 04:58:51,777] - Script::install(): OUROxtra is successfully!
-S_INFO [0x00007a34] [2019-06-13 04:58:51,788] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x00007a34] [2019-06-13 04:58:51,788] - TelnetServer server is running on port 34000
-  INFO [0x00007a34] [2019-06-13 04:58:51,791] - ---- logger is running ----
- DEBUG [0x00007a34] [2019-06-13 04:58:51,792] - Components::process(): Request for the process of identity...
-  INFO [0x00007a34] [2019-06-13 04:58:59,325] - Components::process(): Found all the components!
-  INFO [0x00007a34] [2019-06-13 04:59:01,057] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12411, extaddr:nonsupport, extport:0,  from 192.168.27.1:12442/0/0/0.
-  INFO [0x00007a34] [2019-06-13 04:59:01,058] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x00007a34] [2019-06-13 04:59:01,058] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x00007a34] [2019-06-13 04:59:01,170] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12412, extaddr:nonsupport, extport:0,  from 192.168.27.1:12443/0/0/0.
-  INFO [0x00007a34] [2019-06-13 04:59:01,170] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x00007a34] [2019-06-13 04:59:01,800] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12415, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:12447/0/0/0.
-  INFO [0x00007a34] [2019-06-13 04:59:01,800] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x00007a34] [2019-06-13 04:59:01,802] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12414, extaddr:nonsupport, extport:0,  from 192.168.27.1:12448/0/0/0.
-  INFO [0x00007a34] [2019-06-13 04:59:01,803] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x00007a34] [2019-06-13 04:59:02,120] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12413, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:12449/0/0/0.
-  INFO [0x00007a34] [2019-06-13 04:59:02,120] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x00007a34] [2019-06-13 04:59:02,233] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:12410, extaddr:nonsupport, extport:0,  from 192.168.27.1:12450/0/0/0.
-  INFO [0x00007a34] [2019-06-13 04:59:02,233] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x00007a34] [2019-06-13 05:01:22,069] - Logger::registerLogWatcher: addr=192.168.27.1:12758 is successfully!
-  INFO [0x00007bd8] [2019-06-13 05:24:36,608] - 
-  INFO [0x00007bd8] [2019-06-13 05:24:36,608] - -----------------------------------------------------------------------------------------
-
-
-  INFO [0x00007bd8] [2019-06-13 05:24:36,610] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
-  INFO [0x00007bd8] [2019-06-13 05:24:36,610] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
-  INFO [0x00007bd8] [2019-06-13 05:24:36,610] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
-  INFO [0x00007bd8] [2019-06-13 05:24:36,624] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:1399 )
-  INFO [0x00007bd8] [2019-06-13 05:24:36,624] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:1399, SOMAXCONN=5.
-  INFO [0x00007bd8] [2019-06-13 05:24:36,629] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:1400 )
-  INFO [0x00007bd8] [2019-06-13 05:24:36,629] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:1400, SOMAXCONN=5.
-  INFO [0x00007bd8] [2019-06-13 05:24:36,632] - ---- logger Version: 2.5.0. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 02:53:05 May 23 2019. AppID: 2000. UID: 10103. PID: 28440 ----
-  INFO [0x00007bd8] [2019-06-13 05:24:36,633] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
-  INFO [0x00007bd8] [2019-06-13 05:24:36,634] - ThreadPool::createThreadPool: creating  threadpool...
-  INFO [0x00007bd8] [2019-06-13 05:24:36,634] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
-  INFO [0x00007bd8] [2019-06-13 05:24:36,861] - Script::install(): is successfully, Python=(3.7.3 (default, Jun  7 2019, 22:47:18) [MSC v.1916 32 bit (Intel)])!
-  INFO [0x00007bd8] [2019-06-13 05:24:36,861] - Script::install(): OUROxtra is successfully!
-S_INFO [0x00007bd8] [2019-06-13 05:24:36,876] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
-  INFO [0x00007bd8] [2019-06-13 05:24:36,877] - TelnetServer server is running on port 34000
-  INFO [0x00007bd8] [2019-06-13 05:24:36,880] - ---- logger is running ----
- DEBUG [0x00007bd8] [2019-06-13 05:24:36,880] - Components::process(): Request for the process of identity...
-  INFO [0x00007bd8] [2019-06-13 05:24:44,296] - Components::process(): Found all the components!
-  INFO [0x00007bd8] [2019-06-13 05:24:44,986] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:1402, extaddr:nonsupport, extport:0,  from 192.168.27.1:1432/0/0/0.
-  INFO [0x00007bd8] [2019-06-13 05:24:44,988] - Components::addComponent: reset orderLog, uid=10103!
-  INFO [0x00007bd8] [2019-06-13 05:24:44,989] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
-  INFO [0x00007bd8] [2019-06-13 05:24:46,226] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:1404, extaddr:nonsupport, extport:0,  from 192.168.27.1:1434/0/0/0.
-  INFO [0x00007bd8] [2019-06-13 05:24:46,227] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
-  INFO [0x00007bd8] [2019-06-13 05:24:46,944] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:1409, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:1437/0/0/0.
-  INFO [0x00007bd8] [2019-06-13 05:24:46,944] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
-  INFO [0x00007bd8] [2019-06-13 05:24:46,945] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:1405, extaddr:nonsupport, extport:0,  from 192.168.27.1:1438/0/0/0.
-  INFO [0x00007bd8] [2019-06-13 05:24:46,945] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
-  INFO [0x00007bd8] [2019-06-13 05:24:47,294] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:1408, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:1441/0/0/0.
-  INFO [0x00007bd8] [2019-06-13 05:24:47,295] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
-  INFO [0x00007bd8] [2019-06-13 05:24:47,416] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:1401, extaddr:nonsupport, extport:0,  from 192.168.27.1:1442/0/0/0.
-  INFO [0x00007bd8] [2019-06-13 05:24:47,417] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
-  INFO [0x00007bd8] [2019-06-13 05:28:29,241] - Logger::registerLogWatcher: addr=192.168.27.1:1945 is successfully!
-  INFO [0x00007bd8] [2019-06-13 05:29:13,314] - Logger::registerLogWatcher: addr=192.168.27.1:2024 is successfully!
+  INFO [0x00006a78] [2019-06-18 20:00:04,788] - Resmgr::initialize: OURO_ROOT=C:/Users/Black/Ouroboros/
+  INFO [0x00006a78] [2019-06-18 20:00:04,788] - Resmgr::initialize: OURO_RES_PATH=C:/Users/Black/Ouroboros/ouro/res/;C:/Users/Black/Ouroboros/assets/;C:/Users/Black/Ouroboros/assets/scripts/;C:/Users/Black/Ouroboros/assets/res/
+  INFO [0x00006a78] [2019-06-18 20:00:04,788] - Resmgr::initialize: OURO_BIN_PATH=C:/Users/Black/Ouroboros/ouro/bin/server/
+  INFO [0x00006a78] [2019-06-18 20:00:04,800] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:7087 )
+  INFO [0x00006a78] [2019-06-18 20:00:04,800] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.27.1:7087, SOMAXCONN=5.
+  INFO [0x00006a78] [2019-06-18 20:00:04,804] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.27.1 ( 192.168.27.1:7088 )
+  INFO [0x00006a78] [2019-06-18 20:00:04,804] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.27.1:7088, SOMAXCONN=5.
+  INFO [0x00006a78] [2019-06-18 20:00:04,807] - ---- logger Version: 2.5.2. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: B79F721FB264CE348C7E78898E43E7A3. Config: Debug X86. Built: 16:20:01 Jun 16 2019. AppID: 2000. UID: 10103. PID: 40896 ----
+  INFO [0x00006a78] [2019-06-18 20:00:04,808] - Server Black: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz with 2097151kB RAM
+  INFO [0x00006a78] [2019-06-18 20:00:04,808] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO [0x00006a78] [2019-06-18 20:00:04,808] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO [0x00006a78] [2019-06-18 20:00:05,039] - Script::install(): is successfully, Python=(3.7.3 (default, Jun 16 2019, 16:18:08) [MSC v.1916 32 bit (Intel)])!
+  INFO [0x00006a78] [2019-06-18 20:00:05,039] - Script::install(): OUROxtra is successfully!
+S_INFO [0x00006a78] [2019-06-18 20:00:05,060] - onLoggerAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO [0x00006a78] [2019-06-18 20:00:05,060] - TelnetServer server is running on port 34000
+  INFO [0x00006a78] [2019-06-18 20:00:05,064] - ---- logger is running ----
+ DEBUG [0x00006a78] [2019-06-18 20:00:05,065] - Components::process(): Request for the process of identity...
+  INFO [0x00006a78] [2019-06-18 20:00:11,571] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7092, extaddr:192.168.27.1, extport:20015,  from 192.168.27.1:7098/0/0/0.
+  INFO [0x00006a78] [2019-06-18 20:00:11,571] - Components::addComponent: reset orderLog, uid=10103!
+  INFO [0x00006a78] [2019-06-18 20:00:11,571] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=1, grouporderid=1, totalcount=1
+  INFO [0x00006a78] [2019-06-18 20:00:11,572] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7096, extaddr:192.168.27.1, extport:20013,  from 192.168.27.1:7099/0/0/0.
+  INFO [0x00006a78] [2019-06-18 20:00:11,572] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO [0x00006a78] [2019-06-18 20:00:12,590] - Components::process(): Found all the components!
+  INFO [0x00006a78] [2019-06-18 20:00:14,917] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7091, extaddr:nonsupport, extport:0,  from 192.168.27.1:7130/0/0/0.
+  INFO [0x00006a78] [2019-06-18 20:00:14,918] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO [0x00006a78] [2019-06-18 20:00:15,038] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7094, extaddr:nonsupport, extport:0,  from 192.168.27.1:7131/0/0/0.
+  INFO [0x00006a78] [2019-06-18 20:00:15,038] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=4, grouporderid=1, totalcount=1
+  INFO [0x00006a78] [2019-06-18 20:00:15,770] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7095, extaddr:nonsupport, extport:0,  from 192.168.27.1:7135/0/0/0.
+  INFO [0x00006a78] [2019-06-18 20:00:15,770] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+  INFO [0x00006a78] [2019-06-18 20:00:15,886] - ServerApp::onRegisterNewApp: uid:10103, username:Black, componentType:dbmgr, componentID:4000, globalorderID=-1, grouporderID=-1, intaddr:192.168.27.1, intport:7090, extaddr:nonsupport, extport:0,  from 192.168.27.1:7136/0/0/0.
+  INFO [0x00006a78] [2019-06-18 20:00:15,886] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+  WARN [0x00006a78] [2019-06-19 06:23:43,580] - TCPPacketReceiver::processPendingEvents(192.168.27.1:7135): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00006a78] [2019-06-19 06:23:43,620] - Components::removeComponentByChannel: cellapp : 8001, Normal exit!
+  WARN [0x00006a78] [2019-06-19 06:23:43,621] - TCPPacketReceiver::processPendingEvents(192.168.27.1:7098): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00006a78] [2019-06-19 06:23:43,639] - Components::removeComponentByChannel: baseapp : 7001, Normal exit!
+  WARN [0x00006a78] [2019-06-19 06:23:43,640] - TCPPacketReceiver::processPendingEvents(192.168.27.1:7099): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00006a78] [2019-06-19 06:23:43,648] - Components::removeComponentByChannel: loginapp : 9000, Normal exit!
+  WARN [0x00006a78] [2019-06-19 06:23:43,649] - TCPPacketReceiver::processPendingEvents(192.168.27.1:7130): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00006a78] [2019-06-19 06:23:43,653] - Components::removeComponentByChannel: baseappmgr : 5000, Normal exit!
+  WARN [0x00006a78] [2019-06-19 06:23:43,653] - TCPPacketReceiver::processPendingEvents(192.168.27.1:7131): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00006a78] [2019-06-19 06:23:43,658] - Components::removeComponentByChannel: cellappmgr : 6000, Normal exit!
+  WARN [0x00006a78] [2019-06-19 06:23:43,658] - TCPPacketReceiver::processPendingEvents(192.168.27.1:7136): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  INFO [0x00006a78] [2019-06-19 06:23:43,675] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!
+  WARN [0x00006a78] [2019-06-19 15:22:11,869] - c:\users\black\ouroboros\ouro\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 19.36 seconds

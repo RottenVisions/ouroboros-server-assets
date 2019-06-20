@@ -1,5 +1,6 @@
 ﻿<root>
     <Volatile>
+        <!-- Numbers here tell the engine the distance an entity needs to be from the target to synchronize these values -->
         <position/>
         <!--<position> 0 </position> Don't update-->
         <yaw/>

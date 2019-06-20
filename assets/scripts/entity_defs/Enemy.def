@@ -4,8 +4,8 @@
     <Volatile>
         <position/>
         <yaw/>
-        <pitch/>
-        <roll />
+        <pitch>0</pitch>
+        <roll>0</roll>
         <optimized>true</optimized>
     </Volatile>
 
