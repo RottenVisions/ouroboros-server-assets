@@ -35,4 +35,4 @@ If it is a formal operating environment, you should use a secure shutdown method
 		safe_kill.sh
 
 	Windows:
-		safe_kill.ba
+		safe_kill.bat
