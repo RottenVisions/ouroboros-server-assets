@@ -5,7 +5,7 @@ This is a Ouroboros server asset library
 ##Starting the server
 
 
-Start with fixed parameters: (meaning of the parameter: http://www.ouroboros.org/cn/docs/startup_shutdown.html)
+Start with fixed parameters:
 
 	
 	Linux:
@@ -35,4 +35,4 @@ If it is a formal operating environment, you should use a secure shutdown method
 		safe_kill.sh
 
 	Windows:
-		safe_kill.ba
+		safe_kill.bat
