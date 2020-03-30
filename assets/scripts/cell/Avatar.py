@@ -37,7 +37,7 @@ class Avatar(Ouroboros.Entity,
 		Combat.__init__(self)
 
 		# Set the fastest speed allowed per second, the speed will be pulled back
-		self.topSpeed = self.moveSpeed + 5.0
+		self.topSpeed = self.moveSpeed + 15.0
 		# self.topSpeedY = 10.0
 
 		self.lastPositionSyncTime = 0.0

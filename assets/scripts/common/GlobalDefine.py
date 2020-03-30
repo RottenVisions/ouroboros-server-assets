@@ -73,3 +73,27 @@ DIALOG_TYPE_QUEST			= 1 # Task dialogue
 ABILITY_OBJECT_TYPE_UNKNOWN		= 0
 ABILITY_OBJECT_TYPE_ENTITY		= 1
 ABILITY_OBJECT_TYPE_POSITION	= 2
+
+# ------------------------------------------------------------------------------
+# Entity Motion State
+# ------------------------------------------------------------------------------
+
+ENTITY_MOTION_STATE_STATIONARY					= 0
+ENTITY_MOTION_STATE_WALK						= 1
+ENTITY_MOTION_STATE_RUN							= 2
+
+# ------------------------------------------------------------------------------
+# Entity Animation State
+# ------------------------------------------------------------------------------
+
+ENTITY_ANIMATION_STATE_IDLE						= 0
+ENTITY_ANIMATION_STATE_WALK						= 1
+ENTITY_ANIMATION_STATE_RUN						= 2
+ENTITY_ANIMATION_STATE_ATTACK_1					= 3
+ENTITY_ANIMATION_STATE_ATTACK_2					= 4
+ENTITY_ANIMATION_STATE_ATTACK_3					= 5
+ENTITY_ANIMATION_STATE_SPELL_READY_OMNI			= 6
+ENTITY_ANIMATION_STATE_SPELL_CAST_OMNI			= 7
+ENTITY_ANIMATION_STATE_SPELL_READY_DIRECTED		= 8
+ENTITY_ANIMATION_STATE_SPELL_CAST_DIRECTED		= 9
+ENTITY_ANIMATION_STATE_DEATH					= 10

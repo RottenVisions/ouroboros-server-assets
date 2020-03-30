@@ -17,6 +17,7 @@
         <Interface>Combat</Interface>
         <Interface>Ability</Interface>
         <Interface>AI</Interface>
+        <Interface>AnimationState</Interface>
     </Interfaces>
 
     <Properties>

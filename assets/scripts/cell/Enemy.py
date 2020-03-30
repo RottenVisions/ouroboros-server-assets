@@ -10,6 +10,7 @@ from interfaces.Combat import Combat
 from interfaces.Ability import Ability
 from interfaces.Motion import Motion
 from interfaces.State import State
+from interfaces.AnimationState import AnimationState
 from interfaces.AI import AI
 from interfaces.NPCObject import NPCObject
 from interfaces.Flags import Flags
@@ -17,6 +18,7 @@ from interfaces.Flags import Flags
 class Enemy(Ouroboros.Entity,
 			NPCObject,
 			State,
+			AnimationState,
 			Motion,
 			Combat,
 			Ability,
@@ -25,6 +27,7 @@ class Enemy(Ouroboros.Entity,
 		Ouroboros.Entity.__init__(self)
 		NPCObject.__init__(self)
 		State.__init__(self)
+		AnimationState.__init__(self)
 		Motion.__init__(self)
 		Combat.__init__(self)
 		Ability.__init__(self)
@@ -86,6 +89,8 @@ class Enemy(Ouroboros.Entity,
 		NPCObject.onTimer(self, tid, userArg)
 		Ability.onTimer(self, tid, userArg)
 		AI.onTimer(self, tid, userArg)
+		#AnimationState.onTimer(self, tid, userArg)
+		#AnimationState.onMotionChanged(self, self.isMoving)
 
 	def onWitnessed(self, isWitnessed):
 		"""
@@ -114,6 +119,7 @@ class Enemy(Ouroboros.Entity,
 		State.onStateChanged_(self, oldstate, newstate)
 		AI.onStateChanged_(self, oldstate, newstate)
 		NPCObject.onStateChanged_(self, oldstate, newstate)
+		AnimationState.onStateChanged_(self, oldstate, newstate)
 
 	def onSubStateChanged_(self, oldSubState, newSubState):
 		"""
@@ -122,6 +128,7 @@ class Enemy(Ouroboros.Entity,
 		"""
 		State.onSubStateChanged_(self, oldSubState, newSubState)
 		AI.onSubStateChanged_(self, oldSubState, newSubState)
+		AnimationState.onSubStateChanged_(self, oldSubState, newSubState)
 
 	def onFlagsChanged_(self, flags, isInc):
 		"""

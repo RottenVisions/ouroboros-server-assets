@@ -48,6 +48,9 @@ class GameObject:
 	def getScriptName(self):
 		return self.__class__.__name__
 
+	def getName(self):
+		return data_entities.data[self.uid]['name']
+
 	def getCurrSpaceBase(self):
 		"""
 		Get the entity baseEntityCall of the current space

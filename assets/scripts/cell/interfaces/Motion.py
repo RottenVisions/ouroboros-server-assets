@@ -5,15 +5,23 @@ import Math
 import time
 import random
 from OURODebug import *
+import GlobalDefine
 
+import data_entities
 
 class Motion:
 	"""
-	Mobile related package
+	Movement related package
 	"""
 
 	def __init__(self):
 		self.nextMoveTime = int(time.time() + random.randint(5, 15))
+		# Default walk speed (declared in .def file)
+		self.moveSpeed = self.getDatas()["moveSpeed"]
+		entityData = data_entities.data.get(self.uid)
+		# Entity walk speed
+		if entityData != None:
+			self.moveSpeed = entityData['moveSpeed']
 
 	def stopMotion(self):
 		"""
@@ -23,6 +31,7 @@ class Motion:
 			# INFO_MSG("%i stop motion." % self.id)
 			self.cancelController("Movement")
 			self.isMoving = False
+			self.onMotionStateChanged(GlobalDefine.ENTITY_MOTION_STATE_STATIONARY)
 
 	def randomWalk(self, basePos):
 		"""
@@ -58,12 +67,18 @@ class Motion:
 
 			self.gotoPosition(destPos)
 			self.isMoving = True
+			self.onMotionStateChanged(GlobalDefine.ENTITY_MOTION_STATE_WALK)
 			self.nextMoveTime = int(time.time() + random.randint(5, 15))
 			break
 
 		return True
 
 	def resetSpeed(self):
+		entityData = data_entities.data.get(self.uid)
+		# Entity walk speed
+		if entityData != None:
+			walkSpeed = entityData['moveSpeed']
+		# Default walk speed (declared in .def file)
 		walkSpeed = self.getDatas()["moveSpeed"]
 		if walkSpeed != self.moveSpeed:
 			self.moveSpeed = walkSpeed
@@ -73,9 +88,10 @@ class Motion:
 		virtual method.
 		"""
 		INFO_MSG("%s::backSpawnPos: %i, pos=%s, speed=%f." % \
-				 (self.getScriptName(), self.id, self.spawnPos, self.moveSpeed * 0.1))
+				 (self.getScriptName(), self.id, self.spawnPos, self.moveSpeed))
 
 		self.resetSpeed()
+		self.onMotionStateChanged(GlobalDefine.ENTITY_MOTION_STATE_RUN)
 		self.gotoPosition(self.spawnPos)
 
 	def gotoEntity(self, targetID, dist=0.0):
@@ -95,7 +111,8 @@ class Motion:
 			return
 
 		self.isMoving = True
-		self.moveToEntity(targetID, self.moveSpeed * 0.1, dist, None, True, False)
+		self.onMotionStateChanged(GlobalDefine.ENTITY_MOTION_STATE_WALK)
+		self.moveToEntity(targetID, self.moveSpeed, dist, None, True, False)
 
 	def gotoPosition(self, position, dist=0.0):
 		"""
@@ -109,7 +126,9 @@ class Motion:
 			return
 
 		self.isMoving = True
-		speed = self.moveSpeed * 0.1
+		self.onMotionStateChanged(GlobalDefine.ENTITY_MOTION_STATE_WALK)
+		speed = self.moveSpeed
+		DEBUG_MSG("speed %f %f" % (speed, self.moveSpeed))
 
 		if self.canNavigate():
 			self.navigate(Math.Vector3(position), speed, dist, speed, 512.0, 1, 0, None)
@@ -162,6 +181,7 @@ class Motion:
 				  (self.getScriptName(), self.id, controllerId, userarg))
 
 		self.isMoving = False
+		self.onMotionStateChanged(GlobalDefine.ENTITY_MOTION_STATE_STATIONARY)
 
 	def onMoveOver(self, controllerId, userarg):
 		"""
@@ -169,3 +189,20 @@ class Motion:
 		Use any of the engine's mobile-related interfaces to call this interface at the end of the entity move
 		"""
 		self.isMoving = False
+		self.onMotionStateChanged(GlobalDefine.ENTITY_MOTION_STATE_STATIONARY)
+
+	# --------------------------------------------------------------------------------------------
+	#                              Callbacks
+	# --------------------------------------------------------------------------------------------
+	def onMotionStateChanged(self, toState):
+		self.motionState = toState
+		self.onCalculateAnimationMove(toState)
+
+	def onCalculateAnimationMove(self, motionState):
+		if motionState == GlobalDefine.ENTITY_MOTION_STATE_STATIONARY:
+			self.currentState = GlobalDefine.ENTITY_ANIMATION_STATE_IDLE
+		if motionState == GlobalDefine.ENTITY_MOTION_STATE_WALK:
+			self.currentState = GlobalDefine.ENTITY_ANIMATION_STATE_WALK
+		if motionState == GlobalDefine.ENTITY_MOTION_STATE_RUN:
+			self.currentState = GlobalDefine.ENTITY_ANIMATION_STATE_RUN
+

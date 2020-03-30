@@ -222,6 +222,7 @@ class AI:
 		if controllerID != self.territoryControllerID:
 			return
 
+		#This effectively ignores other enemies, and only proceeds if the trapped entity is a player (Avatar)
 		if entityEntering.isDestroyed or entityEntering.getScriptName() != "Avatar" or entityEntering.isDead():
 			return
 
