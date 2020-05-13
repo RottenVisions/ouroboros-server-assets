@@ -10,6 +10,7 @@
 	<NPC hasClient="true"></NPC>
 	<Gate hasClient="true"></Gate>
 	<FirstEntity hasClient="true" />
+    <TestEntity hasClient="true" />
 	<Scene />
 	<Space />
 	<Spaces />

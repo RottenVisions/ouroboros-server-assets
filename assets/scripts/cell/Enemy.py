@@ -85,7 +85,7 @@ class Enemy(Ouroboros.Entity,
 		Ouroboros method.
 		Engine callback timer trigger
 		"""
-		#DEBUG_MSG("%s::onTimer: %i, tid:%i, arg:%i" % (self.getScriptName(), self.id, tid, userArg))
+		DEBUG_MSG("%s::onTimer: %i, tid:%i, arg:%i" % (self.getScriptName(), self.id, tid, userArg))
 		NPCObject.onTimer(self, tid, userArg)
 		Ability.onTimer(self, tid, userArg)
 		AI.onTimer(self, tid, userArg)

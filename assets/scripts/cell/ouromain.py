@@ -3,6 +3,7 @@ import Ouroboros
 from OURODebug import *
 #import dialogmgr
 import abilities
+import auras
 
 def onInit(isReload):
 	"""
@@ -12,6 +13,7 @@ def onInit(isReload):
 	DEBUG_MSG('onInit::isReload:%s' % isReload)
 	#dialogmgr.onInit()
 	abilities.onInit()
+	auras.onInit()
 
 def onGlobalData(key, value):
 	"""

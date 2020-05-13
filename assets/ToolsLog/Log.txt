@@ -42,3 +42,5 @@
 [2019-10-07 19:10:56] :Debug path C:\Users\Black\Ouroboros\assets
 [2019-10-07 19:11:15] :Debug Enemy
 [2019-10-07 19:11:25] :Debug Avatar
+[2020-05-11 03:34:45] :Debug path C:\Users\Black\Ouroboros\assets
+[2020-05-11 03:35:14] :Debug TestEntity

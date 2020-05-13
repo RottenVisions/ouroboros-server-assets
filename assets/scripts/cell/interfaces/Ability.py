@@ -8,7 +8,7 @@ import abilitybases.AbilityCastObject as AbilityCastObject
 
 class Ability:
 	def __init__(self):
-		#self.addTimer(1,1,ServerConstantsDefine.TIMER_TYPE_BUFF_TICK)
+		#self.addTimer(1,1,ServerConstantsDefine.TIMER_TYPE_AURA_TICK)
 		pass
 
 	def addAura(self, buffData):
@@ -72,7 +72,7 @@ class Ability:
 		Engine callback timer trigger
 		"""
 		#DEBUG_MSG("%s::onTimer: %i, tid:%i, arg:%i" % (self.getScriptName(), self.id, tid, userArg))
-		if ServerConstantsDefine.TIMER_TYPE_BUFF_TICK == userArg:
+		if ServerConstantsDefine.TIMER_TYPE_AURA_TICK == userArg:
 			self.onBuffTick()
 
 	def onBuffTick(self):

@@ -80,8 +80,8 @@ class AI:
 		else:
 			self.onThinkOther()
 
-		if not self.isWitnessed:
-			self.disable()
+		#if not self.isWitnessed:
+			#self.disable()
 
 	def choiceTarget(self):
 		"""
@@ -164,7 +164,7 @@ class AI:
 		if entity.position.distTo(self.position) > attackMaxDist:
 			runSpeed = self.getDatas()["runSpeed"]
 			if runSpeed != self.moveSpeed:
-				self.moveSpeed = runSpeed
+				self.moveSpeed = float(runSpeed)
 			self.gotoPosition(entity.position, attackMaxDist - 0.2)
 			return
 		else:
@@ -297,6 +297,6 @@ class AI:
 		Ouroboros method.
 		Engine callback timer trigger
 		"""
-		#DEBUG_MSG("%s::onTimer: %i, tid:%i, arg:%i" % (self.getScriptName(), self.id, tid, userArg))
+		DEBUG_MSG("%s::onTimer: %i, tid:%i, arg:%i" % (self.getScriptName(), self.id, tid, userArg))
 		if ServerConstantsDefine.TIMER_TYPE_HEARTBEAT == userArg:
 			self.onHeardTimer()

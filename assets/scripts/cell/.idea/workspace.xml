@@ -22,6 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/auras/base" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -32,7 +33,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Black\Ouroboros\assets\scripts\cell\auras\base" />
+      <recent name="C:\Users\Black\Ouroboros\assets\scripts\cell\auras" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Black\Ouroboros\assets\scripts\cell\auras\base" />
       <recent name="C:\Users\Black\Ouroboros\assets\scripts\cell\abilities" />
       <recent name="C:\Users\Black\Ouroboros\assets\scripts\cell\interfaces" />
     </key>
@@ -79,6 +85,10 @@
       <workItem from="1570446516586" duration="1820000" />
       <workItem from="1583295603953" duration="2131000" />
       <workItem from="1585117290267" duration="45361000" />
+      <workItem from="1585635669214" duration="599000" />
+      <workItem from="1586793842619" duration="2739000" />
+      <workItem from="1587441946903" duration="1198000" />
+      <workItem from="1589006174056" duration="73130000" />
     </task>
     <servers />
   </component>
@@ -86,9 +96,28 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="989" y="322" width="611" height="536" key="find.popup" timestamp="1585562731043">
+    <state x="965" y="389" key="FileChooserDialogImpl" timestamp="1589189235972">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="989" y="322" width="611" height="536" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1585562731043" />
+    <state x="965" y="389" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1589189235972" />
+    <state x="827" y="249" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589190352999">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="827" y="249" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1589190352999" />
+    <state x="989" y="322" width="740" height="606" key="find.popup" timestamp="1589275361364">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="989" y="322" width="740" height="606" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1589275361364" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../common/abilitybases/AbilityObject.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

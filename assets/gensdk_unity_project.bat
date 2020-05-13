@@ -13,4 +13,4 @@ echo OURO_RES_PATH = %OURO_RES_PATH%
 echo OURO_BIN_PATH = %OURO_BIN_PATH%
 
 cd %curpath%
-start %OURO_BIN_PATH%/obcmd.exe --clientsdk=unity --outpath=C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Ouroboros
+start %OURO_BIN_PATH%/obcmd.exe --clientsdk=unity --outpath=C:\Users\Black\Unity\Ouroboros\Assets\Plugins\Network\Ouroboros

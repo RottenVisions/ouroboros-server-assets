@@ -21,6 +21,5 @@ def onInit():
 		_g_abilities[key] = scriptinst
 		scriptinst.loadFromDict(data)
 
-
 def getAbility(abilityID):
 	return _g_abilities.get(abilityID)
