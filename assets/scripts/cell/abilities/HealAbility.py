@@ -36,4 +36,4 @@ class HealAbility(ActiveAbility):
 		if self.getID() == 3:
 			damage = attack + 10
 
-		receiver.recvDamage(caster.id, self.getID(), 0, -damage)
+		receiver.receiveDamage(caster.id, GlobalDefine.SOURCE_TYPE_ABILITY, self.getID(), self.getSchool(), -damage)

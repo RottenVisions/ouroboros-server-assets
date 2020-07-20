@@ -22,6 +22,12 @@
 			<Default>0</Default>
 			<Flags>BASE</Flags>
 		</lastClientIpAddr>
+        <gameMaster>
+            <Type>BOOL</Type>
+            <Default>False</Default>
+            <Flags>BASE</Flags>
+            <Persistent>true</Persistent>
+        </gameMaster>
 	</Properties>
 	<ClientMethods>
 		<onReqAvatarList>

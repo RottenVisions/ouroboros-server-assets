@@ -1,6 +1,0 @@
- ERROR root [2019-06-12 05:12:57,298] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
-)! Channel(timestamp=3817524296231, lastReceivedTime=3817236864410, inactivityExceptionPeriod=599487403)
-  INFO root [2019-06-12 05:12:57,311] - The following logs sent to logger failed:
-  WARN root [2019-06-12 05:12:57,312] - ==> [2019-06-12 05:12:57 296] TCPPacketReceiver::processPendingEvents(192.168.27.1:12920): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
- ERROR root [2019-06-12 05:12:57,312] - ==> [2019-06-12 05:12:57 302] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
-)! Channel(timestamp=3817524296231, lastReceivedTime=3817236864410, inactivityExceptionPeriod=599487403)

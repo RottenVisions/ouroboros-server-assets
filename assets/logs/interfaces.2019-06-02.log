@@ -1,3 +1,0 @@
-  WARN root [2019-06-02 19:40:47,182] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 10.68 seconds
-  WARN root [2019-06-02 19:40:52,494] - TCPPacketReceiver::processPendingEvents(127.0.0.1:2483): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
-  INFO root [2019-06-02 19:40:52,499] - Components::removeComponentByChannel: dbmgr : 4000, Normal exit!

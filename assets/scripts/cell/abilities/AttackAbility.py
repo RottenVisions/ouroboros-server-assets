@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import Ouroboros
 import random
+import GlobalDefine
 from OURODebug import *
 from abilities.base.ActiveAbilty import ActiveAbility
 
@@ -46,6 +47,6 @@ class AttackAbility(ActiveAbility):
 
 		if damage < 0:
 			damage = 0
-		receiver.recvDamage(caster.id, self.getID(), 0, damage)
-		if self.getID() == 6:#Bloodsucking, add blood to yourself
-			caster.recvDamage(caster.id, self.getID(), 0, -int(damage*0.1))
+		receiver.receiveDamage(receiver.id, caster.id, GlobalDefine.SOURCE_TYPE_ABILITY, self.getID(), self.getIcon(), self.getSchool(), damage)
+		if self.getID() == 6: #Bloodsucking, add blood to yourself
+			caster.receiveDamage(receiver.id, caster.id, GlobalDefine.SOURCE_TYPE_ABILITY, self.getID(), self.getIcon(), self.getSchool(), -int(damage*0.1))

@@ -14,36 +14,16 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>KBEngine</find>
-      <find>d_avatar_inittab</find>
-      <find>datas</find>
-      <find>entities enable</find>
-      <find>d_entities</find>
-      <find>addSpaceGeometryMapping</find>
-      <find>onGetCell</find>
-      <find>loginToSpace</find>
-      <find>enemyLog</find>
-      <find>layer</find>
-      <find>lay</find>
-      <find>updatePropertys</find>
-      <find>onupdateeg</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Ouroboros</replace>
-      <replace>data_entities</replace>
-      <replace>data_avatar_initial</replace>
-    </replaceStrings>
-  </component>
   <component name="ProjectId" id="1YeGN2zwLHYnmnuFYiBVvuSlDmy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../tips/client" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,18 +32,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -98,10 +67,44 @@
       <workItem from="1586793842310" duration="2751000" />
       <workItem from="1587441942714" duration="1601000" />
       <workItem from="1589006173935" duration="3456000" />
+      <workItem from="1589528079327" duration="2044000" />
+      <workItem from="1591145543486" duration="48203000" />
+      <workItem from="1591607405241" duration="2301000" />
+      <workItem from="1591622088609" duration="3207000" />
+      <workItem from="1591657876549" duration="2304000" />
+      <workItem from="1591666652551" duration="599000" />
+      <workItem from="1591952855870" duration="23387000" />
+      <workItem from="1592288938048" duration="1322000" />
+      <workItem from="1592985052879" duration="19228000" />
+      <workItem from="1593603776652" duration="59174000" />
+      <workItem from="1594969261123" duration="33184000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1061" y="441" key="FileChooserDialogImpl" timestamp="1591662579864">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="441" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1591662579864" />
+    <state x="782" y="345" key="SettingsEditor" timestamp="1591662584477">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="782" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1591662584477" />
+    <state x="686" y="197" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591423851584">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="686" y="197" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1591423851584" />
+    <state x="899" y="363" width="762" height="675" key="find.popup" timestamp="1594976394793">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="719" y="288" width="609" height="536" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1591420035723" />
+    <state x="899" y="363" width="762" height="675" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1594976394793" />
+    <state x="1527" y="537" width="672" height="678" key="search.everywhere.popup" timestamp="1594977079939">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1527" y="537" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1594977079939" />
   </component>
 </project>

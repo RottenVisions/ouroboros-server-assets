@@ -5,24 +5,37 @@ from interfaces.Ability import Ability
 from interfaces.AbilityBox import AbilityBox
 from interfaces.Aura import Aura
 from interfaces.AuraBox import AuraBox
+from interfaces.Combat import Combat
+from interfaces.GameObject import GameObject
+from interfaces.NPCObject import NPCObject
+from interfaces.State import State
+
 from OURODebug import *
 
 class TestEntity(Ouroboros.Entity,
-				 #Ability,
-				 #AbilityBox,
+				 NPCObject,
+				 State,
+				 Ability,
+				 AbilityBox,
 				 Aura,
-				 AuraBox):
+				 AuraBox,
+				 Combat,
+				 GameObject,
+				 ):
 	"""
 	The cell part of the Scene
 	A space on the cell represents an abstract space
 	The scene is an entity representation of the abstract space for easy control
 	"""
 	def __init__(self):
-		#AbilityBox.__init__(self)
+		NPCObject.__init__(self)
+		State.__init__(self)
+		AbilityBox.__init__(self)
 		AuraBox.__init__(self)
+		Combat.__init__(self)
+		GameObject.__init__(self)
 
 		self.onEnable()
-		pass
 
 	#--------------------------------------------------------------------------------------------
 	#                              Callbacks
@@ -37,10 +50,11 @@ class TestEntity(Ouroboros.Entity,
 		if ServerConstantsDefine.TIMER_TYPE_HEARTBEAT == userArg:
 			self.onHeardTimer()
 
-		#GameObject.onTimer(self, tid, userArg)
 		if ServerConstantsDefine.TIMER_TYPE_AURA_TICK == userArg:
-			#Aura.onTimer(tid, userArg)
 			AuraBox.onTimer(self, tid, userArg)
+
+		if ServerConstantsDefine.TIMER_TYPE_ABILITY_TICK == userArg:
+			AbilityBox.onTimer(self, tid, userArg)
 
 	def onEnter(self, entityCall):
 		"""
@@ -73,12 +87,12 @@ class TestEntity(Ouroboros.Entity,
 
 
 	def onEnable(self):
-		DEBUG_MSG("enabled!")
 		self.heartbeatTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_HEARTBEAT, ServerConstantsDefine.TIMER_TYPE_HEARTBEAT)
-		self.buffTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_AURA, ServerConstantsDefine.TIMER_TYPE_AURA_TICK)
+		self.abilityTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_ABILITY, ServerConstantsDefine.TIMER_TYPE_ABILITY_TICK)
+		self.auraTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_AURA, ServerConstantsDefine.TIMER_TYPE_AURA_TICK)
 
 	def onDisable(self):
-		DEBUG_MSG("disabled!")
+		pass
 
 	def onHeardTimer(self):
 		"""

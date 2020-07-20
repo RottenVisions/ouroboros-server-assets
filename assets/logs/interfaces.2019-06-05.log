@@ -1,2 +1,0 @@
-  WARN root [2019-06-05 19:17:56,667] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\server\serverapp.cpp:252: Profile callScriptTimers took 0.16 seconds
-  WARN root [2019-06-05 19:18:14,186] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 19.68 seconds

@@ -2,7 +2,7 @@
 import Ouroboros
 from OURODebug import *
 
-import Helper
+import Tools
 
 class AuraObject:
 	def __init__(self):
@@ -10,6 +10,7 @@ class AuraObject:
 		self._name = ''
 		self._level = 0
 		self._icon = ''
+		self._description = ''
 		self._school = ''
 		self._type = ''
 		self._amount = 0
@@ -20,6 +21,7 @@ class AuraObject:
 
 		self._isActive = False
 		self._source = None
+		self._target = None
 		self._stacks = 0
 
 
@@ -32,6 +34,7 @@ class AuraObject:
 		self._name = dictDatas.get('name', '')
 		self._level = dictDatas.get('level', 0)
 		self._icon = dictDatas.get('icon', '')
+		self._description = dictDatas.get('description', '')
 		self._amount = dictDatas.get('amount', 0)
 		self._type = dictDatas.get('type', '')
 		self._school = dictDatas.get('school', '')
@@ -51,6 +54,9 @@ class AuraObject:
 
 	def getIcon(self):
 		return self._icon
+
+	def getDescription(self):
+		return self._description
 
 	def getType(self):
 		return self._type
@@ -79,6 +85,12 @@ class AuraObject:
 	def getSource(self):
 		return self._source
 
+	def setTarget(self, value):
+		self._target = value
+
+	def getTarget(self):
+		return self._target
+
 	def getStacks(self):
 		return self._stacks
 
@@ -86,7 +98,7 @@ class AuraObject:
 		return self._maxStacks
 
 	def getStackable(self):
-		return Helper.stringToBool(self._stackable)
+		return Tools.stringToBool(self._stackable)
 
 	def addStack(self):
 		self._stacks += 1

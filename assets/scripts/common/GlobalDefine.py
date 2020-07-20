@@ -61,6 +61,18 @@ FORBID_ACTIONS = {
 for f in FORBID_ALL: FORBID_ACTIONS[ENTITY_STATE_UNKNOWN] |= f
 
 # ------------------------------------------------------------------------------
+# TYPES
+# ------------------------------------------------------------------------------
+
+SOURCE_TYPE_AURA = 0
+SOURCE_TYPE_ABILITY = 1
+SOURCE_TYPE_OTHER = 2
+
+SCHOOL_UNKNOWN = -1
+SCHOOL_SHADOW = 0
+SCHOOL_HOLY = 1
+
+# ------------------------------------------------------------------------------
 # Define conversation related
 # ------------------------------------------------------------------------------
 DIALOG_TYPE_NORMAL			= 0 # Ordinary conversation
@@ -80,6 +92,12 @@ ABILITY_OBJECT_TYPE_POSITION	= 2
 # Aura object category
 AURA_OBJECT_TYPE_UNKNOWN	= 0
 AURA_OBJECT_TYPE_ENTITY		= 1
+
+AURA_UPDATE_ADDED			= 0
+AURA_UPDATE_REMOVED			= 1
+AURA_UPDATE_REFRESHED		= 2
+AURA_UPDATE_FINISHED		= 3
+AURA_UPDATE_STACKED			= 4
 
 # ------------------------------------------------------------------------------
 # Entity Motion State

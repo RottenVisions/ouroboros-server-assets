@@ -17,7 +17,7 @@ class Motion:
 	def __init__(self):
 		self.nextMoveTime = int(time.time() + random.randint(5, 15))
 		# Default walk speed (declared in .def file)
-		self.moveSpeed = self.getDatas()["moveSpeed"]
+		self.moveSpeed = self.getDatas()['moveSpeed']
 		entityData = data_entities.data.get(self.uid)
 		# Entity walk speed
 		if entityData != None:

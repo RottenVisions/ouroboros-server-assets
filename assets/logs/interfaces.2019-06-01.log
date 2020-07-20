@@ -1,4 +1,0 @@
-S_INFO root [2019-06-01 01:41:11,010] - onRequestAccountLogin: registerName=test13
-S_INFO root [2019-06-01 01:43:10,333] - onRequestAccountLogin: registerName=killingbosser1
-S_INFO root [2019-06-01 01:43:33,864] - onRequestAccountLogin: registerName=test13
-  WARN root [2019-06-01 17:09:56,322] - d:\scratch\___kbe__\ouroboros-2.5.0\ouro\src\lib\network\event_dispatcher.cpp:153: Profile callSystemTimers took 5.75 seconds

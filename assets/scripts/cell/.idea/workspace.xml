@@ -17,12 +17,13 @@
   <component name="ProjectId" id="1YeGM71d2mVNjBopr4tJJPM0I5f" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/auras/base" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../tips/cellapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -31,6 +32,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -42,18 +44,6 @@
       <recent name="C:\Users\Black\Ouroboros\assets\scripts\cell\abilities" />
       <recent name="C:\Users\Black\Ouroboros\assets\scripts\cell\interfaces" />
     </key>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -89,25 +79,43 @@
       <workItem from="1586793842619" duration="2739000" />
       <workItem from="1587441946903" duration="1198000" />
       <workItem from="1589006174056" duration="73130000" />
+      <workItem from="1589528074946" duration="10973000" />
+      <workItem from="1591145543807" duration="22962000" />
+      <workItem from="1591655411223" duration="1134000" />
+      <workItem from="1591960293033" duration="47882000" />
+      <workItem from="1592289062630" duration="5581000" />
+      <workItem from="1593506917249" duration="2343000" />
+      <workItem from="1593603774181" duration="24850000" />
+      <workItem from="1594969237464" duration="38016000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="965" y="389" key="FileChooserDialogImpl" timestamp="1589189235972">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="1206" y="490" key="FileChooserDialogImpl" timestamp="1591655732611">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="965" y="389" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1589189235972" />
+    <state x="965" y="389" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1591147881811" />
+    <state x="1206" y="490" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1591655732611" />
+    <state x="782" y="345" key="SettingsEditor" timestamp="1591655742830">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="782" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1591655742830" />
     <state x="827" y="249" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589190352999">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="827" y="249" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1589190352999" />
-    <state x="989" y="322" width="740" height="606" key="find.popup" timestamp="1589275361364">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="462" y="474" width="925" height="849" key="find.popup" timestamp="1595160951345">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="989" y="322" width="740" height="606" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1589275361364" />
+    <state x="989" y="322" width="740" height="606" key="find.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1591390755720" />
+    <state x="462" y="474" width="925" height="849" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1595160951345" />
+    <state x="369" y="571" width="672" height="678" key="search.everywhere.popup" timestamp="1592144871895">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="369" y="571" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1592144871895" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -116,6 +124,26 @@
           <url>file://$PROJECT_DIR$/../common/abilitybases/AbilityObject.py</url>
           <line>1</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interfaces/Aura.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interfaces/AuraBox.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/auras/HarmfulAura.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/auras/HelpfulAura.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -33,6 +33,19 @@ class Combat(CombatProperties):
 		self.level += lv
 		self.onLevelChanged(lv)
 
+	def setTarget(self, targetID):
+		# Do not target ourselves
+		if targetID == self.id:
+			targetID = 0
+
+		mainTargetEntity = Ouroboros.entities.get(targetID)
+
+		if mainTargetEntity:
+			self.mainTarget = targetID
+			self.mainTargetEntity = mainTargetEntity
+			return True
+		return False
+
 	def isDead(self):
 		"""
 		"""
@@ -57,7 +70,7 @@ class Combat(CombatProperties):
 		self.changeState(GlobalDefine.ENTITY_STATE_DEAD)
 		self.onAfterDie(killerID)
 		if self.isEnemy():
-			if random.randint(0, 10) == 1:#The probability of falling is 10
+			if random.randint(0, 10) == 1: #The probability of falling is 10
 				self.dropNotify(random.randint(1, 11),1)
 			killer.exp += random.randint(1, 10)
 			if killer.exp > killer.level*5+20:
@@ -70,25 +83,41 @@ class Combat(CombatProperties):
 		"""
 		return True
 
-	def recvDamage(self, attackerID, abilityID, damageType, damage):
+	def receiveDamage(self, targetID, sourceID, origin, typeID, icon, school, amount):
 		"""
 		defined.
 		"""
 		if self.isDestroyed or self.isDead():
 			return
 
-		self.addEnemy(attackerID, damage)
+		self.addEnemy(sourceID, amount)
 
-		DEBUG_MSG("%s::recvDamage: %i attackerID=%i, abilityID=%i, damageType=%i, damage=%i" % \
-			(self.getScriptName(), self.id, attackerID, abilityID, damageType, damage))
+		DEBUG_MSG("%s::receiveDamage: %i sourceID=%i, origin=%i, typeID=%i, icon=%s, school=%s, amount=%i" % \
+			(self.getScriptName(), self.id, sourceID, origin, typeID, icon, school, amount))
 
-		if self.HP <= damage:
-			if self.canDie(attackerID, abilityID, damageType, damage):
-				self.die(attackerID)
+		if self.HP <= amount:
+			if self.canDie(sourceID, typeID, school, amount):
+				self.die(sourceID)
 		else:
-			self.setHP(self.HP - damage)
+			self.setHP(self.HP - amount)
 
-		self.allClients.recvDamage(attackerID, abilityID, damageType, damage)
+		if self.allClients:
+			self.allClients.receiveDamage(targetID, sourceID, origin, typeID, icon, school, amount)
+
+	def receiveHealing(self, targetID, sourceID, origin, typeID, icon, school, amount):
+		"""
+		defined.
+		"""
+		if self.isDestroyed or self.isDead():
+			return
+
+		DEBUG_MSG("%s::receiveHealing: %i sourceID=%i, origin=%i, typeID=%i, icon=%s, school=%s, amount=%i" % \
+				  (self.getScriptName(), self.id, sourceID, origin, typeID, icon, school, amount))
+
+		self.addHP(amount)
+
+		if self.allClients:
+			self.allClients.receiveHealing(targetID, sourceID, origin, typeID, icon, school, amount)
 
 	def addEnemy(self, entityID, enmity):
 		"""
@@ -154,16 +183,16 @@ class Combat(CombatProperties):
 		"""
 		virtual method.
 		"""
-		self.exp = 0
+		self.experience = 0
 		if self.roleTypeCell == 1:#warrior
 			self.strength = data_avatar_initial.datas[self.roleTypeCell]["strength"] + 1*self.level
-			self.dexterity = data_avatar_initial.datas[self.roleTypeCell]["dexterity"] + 2*self.level
-			self.stamina = data_avatar_initial.datas[self.roleTypeCell]["stamina"] + 4*self.level
+			self.endurance = data_avatar_initial.datas[self.roleTypeCell]["endurance"] + 2*self.level
+			self.will = data_avatar_initial.datas[self.roleTypeCell]["will"] + 4*self.level
 
 		else:				#Mage
 			self.strength = data_avatar_initial.datas[self.roleTypeCell]["strength"] + 2*self.level
-			self.dexterity = data_avatar_initial.datas[self.roleTypeCell]["dexterity"] + 1*self.level
-			self.stamina = data_avatar_initial.datas[self.roleTypeCell]["stamina"] + 1*self.level
+			self.endurance = data_avatar_initial.datas[self.roleTypeCell]["endurance"] + 1*self.level
+			self.will = data_avatar_initial.datas[self.roleTypeCell]["will"] + 1*self.level
 		self.base.updateProperties()
 		pass
 

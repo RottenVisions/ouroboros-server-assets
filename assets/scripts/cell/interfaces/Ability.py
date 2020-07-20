@@ -8,21 +8,6 @@ import abilitybases.AbilityCastObject as AbilityCastObject
 
 class Ability:
 	def __init__(self):
-		#self.addTimer(1,1,ServerConstantsDefine.TIMER_TYPE_AURA_TICK)
-		pass
-
-	def addAura(self, buffData):
-		"""
-		defined method.
-		Add buff
-		"""
-		pass
-
-	def removeAura(self, buffData):
-		"""
-		defined method.
-		Delete buff
-		"""
 		pass
 
 	def casting(self, ability, abilityCastObject):
@@ -45,8 +30,8 @@ class Ability:
 
 		target = Ouroboros.entities.get(targetID)
 
-		if target.isNPC():
-			return
+		#if target.isNPC():
+			#return
 
 		if target is None:
 			ERROR_MSG("Ability::abilityTarget(%i):targetID=%i not found" % (self.id, targetID))
@@ -71,13 +56,5 @@ class Ability:
 		Ouroboros method.
 		Engine callback timer trigger
 		"""
-		#DEBUG_MSG("%s::onTimer: %i, tid:%i, arg:%i" % (self.getScriptName(), self.id, tid, userArg))
-		if ServerConstantsDefine.TIMER_TYPE_AURA_TICK == userArg:
-			self.onBuffTick()
+		pass
 
-	def onBuffTick(self):
-		"""
-		Buff tick
-		Here you can poll all the buffs and execute the buff that needs to be executed.
-		"""
-		DEBUG_MSG("onBuffTick")

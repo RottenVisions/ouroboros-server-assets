@@ -1,9 +1,15 @@
 # -*- coding: utf-8 -*-
 import Ouroboros
 import GlobalDefine
+import ServerConstantsDefine
+import Helper
+
 import data_entities
+import data_avatar_initial
+
 from OURODebug import *
 from interfaces.GameObject import GameObject
+from interfaces.AnimationState import AnimationState
 from interfaces.Combat import Combat
 from interfaces.Ability import Ability
 from interfaces.Teleport import Teleport
@@ -11,12 +17,17 @@ from interfaces.Teleport import Teleport
 from interfaces.State import State
 from interfaces.Motion import Motion
 from interfaces.AbilityBox import AbilityBox
+from interfaces.Aura import Aura
+from interfaces.AuraBox import AuraBox
 
 class Avatar(Ouroboros.Entity,
 				GameObject,
 				State,
+				AnimationState,
 				Motion,
 			 	AbilityBox,
+			 	Aura,
+			 	AuraBox,
 				Combat,
 			 	Ability,
 				Teleport):
@@ -28,25 +39,34 @@ class Avatar(Ouroboros.Entity,
 		Ouroboros.Entity.__init__(self)
 		GameObject.__init__(self)
 		State.__init__(self)
+		AnimationState.__init__(self)
 		Motion.__init__(self)
 		AbilityBox.__init__(self)
+		AuraBox.__init__(self)
 		Ability.__init__(self)
 		Teleport.__init__(self)
-		#Dialog.__init__(self)
-		self.resetProperties()
 		Combat.__init__(self)
+
+		# Dialog.__init__(self)
 
 		# Set the fastest speed allowed per second, the speed will be pulled back
 		self.topSpeed = self.moveSpeed + 15.0
 		# self.topSpeedY = 10.0
 
-		self.lastPositionSyncTime = 0.0
+		self.setDefaultData()
+		self.resetProperties()
+		self.updateBaseProperties()
+		self.resetEntity()
+		self.onEnable()
 
 	def isPlayer(self):
 		"""
 		Virtual method.
 		"""
 		return True
+
+	def getPlayerName(self):
+		return self.playerName
 
 	def dropNotify(self, itemId, UUid, itemCount):
 		'''data = data_entities.data.get(40001003)
@@ -70,36 +90,49 @@ class Avatar(Ouroboros.Entity,
 
 		self.client.dropItem_re(itemId, UUid)'''
 
+	def setDefaultData(self):
+		roleType = Helper.getAvatarGlobalProperty(self.id, 'roleType')
+		self.HP_Max = int(data_avatar_initial.data[roleType]["hpMax"])
+		self.EG_Max = int(data_avatar_initial.data[roleType]["egMax"])
+
 	def resetProperties(self):
-		self.attack_Max = self.strength * 2
-		self.attack_Min = self.strength * 1
-		self.defence = int(self.dexterity / 4)
-		self.HP_Max = self.stamina * 10
+		pass
+		#self.attack_Max = self.strength * 2
+		#self.attack_Min = self.strength * 1
+		#self.defence = int(self.will / 4)
+		#self.HP_Max = self.endurance * 10
 
 	def equipNotify(self, itemId):
 		self.equipWeapon = itemId
 
-	def updatePositionSynced(self, entityId, position, yaw, syncTime):
-		senderEntity = Ouroboros.entities[entityId]
+	def updateBaseProperties(self):
+		self.client.onUpdateBaseProperties(self.HP, self.HP_Max, self.EG, self.EG_Max)
 
-		self.position = position
-		self.yaw = yaw
-		self.syncTime = syncTime
+	# --------------------------------------------------------------------------------------------
+	#                              Custom
+	# --------------------------------------------------------------------------------------------
 
-		# Call the sender's client method onFirstEntityHello
-		senderEntity.client.onUpdatePositionSynced(entityId, position, yaw, syncTime)
-		#self.allClients.client.
+	def onEnable(self):
+		self.heartbeatTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_HEARTBEAT,
+											ServerConstantsDefine.TIMER_TYPE_HEARTBEAT)
+		self.abilityTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_ABILITY,
+										  ServerConstantsDefine.TIMER_TYPE_ABILITY_TICK)
+		self.auraTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_AURA,
+									   ServerConstantsDefine.TIMER_TYPE_AURA_TICK)
 
-		DEBUG_MSG("Avatar::updatePositionSynced: ID: %i | Pos: (%d, %d, %d) | Dir: %d | SyncTime: %d" % (entityId, position.x, position.y, position.z, yaw, syncTime))
+	def onDisable(self):
+		pass
 
-	def updateLastSyncTime(self, entityId, updateTime):
-		self.lastPositionSyncTime = updateTime
-		#DEBUG_MSG("Avatar::updateLastSyncTime: ID: %i | SyncTime: %d" % (entityId, updateTime))
+	def onHeardTimer(self):
+		"""
+		Entity heartbeat
+		"""
+		if self.isDead():
+			self.resetEntity()
 
-	def updateEG(self, entityId, newValue):
-		self.EG = newValue
-		DEBUG_MSG("Avatar::updateEG: ID: %i | Value: %d" % (entityId, newValue))
-
+	def resetEntity(self):
+		if len(self.auras) > 0:
+			self.removeAllAuras()
 	# --------------------------------------------------------------------------------------------
 	#                              Callbacks
 	# --------------------------------------------------------------------------------------------
@@ -110,7 +143,16 @@ class Avatar(Ouroboros.Entity,
 		"""
 		# DEBUG_MSG("%s::onTimer: %i, tid:%i, arg:%i" % (self.getScriptName(), self.id, tid, userArg))
 		GameObject.onTimer(self, tid, userArg)
-		Ability.onTimer(self, tid, userArg)
+		#Ability.onTimer(self, tid, userArg)
+
+		if ServerConstantsDefine.TIMER_TYPE_HEARTBEAT == userArg:
+			self.onHeardTimer()
+
+		if ServerConstantsDefine.TIMER_TYPE_AURA_TICK == userArg:
+			AuraBox.onTimer(self, tid, userArg)
+
+		if ServerConstantsDefine.TIMER_TYPE_ABILITY_TICK == userArg:
+			AbilityBox.onTimer(self, tid, userArg)
 
 	def onGetWitness(self):
 		"""
@@ -135,7 +177,20 @@ class Avatar(Ouroboros.Entity,
 		Teleport.onDestroy(self)
 		Combat.onDestroy(self)
 
-	def relive(self, exposed, type):
+	# Requests
+	def reqLevel(self):
+		if self.client:
+			self.client.onReqLevel(self.level)
+
+	def reqAbilities(self):
+		if self.client:
+			self.client.onReqAbilities(self.abilities)
+
+	def reqAbilityPoints(self):
+		if self.client:
+			self.client.onReqAbilityPoints(self.abilityPoints)
+
+	def revive(self, exposed, type):
 		"""
 		defined.
 		resurrection
@@ -143,13 +198,14 @@ class Avatar(Ouroboros.Entity,
 		if exposed != self.id:
 			return
 
-		DEBUG_MSG("Avatar::relive: %i, type=%i." % (self.id, type))
+		DEBUG_MSG("Avatar::revive: %i, type=%i." % (self.id, type))
 
 		# Return to the city
 		if type == 0:
 			pass
 
 		self.fullPower()
+		self.resetEntity()
 		self.changeState(GlobalDefine.ENTITY_STATE_FREE)
 
 	def onAddEnemy(self, entityID):
