@@ -3,6 +3,7 @@ import Ouroboros
 import random
 import GlobalConst
 import GlobalDefine
+import ServerConstantsDefine
 from OURODebug import *
 from abilitybases.AbilityObject import AbilityObject
 from abilitybases.AbilityCastObject import AbilityCastObject
@@ -10,6 +11,10 @@ from abilitybases.AbilityCastObject import AbilityCastObject
 class ActiveAbility(AbilityObject):
 	def __init__(self):
 		AbilityObject.__init__(self)
+		self.castingAbilityTimer = -1
+		self.castingAbilityDelay = -1
+		self.scObject = None
+		self.castingCaster = None
 
 	def loadFromDict(self, dictDatas):
 		"""
@@ -69,6 +74,34 @@ class ActiveAbility(AbilityObject):
 	def getMaxReceiverCount(self):
 		return self.maxReceiverCount
 
+	def onTimerTick(self, tid, userArg, superScript):
+		if not self.getQueued():
+			#self.castingAbilityTimer = 0
+			return
+
+		if self.castingAbilityTimer >= self.castingAbilityDelay:
+			self.onFinished()
+			print('end the damn cast')
+
+		self.castingAbilityTimer += ServerConstantsDefine.TICK_TYPE_ABILITY
+		print(self.castingAbilityTimer)
+
+	def queue(self, caster, abilityCastObject, delay):
+		caster.queueAbility(self)
+		self.setQueued(True)
+		self.castingCaster = caster
+		self.scObject = abilityCastObject
+		self.castingAbilityDelay = delay
+		self.castingAbilityTimer = 0
+
+	def dequeue(self):
+		self.castingCaster.dequeueAbility(self)
+		self.setQueued(False)
+		self.castingCaster = None
+		self.scObject = None
+		self.castingAbilityDelay = -1
+		self.castingAbilityTimer = -1
+
 	def canUse(self, caster, abilityCastObject):
 		"""
 		virtual method.
@@ -97,12 +130,13 @@ class ActiveAbility(AbilityObject):
 		Casting abilities
 		"""
 		delay = self.distToDelay(caster, abilityCastObject)
-		#INFO_MSG("%i cast ability[%i] delay=%s." % (caster.id, self.id, delay))
+		INFO_MSG("%i cast ability[%i] delay=%s." % (caster.id, self.getID(), delay))
 		if delay <= 0.1:
 			self.onArrived(caster, abilityCastObject)
 		else:
-			#INFO_MSG("%i add castAbility:%i. delay=%s." % (caster.id, self.id, delay))
-			caster.addCastAbility(self, abilityCastObject, delay)
+			INFO_MSG("%i add castAbility:%i. delay=%s." % (caster.id, self.getID(), delay))
+			#caster.addCastAbility(self, abilityCastObject, delay)
+			self.queue(caster, abilityCastObject, delay)
 
 		self.onAbilityCastOver_(caster, abilityCastObject)
 
@@ -117,6 +151,11 @@ class ActiveAbility(AbilityObject):
 		Reached the goal
 		"""
 		self.receive(caster, abilityCastObject.getObject())
+
+	def onFinished(self):
+		self.onArrived(self.castingCaster, self.scObject)
+		self.dequeue()
+		print('finished')
 
 	def receive(self, caster, receiver):
 		"""

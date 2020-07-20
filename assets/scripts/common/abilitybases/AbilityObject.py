@@ -12,6 +12,8 @@ class AbilityObject:
 		self._apCost = -1
 		self._school = ''
 
+		self._queued = False
+
 	def loadFromDict(self, dictDatas):
 		"""
 		virtual method.
@@ -41,3 +43,9 @@ class AbilityObject:
 
 	def getSchool(self):
 		return self._school
+
+	def getQueued(self):
+		return self._queued
+
+	def setQueued(self, value):
+		self._queued = value

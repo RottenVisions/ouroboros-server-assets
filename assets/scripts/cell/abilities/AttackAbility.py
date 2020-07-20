@@ -9,6 +9,13 @@ class AttackAbility(ActiveAbility):
 	def __init__(self):
 		ActiveAbility.__init__(self)
 
+	def onTimer(self, tid, userArg):
+		"""
+		Ouroboros method.
+		Engine callback timer trigger
+		"""
+		ActiveAbility.onTimerTick(self, tid, userArg, self)
+
 	def canUse(self, caster, scObject):
 		"""
 		virtual method.

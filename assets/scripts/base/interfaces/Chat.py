@@ -5,6 +5,7 @@ import os.path
 
 import GlobalConst
 import GlobalEnums
+import Tools
 import Helper
 
 from os import path
@@ -53,8 +54,8 @@ class Chat:
 		createdMessageObj = {
 			'sender': sender,
 			'message': message,
-			'date': Helper.getDate(),
-			'time': Helper.getTime()
+			'date': Tools.getDate(),
+			'time': Tools.getTime()
 		}
 		if channelType == GlobalEnums.ChatChannel.CHAT_CHANNEL_GLOBAL:
 			index = len(self.chatChannelGlobal) + 1 # so it is not a zwro index
@@ -66,8 +67,8 @@ class Chat:
 		createdMessageObj = {
 			'sender': sender,
 			'message': message,
-			'date': Helper.getDate(),
-			'time': Helper.getTime()
+			'date': Tools.getDate(),
+			'time': Tools.getTime()
 		}
 		if channelType == GlobalEnums.ChatChannel.CHAT_CHANNEL_GLOBAL:
 			self.chatChannelGlobal.update(createdMessageObj)  # use this only for existing values
@@ -88,12 +89,13 @@ class Chat:
 		self.writeChannelToFile(dictToWrite, channelType)
 
 	def writeChannelToFile(self, dict, channelType):
-		fileName = "%s.%s.%s" % (str(channelType.name), Helper.getDateDots(), Helper.getTimeDots())
+		# Files current working directory is in assets folder
+		fileName = "%s.%s.%s" % (str(channelType.name), Tools.getDateDots(), Tools.getTimeDots())
 		# This is a testing check and should not happen in the real world, basically this will 
 		# track many messages coming in at once and overwriting the last wrote file
 		dupeIndex = 0
-		while path.exists('../../data/ChatLogs/%s.txt' % fileName):
+		while path.exists('scripts/data/ChatLogs/%s.txt' % fileName):
 			dupeIndex += 1
-			fileName = "%s.%s.%s.%s" % (str(channelType.name), Helper.getDateDots(), Helper.getTimeDots(), dupeIndex)
-		with open('ChatLogs/%s.txt' % fileName, 'w') as file:
+			fileName = "%s.%s.%s.%s" % (str(channelType.name), Tools.getDateDots(), Tools.getTimeDots(), dupeIndex)
+		with open('scripts/data/ChatLogs/%s.txt' % fileName, 'w') as file:
 			file.write(json.dumps(dict, indent=2))  # use `json.loads` to do the reverse, indent adds to new line

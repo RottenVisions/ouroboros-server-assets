@@ -7,10 +7,36 @@ from OURODebug import *
 
 class AbilityBox:
 	def __init__(self):
-		pass
+		self.queuedAbilities = []
+		self.queuedAbilitiesData = []
+		self.castingAbility = None
+		self.castingAbilityObject = None
+		self.castingAbilityDelay = -1
+		self.castingAbilityTimer = -1
+		print('hahaha', self.id)
 
 	def onTimer(self, tid, userArg):
-		pass
+		#Run one timer for all abilities this entity has queued
+		for ability in self.queuedAbilitiesData:
+			#If an ability is active and bound, run its timer
+			if ability.getQueued():
+				ability.onTimer(tid, userArg)
+			#Ability has expired, remove it
+			else:
+				self.dequeueAbility(ability)
+
+	def queueAbility(self, ability):
+		if not ability.getID() in self.queuedAbilities:
+			self.queuedAbilities.append(ability.getID())
+		if not ability in self.queuedAbilitiesData:
+			self.queuedAbilitiesData.append(ability)
+
+	def dequeueAbility(self, ability):
+		if ability.getID() in self.queuedAbilities:
+			self.queuedAbilities.remove(ability.getID())
+		if ability in self.queuedAbilitiesData:
+			self.queuedAbilitiesData.remove(ability)
+			del ability
 
 	def hasAbility(self, abilityID):
 		"""
@@ -65,6 +91,22 @@ class AbilityBox:
 			return True
 		return False
 
+	def addCastAbility(self, ability, abilityCastObject, delay):
+		self.castingAbility = ability
+		self.castingAbilityObject = abilityCastObject
+		self.castingAbilityDelay = delay
+		self.castingAbilityTimer = 0
+		print('added ability', ability, self.castingAbilityDelay)
+		print('adding with', self.id)
+
+	def onCastCastingAbility(self):
+		self.castingAbility.onArrived(self, self.castingAbilityObject)
+		self.castingAbility = None
+		self.castingAbilityObject = None
+		self.castingAbilityDelay = -1
+		self.castingAbilityTimer = -1
+		print('fire away!')
+
 	def purchaseAbility(self, abilityID):
 		cost = -1
 		# Get the cost of the ability
@@ -87,3 +129,4 @@ class AbilityBox:
 			return
 
 		self.abilityTarget(abilityID, targetID)
+		print('starting with', self.id)
