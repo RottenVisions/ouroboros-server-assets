@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import Ouroboros
 import random
+import time
 import GlobalConst
 import GlobalDefine
 import ServerConstantsDefine
@@ -11,8 +12,12 @@ from abilitybases.AbilityCastObject import AbilityCastObject
 class ActiveAbility(AbilityObject):
 	def __init__(self):
 		AbilityObject.__init__(self)
-		self.castingAbilityTimer = -1
-		self.castingAbilityDelay = -1
+		self.castingTimer = -1
+
+		self.travelingTimer = -1
+
+		self.cooldownTimer = -1
+
 		self.scObject = None
 		self.castingCaster = None
 
@@ -23,94 +28,148 @@ class ActiveAbility(AbilityObject):
 		"""
 		AbilityObject.loadFromDict(self, dictDatas)
 
-		# Ability speed
-		self.speed = dictDatas.get('speed', 0)
-
-		# Casting time
-		self.castingTime = dictDatas.get("castingTime", 0.0)
-
-		# Minimum and maximum range of application
-		self.rangeMin = dictDatas.get('rangeMin', 0)
-		self.rangeMax = dictDatas.get('rangeMax', 2)
-		self.__castMaxRange = dictDatas.get("rangeMaxAdd", 10.0)
-
-		# Casting turn
-		self.__isRotate	= dictDatas.get("isRotate", True)
-
-		# Maximum number of operations
-		self.maxReceiveCount = dictDatas.get("maxReceiverCount", 999)
-
-		# cooldown
-		self.limitCDs = dictDatas.get("limitCDs", [1])
-		self.springCDs = dictDatas.get("springCDs", [])
-
-	def getRangeMin(self, caster):
-		"""
-		virtual method.
-		"""
-		return self.rangeMin
-
-	def getRangeMax(self, caster):
-		"""
-		virtual method.
-		"""
-		return self.rangeMax
-
-	def getIntonateTime(self, caster):
-		"""
-		virtual method.
-		"""
-		return self.castingTime
-
-	def getCastMaxRange(self, caster):
-		return self.getRangeMax(caster) + self.__castMaxRange
-
-	def getSpeed(self):
-		return self.speed
-
-	def isRotate(self):
-		return self.__isRotate
-
-	def getMaxReceiverCount(self):
-		return self.maxReceiverCount
-
 	def onTimerTick(self, tid, userArg, superScript):
-		if not self.getQueued():
-			#self.castingAbilityTimer = 0
-			return
+		# Casting
+		if self.getCasting() and self.hasCastTime() and time.time() >= self.getCastingFinishedTime():
+			if self.castingTimer >= self.getCastTime():
+				self.finishCasting()
+		# Traveling
+		if self.getTraveling() and self.hasTravelTime() and time.time() >= self.getTravelingFinishedTime():
+			if self.travelingTimer >= self.getTravelTime():
+				self.finishTraveling()
+		# Cooldown
+		if self.getOnCooldown() and time.time() >= self.getCooldownFinishedTime():
+			if self.cooldownTimer >= self.getCooldown():
+				self.finishCooldown()
 
-		if self.castingAbilityTimer >= self.castingAbilityDelay:
+		# Timers
+
+		# Casting
+		if self.getCasting():
+			self.castingTimer += ServerConstantsDefine.TICK_TYPE_ABILITY
+		# Traveling
+		if self.getTraveling():
+			self.travelingTimer += ServerConstantsDefine.TICK_TYPE_ABILITY
+		# Cooldown
+		if self.getOnCooldown():
+			self.cooldownTimer += ServerConstantsDefine.TICK_TYPE_ABILITY
+
+	def startCasting(self):
+		"""
+		This ability must be delayed by either cast time or distance it must travel
+		:param caster: Who cast the ability
+		:param abilityCastObject: Ability object
+		:param delay: Total delay to wait
+		:return:
+		"""
+		self.setCasting(True)
+		self.setCastingFinishedTime(time.time() + self.getCastTime())
+		self.castingTimer = 0
+		self.castingCaster.addAbilityToCasting(self)
+		self.initiateClientsCasting(self.castingCaster)
+
+	def finishCasting(self):
+		"""
+		Remove the ability from the queue, as it is now over
+		:return:
+		"""
+		self.setCasting(False)
+		self.setCastingFinishedTime(-1)
+		self.castingTimer = -1
+		self.castingCaster.removeAbilityFromCasting(self)
+		# Switch to next phase possibilities
+		# Recalculate things too before switching to next phase if applicable
+		self.calculateTravelTime()
+		if self.hasTravelTime():
+			self.startTraveling()
+		elif self.hasCooldown() and not self.hasTravelTime():
+			self.startCooldown()
+		else:
 			self.onFinished()
-			print('end the damn cast')
 
-		self.castingAbilityTimer += ServerConstantsDefine.TICK_TYPE_ABILITY
-		print(self.castingAbilityTimer)
+	def startTraveling(self):
+		#Determine if we still need to travel at this stage
+		self.calculateTravelTime()
+		if not self.hasTravelTime():
+			if self.hasCooldown():
+				self.startCooldown()
+				return
 
-	def queue(self, caster, abilityCastObject, delay):
-		caster.queueAbility(self)
-		self.setQueued(True)
+		self.setTraveling(True)
+		self.setTravelingFinishedTime(time.time() + self.getTravelTime())
+		self.travelingTimer = 0
+		self.castingCaster.addAbilityToTravelers(self)
+		self.initiateClientsTravel(self.castingCaster)
+
+	def finishTraveling(self):
+		# Make contact with target if it hasn't been done yet
+		# This will already check for contact before executing so double hits will not occur
+		self.onContact()
+		self.setTraveling(False)
+		self.setTravelTime(-1)
+		self.setTravelingFinishedTime(-1)
+		self.travelingTimer = -1
+		self.castingCaster.removeAbilityFromTravelers(self)
+		# Switch to next phase possibilities
+		if self.hasCooldown():
+			self.startCooldown()
+
+	def startCooldown(self):
+		self.setOnCooldown(True)
+		self.setCooldownFinishedTime(time.time() + self.getCooldown())
+		self.cooldownTimer = 0
+		self.castingCaster.addAbilityToCooldowns(self)
+		self.initiateClientCooldown(self.castingCaster, True)
+
+	def finishCooldown(self):
+		self.setOnCooldown(False)
+		self.setCooldownFinishedTime(-1)
+		self.cooldownTimer = -1
+		self.castingCaster.removeAbilityFromCooldowns(self)
+		self.initiateClientCooldown(self.castingCaster, False)
+		self.onFinished()
+
+	def setup(self, caster, abilityCastObject):
 		self.castingCaster = caster
 		self.scObject = abilityCastObject
-		self.castingAbilityDelay = delay
-		self.castingAbilityTimer = 0
 
-	def dequeue(self):
-		self.castingCaster.dequeueAbility(self)
-		self.setQueued(False)
+	def cleanup(self):
 		self.castingCaster = None
 		self.scObject = None
-		self.castingAbilityDelay = -1
-		self.castingAbilityTimer = -1
+		self.setTravelTime(-1)
+		self.setContacted(False)
+		# This must happen last as it will cause AbilityBox to remove this Ability as active
+		self.setActive(False)
 
-	def canUse(self, caster, abilityCastObject):
+	def canUse(self, caster, target, abilityCastObject):
 		"""
 		virtual method.
 		Can use
 		@param caster: Entity with Ability
 		@param receiver: Entity with Ability
 		"""
+		# Cost
+		if self.hasCost():
+			if self.getCostType() == GlobalDefine.ABILITY_COST_TYPE_HP:
+				if caster.HP < self.getCost():
+					return GlobalConst.GC_ABILITY_COST_INSUFFICIENT_HP
+				elif caster.EG < self.getCost():
+					return GlobalConst.GC_ABILITY_COST_INSUFFICIENT_EG
+
+		# Invalid entity target - figure out better way to handle this
+		if abilityCastObject.getObject().state is None:
+			return GlobalConst.GC_ABILITY_INVALID_TARGET_ENTITY
+		# Dead
 		if abilityCastObject.getObject().state == GlobalDefine.ENTITY_STATE_DEAD:
 			return GlobalConst.GC_ABILITY_ENTITY_DEAD
+
+		# Max Range
+		if caster.position.distTo(target.position) > self.getRangeMax():
+			return GlobalConst.GC_ABILITY_OUT_OF_MAX_RANGE
+
+		# Min Range
+		if caster.position.distTo(target.position) < self.getRangeMin():
+			return GlobalConst.GC_ABILITY_OUT_OF_MIN_RANGE
 
 		return GlobalConst.GC_OK
 
@@ -129,16 +188,55 @@ class ActiveAbility(AbilityObject):
 		virtual method.
 		Casting abilities
 		"""
-		delay = self.distToDelay(caster, abilityCastObject)
-		INFO_MSG("%i cast ability[%i] delay=%s." % (caster.id, self.getID(), delay))
-		if delay <= 0.1:
-			self.onArrived(caster, abilityCastObject)
+		# Delay caused by travel time
+		travelTimeDelay = self.distToDelay(caster, abilityCastObject)
+		INFO_MSG("activeAbility::cast: %i casted ability=[%i] TravelDelay=%s CastTime=%d." % (caster.id, self.getID(), travelTimeDelay, self.getCastTime()))
+		# Determine the stages of the ability to do
+		# No travel time, cooldown or cast time
+		# Instant Cast
+		if travelTimeDelay <= GlobalConst.GC_ABILITY_ARRIVED_THRESHOLD and not self.hasCastTime() and not self.hasCooldown():
+			self.setup(caster, abilityCastObject)
+			self.onContact()
+			self.onFinished()
 		else:
-			INFO_MSG("%i add castAbility:%i. delay=%s." % (caster.id, self.getID(), delay))
-			#caster.addCastAbility(self, abilityCastObject, delay)
-			self.queue(caster, abilityCastObject, delay)
+			# Track this ability as it was not an instant cast
+			caster.addAbilityToActives(self)
+			self.setActive(True)
+			INFO_MSG("activeAbility::cast: %i started casting ability: %i. TravelDelay=%s CastTime=%d." % (caster.id, self.getID(), travelTimeDelay, self.getCastTime()))
+			# Setup
+			self.setup(caster, abilityCastObject)
+			self.setTravelTime(travelTimeDelay)
+			# Travel and Cast Time
+			if self.hasTravelTime() and self.hasCastTime():
+				self.startCasting()
+			# Travel Time and No Cast Time
+			elif self.hasTravelTime() and not self.hasCastTime():
+				self.startTraveling()
+			# No Travel time and Cast Time
+			elif not self.hasTravelTime() and self.hasCastTime():
+				self.startCasting()
+			else:
+				ERROR_MSG("activeAbility::cast[BAD ERROR]: %i started casting ability: %i. TravelDelay=%s CastTime=%d." % (caster.id, self.getID(), travelTimeDelay, self.getCastTime()))
 
-		self.onAbilityCastOver_(caster, abilityCastObject)
+		self.onAbilityInitializeOver(caster, abilityCastObject)
+
+	def onContact(self):
+		if not self.getContacted():
+			self.onArrived(self.castingCaster, self.scObject)
+		self.setContacted(True)
+		self.initiateClientsImpact(self.castingCaster)
+
+	def onFinished(self):
+		"""
+		virtual method.
+		Ability has completed
+		"""
+		self.castingCaster.removeAbilityFromActives(self)
+		# Cleanup last, as it will erase the saved variables
+		self.cleanup()
+
+	def calculateTravelTime(self):
+		return self.distToDelay(self.castingCaster, self.scObject)
 
 	def distToDelay(self, caster, abilityCastObject):
 		"""
@@ -152,11 +250,6 @@ class ActiveAbility(AbilityObject):
 		"""
 		self.receive(caster, abilityCastObject.getObject())
 
-	def onFinished(self):
-		self.onArrived(self.castingCaster, self.scObject)
-		self.dequeue()
-		print('finished')
-
 	def receive(self, caster, receiver):
 		"""
 		virtual method.
@@ -164,7 +257,7 @@ class ActiveAbility(AbilityObject):
 		"""
 		pass
 
-	def onAbilityCastOver_(self, caster, abilityCastObject):
+	def onAbilityInitializeOver(self, caster, abilityCastObject):
 		"""
 		virtual method.
 		Ability cast notification

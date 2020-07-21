@@ -190,6 +190,9 @@ class Avatar(Ouroboros.Entity,
 		if self.client:
 			self.client.onReqAbilityPoints(self.abilityPoints)
 
+	def reqPingRtt(self, frame):
+		self.client.onReqPingRtt(frame)
+
 	def revive(self, exposed, type):
 		"""
 		defined.

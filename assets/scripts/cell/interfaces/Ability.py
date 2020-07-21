@@ -21,12 +21,12 @@ class Ability:
 		defined.
 		Cast a ability on a target entity
 		"""
-		DEBUG_MSG("Ability::abilityTarget(%i):abilityID=%i, targetID=%i" % (self.id, abilityID, targetID))
+		DEBUG_MSG("Ability::abilityTarget(%i): AbilityID=%i, targetID=%i" % (self.id, abilityID, targetID))
 
 		ability = abilities.getAbility(abilityID)
 		if ability is None:
-			ERROR_MSG("Ability::abilityTarget(%i):abilityID=%i not found" % (self.id, abilityID))
-			return
+			ERROR_MSG("Ability::abilityTarget(%i): AbilityID=%i not found" % (self.id, abilityID))
+			return GlobalConst.GC_INVALID_ID
 
 		target = Ouroboros.entities.get(targetID)
 
@@ -34,16 +34,22 @@ class Ability:
 			#return
 
 		if target is None:
-			ERROR_MSG("Ability::abilityTarget(%i):targetID=%i not found" % (self.id, targetID))
-			return
+			ERROR_MSG("Ability::abilityTarget(%i): TargetID=%i not found" % (self.id, targetID))
+			return GlobalConst.GC_INVALID_TARGET
 
 		abilityCastObject = AbilityCastObject.createAbilityCastEntity(target)
-		ret = ability.canUse(self, abilityCastObject)
-		if ret != GlobalConst.GC_OK:
-			DEBUG_MSG("Ability::abilityTarget(%i): cannot ability abilityID=%i, targetID=%i, code=%i" % (self.id, abilityID, targetID, ret))
-			return
 
+		ret = ability.canUse(self, target, abilityCastObject)
+
+		if ret != GlobalConst.GC_OK:
+			DEBUG_MSG("Ability::abilityTarget(%i): Cannot cast ability abilityID=%i, targetID=%i, code=%i" % (self.id, abilityID, targetID, ret))
+			return ret
+		else:
+			ability.activate(self)
+
+		# Send to player to begin casting
 		ability.use(self, abilityCastObject)
+		return GlobalConst.GC_OK
 
 	def abilityPosition(self, position):
 		pass

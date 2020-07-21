@@ -82,6 +82,12 @@
 		</equipItemList>
     </Properties>
     <ClientMethods>
+        <onErrorReceived>
+            <Arg>UINT8</Arg>
+        </onErrorReceived>
+        <onReqPingRtt>
+            <Arg>UINT8</Arg>
+        </onReqPingRtt>
         <onReqCurrency>
             <Arg>UINT8</Arg>
         </onReqCurrency>
@@ -180,5 +186,9 @@
         <equipNotify>
 			<Arg>ITEM_ID</Arg>
 		</equipNotify>
+        <reqPingRtt>
+            <Exposed />
+            <Arg>UINT8</Arg>
+        </reqPingRtt>
     </CellMethods>
 </root>

@@ -24,7 +24,7 @@ def onInit():
 def getAbility(abilityID):
 	return _g_abilities.get(abilityID)
 
-def getAuraByID(auraID):
+def getAbilityByID(auraID):
 	for key, ability in _g_abilities.items():
 		if ability.getID() == auraID:
 			return ability

@@ -7,36 +7,58 @@ from OURODebug import *
 
 class AbilityBox:
 	def __init__(self):
-		self.queuedAbilities = []
-		self.queuedAbilitiesData = []
-		self.castingAbility = None
-		self.castingAbilityObject = None
-		self.castingAbilityDelay = -1
-		self.castingAbilityTimer = -1
-		print('hahaha', self.id)
+		# Abilities by their actual object
+		self.activeAbilitiesData = []
+		# Stage 1: Casting
+		self.castingAbilitiesData = []
+		# Stage 2: Traveling
+		self.travelingAbilitiesData = []
+		# Stage 3: On Cooldown
+		self.abilitiesOnCooldownData = []
 
 	def onTimer(self, tid, userArg):
-		#Run one timer for all abilities this entity has queued
-		for ability in self.queuedAbilitiesData:
+		#Run one timer for all abilities this entity has startcasting
+		for ability in self.activeAbilitiesData:
 			#If an ability is active and bound, run its timer
-			if ability.getQueued():
+			if ability.getActive():
 				ability.onTimer(tid, userArg)
 			#Ability has expired, remove it
 			else:
-				self.dequeueAbility(ability)
+				self.removeAbilityFromActives(ability)
 
-	def queueAbility(self, ability):
-		if not ability.getID() in self.queuedAbilities:
-			self.queuedAbilities.append(ability.getID())
-		if not ability in self.queuedAbilitiesData:
-			self.queuedAbilitiesData.append(ability)
+	def addAbilityToActives(self, ability):
+		if not ability in self.activeAbilitiesData:
+			self.activeAbilitiesData.append(ability)
 
-	def dequeueAbility(self, ability):
-		if ability.getID() in self.queuedAbilities:
-			self.queuedAbilities.remove(ability.getID())
-		if ability in self.queuedAbilitiesData:
-			self.queuedAbilitiesData.remove(ability)
+	def removeAbilityFromActives(self, ability):
+		if ability in self.activeAbilitiesData:
+			self.activeAbilitiesData.remove(ability)
 			del ability
+
+	def addAbilityToCasting(self, ability):
+		if not ability in self.castingAbilitiesData:
+			self.castingAbilitiesData.append(ability)
+
+	def removeAbilityFromCasting(self, ability):
+		if ability in self.castingAbilitiesData:
+			self.castingAbilitiesData.remove(ability)
+			del ability
+
+	def addAbilityToTravelers(self, ability):
+		if not ability in self.travelingAbilitiesData:
+			self.travelingAbilitiesData.append(ability)
+
+	def removeAbilityFromTravelers(self, ability):
+		if ability in self.travelingAbilitiesData:
+			self.travelingAbilitiesData.remove(ability)
+
+	def addAbilityToCooldowns(self, ability):
+		if not ability in self.abilitiesOnCooldownData:
+			self.abilitiesOnCooldownData.append(ability)
+
+	def removeAbilityFromCooldowns(self, ability):
+		if ability in self.abilitiesOnCooldownData:
+			self.abilitiesOnCooldownData.remove(ability)
 
 	def hasAbility(self, abilityID):
 		"""
@@ -91,26 +113,10 @@ class AbilityBox:
 			return True
 		return False
 
-	def addCastAbility(self, ability, abilityCastObject, delay):
-		self.castingAbility = ability
-		self.castingAbilityObject = abilityCastObject
-		self.castingAbilityDelay = delay
-		self.castingAbilityTimer = 0
-		print('added ability', ability, self.castingAbilityDelay)
-		print('adding with', self.id)
-
-	def onCastCastingAbility(self):
-		self.castingAbility.onArrived(self, self.castingAbilityObject)
-		self.castingAbility = None
-		self.castingAbilityObject = None
-		self.castingAbilityDelay = -1
-		self.castingAbilityTimer = -1
-		print('fire away!')
-
 	def purchaseAbility(self, abilityID):
 		cost = -1
 		# Get the cost of the ability
-		ability = abilities.getAuraByID(abilityID)
+		ability = abilities.getAbilityByID(abilityID)
 		if ability is not None:
 			cost = ability.getAPCost()
 		if -1 < cost <= self.abilityPoints:
@@ -121,12 +127,41 @@ class AbilityBox:
 		return False
 
 	def useTargetAbility(self, srcEntityID, abilityID, targetID):
+		ret = self.executeTargetAbility(srcEntityID, abilityID, targetID)
+		if ret != GlobalConst.GC_OK:
+			if self.client:
+				self.client.onErrorReceived(ret)
+
+	def executeTargetAbility(self, srcEntityID, abilityID, targetID):
 		"""
 		exposed.
 		Cast a ability on a target entity
 		"""
+		# Disallow non source entity to cast abilities through other entities
 		if srcEntityID != self.id:
-			return
+			return GlobalConst.GC_ABILITY_CAST_NON_SOURCE_ENTITY
 
-		self.abilityTarget(abilityID, targetID)
-		print('starting with', self.id)
+		for ability in self.activeAbilitiesData:
+			if ability.getCasting():
+				return GlobalConst.GC_ALREADY_CASTING_ABILITY
+
+		ability = abilities.getAbility(abilityID)
+		if ability is None:
+			ERROR_MSG("Ability::abilityTarget(%i):abilityID=%i not found" % (self.id, abilityID))
+			return GlobalConst.GC_INVALID_ID
+
+		# Cooldown
+		for ability in self.activeAbilitiesData:
+			if abilityID == ability.getID():
+				if ability.getOnCooldown():
+					return GlobalConst.GC_ABILITY_ON_COOLDOWN
+				if ability.getCasting():
+					return GlobalConst.GC_ABILITY_IS_CASTING
+
+		# Self Casting
+		if not ability.getSelfCasting():
+			if srcEntityID == targetID:
+				return GlobalConst.GC_ABILITY_SELF_CAST_FORBIDDEN
+
+
+		return self.abilityTarget(abilityID, targetID)

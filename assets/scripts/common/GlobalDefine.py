@@ -86,6 +86,9 @@ ABILITY_OBJECT_TYPE_UNKNOWN		= 0
 ABILITY_OBJECT_TYPE_ENTITY		= 1
 ABILITY_OBJECT_TYPE_POSITION	= 2
 
+ABILITY_COST_TYPE_HP			= 0
+ABILITY_COST_TYPE_EG			= 1
+
 # ------------------------------------------------------------------------------
 # Aura related
 # ------------------------------------------------------------------------------
@@ -122,3 +125,13 @@ ENTITY_ANIMATION_STATE_SPELL_CAST_OMNI			= 7
 ENTITY_ANIMATION_STATE_SPELL_READY_DIRECTED		= 8
 ENTITY_ANIMATION_STATE_SPELL_CAST_DIRECTED		= 9
 ENTITY_ANIMATION_STATE_DEATH					= 10
+
+# ------------------------------------------------------------------------------
+# Entity Animation State
+# ------------------------------------------------------------------------------
+
+ENTITY_ABILITY_STATE_CASTING					= 0
+ENTITY_ABILITY_STATE_LAUNCH_PROJECTILE			= 1
+ENTITY_ABILITY_STATE_IMPACT						= 2
+ENTITY_ABILITY_STATE_COOLDOWN_START				= 3
+ENTITY_ABILITY_STATE_COOLDOWN_END				= 4
