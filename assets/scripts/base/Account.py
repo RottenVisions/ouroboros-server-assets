@@ -327,27 +327,3 @@ class Account(Ouroboros.Proxy):
 	def createCell(self, entityCall):
 		DEBUG_MSG("Account[%i].createCell:" % self.id)
 		pass
-
-	def enterGame(self):
-		DEBUG_MSG("Account[%i].enterGame" % self.id)
-		randomVar = 1
-		if(randomVar == 1):
-			error = 0
-			self.client.onEnterGameFailed(error)
-		else:
-			self.client.onEnterGameSuccess()
-		pass
-
-	def exitGame(self):
-		if self.activeAvatar:
-			DEBUG_MSG("Account[%i-%s].exitGame Successful!" % (self.id, self.activeAvatar))
-			self.activeAvatar.destroySelf()
-			self.activeAvatar = None
-			if self.client:
-				self.client.onExitGameSuccess()
-		else:
-			error = 0
-			if self.client:
-				self.client.onExitGameFailed(error)
-			DEBUG_MSG("Account[%i].exitGame Failed - no active avatar!" % (self.id))
-		pass

@@ -13,6 +13,9 @@ class Combat(CombatProperties):
 	def __init__(self):
 		CombatProperties.__init__(self)
 
+	def onTimer(self, tid, userArg):
+		pass
+
 	def canUpgrade(self):
 		"""
 		virtual method.

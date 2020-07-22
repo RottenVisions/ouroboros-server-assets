@@ -49,6 +49,7 @@ class Avatar(Ouroboros.Proxy,
 		self.inventoryManagement = ItemManagement(self, GlobalConst.INVENTORY_TYPE_INVENTORY, size)
 		self.equipInventoryManagement = ItemManagement(self, GlobalConst.INVENTORY_TYPE_EQUIPMENT, GlobalConst.INVENTORY_EQUIPMENT_BASE_SIZE)
 
+		self.deactivating = False
 
 	def onClientEnabled(self):
 		"""
@@ -76,6 +77,9 @@ class Avatar(Ouroboros.Proxy,
 	def destroySelf(self):
 		"""
 		"""
+		if self.deactivate:
+			return
+
 		if self.client is not None:
 			return
 
@@ -102,7 +106,7 @@ class Avatar(Ouroboros.Proxy,
 		"""
 		DEBUG_MSG("Avatar::onDestroy: %i." % self.id)
 
-		if self.accountEntity != None:
+		if self.accountEntity != None and not self.deactivating:
 			self.accountEntity.activeAvatar = None
 			self.accountEntity = None
 
@@ -111,7 +115,17 @@ class Avatar(Ouroboros.Proxy,
 		Ouroboros method.
 		The cell part of the entity was created successfully.
 		"""
-		DEBUG_MSG('Avatar::onGetCell: %s' % self.cell)
+		DEBUG_MSG('Avatar::onGetCell: %i %s' % (self.id, self.cell))
+
+	def onLoseCell(self):
+		"""
+		Ouroboros method.
+		The entity part of the cell is lost
+		"""
+		# Destroy base
+		if not self.isDestroyed:
+			self.destroy()
+		DEBUG_MSG('Avatar::onLoseCell: %i' % self.id)
 
 	def createCell(self, space):
 		"""
@@ -135,15 +149,17 @@ class Avatar(Ouroboros.Proxy,
 		'''
 		Allows player to logout of their current avatar
 		'''
-
+		DEBUG_MSG("Avatar::Deactivate")
+		self.deactivating = True
+		self.giveClientTo(self.accountEntity)
 		if self.cell is not None:
 			# Destroy the cell entity
 			self.destroyCellEntity()
+			return
+
 		# Destroy base
 		if not self.isDestroyed:
 			self.destroy()
-
-		DEBUG_MSG("Avatar::Deactivate")
 
 	# BASIC
 	def setInventorySize(self, size):

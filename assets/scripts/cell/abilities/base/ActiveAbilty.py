@@ -153,7 +153,8 @@ class ActiveAbility(AbilityObject):
 			if self.getCostType() == GlobalDefine.ABILITY_COST_TYPE_HP:
 				if caster.HP < self.getCost():
 					return GlobalConst.GC_ABILITY_COST_INSUFFICIENT_HP
-				elif caster.EG < self.getCost():
+			if self.getCostType() == GlobalDefine.ABILITY_COST_TYPE_EG:
+				if caster.EG < self.getCost():
 					return GlobalConst.GC_ABILITY_COST_INSUFFICIENT_EG
 
 		# Invalid entity target - figure out better way to handle this

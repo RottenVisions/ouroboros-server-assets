@@ -40,17 +40,6 @@
 		<onRemoveAvatar>
 			<Arg>DBID</Arg>
 		</onRemoveAvatar>
-		<onEnterGameFailed>
-			<Arg>INT8</Arg>
-		</onEnterGameFailed>
-		<onEnterGameSuccess />
-		<onExitGameFailed>
-			<Arg>INT8</Arg>
-		</onExitGameFailed>
-		<onExitGameSuccess />
-		<onFirstEntityHello>
-			<Arg>UNICODE</Arg>
-		</onFirstEntityHello>
 	</ClientMethods>
 	<BaseMethods>
 		<reqAvatarList>
@@ -74,11 +63,5 @@
 		<createCell>
 			<Arg>ENTITYCALL</Arg>
 		</createCell>
-		<enterGame>
-			<Exposed />
-		</enterGame>
-		<exitGame>
-			<Exposed />
-		</exitGame>
 	</BaseMethods>
 </root>

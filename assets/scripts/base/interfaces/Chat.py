@@ -42,6 +42,11 @@ class Chat:
 		if (entity == None):
 			DEBUG_MSG('Failed to find entity %i! Could not parse message.' % entityID)
 			return
+		# Avoid sending none, but we need a better way to catch and deal with this
+		if message is None:
+			message = ''
+		if channel is None:
+			channel = ''
 		self.appendMessage(GlobalEnums.ChatChannel(channel), entity.playerName, message)
 		self.client.receiveChatMessage(entityID, entity.playerName, message, channel)
 		pass

@@ -113,6 +113,8 @@ class Avatar(Ouroboros.Entity,
 	# --------------------------------------------------------------------------------------------
 
 	def onEnable(self):
+		self.combatTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_COMBAT,
+											ServerConstantsDefine.TIMER_TYPE_COMBAT_TICK)
 		self.heartbeatTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_HEARTBEAT,
 											ServerConstantsDefine.TIMER_TYPE_HEARTBEAT)
 		self.abilityTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_ABILITY,
@@ -144,6 +146,9 @@ class Avatar(Ouroboros.Entity,
 		# DEBUG_MSG("%s::onTimer: %i, tid:%i, arg:%i" % (self.getScriptName(), self.id, tid, userArg))
 		GameObject.onTimer(self, tid, userArg)
 		#Ability.onTimer(self, tid, userArg)
+
+		if ServerConstantsDefine.TIMER_TYPE_HEARTBEAT == userArg:
+			Combat.onTimer(self, tid, userArg)
 
 		if ServerConstantsDefine.TIMER_TYPE_HEARTBEAT == userArg:
 			self.onHeardTimer()

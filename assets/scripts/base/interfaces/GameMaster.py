@@ -112,6 +112,7 @@ class GameMaster:
 				return 'Cannot restore without a valid target! [%s]' % targetID
 			else:
 				targetEntity.cell.fullPower()
+				return "Restoring %i to full power." % (targetID)
 		pass
 
 	def parseValue(self, value):

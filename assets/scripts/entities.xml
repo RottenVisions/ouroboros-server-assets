@@ -9,7 +9,6 @@
 	<Enemy hasClient="true"/>
 	<NPC hasClient="true"/>
 	<Gate hasClient="true"/>
-	<FirstEntity hasClient="true" />
     <TestEntity hasClient="true" />
 	<TargetDummy hasClient="true" />
 	<Scene />
