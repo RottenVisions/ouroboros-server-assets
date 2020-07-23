@@ -77,9 +77,6 @@ class Avatar(Ouroboros.Proxy,
 	def destroySelf(self):
 		"""
 		"""
-		if self.deactivate:
-			return
-
 		if self.client is not None:
 			return
 
@@ -89,7 +86,7 @@ class Avatar(Ouroboros.Proxy,
 			return
 
 		# If the account ENTITY exists, it is also notified to destroy it.
-		if self.accountEntity != None:
+		if self.accountEntity is not None:
 			if time.time() - self.accountEntity.relogin > 1:
 				self.accountEntity.destroy()
 			else:
@@ -106,7 +103,7 @@ class Avatar(Ouroboros.Proxy,
 		"""
 		DEBUG_MSG("Avatar::onDestroy: %i." % self.id)
 
-		if self.accountEntity != None and not self.deactivating:
+		if self.accountEntity is not None:
 			self.accountEntity.activeAvatar = None
 			self.accountEntity = None
 
@@ -151,7 +148,11 @@ class Avatar(Ouroboros.Proxy,
 		'''
 		DEBUG_MSG("Avatar::Deactivate")
 		self.deactivating = True
+		# We must relinquish control IN the avatar, not the account entity, control must be passed from whoever currently has it
 		self.giveClientTo(self.accountEntity)
+		# Tell account we are now done with this object
+		self.accountEntity.unselectActiveAvatar(self.id)
+		self.accountEntity = None
 		if self.cell is not None:
 			# Destroy the cell entity
 			self.destroyCellEntity()

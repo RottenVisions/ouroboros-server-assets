@@ -163,6 +163,11 @@ class Account(Ouroboros.Proxy):
 		else:
 			self.giveClientTo(self.activeAvatar)
 
+	def unselectActiveAvatar(self, dbid):
+		# Cannot use giveClientTo here because it must be done on the current controlling entity (the avatar in this case)
+		if self.activeAvatar is not None:
+			self.activeAvatar = None
+		DEBUG_MSG("Account[%i].unselectAvatarGame:%i. self.unactiveAvatar=%s" % (self.id, dbid, self.activeAvatar))
 	#--------------------------------------------------------------------------------------------
 	#                              Callbacks
 	#--------------------------------------------------------------------------------------------
@@ -256,6 +261,7 @@ class Account(Ouroboros.Proxy):
 		"""
 		Called when the character is selected to enter the game
 		"""
+		# TODO: put method in here to update client about these errors
 		if wasActive:
 			ERROR_MSG("Account::__onAvatarCreated:(%i): this character is in world now!" % (self.id))
 			return
@@ -282,6 +288,7 @@ class Account(Ouroboros.Proxy):
 		avatar.accountEntity = self
 		self.activeAvatar = avatar
 		self.giveClientTo(avatar)
+		print('giving')
 
 	def _onAvatarSaved(self, success, avatar):
 		"""
