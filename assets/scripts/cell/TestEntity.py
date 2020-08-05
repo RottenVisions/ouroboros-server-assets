@@ -48,6 +48,9 @@ class TestEntity(Ouroboros.Entity,
 		#DEBUG_MSG('TID: %i %s' % (tid, userArg))
 
 		if ServerConstantsDefine.TIMER_TYPE_HEARTBEAT == userArg:
+			Combat.onTimer(self, tid, userArg)
+
+		if ServerConstantsDefine.TIMER_TYPE_HEARTBEAT == userArg:
 			self.onHeardTimer()
 
 		if ServerConstantsDefine.TIMER_TYPE_AURA_TICK == userArg:
@@ -88,6 +91,7 @@ class TestEntity(Ouroboros.Entity,
 
 	def onEnable(self):
 		self.heartbeatTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_HEARTBEAT, ServerConstantsDefine.TIMER_TYPE_HEARTBEAT)
+		self.combatTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_COMBAT, ServerConstantsDefine.TIMER_TYPE_COMBAT_TICK)
 		self.abilityTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_ABILITY, ServerConstantsDefine.TIMER_TYPE_ABILITY_TICK)
 		self.auraTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_AURA, ServerConstantsDefine.TIMER_TYPE_AURA_TICK)
 

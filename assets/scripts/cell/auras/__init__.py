@@ -16,7 +16,7 @@ def onInit():
 	init auras.
 	"""
 	for key, data in data_auras.data.items():
-		script = data['script']
+		script = data['scriptName']
 		scriptinst = eval(script)()
 		_g_auras[key] = scriptinst
 		scriptinst.loadFromDict(data)

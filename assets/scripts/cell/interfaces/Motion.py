@@ -22,6 +22,7 @@ class Motion:
 		# Entity walk speed
 		if entityData != None:
 			self.moveSpeed = entityData['moveSpeed']
+		self.lastPosition = None
 
 	def stopMotion(self):
 		"""
@@ -159,6 +160,22 @@ class Motion:
 			pos = lastPos
 
 		return pos
+
+	# --------------------------------------------------------------------------------------------
+	#                              Custom Moving
+	# --------------------------------------------------------------------------------------------
+
+	def onTimer(self, tid, userArg):
+		self.moveCheck()
+		print('i')
+
+	def moveCheck(self):
+		if self.position != self.lastPosition:
+			self.isMoving = True
+		else:
+			self.isMoving = False
+		self.lastPosition = self.position
+		print(self.position, self.lastPosition)
 
 	# --------------------------------------------------------------------------------------------
 	#                              Callbacks

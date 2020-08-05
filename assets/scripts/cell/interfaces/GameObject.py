@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import Ouroboros
 import data_spaces
+import math
 import ServerConstantsDefine
 import GlobalDefine
 from OURODebug import *
@@ -38,6 +39,9 @@ class GameObject:
 		Virtual method.
 		"""
 		return False
+
+	def yaw(self):
+		return math.degrees(self.direction.z)
 
 	def getDatas(self):
 		if self.isPlayer():

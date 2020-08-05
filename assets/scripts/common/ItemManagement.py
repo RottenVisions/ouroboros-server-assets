@@ -218,7 +218,6 @@ class ItemManagement:
 			self.inventory[sourceIndex] = updatedSourceItem
 			self.setItemInOuroItemList(updatedDestinationItem, destinationIndex)
 			self.setItemInOuroItemList(updatedSourceItem, sourceIndex)
-			print(444)
 			return updateSourceResult, updateDestinationResult
 		else:
 			return self.swapItems(sourceIndex, destinationIndex)
@@ -272,7 +271,6 @@ class ItemManagement:
 					newSourceAmount = tempSourceItem.getCount() - maxCountCanAdd
 					updateSourceResult, updatedSourceItem = self.updateItem(
 						self.inventory[sourceIndex], destinationIndex, newSourceAmount)
-					print(888)
 				# Normal add to destination
 				else:
 					newDestinationAmount = tempDestinationItem.getCount() + tempSourceItem.getCount()
@@ -281,12 +279,10 @@ class ItemManagement:
 					newSourceAmount = tempSourceItem.getCount() - maxCountCanAdd
 					updateSourceResult, updatedSourceItem = self.updateItem(
 						tempSourceItem, sourceIndex, 0)
-					print(111)
 				self.inventory[destinationIndex] = updatedDestinationItem
 				self.inventory[sourceIndex] = updatedSourceItem
 				self.setItemInOuroItemList(updatedDestinationItem, destinationIndex)
 				self.setItemInOuroItemList(updatedSourceItem, sourceIndex)
-				print(777)
 			# Non stackable item
 			else:
 				# Simple swap
@@ -296,7 +292,6 @@ class ItemManagement:
 				self.inventory[sourceIndex] = updatedDestinationItem
 				self.setItemInOuroItemList(updatedSourceItem, sourceIndex)
 				self.setItemInOuroItemList(updatedDestinationItem, destinationIndex)
-				print(666)
 		# Different Items
 		else:
 			# Simple swap
@@ -306,7 +301,6 @@ class ItemManagement:
 			self.inventory[sourceIndex] = updatedDestinationItem
 			self.setItemInOuroItemList(updatedSourceItem, sourceIndex)
 			self.setItemInOuroItemList(updatedDestinationItem, destinationIndex)
-			print(555)
 		return updateSourceResult, updateDestinationResult
 
 	def splitItemStack(self, index, amount, toFreeSpace=True):

@@ -3,6 +3,7 @@ import ServerConstantsDefine
 
 from interfaces.Ability import Ability
 from interfaces.AbilityBox import AbilityBox
+from interfaces.Auxiliary import Auxiliary
 from interfaces.Aura import Aura
 from interfaces.AuraBox import AuraBox
 from interfaces.Combat import Combat
@@ -11,7 +12,6 @@ from interfaces.NPCObject import NPCObject
 from interfaces.State import State
 
 from OURODebug import *
-
 
 class TargetDummy(Ouroboros.Entity,
                   NPCObject,
@@ -22,6 +22,7 @@ class TargetDummy(Ouroboros.Entity,
                   AuraBox,
                   Combat,
                   GameObject,
+                  Auxiliary,
                   ):
     """
     The cell part of the Scene
@@ -36,6 +37,7 @@ class TargetDummy(Ouroboros.Entity,
         AuraBox.__init__(self)
         Combat.__init__(self)
         GameObject.__init__(self)
+        Auxiliary.__init__(self)
 
         self.onEnable()
 
@@ -48,6 +50,12 @@ class TargetDummy(Ouroboros.Entity,
 		Engine callback timer trigger
 		"""
         # DEBUG_MSG('TID: %i %s' % (tid, userArg))
+
+        GameObject.onTimer(self, tid, userArg)
+        # Ability.onTimer(self, tid, userArg)
+
+        if ServerConstantsDefine.TIMER_TYPE_HEARTBEAT == userArg:
+            Combat.onTimer(self, tid, userArg)
 
         if ServerConstantsDefine.TIMER_TYPE_HEARTBEAT == userArg:
             self.onHeardTimer()
@@ -90,6 +98,8 @@ class TargetDummy(Ouroboros.Entity,
     def onEnable(self):
         self.heartbeatTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_HEARTBEAT,
                                             ServerConstantsDefine.TIMER_TYPE_HEARTBEAT)
+        self.combatTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_COMBAT,
+                                         ServerConstantsDefine.TIMER_TYPE_COMBAT_TICK)
         self.abilityTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_ABILITY,
                                           ServerConstantsDefine.TIMER_TYPE_ABILITY_TICK)
         self.auraTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_AURA,

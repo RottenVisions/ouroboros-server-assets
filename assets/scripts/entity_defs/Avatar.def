@@ -31,6 +31,7 @@
         <Interface>Social</Interface>
         <Interface>Chat</Interface>
         <Interface>AnimationState</Interface>
+        <Interface>Auxiliary</Interface>
         <!--<Interface>Dialog</Interface>-->
     </Interfaces>
     <Properties>

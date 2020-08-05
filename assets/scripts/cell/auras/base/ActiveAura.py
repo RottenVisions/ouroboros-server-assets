@@ -37,7 +37,7 @@ class ActiveAura(AuraObject):
 		if self.auraTimer <= 0:
 			self.detachFrom(superScript)
 
-	def onAttach(self, attacher, auraCastObject):
+	def onAttachedTo(self, attacher, auraCastObject):
 		"""
 		virtual method.
 		When an aura is bound
@@ -51,13 +51,14 @@ class ActiveAura(AuraObject):
 		AuraObject.setActiveState(self, True)
 		ActiveAura.setSource(self, attacher)
 
-	def onDetach(self, context):
+	def onDetachedFrom(self, context):
 		"""
 		virtual method.
 		When an aura is unbound
 		"""
 		AuraObject.setActiveState(self, False)
 		ActiveAura.setSource(self, None)
+
 		self.auraTimer = -1
 		self.tickCount = -1
 
@@ -68,21 +69,32 @@ class ActiveAura(AuraObject):
 		"""
 		superScript.onAuraCycleTick(tid, userArg, ActiveAura)
 	
-	def canAttach(self, attacher, auraCastObject):
-		
+	def canAttachTo(self, attacher, auraCastObject):
 		#Run any checks here then, run the super
 		return GlobalConst.GC_OK
 
-	def canDetach(self, detacher, auraCastObject):
+	def canDetachFrom(self, detacher, auraCastObject):
 		# Run any checks here then, run the super
 		return GlobalConst.GC_OK
 	
 	def attachTo(self, attacher, auraCastObject):
-		self.onAttach(attacher, auraCastObject)
+		self.onAttachedTo(attacher, auraCastObject)
 		return self # Note this return self here is re-used when attaching to a de-tached aura. If this becomes a problem use deep copy when creating an aura (like with items)
 
 	def detachFrom(self, superScript):
-		self.onDetach(AuraObject)
+		# Run checks both here and super script to see if we can detach successfully
+		# Super
+
+		ret = superScript.canDetach(self, AuraObject, True)
+		if ret != GlobalConst.GC_OK:
+			return GlobalConst.GC_ERROR
+		# Self
+		ret = self.canDetachFrom(self, AuraObject)
+		if ret != GlobalConst.GC_OK:
+			return GlobalConst.GC_ERROR
+		# We can detach!
+		superScript.detach(AuraObject, True)
+		self.onDetachedFrom(AuraObject)
 	
 	def refreshIt(self, attacher, auraCastObject, superScript):
 		if self.auraTimer > AuraObject.getDuration(self) and \

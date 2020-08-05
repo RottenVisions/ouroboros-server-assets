@@ -33,7 +33,7 @@ class SpawnPoint(Ouroboros.Entity, GameObject):
 			"defence" : data.get("defence",10),
 			"rating" : data.get("rating",100),
 			"dodge" : data.get("dodge",100),
-			"HP_Max" : data.get("HP_Max",200),
+			"HP_Max" : data.get("HP_Max",200.0),
 		}
 		e = Ouroboros.createEntity(data["entityType"], self.spaceID, tuple(self.position), tuple(self.direction), params)
 

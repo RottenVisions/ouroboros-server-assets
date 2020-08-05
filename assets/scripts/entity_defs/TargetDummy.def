@@ -8,6 +8,7 @@
         <Interface>GameObject</Interface>
         <Interface>NPCObject</Interface>
         <Interface>State</Interface>
+        <Interface>Auxiliary</Interface>
     </Interfaces>
 	<Properties>
 	</Properties>

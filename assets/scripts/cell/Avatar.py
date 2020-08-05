@@ -11,6 +11,7 @@ from OURODebug import *
 from interfaces.GameObject import GameObject
 from interfaces.AnimationState import AnimationState
 from interfaces.Combat import Combat
+from interfaces.Auxiliary import Auxiliary
 from interfaces.Ability import Ability
 from interfaces.Teleport import Teleport
 #from interfaces.Dialog import Dialog
@@ -30,6 +31,7 @@ class Avatar(Ouroboros.Entity,
 			 	AuraBox,
 				Combat,
 			 	Ability,
+				Auxiliary,
 				Teleport):
 				#Dialog):
 	'''
@@ -46,7 +48,7 @@ class Avatar(Ouroboros.Entity,
 		Ability.__init__(self)
 		Teleport.__init__(self)
 		Combat.__init__(self)
-
+		Auxiliary.__init__(self)
 		# Dialog.__init__(self)
 
 		# Set the fastest speed allowed per second, the speed will be pulled back
@@ -92,8 +94,8 @@ class Avatar(Ouroboros.Entity,
 
 	def setDefaultData(self):
 		roleType = Helper.getAvatarGlobalProperty(self.id, 'roleType')
-		self.HP_Max = int(data_avatar_initial.data[roleType]["hpMax"])
-		self.EG_Max = int(data_avatar_initial.data[roleType]["egMax"])
+		self.HP_Max = data_avatar_initial.data[roleType]["hpMax"]
+		self.EG_Max = data_avatar_initial.data[roleType]["egMax"]
 
 	def resetProperties(self):
 		pass
@@ -113,10 +115,12 @@ class Avatar(Ouroboros.Entity,
 	# --------------------------------------------------------------------------------------------
 
 	def onEnable(self):
-		self.combatTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_COMBAT,
-											ServerConstantsDefine.TIMER_TYPE_COMBAT_TICK)
 		self.heartbeatTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_HEARTBEAT,
 											ServerConstantsDefine.TIMER_TYPE_HEARTBEAT)
+		self.motionTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_MOTION,
+											ServerConstantsDefine.TIMER_TYPE_MOTION_TICK)
+		self.combatTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_COMBAT,
+											ServerConstantsDefine.TIMER_TYPE_COMBAT_TICK)
 		self.abilityTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_ABILITY,
 										  ServerConstantsDefine.TIMER_TYPE_ABILITY_TICK)
 		self.auraTimer = self.addTimer(0, ServerConstantsDefine.TICK_TYPE_AURA,
@@ -148,10 +152,13 @@ class Avatar(Ouroboros.Entity,
 		#Ability.onTimer(self, tid, userArg)
 
 		if ServerConstantsDefine.TIMER_TYPE_HEARTBEAT == userArg:
+			self.onHeardTimer()
+
+		if ServerConstantsDefine.TIMER_TYPE_COMBAT_TICK == userArg:
 			Combat.onTimer(self, tid, userArg)
 
-		if ServerConstantsDefine.TIMER_TYPE_HEARTBEAT == userArg:
-			self.onHeardTimer()
+		if ServerConstantsDefine.TICK_TYPE_MOTION == userArg:
+			Motion.onTimer(self, tid, userArg)
 
 		if ServerConstantsDefine.TIMER_TYPE_AURA_TICK == userArg:
 			AuraBox.onTimer(self, tid, userArg)

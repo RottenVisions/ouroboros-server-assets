@@ -40,6 +40,12 @@
         <of>ABILITY_ID</of>
     </ABILITIES_LIST>
 
+    <ATTRIBUTE_ID>INT16</ATTRIBUTE_ID>
+	<ATTRIBUTES_LIST>ARRAY
+        <of> ATTRIBUTE_ID </of>
+    </ATTRIBUTES_LIST>
+
+
     <MODIFICATION_SOURCE>INT32</MODIFICATION_SOURCE>
     <MODIFICATION_SCHOOL>UNICODE</MODIFICATION_SCHOOL>
     <MODIFICATION_ID>INT32</MODIFICATION_ID>
@@ -47,8 +53,8 @@
 
     <DAMAGE_TYPE>INT32</DAMAGE_TYPE>
 	<ENMITY>DAMAGE_TYPE</ENMITY>
-    <HP>INT32</HP>
-    <EG>INT32</EG>
+    <HP>FLOAT</HP>
+    <EG>FLOAT</EG>
 
     <AVATAR_DATA>FIXED_DICT
         <implementedBy>AVATAR_DATA.inst</implementedBy>
@@ -126,6 +132,29 @@
             </values>
         </Properties>
     </ITEM_INFO_LIST>
+
+    <ATTRIBUTE_INFO>FIXED_DICT
+        <implementedBy>ATTRIBUTE_INFO.attribute_info_list_inst</implementedBy>
+        <Properties>
+            <attacher>
+                <Type>INT32</Type>
+            </attacher>
+            <attribute>
+                <Type>ATTRIBUTE_ID</Type>
+            </attribute>
+        </Properties>
+    </ATTRIBUTE_INFO>
+
+    <ATTRIBUTE_INFO_LIST>FIXED_DICT
+        <implementedBy>ATTRIBUTE_INFO.attribute_info_list_inst</implementedBy>
+        <Properties>
+            <values>
+                <Type>ARRAY
+                    <of>ATTRIBUTE_INFO</of>
+                </Type>
+            </values>
+        </Properties>
+    </ATTRIBUTE_INFO_LIST>
 
     <BAG>FIXED_DICT
         <Properties>

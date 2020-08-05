@@ -30,12 +30,11 @@ class Ability:
 
 		target = Ouroboros.entities.get(targetID)
 
-		#if target.isNPC():
-			#return
-
 		if target is None:
 			ERROR_MSG("Ability::abilityTarget(%i): TargetID=%i not found" % (self.id, targetID))
 			return GlobalConst.GC_INVALID_TARGET
+
+		ability.setTargetID(targetID)
 
 		abilityCastObject = AbilityCastObject.createAbilityCastEntity(target)
 

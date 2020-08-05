@@ -7,7 +7,6 @@ from OURODebug import *
 class CombatProperties:
 	"""
 	All about combat attributes
-	If you are perfect, you can directly generate this module according to the planning excel table.
 	"""
 
 	def __init__(self):
@@ -28,7 +27,7 @@ class CombatProperties:
 		"""
 		defined.
 		"""
-		v = self.HP + int(val)
+		v = self.HP + val
 		if v < 0:
 			v = 0
 		if v > self.HP_Max:
@@ -43,7 +42,7 @@ class CombatProperties:
 		"""
 		defined.
 		"""
-		v = self.EG + int(val)
+		v = self.EG + val
 		if v < 0:
 			v = 0
 		if v > self.EG_Max:
@@ -55,7 +54,7 @@ class CombatProperties:
 		self.EG = v
 
 	def addDefence(self, val):
-		v = self.defence + int(val)
+		v = self.defence + val
 		if v < 0:
 			v = 0
 
@@ -64,7 +63,7 @@ class CombatProperties:
 		self.defence = v
 
 	def addAttack_Max(self, val):
-		v = self.attack_Max + int(val)
+		v = self.attack_Max + val
 		if v < 0:
 			v = 0
 
@@ -73,7 +72,7 @@ class CombatProperties:
 		self.attack_Max = v
 
 	def addAttack_Min(self, val):
-		v = self.attack_Min + int(val)
+		v = self.attack_Min + val
 		if v < 0:
 			v = 0
 
@@ -85,7 +84,7 @@ class CombatProperties:
 		"""
 		defined
 		"""
-		hp = int(hp)
+		hp = hp
 		if hp < 0:
 			hp = 0
 		if hp > self.HP_Max:
@@ -100,7 +99,7 @@ class CombatProperties:
 		"""
 		defined
 		"""
-		eg = int(eg)
+		eg = eg
 		if eg < 0:
 			eg = 0
 		if eg > self.EG_Max:
@@ -114,14 +113,310 @@ class CombatProperties:
 		"""
 		defined
 		"""
-		hpmax = int(hpMax)
+		hpmax = hpMax
 		self.HP_Max = hpmax
 
 	def setEGMax(self, egMax):
 		"""
 		defined
 		"""
-		egMax = int(egMax)
+		egMax = egMax
 		self.EG_Max = egMax
+	
+	def addEndurance(self, val):
+		v = self.endurance + val
+		if v < 0:
+			v = 0
 
+		if self.endurance == v:
+			return
+		self.endurance = v
 
+	def setEndurance(self, val):
+		"""
+		defined
+		"""
+		val = val
+		if val < 0:
+			val = 0
+
+		if self.endurance == val:
+			return
+
+		self.endurance = val
+		
+	def addWill(self, val):
+		v = self.will + val
+		if v < 0:
+			v = 0
+
+		if self.will == v:
+			return
+		self.will = v
+		
+	def setWill(self, val):
+		"""
+		defined
+		"""
+		val = val
+		if val < 0:
+			val = 0
+
+		if self.will == val:
+			return
+
+		self.will = val
+	
+	def addDodge(self, val):
+		v = self.dodge + val
+		if v < 0:
+			v = 0
+
+		if self.dodge == v:
+			return
+		self.dodge = v
+		
+	def setDodge(self, val):
+		"""
+		defined
+		"""
+		val = val
+		if val < 0:
+			val = 0
+
+		if self.dodge == val:
+			return
+
+		self.dodge = val
+		
+	def addCrit(self, val):
+		v = self.crit + val
+		if v < 0:
+			v = 0
+
+		if self.crit == v:
+			return
+		self.crit = v
+		
+	def setCrit(self, val):
+		"""
+		defined
+		"""
+		val = val
+		if val < 0:
+			val = 0
+
+		if self.crit == val:
+			return
+
+		self.crit = val
+		
+	def addHit(self, val):
+		v = self.hit + val
+		if v < 0:
+			v = 0
+
+		if self.hit == v:
+			return
+		self.hit = v
+		
+	def setHit(self, val):
+		"""
+		defined
+		"""
+		val = val
+		if val < 0:
+			val = 0
+
+		if self.hit == val:
+			return
+
+		self.hit = val
+
+	def addParry(self, val):
+		v = self.parry + val
+		if v < 0:
+			v = 0
+
+		if self.parry == v:
+			return
+		self.parry = v
+		
+	def setParry(self, val):
+		"""
+		defined
+		"""
+		val = val
+		if val < 0:
+			val = 0
+
+		if self.parry == val:
+			return
+
+		self.parry = val
+
+	def addStealth(self, val):
+		v = self.stealth + val
+		if v < 0:
+			v = 0
+
+		if self.stealth == v:
+			return
+		self.stealth = v
+		
+	def setStealth(self, val):
+		"""
+		defined
+		"""
+		val = val
+		if val < 0:
+			val = 0
+
+		if self.stealth == val:
+			return
+
+		self.stealth = val
+
+	def addAttackPower(self, val):
+		v = self.attackPower + val
+		if v < 0:
+			v = 0
+
+		if self.attackPower == v:
+			return
+		self.attackPower = v
+		
+	def setAttackPower(self, val):
+		"""
+		defined
+		"""
+		val = val
+		if val < 0:
+			val = 0
+
+		if self.attackPower == val:
+			return
+
+		self.attackPower = val
+		
+	def addDefencePower(self, val):
+		v = self.defencePower + val
+		if v < 0:
+			v = 0
+
+		if self.defencePower == v:
+			return
+		self.defencePower = v
+		
+	def setDefencePower(self, val):
+		"""
+		defined
+		"""
+		val = val
+		if val < 0:
+			val = 0
+
+		if self.defencePower == val:
+			return
+
+		self.defencePower = val
+
+	def addStrength(self, val):
+		v = self.strength + val
+		if v < 0:
+			v = 0
+
+		if self.strength == v:
+			return
+		self.strength = v
+
+	def setStrength(self, val):
+		"""
+		defined
+		"""
+		val = val
+		if val < 0:
+			val = 0
+
+		if self.strength == val:
+			return
+
+		self.strength = val
+		
+	def addProperty(self, property, value):
+		if property == GlobalDefine.ATTRIBUTE_HEALTH:
+			self.addHP(value)
+		if property == GlobalDefine.ATTRIBUTE_ENERGY:
+			self.addEG(value)
+		if property == GlobalDefine.ATTRIBUTE_STRENGTH:
+			self.addStrength(value)
+		if property == GlobalDefine.ATTRIBUTE_WILL:
+			self.addWill(value)
+		if property == GlobalDefine.ATTRIBUTE_ENDURANCE:
+			self.addEndurance(value)
+		if property == GlobalDefine.ATTRIBUTE_ATTACK_POWER:
+			self.addAttackPower(value)
+		if property == GlobalDefine.ATTRIBUTE_DEFENSE_POWER:
+			self.addDefencePower(value)
+		if property == GlobalDefine.ATTRIBUTE_HIT:
+			self.addHit(value)
+		if property == GlobalDefine.ATTRIBUTE_DODGE:
+			self.addDodge(value)
+		if property == GlobalDefine.ATTRIBUTE_PARRY:
+			self.addParry(value)
+		if property == GlobalDefine.ATTRIBUTE_STEALTH:
+			self.addStealth(value)
+		if property == GlobalDefine.ATTRIBUTE_CRITICAL:
+			self.addCrit(value)
+
+	def getProperty(self, property):
+		if property == GlobalDefine.ATTRIBUTE_HEALTH:
+			return self.HP
+		if property == GlobalDefine.ATTRIBUTE_ENERGY:
+			return self.EG
+		if property == GlobalDefine.ATTRIBUTE_STRENGTH:
+			return self.strength
+		if property == GlobalDefine.ATTRIBUTE_WILL:
+			return self.will
+		if property == GlobalDefine.ATTRIBUTE_ENDURANCE:
+			return self.endurance
+		if property == GlobalDefine.ATTRIBUTE_ATTACK_POWER:
+			return self.attackPower
+		if property == GlobalDefine.ATTRIBUTE_DEFENSE_POWER:
+			return self.defencePower
+		if property == GlobalDefine.ATTRIBUTE_HIT:
+			return self.hit
+		if property == GlobalDefine.ATTRIBUTE_DODGE:
+			return self.dodge
+		if property == GlobalDefine.ATTRIBUTE_PARRY:
+			return self.parry
+		if property == GlobalDefine.ATTRIBUTE_STEALTH:
+			return self.stealth
+		if property == GlobalDefine.ATTRIBUTE_CRITICAL:
+			return self.crit
+		
+	def setProperty(self, property, value):
+		if property == GlobalDefine.ATTRIBUTE_HEALTH:
+			self.setHP(value)
+		if property == GlobalDefine.ATTRIBUTE_ENERGY:
+			self.setEG(value)
+		if property == GlobalDefine.ATTRIBUTE_STRENGTH:
+			self.setStrength(value)
+		if property == GlobalDefine.ATTRIBUTE_WILL:
+			self.setWill(value)
+		if property == GlobalDefine.ATTRIBUTE_ENDURANCE:
+			self.setEndurance(value)
+		if property == GlobalDefine.ATTRIBUTE_ATTACK_POWER:
+			self.setAttackPower(value)
+		if property == GlobalDefine.ATTRIBUTE_DEFENSE_POWER:
+			self.setDefencePower(value)
+		if property == GlobalDefine.ATTRIBUTE_HIT:
+			self.setHit(value)
+		if property == GlobalDefine.ATTRIBUTE_DODGE:
+			self.setDodge(value)
+		if property == GlobalDefine.ATTRIBUTE_PARRY:
+			self.setParry(value)
+		if property == GlobalDefine.ATTRIBUTE_STEALTH:
+			self.setStealth(value)
+		if property == GlobalDefine.ATTRIBUTE_CRITICAL:
+			self.setCrit(value)

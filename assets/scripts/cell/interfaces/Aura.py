@@ -25,6 +25,11 @@ class Aura:
 		target = Ouroboros.entities.get(targetID)
 		aura.setTarget(target)
 
+		#newSource = sourceID
+		#if sourceID == -1:
+		#	newSourceID = self.id
+		#aura.setSource(newSource)
+
 		if target is None:
 			ERROR_MSG("Aura::auraTarget(%i):targetID=%i not found" % (self.id, targetID))
 			return
@@ -43,6 +48,7 @@ class Aura:
 			ent = Ouroboros.entities.get(sourceID)
 			if ent is not None:
 				newAura.setSource(ent)
+				print('set source', sourceID)
 
 		if target.allClients:
 			target.allClients.onAuraStatusUpdate(aura.getID(), aura.getIcon(), aura.getDescription(),
@@ -106,7 +112,7 @@ class Aura:
 		if ret != GlobalConst.GC_OK:
 			DEBUG_MSG("Aura::removeTargetAura(%i): cannot detach aura auraID=%i, targetID=%i, code=%i" % (
 			self.id, aura.getID(), targetID, ret))
-			return
+			return ret
 
 		DEBUG_MSG("Aura::auraRemove(%i): Removed aura auraID=%i, sourceID=%i." % (
 					self.id, aura.getID(), sourceID))
@@ -117,13 +123,14 @@ class Aura:
 
 		if target is None:
 			ERROR_MSG("Aura::applyStackTargetAura(%i):targetID=%i not found" % (self.id, targetID))
-			return
+			return GlobalConst.GC_INVALID_TARGET
 
 		target = Ouroboros.entities.get(targetID)
 		if target is not None:
 			if target.allClients:
 				target.allClients.onAuraStatusUpdate(aura.getID(), aura.getIcon(), aura.getDescription(),
 												  GlobalDefine.AURA_UPDATE_REMOVED, aura.getDuration())
+		return GlobalConst.GC_OK
 		#if sourceID is not -1:
 		#	ent = Ouroboros.entities.get(sourceID)
 		#	if ent is not None:

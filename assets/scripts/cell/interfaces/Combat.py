@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 import Ouroboros
 import GlobalDefine
+import GlobalConst
 import random
+import time
 from OURODebug import *
 from interfaces.CombatProperties import CombatProperties
 import data_avatar_initial
@@ -12,8 +14,23 @@ class Combat(CombatProperties):
 	"""
 	def __init__(self):
 		CombatProperties.__init__(self)
+		self.lastAutoAttack = -1
+		self.autoAttacking = False
 
 	def onTimer(self, tid, userArg):
+		self.processAutoAttack()
+
+	def processAutoAttack(self):
+		if self.mainTarget != -1:
+			if self.mainTargetEntity is not None:
+				if self.withinDistanceToEntity(self.mainTargetEntity, GlobalConst.GC_AUTO_ATTACK_MELEE_DISTANCE):
+					if self.state is GlobalDefine.ENTITY_STATE_FIGHT:
+						if time.time() >= GlobalConst.GC_AUTO_ATTACK_INTERVAL + self.lastAutoAttack:
+							self.onAutoAttack()
+							self.lastAutoAttack = time.time()
+
+	def onAutoAttack(self):
+		DEBUG_MSG('attack')
 		pass
 
 	def canUpgrade(self):
@@ -49,6 +66,41 @@ class Combat(CombatProperties):
 			return True
 		return False
 
+	def startAutoAttack(self, targetID = -1):
+		if targetID != -1:
+			success = self.setTarget(targetID)
+			if not success:
+				return False
+		if self.mainTarget is -1:
+			DEBUG_MSG("%s::startAutoAttack: No valid target for id=%i, target=%i." % (self.getScriptName(), self.id, self.mainTarget))
+			return False
+		if self.mainTargetEntity is None:
+			DEBUG_MSG("%s::startAutoAttack: No valid target for id=%i, target=%i." % (
+			self.getScriptName(), self.id, self.mainTarget))
+			return False
+		if not self.withinDistanceToEntity(self.mainTargetEntity, GlobalConst.GC_AUTO_ATTACK_MELEE_DISTANCE):
+			return False
+		self.changeState(GlobalDefine.ENTITY_STATE_FIGHT)
+		self.lastAutoAttack = 0
+		self.autoAttacking = True
+		return True
+
+	def stopAutoAttack(self):
+		if self.mainTarget == -1:
+			DEBUG_MSG("%s::stopAutoAttack: No valid target was available id=%i, target=%i." % (self.getScriptName(), self.id, self.mainTarget))
+			return False
+		if self.mainTargetEntity is None:
+			DEBUG_MSG("%s::stopAutoAttack: No valid target for id=%i, target=%i." % (
+			self.getScriptName(), self.id, self.mainTarget))
+			return False
+		self.state = GlobalDefine.ENTITY_STATE_FREE
+		self.lastAutoAttack = -1
+		self.autoAttacking = False
+		return True
+
+	def stun(self, inflictor):
+		self.changeState(GlobalDefine.ENTITY_STATE_STUNNED)
+
 	def isDead(self):
 		"""
 		"""
@@ -74,8 +126,8 @@ class Combat(CombatProperties):
 		self.onAfterDie(killerID)
 		if self.isEnemy():
 			if random.randint(0, 10) == 1: #The probability of falling is 10
-				self.dropNotify(random.randint(1, 11),1)
-			killer.exp += random.randint(1, 10)
+				self.dropNotify(random.randrange(1, 11),1)
+			killer.exp += random.randrange(1, 10)
 			if killer.exp > killer.level*5+20:
 				killer.upgrade()
 
@@ -164,7 +216,19 @@ class Combat(CombatProperties):
 		"""
 		dist = entity.position.distTo(self.position)
 		if dist > 30.0:
-			INFO_MSG("%s::checkEnemyDist: %i id=%i, dist=%f." % (self.getScriptName(), self.id, entity.id, dist))
+			INFO_MSG("%s::checkEnemyDist: %i id=%i, distance=%f." % (self.getScriptName(), self.id, entity.id, dist))
+			return False
+
+		return True
+
+	def withinDistanceToEntity(self, entity, distance):
+		"""
+		virtual method.
+		Check enemy distance
+		"""
+		dist = entity.position.distTo(self.position)
+		if dist > distance:
+			INFO_MSG("%s::withinDistanceToEntity: %i id=%i, distance=%f." % (self.getScriptName(), self.id, entity.id, dist))
 			return False
 
 		return True

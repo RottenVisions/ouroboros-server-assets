@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import Ouroboros
 import GlobalDefine
-
+import GlobalConst
 import random
 from OURODebug import *
 from auras.base.ActiveAura import ActiveAura
@@ -25,7 +25,7 @@ class HarmfulAura(ActiveAura):
 		@param receiver: Entity
 		"""
 		# GlobalConst.GC_OK
-		return ActiveAura.canAttach(self, caster, scObject)
+		return ActiveAura.canAttachTo(self, caster, scObject)
 
 	def attach(self, attacher, scObject):
 		"""
@@ -34,21 +34,43 @@ class HarmfulAura(ActiveAura):
 		@param attacher: Entity that attaches Aura
 		@param receiver: Entity
 		"""
+		target = self.getTarget()
+
+		if self.getEffectApplyAttribute() is not GlobalDefine.TYPE_NONE:
+			if self.getTarget().activeAttributes is not None:
+				target.addAttribute(attacher.id, self.getEffectApplyAttribute())
+		if self.getEffectTarget() is not GlobalDefine.TYPE_NONE:
+			if self.getEffectCalculation() is not GlobalDefine.TYPE_NONE:
+				if self.getEffectCalculation() is not GlobalDefine.ATTRIBUTE_HEALTH or \
+						self.getEffectCalculation() is not GlobalDefine.ATTRIBUTE_ENERGY:
+							modified = self.getAmount() * target.getProperty(self.getEffectCalculation())
+							target.setProperty(self.getEffectCalculation(), modified)
 		self.onAttached(attacher, scObject)
 		return ActiveAura.attachTo(self, attacher, scObject)
 
-	def canDetach(self, remover, scObject):
+	def canDetach(self, remover, scObject, selfAsk = False):
 		"""
 		virtual method.
 		Can use
 		@param remover: Entity that wants to remove Aura
 		@param receiver: Entity
 		"""
-		return ActiveAura.canDetach(self, remover, scObject)
+		if not selfAsk:
+			return ActiveAura.canDetachFrom(self, remover, scObject)
+		return GlobalConst.GC_OK
 
-	def detach(self, scObject):
+	def detach(self, scObject, selfDetach = False):
+		target = self.getTarget()
+		if target is not None:
+			if scObject.getEffectApplyAttribute(self) is not GlobalDefine.TYPE_NONE:
+				if target.activeAttributes is not None:
+					target.removeAttribute(self.getSource(), scObject.getEffectApplyAttribute(self))
 		self.onDetached(scObject)
-		return ActiveAura.detachFrom(self, scObject)
+
+		if not selfDetach:
+			return ActiveAura.detachFrom(self, scObject)
+		return GlobalConst.GC_OK
+
 
 	def refresh(self, caster, scObject):
 		"""

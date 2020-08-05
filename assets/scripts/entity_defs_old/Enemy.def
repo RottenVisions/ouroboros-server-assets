@@ -1,0 +1,12 @@
+﻿<root>
+	<Volatile>
+		<pitch>0</pitch>
+		<roll>0</roll>
+	</Volatile>
+	<CellMethods>
+		<dropNotify>
+			<Arg>ITEM_ID</Arg>
+			<Arg>UINT32</Arg>
+		</dropNotify>
+	</CellMethods>
+</root>

@@ -2,6 +2,8 @@
 import Ouroboros
 import random
 import time
+import math
+import OuroMath
 import GlobalConst
 import GlobalDefine
 import ServerConstantsDefine
@@ -18,8 +20,14 @@ class ActiveAbility(AbilityObject):
 
 		self.cooldownTimer = -1
 
+		self.applyOrderTimer = -1
+
+		self.interrupted = False
 		self.scObject = None
 		self.castingCaster = None
+		self.receivingReceiver = None
+		self.interruptingInterrupter = None
+		self.superScript = None
 
 	def loadFromDict(self, dictDatas):
 		"""
@@ -29,18 +37,32 @@ class ActiveAbility(AbilityObject):
 		AbilityObject.loadFromDict(self, dictDatas)
 
 	def onTimerTick(self, tid, userArg, superScript):
+		# Interrupt
+		if self.interrupted:
+			self.onInterrupt()
 		# Casting
 		if self.getCasting() and self.hasCastTime() and time.time() >= self.getCastingFinishedTime():
+			# Prevent ability use when moving
+			if not self.getCastableWhileMoving() and self.castingCaster.isMoving:
+				self.onInterrupt()
 			if self.castingTimer >= self.getCastTime():
 				self.finishCasting()
 		# Traveling
 		if self.getTraveling() and self.hasTravelTime() and time.time() >= self.getTravelingFinishedTime():
+			# Check position until close enough to target entity if we are pulling or charging
+			if
 			if self.travelingTimer >= self.getTravelTime():
 				self.finishTraveling()
 		# Cooldown
 		if self.getOnCooldown() and time.time() >= self.getCooldownFinishedTime():
 			if self.cooldownTimer >= self.getCooldown():
 				self.finishCooldown()
+
+		# Timed Ability Calculation
+		if self.getEffectOneOrder() is GlobalDefine.EFFECT_APPLY_ORDER_TIME:
+			if self.getEffectOneOrderTime() > 0:
+				if time.time() >= self.applyOrderTimer:
+					self.onAbilityOrderTimerFinished()
 
 		# Timers
 
@@ -53,6 +75,11 @@ class ActiveAbility(AbilityObject):
 		# Cooldown
 		if self.getOnCooldown():
 			self.cooldownTimer += ServerConstantsDefine.TICK_TYPE_ABILITY
+
+		# Apply Order
+		if self.getEffectOneOrder() is GlobalDefine.EFFECT_APPLY_ORDER_TIME:
+			if self.getEffectOneOrderTime() > 0:
+				self.applyOrderTimer += ServerConstantsDefine.TICK_TYPE_ABILITY
 
 	def startCasting(self):
 		"""
@@ -67,6 +94,7 @@ class ActiveAbility(AbilityObject):
 		self.castingTimer = 0
 		self.castingCaster.addAbilityToCasting(self)
 		self.initiateClientsCasting(self.castingCaster)
+		self.superScript.onStartCasting(self.castingCaster, self.receivingReceiver)
 
 	def finishCasting(self):
 		"""
@@ -80,6 +108,7 @@ class ActiveAbility(AbilityObject):
 		# Switch to next phase possibilities
 		# Recalculate things too before switching to next phase if applicable
 		self.calculateTravelTime()
+		self.superScript.onStopCasting(self.castingCaster, self.receivingReceiver)
 		if self.hasTravelTime():
 			self.startTraveling()
 		elif self.hasCooldown() and not self.hasTravelTime():
@@ -100,6 +129,7 @@ class ActiveAbility(AbilityObject):
 		self.travelingTimer = 0
 		self.castingCaster.addAbilityToTravelers(self)
 		self.initiateClientsTravel(self.castingCaster)
+		self.superScript.onStartTraveling(self.castingCaster, self.receivingReceiver)
 
 	def finishTraveling(self):
 		# Make contact with target if it hasn't been done yet
@@ -110,6 +140,7 @@ class ActiveAbility(AbilityObject):
 		self.setTravelingFinishedTime(-1)
 		self.travelingTimer = -1
 		self.castingCaster.removeAbilityFromTravelers(self)
+		self.superScript.onStopTraveling(self.castingCaster, self.receivingReceiver)
 		# Switch to next phase possibilities
 		if self.hasCooldown():
 			self.startCooldown()
@@ -120,6 +151,7 @@ class ActiveAbility(AbilityObject):
 		self.cooldownTimer = 0
 		self.castingCaster.addAbilityToCooldowns(self)
 		self.initiateClientCooldown(self.castingCaster, True)
+		self.superScript.onStartCooldown(self.castingCaster, self.receivingReceiver)
 
 	def finishCooldown(self):
 		self.setOnCooldown(False)
@@ -127,17 +159,24 @@ class ActiveAbility(AbilityObject):
 		self.cooldownTimer = -1
 		self.castingCaster.removeAbilityFromCooldowns(self)
 		self.initiateClientCooldown(self.castingCaster, False)
+		self.superScript.onFinishedCooldown(self.castingCaster, self.receivingReceiver)
 		self.onFinished()
+
+	def interrupt(self, interrupter):
+		self.interrupted = True
+		self.interruptingInterrupter = interrupter
 
 	def setup(self, caster, abilityCastObject):
 		self.castingCaster = caster
 		self.scObject = abilityCastObject
 
 	def cleanup(self):
+		self.receivingReceiver = None
 		self.castingCaster = None
 		self.scObject = None
 		self.setTravelTime(-1)
 		self.setContacted(False)
+		self.interrupted = False
 		# This must happen last as it will cause AbilityBox to remove this Ability as active
 		self.setActive(False)
 
@@ -148,6 +187,10 @@ class ActiveAbility(AbilityObject):
 		@param caster: Entity with Ability
 		@param receiver: Entity with Ability
 		"""
+		# Cast while moving
+		if not self.getCastableWhileMoving():
+			if caster.isMoving:
+				return GlobalConst.GC_ABILITY_NOT_CASTABLE_WHILE_MOVING
 		# Cost
 		if self.hasCost():
 			if self.getCostType() == GlobalDefine.ABILITY_COST_TYPE_HP:
@@ -157,6 +200,7 @@ class ActiveAbility(AbilityObject):
 				if caster.EG < self.getCost():
 					return GlobalConst.GC_ABILITY_COST_INSUFFICIENT_EG
 
+		# TODO
 		# Invalid entity target - figure out better way to handle this
 		if abilityCastObject.getObject().state is None:
 			return GlobalConst.GC_ABILITY_INVALID_TARGET_ENTITY
@@ -172,6 +216,13 @@ class ActiveAbility(AbilityObject):
 		if caster.position.distTo(target.position) < self.getRangeMin():
 			return GlobalConst.GC_ABILITY_OUT_OF_MIN_RANGE
 
+		# Fov
+		if self.hasFov():
+			res = OuroMath.inFieldOfView(caster, target, self.getFov())
+			if res is False:
+				return GlobalConst.GC_ABILITY_NOT_IN_FOV
+
+		self.receivingReceiver = target
 		return GlobalConst.GC_OK
 
 	def use(self, caster, abilityCastObject):
@@ -181,6 +232,7 @@ class ActiveAbility(AbilityObject):
 		@param caster: Entity with Ability
 		@param receiver: Entity with Ability
 		"""
+		self.superScript = self
 		self.cast(caster, abilityCastObject)
 		return GlobalConst.GC_OK
 
@@ -227,6 +279,11 @@ class ActiveAbility(AbilityObject):
 		self.setContacted(True)
 		self.initiateClientsImpact(self.castingCaster)
 
+	def onInterrupt(self):
+		self.cancelCast()
+		self.onFinished()
+		self.superScript.onInterrupted(self.castingCaster, self.receivingReceiver, self.interruptingInterrupter)
+
 	def onFinished(self):
 		"""
 		virtual method.
@@ -235,6 +292,12 @@ class ActiveAbility(AbilityObject):
 		self.castingCaster.removeAbilityFromActives(self)
 		# Cleanup last, as it will erase the saved variables
 		self.cleanup()
+
+	def onAbilityOrderTimerFinished(self):
+		self.superScript.onFinishedAbilityOrderTimer(self.castingCaster, self.receivingReceiver)
+
+	def cancelCast(self):
+		self.initiateClientCastCancel(self.castingCaster)
 
 	def calculateTravelTime(self):
 		return self.distToDelay(self.castingCaster, self.scObject)

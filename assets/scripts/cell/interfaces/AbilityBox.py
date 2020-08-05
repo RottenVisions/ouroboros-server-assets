@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import Ouroboros
+import time
 import abilities
 import GlobalConst
 import ServerConstantsDefine
@@ -15,8 +16,17 @@ class AbilityBox:
 		self.travelingAbilitiesData = []
 		# Stage 3: On Cooldown
 		self.abilitiesOnCooldownData = []
+		# Global Cooldown
+		self.globalCooldownActive = False
+		self.lastGlobalCooldownStartTime = -1
+		self.globalCooldownLastTriggeredAbility = None
 
 	def onTimer(self, tid, userArg):
+		if self.globalCooldownActive:
+			if time.time() >= self.lastGlobalCooldownStartTime + GlobalConst.GC_GLOBAL_ABILITY_COOLDOWN:
+				self.onEndGlobalCooldown()
+				self.globalCooldownActive = False
+				self.lastGlobalCooldownStartTime = -1
 		#Run one timer for all abilities this entity has startcasting
 		for ability in self.activeAbilitiesData:
 			#If an ability is active and bound, run its timer
@@ -25,6 +35,12 @@ class AbilityBox:
 			#Ability has expired, remove it
 			else:
 				self.removeAbilityFromActives(ability)
+
+	def onStartGlobalCooldown(self, triggeringAbility):
+		DEBUG_MSG('Global Cooldown Start')
+
+	def onEndGlobalCooldown(self):
+		DEBUG_MSG('Global Cooldown End')
 
 	def addAbilityToActives(self, ability):
 		if not ability in self.activeAbilitiesData:
@@ -81,6 +97,19 @@ class AbilityBox:
 			self.client.onAddAbility(abilityID)
 
 	# ABILITIES
+
+	def interrupt(self, interrupterID):
+		interrupter = Ouroboros.entities.get(interrupterID)
+
+		if interrupter is None:
+			ERROR_MSG("Ability::abilityTarget(%i): TargetID=%i not found" % (self.id, interrupter.id))
+			return GlobalConst.GC_INVALID_SOURCE
+
+		self.interruptAllAbilities(interrupter)
+
+	def interruptAllAbilities(self, interrupter):
+		for ability in self.castingAbilitiesData:
+			ability.interrupt(interrupter)
 
 	def addAbilityPoints(self, count):
 		if (self.abilityPoints + count) >= GlobalConst.GC_ABILITY_AP_CAP:
@@ -145,6 +174,10 @@ class AbilityBox:
 			if ability.getCasting():
 				return GlobalConst.GC_ALREADY_CASTING_ABILITY
 
+		# Do not skip global cooldown unless allowed
+		if self.globalCooldownActive:
+			return GlobalConst.GC_ABILITY_GLOBAL_COOLDOWN_ACTIVE
+
 		ability = abilities.getAbility(abilityID)
 		if ability is None:
 			ERROR_MSG("Ability::abilityTarget(%i):abilityID=%i not found" % (self.id, abilityID))
@@ -164,4 +197,14 @@ class AbilityBox:
 				return GlobalConst.GC_ABILITY_SELF_CAST_FORBIDDEN
 
 
-		return self.abilityTarget(abilityID, targetID)
+		ret = self.abilityTarget(abilityID, targetID)
+
+		# Initiate the global cooldown on successful ability cast
+		if ret is GlobalConst.GC_OK:
+			self.onStartGlobalCooldown(ability)
+			self.globalCooldownActive = True;
+			self.lastGlobalCooldownStartTime = time.time()
+			self.globalCooldownLastTriggeredAbility = ability
+
+		return ret
+

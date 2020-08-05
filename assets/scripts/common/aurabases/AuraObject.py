@@ -18,6 +18,13 @@ class AuraObject:
 		self._duration = 0
 		self._maxStacks = 0
 		self._stackable = False
+		self._effectTargetType = -1
+		self._effectTargetAttribute = -1
+		self._effectTarget = -1
+		self._effectCalculation = -1
+		self._effectApplyAttribute = -1
+		self._effectTargetTypeMaxReceivers = 1
+		self._effectTargetTypeRange = -1
 
 		self._isActive = False
 		self._source = None
@@ -41,7 +48,13 @@ class AuraObject:
 		self._period = dictDatas.get('period', 0)
 		self._duration = dictDatas.get('duration', 0)
 		self._stackable = dictDatas.get('stackable', False)
-		self._maxStacks = dictDatas.get('maxStacks', 0)
+		self._effectTargetType = dictDatas.get('effectTargetType', -1)
+		self._effectTargetAttribute = dictDatas.get('effectTargetAttribute', -1)
+		self._effectTarget = dictDatas.get('effectTarget', -1)
+		self._effectCalculation = dictDatas.get('effectCalculation', -1)
+		self._effectApplyAttribute = dictDatas.get('effectApplyAttribute', -1)
+		self._effectTargetTypeMaxReceivers = dictDatas.get('effectTargetTypeMaxReceivers', 1)
+		self._effectTargetTypeRange = dictDatas.get('effectTargetTypeRange', -1)
 
 	def getID(self):
 		return self._id
@@ -105,3 +118,27 @@ class AuraObject:
 
 	def setStacks(self, value):
 		self._stacks = value
+
+	def getEffectTargetType(self):
+		return self._effectTargetType
+
+	def getEffectTargetAttribute(self):
+		return self._effectTargetAttribute
+
+	def getEffectTarget(self):
+		return self._effectTarget
+
+	def getEffectApplyAttribute(self):
+		return self._effectApplyAttribute
+
+	def getEffectCalculation(self):
+		return self._effectCalculation
+
+	def getEffectTargetTypeMaxReceivers(self):
+		return self._effectTargetTypeMaxReceivers
+
+	def getEffectTargetTypeRange(self):
+		return self._effectTargetTypeRange
+
+	def hasEffectTargetTypeRange(self):
+		return self._effectTargetTypeRange > -1

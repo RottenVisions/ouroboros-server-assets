@@ -60,18 +60,30 @@ class HelpfulAura(ActiveAura):
 		return ActiveAura.refreshIt(self, caster, scObject, self)
 
 	def onAuraCycleTick(self, tid, userArg, auraCastObject):
+		casterEnt = auraCastObject.getSource(self)
 		entToApplyTo = auraCastObject.getTarget(self)
-		entToApplyTo.receiveHealing(entToApplyTo.id, auraCastObject.getSource(self).id, GlobalDefine.SOURCE_TYPE_AURA, auraCastObject.getID(self), auraCastObject.getIcon(self), auraCastObject.getSchool(self), auraCastObject.getAmount(self))
-		pass
+		if auraCastObject.getEffectTargetType() == GlobalDefine.AURA_TARGET_TYPE_AREA_OF_EFFECT and auraCastObject.hasEffectTargetTypeRange(self):
+			entities = casterEnt.entitiesInRange(auraCastObject.getEffectTargetTypeRange(self), None, entToApplyTo.position)
+			for entity in entities:
+				# TODO : come up with better way of knowing which entities to target
+				if entity.className is 'Avatar' or entity.className is 'Enemy':
+					if auraCastObject.getEffectCalculation() is not GlobalDefine.TYPE_NONE:
+						modifier = entity.getProperty(auraCastObject.getEffectCalculation())
+					entity.receiveHealing(entToApplyTo.id, auraCastObject.getSource(self).id,
+												GlobalDefine.SOURCE_TYPE_AURA, auraCastObject.getID(self),
+												auraCastObject.getIcon(self), auraCastObject.getSchool(self),
+												auraCastObject.getAmount(self) * modifier)
+		else:
+			if auraCastObject.getEffectCalculation() is not GlobalDefine.TYPE_NONE:
+				modifier = entToApplyTo.getProperty(auraCastObject.getEffectCalculation())
+			entToApplyTo.receiveHealing(entToApplyTo.id, auraCastObject.getSource(self).id, GlobalDefine.SOURCE_TYPE_AURA, auraCastObject.getID(self), auraCastObject.getIcon(self), auraCastObject.getSchool(self), auraCastObject.getAmount(self) * modifier)
 
 	def onAttached(self, attacher, auraCastObject):
 		self.scObject = auraCastObject
-		pass
 
 	def onDetached(self, scObject):
 		self.scObject = None
 		self.setStacks(0)
-		pass
 
 	def onRefreshed(self):
 		pass

@@ -44,3 +44,66 @@
 [2019-10-07 19:11:25] :Debug Avatar
 [2020-05-11 03:34:45] :Debug path C:\Users\Black\Ouroboros\assets
 [2020-05-11 03:35:14] :Debug TestEntity
+[2020-07-26 19:55:51] :Debug path C:\Users\Black\Ouroboros\assets
+[2020-07-26 19:56:36] :Debug path C:\Users\Black\Ouroboros\assets
+[2020-07-26 19:57:23] :Debug path C:\Users\Black\Ouroboros\assets
+[2020-07-26 19:57:36] :Debug Reputation
+[2020-07-26 20:04:15] :Debug path C:\Users\Black\Ouroboros\assets
+[2020-07-26 20:04:17] :Debug NPCObject
+[2020-07-26 20:04:17] :Debug Motion
+[2020-07-26 20:04:17] :Debug GameObject
+[2020-07-26 20:04:17] :Debug GameMaster
+[2020-07-26 20:04:17] :Debug Dialogue
+[2020-07-26 20:04:17] :Debug CombatProperties
+[2020-07-26 20:04:17] :Debug Combat
+[2020-07-26 20:04:17] :Debug Chat
+[2020-07-26 20:04:17] :Debug AvatarProperties
+[2020-07-26 20:04:17] :Debug AuxillaryProperties
+[2020-07-26 20:04:17] :Debug AuraBox
+[2020-07-26 20:04:17] :Debug Aura
+[2020-07-26 20:04:17] :Debug AnimationState
+[2020-07-26 20:04:17] :Debug AI
+[2020-07-26 20:04:17] :Debug AbilityBox
+[2020-07-26 20:04:17] :Debug Ability
+[2020-07-26 20:04:19] :Debug GameObject
+[2020-07-26 20:04:21] :Debug Reputation
+[2020-07-26 20:12:20] :Debug path C:\Users\Black\Ouroboros\assets
+[2020-07-26 20:12:22] :Debug NPCObject
+[2020-07-26 20:12:22] :Debug Motion
+[2020-07-26 20:12:22] :Debug GameObject
+[2020-07-26 20:12:22] :Debug GameMaster
+[2020-07-26 20:12:22] :Debug Dialogue
+[2020-07-26 20:12:22] :Debug CombatProperties
+[2020-07-26 20:12:22] :Debug Combat
+[2020-07-26 20:12:22] :Debug Chat
+[2020-07-26 20:12:22] :Debug AvatarProperties
+[2020-07-26 20:12:22] :Debug AuxillaryProperties
+[2020-07-26 20:12:22] :Debug AuraBox
+[2020-07-26 20:12:22] :Debug Aura
+[2020-07-26 20:12:22] :Debug AnimationState
+[2020-07-26 20:12:22] :Debug AI
+[2020-07-26 20:12:22] :Debug AbilityBox
+[2020-07-26 20:12:22] :Debug Ability
+[2020-07-26 20:12:25] :Debug Teleport
+[2020-07-26 20:12:26] :Debug State
+[2020-07-26 20:12:27] :Debug NPCObject
+[2020-07-26 20:12:29] :Debug Reputation
+[2020-07-26 20:13:11] :Debug AuxillaryProperties
+[2020-07-26 20:19:22] :Debug Reputation
+[2020-07-26 20:22:11] :Debug Avatar
+[2020-07-26 20:22:27] :Debug Enemy
+[2020-07-26 20:22:29] :Debug Avatar
+[2020-07-26 20:22:30] :Debug Account
+[2020-07-26 20:22:32] :Debug NPC
+[2020-07-26 20:22:33] :Debug Gate
+[2020-07-26 20:22:34] :Debug SpaceDuplicate
+[2020-07-26 20:22:36] :Debug TargetDummy
+[2020-07-26 20:22:41] :Debug SpawnPoint
+[2020-07-26 20:22:42] :Debug AuxillaryProperties
+[2020-07-26 20:22:44] :Debug AuraBox
+[2020-07-26 20:22:46] :Debug AnimationState
+[2020-07-26 20:22:52] :Debug Avatar
+[2020-07-26 20:22:54] :Debug Entity
+[2020-07-26 20:22:58] :Debug Enemy
+[2020-07-26 20:22:59] :Debug Account
+[2020-07-26 20:23:03] :Debug Scene
